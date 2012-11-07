@@ -111,5 +111,3 @@ en:
   security_user_files: "Your user files are accessable to the web. It is critical that you protect this folder.",
   security_content_folder: "Your content folder is accessable to the web. While not critical, it is best practice to protect this folder.",
   security_template_files: "Your theme template files are accessable to the web. While not critical, it is best practice to protect this folder."
-
-
