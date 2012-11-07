@@ -1,0 +1,115 @@
+#################################################
+#
+#  Polish (by Mike Bronka - www.mikebronka.com)
+# 
+# ###############################################
+
+pl:
+
+  # Universal
+  add: Dodaj
+  delete: Usuń
+  list: Pokaż
+  none: Brak
+  view: Zobacz
+
+  # Nav
+  dashboard: Podsumowanie
+  pages: Strony
+  members: Użytkownicy
+  account: Moje konto
+  system: System
+  help: Pomoc
+  view_site: Pokaż stronę
+  logout: Wyloguj
+
+  # Entries
+  entry: Wpis
+  create_entry: Dodaj wpis
+  delete_entry: Usuń wpis
+  view_entry: Pokaż wpis
+  list_entries: Pokaż wpisy
+
+  # Pages
+  page: Strona
+  new_top_level_page: Dodaj nową stronę
+  site_pages: Strony
+  
+  new_child_page: Nowa podstrona
+  view_page: Pokaż stronę
+  select_new_page_type: Wybież typ nowej strony
+
+  # Publish
+  title: Tytuł
+  slug: Link mod-rewrite
+  date: Data
+  number: Numer
+  editing: Edytujesz
+  enter_title: Wprowadź tytuł...
+  order_number: Lp.
+  publish_date: Data publikacji
+  publish_time: Czas publikacji
+  save_publish: 'Zapisz i opublikuj'
+  content: Treść
+
+  # Statuses
+  status: Status
+  live: Opublikowany
+  draft: Roboczy
+  hidden: Ukryty
+
+  # Members and forms
+  login: Zaloguj się
+  admin: Admin
+  username: Użytkownik
+  password: Hasło
+  password_confirmation: Potwierdź hasło
+  type_again: 'Wpisz ponownie'
+  encrypt_password: Zakodować hasło?
+  first_name: Imię
+  last_name: Nazwisko
+  biography: Opis
+  member: Użytkownik
+  new_member: Nowy użytkownik
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Podana strona nie istnieje'
+  already_exists: już istnieje
+  is_required: wymagane
+  content_not_writable: Brak uprawnień do zapisu w katalogu Content
+  users_not_writable: Brak uprawnień do zapisu w katalogu Users
+  msg_password_encrypted: 'Hasło zostało zakodowane. Zaloguj się ponownie.'
+  incorrect_username: Nie znaleziono użytkownika
+  incorrect_password: Nieprawidłowe hasło
+  incorrect_username_password: 'Nieprawidłowa nazwa użytkownia lub hasło. Spróbuj ponownie.'
+  entry_deleted: 'Wpis został usunięty poprawnie!'
+  page_saved: 'Strona zstała zapisana poprawnie!'
+  entry_saved: 'Wpis został zapisany poprawnie!' 
+  member_saved: 'Dane użytkownika zostały zapisane poprawnie!'
+
+  error: Błąd
+  error_form_submission: 'Formularz nie został wysłany z powodu błędu.'
+  are_you_sure: Ta operacja wymaga potwierdzenia.
+  access_denied: Brak dostępu.
+  enable_curl: 'Biblioteka cURL musi być aktywowana, aby przeprowadzić test bezpieczeństwa.'
+
+  # System
+  system_status: Status systemu
+  system_files_security_check: Test bezpieczeństwa plików systemowych.
+  folder_file: Katalog/Plik
+  action_required: Wymagania
+  secure: Zabezpieczony
+  unsecure: Nie zabezpieczony
+  user_accounts_security_check: Test bezpieczeństwa kont użytkowników
+  user_file: Plik użytkownika
+  encrypted: Zaszyfrowany
+  unencrypted: Nie zaszyfrowany
+  action_encrypt_password: Zaszyfruj hasło
+  security_app_folder: "Katalog '_app' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu.",
+  security_config_folder: "Katalog '_config' jest dostępny w internecie. Wymagane jest zabezpieczenie tego katalogu.",
+  security_settings_files: "Plik ustawień 'settings.yaml' jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku.",
+  security_user_files: "Twój plik użytkownika jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku.",
+  security_content_folder: "Katalog '_content' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu.",
+  security_template_files: "Twój plik szablonu jest dostępny w internecie. Zalecane jest zabezpieczenie tego pliku."
+
+
