@@ -1,0 +1,107 @@
+xx:
+
+  # Universal
+  add:
+  delete:
+  list:
+  none:
+  view:
+
+  # Nav
+  dashboard:
+  pages:
+  members:
+  account:
+  system:
+  help:
+  view_site:
+  logout:
+
+  # Entries
+  entry:
+  create_entry:
+  delete_entry:
+  view_entry:
+  list_entries:
+
+  # Pages
+  page:
+  new_top_level_page:
+  site_pages:
+  
+  new_child_page:
+  view_page:
+  select_new_page_type:
+
+  # Publish
+  title:
+  slug:
+  date:
+  number:
+  editing:
+  enter_title:
+  order_number:
+  publish_date:
+  publish_time:
+  save_publish:
+  content:
+
+  # Statuses
+  status:
+  live:
+  draft:
+  hidden:
+
+  # Members and forms
+  login:
+  admin:
+  username:
+  password:
+  password_confirmation:
+  type_again:
+  encrypt_password:
+  first_name:
+  last_name:
+  biography:
+  member:
+  new_member:
+
+  # Messages, Errors & Confirmations
+  admin_404:
+  already_exists:
+  is_required:
+  content_not_writable:
+  users_not_writable:
+  msg_password_encrypted:
+  incorrect_username:
+  incorrect_password:
+  incorrect_username_password:
+  entry_deleted:
+  page_saved:
+  entry_saved:
+  member_saved:
+
+  error:
+  error_form_submission:
+  are_you_sure:
+  access_denied:
+  enable_curl:
+
+  # System
+  system_status:
+  system_files_security_check:
+  folder_file:
+  action_required:
+  secure:
+  unsecure:
+  user_accounts_security_check:
+  user_file:
+  encrypted:
+  unencrypted:
+  action_encrypt_password:
+  security_app_folder:
+  security_config_folder:
+  security_settings_files:
+  security_user_files:
+  security_content_folder:
+  security_template_files:
