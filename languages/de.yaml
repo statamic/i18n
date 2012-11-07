@@ -74,7 +74,7 @@ de:
   new_member: Neuer Benutzer
 
   # Messages, Errors & Confirmations
-  admin_404: 'Die Seite existiert nicht, deshalb .'
+  admin_404: 'Die Seite existiert nicht, deshalb sind Sie jetzt hier.'
   already_exists: existiert bereits
   is_required: ist erforderlich
   content_not_writable: Inhaltsordner ist nicht schreibbar
