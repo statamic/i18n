@@ -98,7 +98,7 @@ de:
   system_status: System Status
   system_files_security_check: Test der Sicherheit der System Dateien
   folder_file: Ordner/Datei
-  action_required: Aktion erfordert
+  action_required: Aktion erforderlich
   secure: Sicher
   unsecure: Unsicher
   user_accounts_security_check: Test der Sicherheit der Benutzeraccounts #!tB
