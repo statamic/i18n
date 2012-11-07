@@ -1,0 +1,107 @@
+fr:
+
+  # Universal
+  add: Ajouter
+  delete: Supprimer
+  list: Afficher
+  none: Aucun
+  view: Voir
+
+  # Nav
+  dashboard: Tableau de bord
+  pages: Pages
+  members: Utilisateurs
+  account: Compte
+  system: Système
+  help: Aide
+  view_site: Voir le site
+  logout: Déconnexion
+
+  # Entries
+  entry: Article
+  create_entry: Ajouter un nouvel article
+  delete_entry: Supprimer article
+  view_entry: Voir l'article
+  list_entries: Afficher les articles
+
+  # Pages
+  page: Page
+  new_top_level_page: Nouvelle page parent
+  site_pages: Toutes les pages
+  
+  new_child_page: Nouvelle page enfant
+  view_page: Voir page
+  select_new_page_type:
+
+  # Publish
+  title: Titre
+  slug: 
+  date: Date
+  number: Numéro
+  editing: 
+  enter_title: Saisissez le titre
+  order_number: 
+  publish_date: Date de publication
+  publish_time: Heure de publication
+  save_publish: 'Enregistrer & publier'
+  content: Contenu
+
+  # Statuses
+  status: État
+  live: Publié
+  draft: Brouillion
+  hidden: Caché
+
+  # Members and forms
+  login: Se connecter
+  admin: Admin
+  username: Nom d'utilisateur
+  password: Mot de passe
+  password_confirmation: 
+  type_again: Saisissez de nouveau
+  encrypt_password: Crypter le mot de passe
+  first_name: Prénom
+  last_name: Nom
+  biography: Biographie
+  member: Utilisateur
+  new_member: Nouvel utilisateur
+
+  # Messages, Errors & Confirmations
+  admin_404:
+  already_exists:
+  is_required:
+  content_not_writable:
+  users_not_writable:
+  msg_password_encrypted:
+  incorrect_username: 
+  incorrect_password:
+  incorrect_username_password:
+  entry_deleted:
+  page_saved:
+  entry_saved:
+  member_saved:
+
+  error: Erreur
+  error_form_submission: 
+  are_you_sure:
+  access_denied:
+  enable_curl:
+
+  # System
+  system_status:
+  system_files_security_check:
+  folder_file:
+  action_required:
+  secure:
+  unsecure:
+  user_accounts_security_check:
+  user_file:
+  encrypted:
+  unencrypted:
+  action_encrypt_password:
+  security_app_folder:
+  security_config_folder:
+  security_settings_files:
+  security_user_files:
+  security_content_folder:
+  security_template_files:
