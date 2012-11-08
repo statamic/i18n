@@ -34,7 +34,7 @@ de-informal:
   # Pages
   page: Seite
   new_top_level_page: Neue Hauptseite #!tB
-  site_pages: Webseiten Seiten #!tB
+  site_pages: Webseiten Seiten #!tB what is that ?
   
   new_child_page: Neue Unterseite
   view_page: Seite anzeigen
@@ -70,6 +70,7 @@ de-informal:
   first_name: Vorname
   last_name: Nachname
   biography: Biografie
+  role: Rolle
   member: Benutzer
   new_member: Neuer Benutzer
 
