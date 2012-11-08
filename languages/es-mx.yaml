@@ -1,0 +1,115 @@
+#####################################
+#
+#  Spanish México (by Alejandro Flores - axelintu.com)
+# 
+# ###################################
+
+es-mx:
+
+  # Universal
+  add: Agregar
+  delete: Borrar
+  list: Lista
+  none: Ninguno
+  view: Ver
+
+  # Nav
+  dashboard: Escritorio
+  pages: Páginas
+  members: Miembros
+  account: Cuenta
+  system: Sistema
+  help: Ayuda
+  view_site: Ver Sitio
+  logout: Cerrar Sesión
+
+  # Entries
+  entry: Entrada
+  create_entry: Crear Entrada
+  delete_entry: Borrar Entrada
+  view_entry: Ver Entrada
+  list_entries: Lista de Entradas
+
+  # Pages
+  page: Páginas
+  new_top_level_page: Nueva Página de Nivel Superior
+  site_pages: Páginas de Sitio
+  
+  new_child_page: Nueva Página Hija
+  view_page: Ver Página
+  select_new_page_type: Selecciona el Tipo de la Nueva Página
+
+  # Publish
+  title: Título
+  slug: Título URL
+  date: Fecha
+  number: Número
+  editing: Editando
+  enter_title: Escribe un título
+  order_number: Número Ordenado
+  publish_date: Fecha de Publicación
+  publish_time: Hora de Publicación
+  save_publish: 'Guardar y Publicar'
+  content: Contenido
+
+  # Statuses
+  status: Estado
+  live: Publicado
+  draft: Borrador
+  hidden: Oculto
+
+  # Members and forms
+  login: Iniciar Sesión
+  admin: Administración
+  username: Nombre de Usuario
+  password: Contraseña
+  password_confirmation: Confirmar Contraseña
+  type_again: 'Escribela de Nuevo Por Favor'
+  encrypt_password: ¿Encriptar Contraseña?
+  first_name: Nombre
+  last_name: Apellido
+  biography: Biografía
+  role: Función
+  member: Miembro
+  new_member: Nuevo Miembro
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Esa página no existía, así que en su lugar te mandamos aquí.'
+  already_exists: Ya existe
+  is_required: es requerido
+  content_not_writable: No se puede escribir en esa carpeta de contenido.
+  users_not_writable: No se puede escribir en la carpeta de Usuarios.
+  msg_password_encrypted: 'Se ha encriptado la contraseña, por favor inicia sesión de nuevo.'
+  incorrect_username: Nombre de Usuario no encontrado.
+  incorrect_password: Contraseña incorrecta.
+  incorrect_username_password: 'Usuario o Contraseña incorrecta, por favor intenta de nuevo.'
+  entry_deleted: '¡Entrada borrada correctamente!'
+  page_saved: '¡Página guardada correctamente!'
+  entry_saved: '¡Entrada guardada correctamente!'
+  member_saved: '¡Miembro guardado correctamente!'
+
+  error: Error
+  error_form_submission: 'Lo sentimos, un error no permitió el envío del formulario'
+  are_you_sure: ¿Estás seguro? Esta acción no se puede deshacer.
+  access_denied: Acceso Negado
+  enable_curl: Se necesita activar cURL para hacer una prueba de seguridad.
+
+  # System
+  system_status: Estado del Sistema
+  system_files_security_check: Revisión de Seguridad de Archivos del Sistema
+  folder_file: Carpeta/Archivo
+  action_required: Acción Requerida
+  secure: Seguro
+  unsecure: Inseguro
+  user_accounts_security_check: Revisión de Seguridad de Cuentas de Usuario
+  user_file: Archivo de Usuario
+  encrypted: Encriptado
+  unencrypted: Sin Encriptar
+  action_encrypt_password: Encriptar Contraseña
+  security_app_folder: "Tu carpeta de aplicación es accesible en la Web. Aunque no es crítico, es una mejor práctica protejer esa carpeta.",
+  security_config_folder: "Tu carptea de configuración es accesible en la Web. Es vital que protejas esa carpeta.",
+  security_settings_files: "Tu carptea de ajustes es accesible en la Web. Es vital que protejas esa carpeta.",
+  security_user_files: "Tu carptea de usuarios es accesible en la Web. Es vital que protejas esa carpeta.",
+  security_content_folder: "Tu carpeta de contenido es accesible en la Web. Aunque no es crítico, es una mejor práctica protejer esa carpeta.",
+  security_template_files: "Tus archivos de tus temas son accesibles en la Web. Aunque no es crítico, es una mejor práctica protejer esa carpeta.",
+  
