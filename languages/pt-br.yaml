@@ -1,0 +1,115 @@
+#####################################
+#
+#  Brazilian Portuguese (by MarchiMedia)
+# 
+# ###################################
+
+pt-br:
+
+  # Universal
+  add: Adicionar
+  delete: Excluir
+  list: Listar
+  none: Nenhum
+  view: Visualizar
+
+  # Nav
+  dashboard: Mural
+  pages: Páginas
+  members: Membros
+  account: Conta
+  system: Sistema
+  help: Ajuda
+  view_site: Ver Site
+  logout: Sair
+
+  # Registros
+  entry: Registro
+  create_entry: Criar Registro
+  delete_entry: Excluir Registro
+  view_entry: Ver Registro
+  list_entries: Listar Registros
+
+  # Páginas
+  page: Página
+  new_top_level_page: Nova Página Topo de Nível
+  site_pages: Páginas do Site
+  
+  new_child_page: Nova Página Dependente
+  view_page: Ver Página
+  select_new_page_type: Selecione Novo Tipo de Página
+
+  # Publicar
+  title: Título
+  slug: Disco
+  date: Data
+  number: Número
+  editing: Editando
+  enter_title: Insira um título...
+  order_number: Número da Ordem
+  publish_date: Data de Publicação
+  publish_time: Horário da Publicação
+  save_publish: 'Salvar & Publicar'
+  content: Conteúdo
+
+  # Status
+  status: Status
+  live: Publicado
+  draft: Rascunho
+  hidden: Oculto
+
+  # Membros and formulários
+  login: Login
+  admin: Admin
+  username: Usuário
+  password: Senha
+  password_confirmation: Confirmação de Senha
+  type_again: 'Digite novamente, por favor'
+  encrypt_password: Encriptar a Senha?
+  first_name: Nome
+  last_name: Sobrenome
+  biography: Biografia
+  member: Membro
+  new_member: Novo Membro
+
+  # Mensagens, Erros & Confirmações
+  admin_404: 'A página não existe, então nós enviamos você para este local.'
+  already_exists: já existe
+  is_required: é obrigatório
+  content_not_writable: A pasta de conteúdo não possui permissão de escrita
+  users_not_writable: A pasta de Usuários não possui permissão de escrita
+  msg_password_encrypted: 'A senha foi encriptada. Por favor tente efetuar seu login novamente.'
+  incorrect_username: Nome de usuário não-localizado
+  incorrect_password: Senha incorreta
+  incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
+  entry_deleted: 'Registro excluído com sucesso!'
+  page_saved: 'Página salva com sucesso!'
+  entry_saved: 'Registro salvo com sucesso!' 
+  member_saved: 'Membro registrado com sucesso!'
+
+  error: Erro
+  error_form_submission: 'Desculpe, um erro impediu o envio do formulário'
+  are_you_sure: Tem certeza? Isto não pode ser desfeito.
+  access_denied: Acesso Bloqueado
+  enable_curl: cURL deve ser ativado para executar um teste de segurança.
+
+  # Sistema
+  system_status: Status do Sistema
+  system_files_security_check: Verificação de Segurança dos Arquivos de Sistema
+  folder_file: Pasta/Arquivo
+  action_required: Ação necessária
+  secure: Seguro
+  unsecure: Inseguro
+  user_accounts_security_check: Verificação de Segurança das Contas de Usuário
+  user_file: Arquivo de Usuário
+  encrypted: Encriptado
+  unencrypted: Não-Encriptado
+  action_encrypt_password: Senha Encriptada
+  security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.",
+  security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta.",
+  security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta.",
+  security_user_files: "Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta..",
+  security_content_folder: "Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.",
+  security_template_files: "Seus arquivos de templates de temas estão acessíveis na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
+
+
