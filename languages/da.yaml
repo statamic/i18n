@@ -1,0 +1,115 @@
+#####################################
+#
+#  Danish (by Henning Horn)
+# 
+# ###################################
+
+da:
+
+  # Universal
+  add: Tilføj
+  delete: Slet
+  list: List
+  none: Ingen
+  view: Vis
+
+  # Nav
+  dashboard: Dashboard
+  pages: Sider
+  members: Medlemmer
+  account: Konto
+  system: System
+  help: Hjælp
+  view_site: Vis site
+  logout: Log ud
+
+  # Entries
+  entry: Indlæg
+  create_entry: Opret indlæg
+  delete_entry: Slet indlæg
+  view_entry: Vis indlæg
+  list_entries: List indlæg
+
+  # Pages
+  page: Side
+  new_top_level_page: Ny topside
+  site_pages: Site sider
+  
+  new_child_page: Ny underside
+  view_page: Vis side
+  select_new_page_type: Vælg ny sidetype
+
+  # Publish
+  title: Titel
+  slug: Slug
+  date: Dato
+  number: Tal
+  editing: Redigerer
+  enter_title: Skriv en titel...
+  order_number: Rækkefølgenummer
+  publish_date: Udgivelsesdato
+  publish_time: Udgivelsestidspunkt
+  save_publish: 'Gem & publiser'
+  content: Indhold
+
+  # Statuses
+  status: Status
+  live: Live
+  draft: Kladde
+  hidden: Skjult
+
+  # Members and forms
+  login: Log ind
+  admin: Admin
+  username: Brugernavn
+  password: Adgangskode
+  password_confirmation: Bekræft adgangskode
+  type_again: 'Skriv det venligst igen'
+  encrypt_password: Krypter adgangskode?
+  first_name: Fornavn
+  last_name: Efternavn
+  biography: Biografi
+  role: Rolle
+  member: Medlem
+  new_member: Nyt medlem
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Siden eksisterer ikke, så vi sendte dig herhen i stedet.'
+  already_exists: eksisterer allerede
+  is_required: er påkrævet
+  content_not_writable: Indholds-mappen er ikke skrivbar
+  users_not_writable: Bruger-mappen er ikke skrivbar
+  msg_password_encrypted: 'Adgangskoden er blevet krypteret. Log venligst ind igen.'
+  incorrect_username: Brugernavn blev ikke fundet
+  incorrect_password: Forkert adgangskode
+  incorrect_username_password: 'Forkert brugernavn eller password. Prøv igen.'
+  entry_deleted: 'Indlæg slettet med succes!'
+  page_saved: 'Side gemt med succes!'
+  entry_saved: 'Indlæg gemt med succes!' 
+  member_saved: 'Medlem gemt med succes!'
+
+  error: Fejl
+  error_form_submission: 'Beklager, en fejl forhindrede formularen i at blive sendt'
+  are_you_sure: Er du sikker? Dette kan ikke fortrydes.
+  access_denied: Adgang nægtet
+  enable_curl: cURL skal været aktiveret for at udføre en sikkerhedstest.
+
+  # System
+  system_status: System status
+  system_files_security_check: Systemfiler sikkerhedstjek
+  folder_file: Mappe/Fil
+  action_required: Handling krævet
+  secure: Sikker
+  unsecure: Usikker
+  user_accounts_security_check: Brugerkonto sikkerhedstjek
+  user_file: Brugerfil
+  encrypted: Krypteret
+  unencrypted: Ukrypteret
+  action_encrypt_password: Krypter adgangskode
+  security_app_folder: "Din application-mappe er tilgængelig via nettet. Det er ikke kritisk, men den bedste praksis er at beskytte denne mappe.",
+  security_config_folder: "Din config-mappe er tilgængelig via nettet. Det er kritisk at du beskytter denne mappe.",
+  security_settings_files: "Dine indstillingsfiler er tilgængelige via nettet. Det er kritisk at du beskytter denne mappe.",
+  security_user_files: "Dine brugerfiler er tilgængelige via nettet. Det er kritisk at du beskytter denne mappe.",
+  security_content_folder: "Din content-mappe er tilgængelig via nettet. Det er ikke kritisk, men den bedste praksis er at beskytte denne mappe.",
+  security_template_files: "Dine tema-filer er tilgængelig via nettet. Det er ikke kritisk, men den bedste praksis er at beskytte denne mappe."
+  
