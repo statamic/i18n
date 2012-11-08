@@ -1,0 +1,116 @@
+#####################################
+#
+#  German (by maxx) 
+#  #!tB declares Translations I'm not happy with
+#  #!tB sind noch nicht perfekt
+# ###################################
+
+de:
+
+  # Universal
+  add: Hinzufügen
+  delete: Löschen
+  list: Auflisten
+  none: Nichts #!tB
+  view: Anzeigen
+
+  # Nav
+  dashboard: Dashboard
+  pages: Seiten
+  members: Benutzer
+  account: Account
+  system: System
+  help: Hilfe
+  view_site: Seite anzeigen
+  logout: Logout
+
+  # Entries
+  entry: Eintrag
+  create_entry: Eintrag erstellen
+  delete_entry: Eintrag löschen
+  view_entry: Eintrag anzeigen
+  list_entries: Einträge auflisten
+
+  # Pages
+  page: Seite
+  new_top_level_page: Neue Hauptseite #!tB
+  site_pages: Webseiten Seiten #!tB
+  
+  new_child_page: Neue Unterseite
+  view_page: Seite anzeigen
+  select_new_page_type: Neue Seitenart auswählen #!tB
+
+  # Publish
+  title: Titel
+  slug: Slug #!tB
+  date: Datum
+  number: Nummer
+  editing: in Bearbeitung #!tB
+  enter_title: Titel eingeben
+  order_number: Ordnungsnummer #!tB
+  publish_date: Datum der Veröffentlichung #!tB
+  publish_time: Zeit der Veröffentlichung #!tB
+  save_publish: 'Speichern & Veröffentlichen'
+  content: Inhalt
+
+  # Statuses
+  status: Status
+  live: Veröffentlicht #!tB
+  draft: Entwurf
+  hidden: Versteckt
+
+  # Members and forms
+  login: Login
+  admin: Admin
+  username: Benutzername
+  password: Passwort
+  password_confirmation: Passwort Bestätigung
+  type_again: 'Bitte noch einmal eingeben'
+  encrypt_password: Passwort verschlüsseln?
+  first_name: Vorname
+  last_name: Nachname
+  biography: Biografie
+  member: Benutzer
+  new_member: Neuer Benutzer
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Die Seite existiert nicht, deshalb sind Sie jetzt hier.'
+  already_exists: existiert bereits
+  is_required: ist erforderlich
+  content_not_writable: Inhaltsordner ist nicht schreibbar
+  users_not_writable: Benutzerordner ist nicht schreibbar
+  msg_password_encrypted: 'Password wurde Verschlüsselt. Bitte nocheinmal einloggen.'
+  incorrect_username: Benutzername nicht gefunden
+  incorrect_password: Falsches Passwort
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Nochmal versuchen.'
+  entry_deleted: 'Eintrag erfolgreich gelöscht!'
+  page_saved: 'Seite erfolgreich gespeichert!'
+  entry_saved: 'Eintrag erfolgreich gespeichert!' 
+  member_saved: 'Benutzer erfolgreich gespeichert!'
+
+  error: Fehler
+  error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
+  are_you_sure: Sind Sie sicher? Das kann nicht rückgängig gemacht werden.
+  access_denied: Zugriff verweigert
+  enable_curl: cURL muss eingeschaltet sein für den Test der Sicherheit.
+
+  # System
+  system_status: System Status
+  system_files_security_check: Test der Sicherheit der System Dateien
+  folder_file: Ordner/Datei
+  action_required: Aktion erforderlich
+  secure: Sicher
+  unsecure: Unsicher
+  user_accounts_security_check: Test der Sicherheit der Benutzeraccounts #!tB
+  user_file: Benutzerdatei #!tB
+  encrypted: Verschlüsselt
+  unencrypted: Unverschlüsselt
+  action_encrypt_password: Passwort verschlüsseln
+  security_app_folder: "Ihr Anwendungsordner is über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+  security_config_folder: "Ihr Einstellungsordner (Config) is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_settings_files: "Ihr Einstellungsdatei (Settings) is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_user_files: "Ihr Benutzerdateien is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_content_folder: "Ihr Inhaltsordner is über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+  security_template_files: "Ihre Gestaltungsvorlagen (Templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+
+
