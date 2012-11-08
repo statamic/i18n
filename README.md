@@ -14,9 +14,9 @@ Alternately (or if you're not Github savvy), you can email translations and/or c
 
 We've included a `template.yaml` file with all the fields emptied out and ready for your multi-lingual mastery!
 
-## Current Translations
+## Complete Translations
 
-- English
+- English (original)
 - German (formal)
 - German (informal)
 - Brazilian Portuguese
