@@ -32,12 +32,12 @@ da:
 
   # Pages
   page: Side
-  new_top_level_page: Ny top side
+  new_top_level_page: Ny topside
   site_pages: Site sider
   
   new_child_page: Ny underside
   view_page: Vis side
-  select_new_page_type: Vælg ny side type
+  select_new_page_type: Vælg ny sidetype
 
   # Publish
   title: Titel
@@ -63,8 +63,8 @@ da:
   admin: Admin
   username: Brugernavn
   password: Adgangskode
-  password_confirmation: Adgangskode bekræftigelse
-  type_again: 'Det det venligst igen'
+  password_confirmation: Bekræft adgangskode
+  type_again: 'Skriv det venligst igen'
   encrypt_password: Krypter adgangskode?
   first_name: Fornavn
   last_name: Efternavn
@@ -75,7 +75,7 @@ da:
 
   # Messages, Errors & Confirmations
   admin_404: 'Siden eksisterer ikke, så vi sendte dig herhen i stedet.'
-  already_exists: eksiterer allerede
+  already_exists: eksisterer allerede
   is_required: er påkrævet
   content_not_writable: Indholds-mappen er ikke skrivbar
   users_not_writable: Bruger-mappen er ikke skrivbar
