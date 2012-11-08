@@ -1,0 +1,114 @@
+#################################################################
+#
+#  Dutch(formal) - Nederlands (by Max Westen - htp://DLMax.org)
+# 
+#################################################################
+
+nl-nl:
+
+  # Universal
+  add:
+  delete: Verwijder
+  list: Lijst
+  none: Geen
+  view: Toon
+
+  # Nav
+  dashboard: Dashboard
+  pages: "Pagina's"
+  members: Gebruikers
+  account: Account
+  system: Systeem
+  help: Hulp
+  view_site: Toon Site
+  logout: Afmelden
+
+  # Entries
+  entry: Item
+  create_entry: 'Item aanmaken'
+  delete_entry: 'Item verwijderen'
+  view_entry: 'Item tonen'
+  list_entries: Itemlijst
+
+  # Pages
+  page: Pagina
+  new_top_level_page: 'Nieuwe hoofdpagina'
+  site_pages: "Site pagina's"
+
+  new_child_page: 'Nieuwe subpagina'
+  view_page: 'Toon pagina'
+  select_new_page_type: 'Kies nieuw paginatype'
+
+  # Publish
+  title: Titel
+  slug: 'URL-slug'
+  date: Datum
+  number: Nummer
+  editing: Wijzigen
+  enter_title: 'Voer een titel in...'
+  order_number: Volgorde
+  publish_date: Publicatiedatum
+  publish_time: Publicatietijd
+  save_publish: 'Opslaan & Publiceren'
+  content: Inhoud
+
+  # Statuses
+  status: Status
+  live: Live
+  draft: Ongepubliceerd
+  hidden: Verborgen
+
+  # Members and forms
+  login: Aanmelden
+  admin: Admin
+  username: Gebruikersnaam
+  password: Wachtwoord
+  password_confirmation: 'Wachtwoord confirmatie'
+  type_again: 'Type het nogmaals, A.U.B.'
+  encrypt_password: 'Wachtwoord encrypten?'
+  first_name: Voornaam
+  last_name: Achternaam
+  biography: Biografie
+  role: Rol
+  member: Gebruiker
+  new_member: 'Nieuwe Gebruiker'
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Die pagina bestaat niet daarom tonen we u deze pagina.'
+  already_exists: 'bestaat reeds'
+  is_required: 'is verplicht'
+  content_not_writable: "'Content' directory is niet schrijfbaar"
+  users_not_writable: "'Users' directory is niet schrijfbaar"
+  msg_password_encrypted: 'Het wachtwoord is geëncrypt. Log opnieuw in.'
+  incorrect_username: 'Gebruiksnaam niet gevonden'
+  incorrect_password: 'Incorrect wachtwoord'
+  incorrect_username_password: 'Incorrecte gebruiksnaam of wachtwoord. Probeer nogmaals.'
+  entry_deleted: 'Item succesvol verwijderd!'
+  page_saved: 'Pagina succesvol opgeslagen!'
+  entry_saved: 'Item succesvol opgeslagen!'
+  member_saved: 'Gebruiker succesvol opgeslagen!'
+
+  error: Fout
+  error_form_submission: 'Sorry, door een fout kon het formulier niet worden verstuurd.'
+  are_you_sure: 'Weet u dit zeker? Deze actie kan niet worden teruggedraaid.'
+  access_denied: 'Toegang geweigerd'
+  enable_curl: 'Ondersteuning van cURL moet aan staan om de veiligheids-test uit te voeren.'
+
+  # System
+  system_status: 'Systeem status'
+  system_files_security_check: 'Veiligheids-test Systeembestanden'
+  folder_file: 'Folder/Bestand'
+  action_required: 'Actie gewenst'
+  secure: Veilig
+  unsecure: Onveilig
+  user_accounts_security_check: 'Veiligheids-test Gebruikers-accounts'
+  user_file: 'Gebruikers Bestand'
+  encrypted: Geëncrypt
+  unencrypted: Leesbaar
+  action_encrypt_password: 'Wachtwoord encrypten'
+  security_app_folder: "Uw applicatie folder is benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
+  security_config_folder: "Uw configuratie folder is benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
+  security_settings_files: "Uw instellings-bestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
+  security_user_files: "Uw gebruikers-bestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
+  security_content_folder: "Uw content folder is benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
+  security_template_files: "Uw thema-template bestanden zijn benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
