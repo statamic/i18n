@@ -1,0 +1,116 @@
+#####################################
+#
+#  Russian (by Sergei Filippov)
+#
+# ###################################
+
+ru:
+
+  # Universal
+  add: Добавить
+  delete: Удалить
+  list: Список
+  none: Ничто
+  view: Осматривать
+
+  # Nav
+  dashboard: Приборная Панель
+  pages: Страницы
+  members: Пользователи
+  account: Детали
+  system: Система
+  help: Помощь
+  view_site: Посмотреть Сайт
+  logout: Выйти
+
+  # Entries
+  entry: Внесение
+  create_entry: Создать Внесение
+  delete_entry: Удалить Внесение
+  view_entry: Посмотреть Внесение
+  list_entries: Список Внесений
+
+  # Pages
+  page: Страница
+  new_top_level_page: Новая Страница Верхнего Уровня
+  site_pages: Страницы Сайта
+
+  new_child_page: Новая Страница Нижнего Уровня
+  view_page: Просмотр Страницы
+  select_new_page_type: Выберите Новый Тип Страницы
+
+  # Publish
+  title: Название
+  slug: Чистатая Ссылка
+  date: Число
+  number: Номер
+  editing: Редактирование
+  enter_title: Напишите Название...
+  order_number: Order Номер
+  publish_date: Число Опубликовати
+  publish_time: Время Опубликовати
+  save_publish: 'Сохранить & Опубликовать'
+  content: Содержание
+
+  # Statuses
+  status: Статус
+  live: Живая
+  draft: Черновик
+  hidden: Скрытое
+
+  # Members and forms
+  login: Вход
+  admin: Админ
+  username: Имя Пользователя
+  password: Пароль
+  password_confirmation: Подтверждение Пароля
+  type_again: 'Введите еще раз, пожалуйста'
+  encrypt_password: Зашифровать Пароль?
+  first_name: Имя
+  last_name: Фамилия
+  biography: Биография
+  role: Роль
+  member: Пользователь
+  new_member: Новый Пользователь
+
+  # Messages, Errors & Confirmations
+  admin_404: 'Это страница не существует, поэтому мы послали вас сюда.'
+  already_exists: уже существует
+  is_required: требуется
+  content_not_writable: Папка с Содержанием не позволяет записи
+  users_not_writable: Папка Пользователей не позволяет записи
+  msg_password_encrypted: 'Пароль зашифрован. Пожалуйста, войдите еще раз.'
+  incorrect_username: Имя пользователя не найдено
+  incorrect_password: Неправильный пароль
+  incorrect_username_password: 'Неправильное имя пользователя или пароль. Попробуйте еще раз.'
+  entry_deleted: 'Внесение успешно удалено!'
+  page_saved: 'Страница успешно сохранена!'
+  entry_saved: 'Внесение успешно сохранены!'
+  member_saved: 'Пользователь успешно сохранен!'
+
+  error: Ошибка
+  error_form_submission: 'Извините, ошибка помешала отправке формы'
+  are_you_sure: Вы уверены? Это не может быть отменено.
+  access_denied: Доступ Запрещен
+  enable_curl: cURL должен быть включен выполнить тест безопасности.
+
+  # System
+  system_status: Состояние системы
+  system_files_security_check: Системные файлы проверки безопасности
+  folder_file: Папка/Файл
+  action_required: Необходимо Действия
+  secure: Безопасный
+  unsecure: Небезопасный
+  user_accounts_security_check: User Accounts Security Check
+  user_file: Файл Пользователя
+  encrypted: Зашифрованный
+  unencrypted: Незашифрованный
+  action_encrypt_password: Зашифровать Пароль
+  security_app_folder: "Ваша программная папка доступна в Интернете. Хотя не критично, но лучше защитить эту папку.",
+  security_config_folder: "Ваша папка конфигурация доступна в Интернете. Очень важно, что вы защищаете эту папку.",
+  security_settings_files: "Ваша папка установок доступна в Интернете. Очень важно, что вы защищаете эту папку.",
+  security_user_files: "Ваши файлы пользователей являются доступный в Интернете. Очень важно, что вы защищаете эту папку.",
+  security_content_folder: "Ваша папка содержаний доступна в Интернете. Хотя не критично, но лучше защитить эту папку.",
+  security_template_files: "Ваша папка дизайн темы доступна в Интернете. Хотя не критично, но лучше защитить эту папку."
+
+
