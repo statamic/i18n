@@ -16,10 +16,15 @@ We've included a `template.yaml` file with all the fields emptied out and ready 
 
 ## Complete Translations
 
-- English (original)
+- English
+- Brazilian Portuguese
+- Danish
+- Dutch
 - German (formal)
 - German (informal)
-- Brazilian Portuguese
+- Hungarian
+- Polish
+- Russian
 
 ## Partial Translations
 
