@@ -106,9 +106,10 @@ fr:
   encrypted: Chiffré
   unencrypted: Non chiffré
   action_encrypt_password: Chiffrer le mot de passe
-  security_app_folder: "Votre dossier application est accessible depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ce dossier.",
-  security_config_folder: "Votre dossier config est accessible depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ce dossier.",
-  security_settings_files: "Vos fichiers settings sont accessibles depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ces fichiers.",
-  security_user_files: "Vos fichiers user sont accessible depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ces fichiers.",
-  security_content_folder: "Votre dossier content est accessible depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ce dossier.",
-  security_template_files: "Vos fichiers settings sont accessible depuis le web. Bien que non critique, il s'agit d'une pratique recommandée de protéger ces fichiers.",
+  security_app_folder: "Votre dossier application est accessible depuis le web. Bien que non essentiel, il s'agit d'une pratique recommandée de protéger ce dossier.",
+  security_config_folder: "Votre dossier config est accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
+  security_settings_files: "Vos fichiers settings sont accessibles depuis le web. Il est essentiel que vous protégiez ce dossier.",
+  security_user_files: "Vos fichiers user sont accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
+  security_content_folder: "Votre dossier content est accessible depuis le web. Bien que non essentiel, il s'agit d'une pratique recommandée de protéger ce dossier.",
+  security_template_files: "Vos fichiers settings sont accessible depuis le web. Bien que non essentiel, il s'agit d'une pratique recommandée de protéger ces fichiers."
+  
