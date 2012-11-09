@@ -1,0 +1,112 @@
+####################################################################
+# Korean / 한국어 (by Curtis Blackwell - http://curtisblackwell.com) #
+####################################################################
+
+kr:
+
+  # Universal
+  add: 추가
+  delete: 삭제
+  list: 열거 #?
+  none: 없음
+  view: 보기
+
+  # Nav
+  dashboard: 알림판
+  pages: 페이지
+  members: 사용자
+  account: 이용 계정
+  system: 시스템 #?
+  help: 도움말
+  view_site: 사이트 보기
+  logout: 로그아웃
+
+  # Entries
+  entry: 기재물
+  create_entry: 기재물 쓰기
+  delete_entry: 기재물 삭제
+  view_entry: 기재물 보기
+  list_entries: 기재물 열거 #?
+
+  # Pages
+  page: 페이지
+  new_top_level_page: 새 제일 상위 페이지 #?
+  site_pages: 사이트 페이지
+
+  new_child_page: 새 하위 페이지
+  view_page: 페이지 보기
+  select_new_page_type: 새 페이지 유형 선택 하기 #?
+
+  # Publish
+  title: 제목
+  slug: 슬러그 #? 자료 기재물 제목
+  date: 날짜
+  number: 번호
+  editing: 편집
+  enter_title: 제목을 입력하세
+  order_number: 순서 번호
+  publish_date: 등록 날짜
+  publish_time: 등록 시간
+  save_publish: 확인
+  content: 콘텐츠
+
+  # Statuses
+  status: 상태
+  live: 발행됨
+  draft: 임시 글
+  hidden: 비밀의 #?
+
+  # Members and forms
+  login: 로그인
+  admin: 관리
+  username: 사용자명
+  password: 비밀번호
+  password_confirmation: 비밀번호 확인ㅅ
+  type_again: '다시 타자 쳐 주세요'
+  encrypt_password: '비밀번호 암화할까요?'
+  first_name: 이름
+  last_name: 성
+  biography: 소개글
+  role: 권한
+  member: 회원
+  new_member: 새 회원 등록
+
+  # Messages, Errors & Confirmations
+  admin_404: '그 페이지 없어서 여기에 대신 보냈어요.' #'That page did not exist, so we sent you here instead.'
+  already_exists: '이미 있어요' #already exists
+  is_required: '필요해요' #is required
+  content_not_writable: '콘텐츠 폴더 쓸 수 없어요.' #Content folder not writable
+  users_not_writable: '사용자 폴더 쓸 수 없어요.' #Users folder not writable
+  msg_password_encrypted: '비밀번호 암화했어요. 다시 로그인 해 주세요.' #'Password has been encrypted. Please login again.'
+  incorrect_username: '사용자명 찾아지 않았어요.' #Username not found
+  incorrect_password: '비밀번호 틀렸어요.' #Incorrect password
+  incorrect_username_password: '사용지명이나 비밀번호 틀렸어요. 다시 해 보세요.' #'Incorrect username or password. Try again.'
+  entry_deleted: '항목 성공적으로 삭제했어요.' #'Entry deleted successfully!'
+  page_saved: '페이지 성공적으로 임시저장했어요.' #'Page saved successfully!'
+  entry_saved: '항목 성송적으로 임시저장했어요.' #'Entry saved successfully!'
+  member_saved: '사용자 성송적으로 저장했어요.' #'Member saved successfully!'
+
+  error: 실수
+  error_form_submission: '미안합니다. 실수 때문에 서식 제출 막았어요.' #'Sorry, an error prevented the form submission'
+  are_you_sure: '확실해요? 취소할 수 없어요.' #Are you sure? This cannot be undone.
+  access_denied: '접근 거부' #Access Denied
+  enable_curl: '보안 검사 위해서 cURL 가능하게 해야돼요.' #cURL must be enabled to perform a security test.
+
+  # System
+  system_status: '시스템 상태.' #System Status
+  system_files_security_check: '시스템 파일 보안 검사' #System Files Security Check
+  folder_file: '폴더/파일' #Folder/File
+  action_required: '요구되는 행동' #Action Required
+  secure: '안전한' #Secure
+  unsecure: '안전하지 않은' #Unsecure
+  user_accounts_security_check: '사용자 이용 계정 보안 검사' #User Accounts Security Check
+  user_file: '사용자의 파일' #User File
+  encrypted: '암호화된' #Encrypted
+  unencrypted: '해독한' #Unencrypted
+  action_encrypt_password: '비밀번호 암화하세요' #Encrypt Password
+  security_app_folder: '응용 프로그램 (_app) 폴더 인터넷으로 이용 가능할 수 있어요. 안 필요하긴 하지만 이 폴더를 안전하기 모범 경영이에요.' #"Your application folder is accessable to the web. While not critical, it's best practice to protect this folder.",
+  security_config_folder: '구성 (_config) 폴더 인터넷으로 이용 가능할 수 있어요. 그것은 안전하기 필요해요.' #"Your config folder is accessable to the web. It is critical that you protect this folder.",
+  security_settings_files: '설정 파일 인터넷으로 이용 가능할 수 있어요. 그것은 안전하기 필요해요.' #"Your settings files are accessable to the web. It is critical that you protect this folder.",
+  security_user_files: '사용자 파일 인터넷으로 이용 가능할 수 있어요. 그것은 안전하기 필요해요.' #"Your user files are accessable to the web. It is critical that you protect this folder.",
+  security_content_folder: '콘텐츠 (_content) 폴더 인터넷으로 이용 가능할 수 있어요. 안 필요하긴 하지만 이 폴더를 안전하기 모범 경영이에요.' #"Your content folder is accessable to the web. While not critical, it is best practice to protect this folder.",
+  security_template_files: '테마 파일 인터넷으로 이용 가능할 수 있어요. 안 필요하긴 하지만 이 폴더를 안전하기 모범 경영이에요.' #"Your theme template files are accessable to the web. While not critical, it is best practice to protect this folder."
