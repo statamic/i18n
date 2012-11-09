@@ -95,9 +95,9 @@ nl-nl:
   enable_curl: 'Ondersteuning van cURL moet aan staan om de veiligheidstest uit te voeren.'
 
   # System
-  system_status: 'Systeem status'
+  system_status: 'Systeemstatus'
   system_files_security_check: 'Veiligheidstest systeembestanden'
-  folder_file: 'Folder/bestand'
+  folder_file: 'Directory/bestand'
   action_required: 'Actie gewenst'
   secure: Veilig
   unsecure: Onveilig
@@ -106,9 +106,9 @@ nl-nl:
   encrypted: Geëncrypt
   unencrypted: Leesbaar
   action_encrypt_password: 'Wachtwoord encrypten'
-  security_app_folder: "Uw applicatiefolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de folder te beveiligen." 
-  security_config_folder: "Uw configuratiefolder is benaderbaar voor het web. Het is van belang dat u deze folder beveiligt!" 
-  security_settings_files: "Uw instellingsbestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligt!" 
-  security_user_files: "Uw gebruikersbestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligt!" 
-  security_content_folder: "Uw contentfolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de folder te beveiligen." 
-  security_template_files: "Uw thema-templatebestanden zijn benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de folder te beveiligen." 
+  security_app_folder: "Uw applicatiefolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om deze directory te beveiligen." 
+  security_config_folder: "Uw configuratiefolder is benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_settings_files: "Uw instellingsbestanden zijn benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_user_files: "Uw gebruikersbestanden zijn benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_content_folder: "Uw contentfolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de directory te beveiligen." 
+  security_template_files: "Uw templatebestanden zijn benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de directory te beveiligen." 
