@@ -18,11 +18,14 @@ We've included a `template.yaml` file with all the fields emptied out and ready 
 
 - English
 - Brazilian Portuguese
-- Danish
+- Danish (formal)
+- Danish (informal)
 - Dutch
+- French
 - German (formal)
 - German (informal)
 - Hungarian
+- Korean
 - Polish
 - Russian
-- French
+- Spanish
