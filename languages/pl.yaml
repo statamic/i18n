@@ -69,6 +69,7 @@ pl:
   first_name: Imię
   last_name: Nazwisko
   biography: Opis
+  role: Funkcja
   member: Użytkownik
   new_member: Nowy użytkownik
 
@@ -111,5 +112,3 @@ pl:
   security_user_files: "Twój plik użytkownika jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku.",
   security_content_folder: "Katalog '_content' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu.",
   security_template_files: "Twój plik szablonu jest dostępny w internecie. Zalecane jest zabezpieczenie tego pliku."
-
-
