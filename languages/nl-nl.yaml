@@ -7,7 +7,7 @@
 nl-nl:
 
   # Universal
-  add:
+  add: Nieuw
   delete: Verwijder
   list: Lijst
   none: Geen
@@ -20,7 +20,7 @@ nl-nl:
   account: Account
   system: Systeem
   help: Hulp
-  view_site: Toon Site
+  view_site: Toon site
   logout: Afmelden
 
   # Entries
@@ -63,18 +63,18 @@ nl-nl:
   admin: Admin
   username: Gebruikersnaam
   password: Wachtwoord
-  password_confirmation: 'Wachtwoord confirmatie'
-  type_again: 'Type het nogmaals, A.U.B.'
+  password_confirmation: 'Wachtwoordconfirmatie'
+  type_again: 'Type het nogmaals, a.u.b.'
   encrypt_password: 'Wachtwoord encrypten?'
   first_name: Voornaam
   last_name: Achternaam
   biography: Biografie
   role: Rol
   member: Gebruiker
-  new_member: 'Nieuwe Gebruiker'
+  new_member: 'Nieuwe gebruiker'
 
   # Messages, Errors & Confirmations
-  admin_404: 'Die pagina bestaat niet daarom tonen we u deze pagina.'
+  admin_404: 'Die pagina bestaat niet, daarom tonen we u deze pagina.'
   already_exists: 'bestaat reeds'
   is_required: 'is verplicht'
   content_not_writable: "'Content' directory is niet schrijfbaar"
@@ -92,23 +92,23 @@ nl-nl:
   error_form_submission: 'Sorry, door een fout kon het formulier niet worden verstuurd.'
   are_you_sure: 'Weet u dit zeker? Deze actie kan niet worden teruggedraaid.'
   access_denied: 'Toegang geweigerd'
-  enable_curl: 'Ondersteuning van cURL moet aan staan om de veiligheids-test uit te voeren.'
+  enable_curl: 'Ondersteuning van cURL moet aan staan om de veiligheidstest uit te voeren.'
 
   # System
-  system_status: 'Systeem status'
-  system_files_security_check: 'Veiligheids-test Systeembestanden'
-  folder_file: 'Folder/Bestand'
+  system_status: 'Systeemstatus'
+  system_files_security_check: 'Veiligheidstest systeembestanden'
+  folder_file: 'Directory/bestand'
   action_required: 'Actie gewenst'
   secure: Veilig
   unsecure: Onveilig
-  user_accounts_security_check: 'Veiligheids-test Gebruikers-accounts'
-  user_file: 'Gebruikers Bestand'
+  user_accounts_security_check: 'Veiligheidstest gebruikersaccounts'
+  user_file: 'Gebruikersbestand'
   encrypted: Geëncrypt
   unencrypted: Leesbaar
   action_encrypt_password: 'Wachtwoord encrypten'
-  security_app_folder: "Uw applicatie folder is benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
-  security_config_folder: "Uw configuratie folder is benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
-  security_settings_files: "Uw instellings-bestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
-  security_user_files: "Uw gebruikers-bestanden zijn benaderbaar voor het web. Het is van belang dat u deze folder beveiligd!" 
-  security_content_folder: "Uw content folder is benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
-  security_template_files: "Uw thema-template bestanden zijn benaderbaar voor het web. Dit is niet kritisch, maar het zou beter zijn om de folder te beveiligen." 
+  security_app_folder: "Uw applicatiefolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om deze directory te beveiligen." 
+  security_config_folder: "Uw configuratiefolder is benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_settings_files: "Uw instellingsbestanden zijn benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_user_files: "Uw gebruikersbestanden zijn benaderbaar voor het web. Het is van belang dat u deze directory beveiligt!" 
+  security_content_folder: "Uw contentfolder is benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de directory te beveiligen." 
+  security_template_files: "Uw templatebestanden zijn benaderbaar voor het web. Dit is niet ernstig, maar het zou beter zijn om de directory te beveiligen." 
