@@ -1,0 +1,115 @@
+#####################################
+#
+#  Japanese/日本語 
+#  by Zenbu Studio @zenbustudio 
+#  (Nicolas Bottari @nicolasbottari)
+# 
+# ###################################
+jp:
+
+  # Universal
+  add: 追加
+  delete: 削除
+  list: リスト
+  none: なし
+  view: ビユー
+
+  # Nav
+  dashboard: ダッシュボード
+  pages: ページ
+  members: メンバー
+  account: アカウント
+  system: システム
+  help: ヘルプ
+  view_site: サイトを見る
+  logout: ログアウト
+
+  # Entries
+  entry: エントリ
+  create_entry: 新規エントリ
+  delete_entry: エントリを削除する
+  view_entry: エントリを表示する
+  list_entries: エントリリスト
+
+  # Pages
+  page: ページ
+  new_top_level_page:　上レベルのページ
+  site_pages: サイトのページ
+  
+  new_child_page: 新規チャイルドページ
+  view_page: ページを表示する
+  select_new_page_type: 新規ページのタイプを選択する
+
+  # Publish
+  title: タイトル
+  slug: スラグ
+  date: 日付
+  number: 数字
+  editing: 編集
+  enter_title: タイトルを入力してください
+  order_number: 順番番号
+  publish_date: 投稿の日付
+  publish_time: 投稿の時間
+  save_publish: 保存と投稿
+  content: コンテンツ（内容）
+
+  # Statuses
+  status: ステータス
+  live: ライブ
+  draft: 下書き
+  hidden: 未表示
+
+  # Members and forms
+  login: ログイン
+  admin: 管理
+  username: ユーザーネーム
+  password: パスワード
+  password_confirmation: パスワードの確認
+  type_again: もう一度入力してください
+  encrypt_password: パスワードを暗号化する？
+  first_name: ファーストネーム
+  last_name: ラストネーム
+  biography: 自己紹介（バイオグラフィ）
+  role: 役割
+  member: メンーバー
+  new_member:　新規メンバー
+
+  # Messages, Errors & Confirmations
+  admin_404:　'ページは見つけられませんでした。'
+  already_exists: すでにあります
+  is_required: 必須
+  content_not_writable: コンテンツフォルダは書き込み不可能です
+  users_not_writable: ユーザフォルダは書き込み不可能です
+  msg_password_encrypted: 'パスワードは暗号化しました。もう一度ログインしてください。'
+  incorrect_username: このユーザネームは見つけられませんでした
+  incorrect_password: 不正なパスワード
+  incorrect_username_password: '不正なパスワードもしくはユーザネームです。もう一度試してください。'
+  entry_deleted: 'エントリを削除しました'
+  page_saved: 'ページを保存しました'
+  entry_saved: 'エントリを保存しました'
+  member_saved: 'メンバーを保存しました'
+
+  error: エラー
+  error_form_submission: 'エラーのためフォームを送信できませんでした。'
+  are_you_sure: 本当に実行しますか？元にもどせません。
+  access_denied: アクセス拒否
+  enable_curl: セキュリティテストを行うためにcURLを有効してください
+
+  # System
+  system_status: システムのステータス
+  system_files_security_check: システムファイルのセキュリティテスト
+  folder_file: フォルダ／ファイル
+  action_required: アクションが必要です
+  secure: セキュア
+  unsecure: アンセキュア
+  user_accounts_security_check: ユーザアカウントのセキュリティチェック
+  user_file: ユーザのファイル
+  encrypted: 暗号化
+  unencrypted: 暗号化されてない
+  action_encrypt_password: パスワーとを暗号化する
+  security_app_folder: "アプリケーションのフォルダはウェブからアクセスできます。重大でないが、このフォルダを保護することをお勧めています。"
+  security_config_folder: "設定のフォルダはウェブからアクセスできます。このフォルダを保護することは重要です。"
+  security_settings_files: "設定のファイルはウェブからアクセスできます。このファイルを保護することは重要です。"
+  security_user_files: "ユーザファイルはウェブからアクセスできます。このファイルを保護することは重要です。"
+  security_content_folder: "コンテンツのフォルダはウェブからアクセスできます。重大でないが、このフォルダを保護することをお勧めています。"
+  security_template_files: "テーマのテンプレートフォルダはウェブからアクセスできます。重大でないが、このフォルダを保護することをお勧めています。"
