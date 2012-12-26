@@ -28,28 +28,28 @@ fr:
   page: Page
   new_top_level_page: Nouvelle page parent
   site_pages: Toutes les pages
-  
+
   new_child_page: Nouvelle page enfant
   view_page: Voir page
-  select_new_page_type:
+  select_new_page_type: Choisir Type Nouvelle Page
 
   # Publish
   title: Titre
-  slug: 
+  slug: Ligne bloc
   date: Date
   number: Numéro
-  editing: 
+  editing: Édition
   enter_title: Saisissez le titre
-  order_number: 
+  order_number: Numéro d'ordre
   publish_date: Date de publication
   publish_time: Heure de publication
-  save_publish: 'Enregistrer & publier'
+  save_publish: 'Enregistrer & Publier'
   content: Contenu
 
   # Statuses
   status: État
   live: Publié
-  draft: Brouillion
+  draft: Brouillon
   hidden: Caché
 
   # Members and forms
@@ -57,51 +57,52 @@ fr:
   admin: Admin
   username: Nom d'utilisateur
   password: Mot de passe
-  password_confirmation: 
-  type_again: Saisissez de nouveau
-  encrypt_password: Crypter le mot de passe
+  password_confirmation: Confirmation du mot de passe
+  type_again: 'Saisissez-le de nouveau SVP'
+  encrypt_password: Crypter le mot de passe ?
   first_name: Prénom
   last_name: Nom
   biography: Biographie
+  role: Rôle
   member: Utilisateur
   new_member: Nouvel utilisateur
 
   # Messages, Errors & Confirmations
-  admin_404:
-  already_exists:
-  is_required:
-  content_not_writable:
-  users_not_writable:
-  msg_password_encrypted:
-  incorrect_username: 
-  incorrect_password:
-  incorrect_username_password:
-  entry_deleted:
-  page_saved:
-  entry_saved:
-  member_saved:
+  admin_404: 'Cette page n\'existait pas, alors nous vous avons plutôt transféré ici'
+  already_exists: existe déjà
+  is_required: est obligatoire
+  content_not_writable: le répertoire de contenu n'est pas inscriptible
+  users_not_writable: le répertoire des utilisateurs n'est pas inscriptible
+  msg_password_encrypted: 'Le mot de passe a été crypté. Merci de vous relogger.'
+  incorrect_username: Nom d'utilisateur introuvable
+  incorrect_password: Mot de passe incorrect
+  incorrect_username_password: 'Nom d\'utilisateur ou mot de passe incorrects. Merci de réessayer.'
+  entry_deleted: 'Article supprimé avec succès !'
+  page_saved: 'Page enregistrée avec succès !'
+  entry_saved: 'Article enregistré avec succès !'
+  member_saved: 'Utilisateur enregistré avec succès !'
 
   error: Erreur
-  error_form_submission: 
-  are_you_sure:
-  access_denied:
-  enable_curl:
+  error_form_submission: 'Désolé, une erreur a empéché la bonne soumission du formulaire'
+  are_you_sure: Êtes-vous sûr ? cette action ne peut être annulée !
+  access_denied: Accès refusé
+  enable_curl: cURL doit être activé afin de réaliser un test de sécurité.
 
   # System
-  system_status:
-  system_files_security_check:
-  folder_file:
-  action_required:
-  secure:
-  unsecure:
-  user_accounts_security_check:
-  user_file:
-  encrypted:
-  unencrypted:
-  action_encrypt_password:
-  security_app_folder:
-  security_config_folder:
-  security_settings_files:
-  security_user_files:
-  security_content_folder:
-  security_template_files:
+  system_status: Statut Système
+  system_files_security_check: Contrôle de sécurité des fichiers Système
+  folder_file: Répertoire/Fichier
+  action_required: Action requise
+  secure: Sécurisé
+  unsecure: Non sécurisé
+  user_accounts_security_check: Contrôle de sécurité des comptes utilisateur
+  user_file: Fichier utilisateur
+  encrypted: Crypté
+  unencrypted: Non Crypté (en clair)
+  action_encrypt_password: Crypter le mot de passe
+  security_app_folder: "Votre répertoire (ou dossier) Applications est accessible par le web. Bien que cela ne soit pas critique, il est fortement conseillé de protéger ce dossier."
+  security_config_folder: "Votre répertoire (ou dossier) de configuration est accessible par le web. Il est CRITIQUE que vous protégiez ce dossier."
+  security_settings_files: "Vos fichiers de paramétrage sont accessibles par le web. Il est CRITIQUE que vous protégiez leur dossier."
+  security_user_files: "Vos fichiers utilisateurs sont accessibles par le web. Il est CRITIQUE que vous protégiez leur dossier."
+  security_content_folder: "Votre répertoire (ou dossier) de contenu est accessible par le web. Bien que cela ne soit pas critique, il est fortement conseillé de protéger ce dossier."
+  security_template_files: "Vos fichiers de modèle de thème sont accessibles par le web. Bien que cela ne soit pas critique, il est fortement conseillé de protéger leur dossier."
