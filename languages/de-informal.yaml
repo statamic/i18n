@@ -48,8 +48,8 @@ de-informal:
   editing: in Bearbeitung #!tB
   enter_title: Titel eingeben
   order_number: Ordnungsnummer #!tB
-  publish_date: Datum der Veröffentlichung #!tB
-  publish_time: Zeit der Veröffentlichung #!tB
+  publish_date: Veröffentlichungsdatum 
+  publish_time: Veröffentlichungszeitpunkt 
   save_publish: 'Speichern & Veröffentlichen'
   content: Inhalt
 
@@ -75,15 +75,15 @@ de-informal:
   new_member: Neuer Benutzer
 
   # Messages, Errors & Confirmations
-  admin_404: 'Die Seite existiert nicht, deshalb bist du jetzt hier.'
+  admin_404: 'Diese Seite existiert nicht.'
   already_exists: existiert bereits
   is_required: ist erforderlich
   content_not_writable: Inhaltsordner ist nicht schreibbar
   users_not_writable: Benutzerordner ist nicht schreibbar
-  msg_password_encrypted: 'Password wurde Verschlüsselt. Bitte nocheinmal einloggen.'
+  msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
-  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Nochmal versuchen.'
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuche es noch einmal.'
   entry_deleted: 'Eintrag erfolgreich gelöscht!'
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
@@ -91,9 +91,9 @@ de-informal:
 
   error: Fehler
   error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
-  are_you_sure: Bist du sicher? Das kann nicht rückgängig gemacht werden.
+  are_you_sure: Bist du sicher? Dies kann nicht rückgängig gemacht werden.
   access_denied: Zugriff verweigert
-  enable_curl: cURL muss eingeschaltet sein für den Test der Sicherheit.
+  enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
   # System
   system_status: System Status
@@ -102,7 +102,7 @@ de-informal:
   action_required: Aktion erforderlich
   secure: Sicher
   unsecure: Unsicher
-  user_accounts_security_check: Test der Sicherheit der Benutzeraccounts #!tB
+  user_accounts_security_check: Sicherheitstest der Benutzeraccounts 
   user_file: Benutzerdatei #!tB
   encrypted: Verschlüsselt
   unencrypted: Unverschlüsselt
