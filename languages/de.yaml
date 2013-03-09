@@ -33,7 +33,7 @@ de:
 
   # Pages
   page: Seite
-  new_top_level_page: Neue Hauptseite #!tB
+  new_top_level_page: Neue Hauptseite
   site_pages: Webseiten Seiten #!tB what is that ?
   
   new_child_page: Neue Unterseite
@@ -42,20 +42,20 @@ de:
 
   # Publish
   title: Titel
-  slug: Slug #!tB
+  slug: Slug
   date: Datum
   number: Nummer
   editing: in Bearbeitung #!tB
   enter_title: Titel eingeben
   order_number: Ordnungsnummer #!tB
-  publish_date: Datum der Veröffentlichung #!tB
-  publish_time: Zeit der Veröffentlichung #!tB
+  publish_date: Veröffentlichungsdatum 
+  publish_time: Veröffentlichungszeitpunkt 
   save_publish: 'Speichern & Veröffentlichen'
   content: Inhalt
 
   # Statuses
   status: Status
-  live: Veröffentlicht #!tB
+  live: Veröffentlicht
   draft: Entwurf
   hidden: Versteckt
 
@@ -64,9 +64,9 @@ de:
   admin: Admin
   username: Benutzername
   password: Passwort
-  password_confirmation: Passwort Bestätigung
+  password_confirmation: Passwortbestätigung
   type_again: 'Bitte noch einmal eingeben'
-  encrypt_password: Passwort verschlüsseln?
+  encrypt_password: Passwort verschlüsseln
   first_name: Vorname
   last_name: Nachname
   biography: Biografie
@@ -75,15 +75,15 @@ de:
   new_member: Neuer Benutzer
 
   # Messages, Errors & Confirmations
-  admin_404: 'Die Seite existiert nicht, deshalb sind Sie jetzt hier.'
+  admin_404: 'Diese Seite existiert nicht.'
   already_exists: existiert bereits
   is_required: ist erforderlich
   content_not_writable: Inhaltsordner ist nicht schreibbar
   users_not_writable: Benutzerordner ist nicht schreibbar
-  msg_password_encrypted: 'Password wurde Verschlüsselt. Bitte nocheinmal einloggen.'
+  msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
-  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Nochmal versuchen.'
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuchen Sie noch einmal.'
   entry_deleted: 'Eintrag erfolgreich gelöscht!'
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
@@ -91,27 +91,27 @@ de:
 
   error: Fehler
   error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
-  are_you_sure: Sind Sie sicher? Das kann nicht rückgängig gemacht werden.
+  are_you_sure: Sind Sie sicher? Dies kann nicht rückgängig gemacht werden.
   access_denied: Zugriff verweigert
-  enable_curl: cURL muss eingeschaltet sein für den Test der Sicherheit.
+  enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
   # System
   system_status: System Status
-  system_files_security_check: Test der Sicherheit der System Dateien
+  system_files_security_check: Sicherheitstest der Systemdateien
   folder_file: Ordner/Datei
   action_required: Aktion erforderlich
   secure: Sicher
   unsecure: Unsicher
-  user_accounts_security_check: Test der Sicherheit der Benutzeraccounts #!tB
+  user_accounts_security_check: Sicherheitstest der Benutzeraccounts 
   user_file: Benutzerdatei #!tB
   encrypted: Verschlüsselt
   unencrypted: Unverschlüsselt
   action_encrypt_password: Passwort verschlüsseln
-  security_app_folder: "Ihr Anwendungsordner is über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
-  security_config_folder: "Ihr Einstellungsordner (Config) is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
-  security_settings_files: "Ihr Einstellungsdatei (Settings) is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
-  security_user_files: "Ihr Benutzerdateien is über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
-  security_content_folder: "Ihr Inhaltsordner is über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
-  security_template_files: "Ihre Gestaltungsvorlagen (Templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+  security_app_folder: "Dein Anwendungsordner ist über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+  security_config_folder: "Dein Einstellungsordner (Config) ist über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_settings_files: "Deine Einstellungsdatei (Settings) ist über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_user_files: "Deine Benutzerdateien ist über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
+  security_content_folder: "Dein Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch aber Sie sollten diesen Ordner schützen.",
+  security_template_files: "Deine Gestaltungsvorlagen (Templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
 
 

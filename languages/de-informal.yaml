@@ -33,7 +33,7 @@ de-informal:
 
   # Pages
   page: Seite
-  new_top_level_page: Neue Hauptseite #!tB
+  new_top_level_page: Neue Hauptseite
   site_pages: Webseiten Seiten #!tB what is that ?
   
   new_child_page: Neue Unterseite
@@ -42,7 +42,7 @@ de-informal:
 
   # Publish
   title: Titel
-  slug: Slug #!tB
+  slug: Slug
   date: Datum
   number: Nummer
   editing: in Bearbeitung #!tB
@@ -55,7 +55,7 @@ de-informal:
 
   # Statuses
   status: Status
-  live: Veröffentlicht #!tB
+  live: Veröffentlicht
   draft: Entwurf
   hidden: Versteckt
 
@@ -64,9 +64,9 @@ de-informal:
   admin: Admin
   username: Benutzername
   password: Passwort
-  password_confirmation: Passwort Bestätigung
+  password_confirmation: Passwortbestätigung
   type_again: 'Bitte noch einmal eingeben'
-  encrypt_password: Passwort verschlüsseln?
+  encrypt_password: Passwort verschlüsseln
   first_name: Vorname
   last_name: Nachname
   biography: Biografie
@@ -97,7 +97,7 @@ de-informal:
 
   # System
   system_status: System Status
-  system_files_security_check: Test der Sicherheit der System Dateien
+  system_files_security_check: Sicherheitstest der Systemdateien
   folder_file: Ordner/Datei
   action_required: Aktion erforderlich
   secure: Sicher
@@ -107,11 +107,11 @@ de-informal:
   encrypted: Verschlüsselt
   unencrypted: Unverschlüsselt
   action_encrypt_password: Passwort verschlüsseln
-  security_app_folder: "Dein Anwendungsordner is über das Web erreichbar. Es ist nicht kritisch, aber Du solltest diesen Ordner schützen.",
-  security_config_folder: "Dein Einstellungsordner (Config) is über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
-  security_settings_files: "Deine Einstellungsdatei (Settings) is über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
-  security_user_files: "Deine Benutzerdateien is über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
-  security_content_folder: "Dein Inhaltsordner is über das Web erreichbar. Es ist nicht kritisch, aber Du solltest diesen Ordner schützen.",
+  security_app_folder: "Dein Anwendungsordner ist über das Web erreichbar. Es ist nicht kritisch, aber Du solltest diesen Ordner schützen.",
+  security_config_folder: "Dein Einstellungsordner (Config) ist über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
+  security_settings_files: "Deine Einstellungsdatei (Settings) ist über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
+  security_user_files: "Deine Benutzerdateien ist über das Web erreichbar. Es wichtig, dass Du diesen Ordner schützt.",
+  security_content_folder: "Dein Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch, aber Du solltest diesen Ordner schützen.",
   security_template_files: "Deine Gestaltungsvorlagen (Templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Du solltest diesen Ordner schützen.",
 
 
