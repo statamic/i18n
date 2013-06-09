@@ -17,7 +17,7 @@ translations:
   # Navegação
   dashboard: Mural
   pages: Páginas
-  members: Membros
+  members: Usuários
   account: Conta
   system: Sistema
   help: Ajuda
@@ -66,9 +66,9 @@ translations:
   draft: Rascunho
   hidden: Oculto
 
-  # Membros and formulários
+  # Usuários and formulários
   login: Entrar
-  admin: Admin
+  admin: Administrador
   username: Usuário
   password: Senha
   password_confirmation: Confirmação de Senha
@@ -78,8 +78,8 @@ translations:
   last_name: Sobrenome
   biography: Biografia
   role: Função
-  member: Membro
-  new_member: Novo Membro
+  member: Usuário
+  new_member: Novo usuário
 
   # Mensagens, Erros & Confirmações
   admin_404: 'A página não existe, então nós enviamos você para este local.'
@@ -94,7 +94,7 @@ translations:
   entry_deleted: 'Registro excluído com sucesso!'
   page_saved: 'Página salva com sucesso!'
   entry_saved: 'Registro salvo com sucesso!' 
-  member_saved: 'Membro registrado com sucesso!'
+  member_saved: 'Usuário registrado com sucesso!'
 
   error: Erro
   error_form_submission: 'Desculpe, um erro impediu o envio do formulário'
