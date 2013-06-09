@@ -35,13 +35,13 @@ translations:
 
   # Páginas
   page: Página
-  new_top_level_page: Nova Página Topo de Nível
+  new_top_level_page: Nova Página mãe
   site_pages: Páginas do Site
-  new_child_page: Nova Página Dependente
+  new_child_page: Nova Página filha
   view_page: Ver Página
-  delete_page: Delete Page
+  delete_page: Apagar página
   select_new_page_type: Selecione Novo Tipo de Página
-  parent: Parent
+  parent: Mãe
 
   update_available: atualização disponível
   up_to_date: em dia
