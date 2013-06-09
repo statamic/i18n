@@ -91,10 +91,10 @@ translations:
   incorrect_username: Nome de usuário não-localizado
   incorrect_password: Senha incorreta
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
-  entry_deleted: 'Entrada excluída com sucesso!'
-  page_saved: 'Página salva com sucesso!'
-  entry_saved: 'Entrada salva com sucesso!' 
-  member_saved: 'Usuário registrado com sucesso!'
+  entry_deleted: 'Entrada excluída!'
+  page_saved: 'Página salva!'
+  entry_saved: 'Entrada salva!' 
+  member_saved: 'Usuário registrado!'
 
   error: Erro
   error_form_submission: 'Desculpe, um erro impediu o envio do formulário'
