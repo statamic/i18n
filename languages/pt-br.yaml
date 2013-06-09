@@ -25,13 +25,13 @@ translations:
   logout: Sair
   logs: Registros de sistema
 
-  # Registros
-  entry: Registro
-  entries: Entries
-  create_entry: Criar Registro
-  delete_entry: Excluir Registro
-  view_entry: Ver Registro
-  list_entries: Listar Registros
+  # Entradas
+  entry: Entrada
+  entries: Entradas
+  create_entry: Criar Entrada
+  delete_entry: Excluir Entrada
+  view_entry: Ver Entrada
+  list_entries: Listar Entradas
 
   # Páginas
   page: Página
@@ -91,9 +91,9 @@ translations:
   incorrect_username: Nome de usuário não-localizado
   incorrect_password: Senha incorreta
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
-  entry_deleted: 'Registro excluído com sucesso!'
+  entry_deleted: 'Entrada excluída com sucesso!'
   page_saved: 'Página salva com sucesso!'
-  entry_saved: 'Registro salvo com sucesso!' 
+  entry_saved: 'Entrada salva com sucesso!' 
   member_saved: 'Usuário registrado com sucesso!'
 
   error: Erro
