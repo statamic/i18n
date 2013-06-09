@@ -12,9 +12,9 @@ translations:
   list: Listar
   none: Nenhum
   view: Visualizar
-  in: in
+  in: em
 
-  # Nav
+  # Navegação
   dashboard: Mural
   pages: Páginas
   members: Membros
@@ -23,7 +23,7 @@ translations:
   help: Ajuda
   view_site: Ver Site
   logout: Sair
-  logs: Logs
+  logs: Registros de sistema
 
   # Registros
   entry: Registro
@@ -43,9 +43,9 @@ translations:
   select_new_page_type: Selecione Novo Tipo de Página
   parent: Parent
 
-  update_available: update available
-  up_to_date: up to date
-  offline: The control panel is currently offline.
+  update_available: atualização disponível
+  up_to_date: em dia
+  offline: Painel de controle fora do ar.
 
   # Publicar
   title: Título
@@ -77,7 +77,7 @@ translations:
   first_name: Nome
   last_name: Sobrenome
   biography: Biografia
-  role: Role
+  role: Função
   member: Membro
   new_member: Novo Membro
 
