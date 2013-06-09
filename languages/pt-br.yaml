@@ -21,26 +21,26 @@ translations:
   account: Conta
   system: Sistema
   help: Ajuda
-  view_site: Ver Site
+  view_site: Ver site
   logout: Sair
   logs: Registros de sistema
 
   # Entradas
   entry: Entrada
   entries: Entradas
-  create_entry: Criar Entrada
-  delete_entry: Excluir Entrada
-  view_entry: Ver Entrada
-  list_entries: Listar Entradas
+  create_entry: Criar entrada
+  delete_entry: Excluir entrada
+  view_entry: Ver entrada
+  list_entries: Listar entradas
 
   # Páginas
   page: Página
-  new_top_level_page: Nova Página mãe
-  site_pages: Páginas do Site
-  new_child_page: Nova Página filha
-  view_page: Ver Página
+  new_top_level_page: Nova página mãe
+  site_pages: Páginas do site
+  new_child_page: Nova página filha
+  view_page: Ver página
   delete_page: Apagar página
-  select_new_page_type: Selecione Novo Tipo de Página
+  select_new_page_type: Selecione novo tipo de página
   parent: Mãe
 
   update_available: atualização disponível
@@ -54,10 +54,10 @@ translations:
   number: Número
   editing: Editando
   enter_title: Insira um título...
-  order_number: Número da Ordem
-  publish_date: Data de Publicação
-  publish_time: Horário da Publicação
-  save_publish: 'Salvar & Publicar'
+  order_number: Número da ordem
+  publish_date: Data de publicação
+  publish_time: Horário da publicação
+  save_publish: 'Salvar & publicar'
   content: Conteúdo
 
   # Status
@@ -71,9 +71,9 @@ translations:
   admin: Administrador
   username: Usuário
   password: Senha
-  password_confirmation: Confirmação de Senha
+  password_confirmation: Confirmação de senha
   type_again: 'Digite novamente, por favor'
-  encrypt_password: Encriptar a Senha?
+  encrypt_password: Encriptar a senha?
   first_name: Nome
   last_name: Sobrenome
   biography: Biografia
@@ -99,21 +99,21 @@ translations:
   error: Erro
   error_form_submission: 'Desculpe, um erro impediu o envio do formulário'
   are_you_sure: Tem certeza? Isto não pode ser desfeito.
-  access_denied: Acesso Bloqueado
+  access_denied: Acesso bloqueado
   enable_curl: cURL deve ser ativado para executar um teste de segurança.
 
   # Sistema
-  system_status: Status do Sistema
-  system_files_security_check: Verificação de Segurança dos Arquivos de Sistema
+  system_status: Status do sistema
+  system_files_security_check: Verificação de segurança dos arquivos de sistema
   folder_file: Pasta/Arquivo
   action_required: Ação necessária
   secure: Seguro
   unsecure: Inseguro
-  user_accounts_security_check: Verificação de Segurança das Contas de Usuário
+  user_accounts_security_check: Verificação de segurança das contas de usuário
   user_file: Arquivo de Usuário
   encrypted: Encriptado
-  unencrypted: Não-Encriptado
-  action_encrypt_password: Senha Encriptada
+  unencrypted: Não-encriptado
+  action_encrypt_password: Senha encriptada
   security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.",
   security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta.",
   security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta.",
