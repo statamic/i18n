@@ -54,7 +54,7 @@ translations:
   number: Número
   editing: Editando
   enter_title: Insira um título...
-  order_number: Número da ordem
+  order_number: Posição sequencial
   publish_date: Data de publicação
   publish_time: Horário da publicação
   save_publish: 'Salvar & publicar'
