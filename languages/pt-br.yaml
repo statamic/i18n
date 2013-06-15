@@ -114,11 +114,11 @@ translations:
   encrypted: Encriptado
   unencrypted: Não-encriptado
   action_encrypt_password: Senha encriptada
-  security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.",
-  security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta.",
-  security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta.",
-  security_user_files: "Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta..",
-  security_content_folder: "Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta.",
+  security_app_folder: "Sua pasta do aplicativo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
+  security_config_folder: "Sua pasta de configuração está acessível na web. É crítico que você proteja esta pasta."
+  security_settings_files: "Seus arquivos de configuração estão acessíveis na web. É crítico que você proteja esta pasta."
+  security_user_files: "Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta..."
+  security_content_folder: "Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
   security_template_files: "Seus arquivos de templates de temas estão acessíveis na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
 
 
