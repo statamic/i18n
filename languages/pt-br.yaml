@@ -49,7 +49,7 @@ translations:
 
   # Publicar
   title: Título
-  slug: Disco
+  slug: Identificador
   date: Data
   number: Número
   editing: Editando
