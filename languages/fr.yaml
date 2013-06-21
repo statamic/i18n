@@ -12,6 +12,7 @@ fr:
   list: Afficher
   none: Aucun
   view: Voir
+  in:  dans
 
   # Nav
   dashboard: Tableau de bord
@@ -22,9 +23,11 @@ fr:
   help: Aide
   view_site: Voir le site
   logout: Se déconnecter
+  logs:  Journaux
 
   # Entries
   entry: Article
+  entries:  Articles
   create_entry: Ajouter un nouvel article
   delete_entry: Supprimer l'article
   view_entry: Voir l'article
@@ -34,10 +37,15 @@ fr:
   page: Page
   new_top_level_page: Nouvelle page parent
   site_pages: Pages du site
-
   new_child_page: Nouvelle page enfant
   view_page: Voir la page
+  delete_page:  Supprimer la page
   select_new_page_type: Choisir le type de la nouvelle page
+  parent:  Parent
+
+  update_available:  Mise à jour disponible
+  up_to_date:  à jour
+  offline:  Le panneau de contrôle est actuellement hors ligne.
 
   # Publish
   title: Titre
