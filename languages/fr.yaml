@@ -39,7 +39,7 @@ fr:
   # Pages
   page: Page
   new_top_level_page: Nouvelle page parent
-  site_pages: Pages du site
+  site_pages: pages du site
   new_child_page: Nouvelle page enfant
   view_page: Voir la page
   delete_page: Supprimer la page
@@ -63,7 +63,7 @@ fr:
   save: Enregistrer
   save_publish: "Enregistrer & Publier"
   content: Contenu
-  new: Nouveau
+  new: Nouvelle
 
   # Statuses
   status: État
@@ -114,8 +114,8 @@ fr:
   enable_curl: cURL doit être activé pour effectuer un test de sécurité.
 
   # Security
-  security_status: État de sureté
-  security_files_security_check: Contrôle de sureté des fichiers du site
+  security_status: Point sur la sécurité
+  security_files_security_check: Contrôle de sécurité des fichiers du site
   folder_file: Dossier/Fichier
   action_required: Action requise
   secure: Sécurisé
