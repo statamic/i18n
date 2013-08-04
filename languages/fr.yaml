@@ -17,6 +17,7 @@ fr:
   # Nav
   dashboard: Tableau de bord
   pages: Pages
+  content: Contenu
   members: Utilisateurs
   account: Compte utilisateur
   system: Système
@@ -28,6 +29,8 @@ fr:
   # Entries
   entry: Article
   entries: Articles
+  Create: Créer
+  new_entry: Nouvel article
   create_entry: Ajouter un nouvel article
   delete_entry: Supprimer l'article
   view_entry: Voir l'article
@@ -57,8 +60,10 @@ fr:
   order_number: Numéro d'ordre
   publish_date: Date de publication
   publish_time: Heure de publication
+  save: Enregistrer
   save_publish: "Enregistrer & Publier"
   content: Contenu
+  new: Nouveau
 
   # Statuses
   status: État
@@ -69,6 +74,7 @@ fr:
   # Members and forms
   login: Connexion
   admin: Admin
+  email: Email
   username: Nom d'utilisateur
   password: Mot de passe
   password_confirmation: Confirmation du mot de passe
@@ -80,6 +86,10 @@ fr:
   role: Rôle
   member: Utilisateur
   new_member: Nouvel utilisateur
+
+  # Logs
+  site_logs: Journaux du site
+  clear_logs: Effacer tous les journaux
 
   # Messages, Errors & Confirmations
   admin_404: "Page non trouvée."
@@ -95,6 +105,7 @@ fr:
   page_saved: "Page enregistrée avec succès !"
   entry_saved: "Article enregistré avec succès !"
   member_saved: "Utilisateur enregistré avec succès !"
+  viewing_all: Affichage de tous/toutes les
 
   error: Erreur
   error_form_submission: "Désolé, une erreur a empêché l'envoi du formulaire"
@@ -102,9 +113,9 @@ fr:
   access_denied: Accès refusé
   enable_curl: cURL doit être activé pour effectuer un test de sécurité.
 
-  # System
-  system_status: État du système
-  system_files_security_check: Contrôle de sécurité des fichiers système
+  # Security
+  security_status: État de sureté
+  security_files_security_check: Contrôle de sureté des fichiers du site
   folder_file: Dossier/Fichier
   action_required: Action requise
   secure: Sécurisé
@@ -120,3 +131,4 @@ fr:
   security_user_files: "Vos fichiers 'user' sont accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_content_folder: "Votre dossier 'content' est accessible depuis le web. Bien que non essentiel, protéger ce dossier est une pratique recommandée.",
   security_template_files: "Vos fichiers modèles de thème sont accessible depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
+  security_logs_folder: "Votre dossier 'logs' est accessible depuis le web. Il est essentiel que vous protégiez ce dossier."

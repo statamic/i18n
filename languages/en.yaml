@@ -17,6 +17,7 @@ translations:
   # Nav
   dashboard: Dashboard
   pages: Pages
+  content: Content
   members: Members
   account: Account
   system: System
@@ -28,6 +29,8 @@ translations:
   # Entries
   entry: Entry
   entries: Entries
+  create: Create
+  new_entry: New Entry
   create_entry: Create Entry
   delete_entry: Delete Entry
   view_entry: View Entry
@@ -57,8 +60,10 @@ translations:
   order_number: Order Number
   publish_date: Publish Date
   publish_time: Publish Time
+  save: Save
   save_publish: 'Save & Publish'
   content: Content
+  new: New
 
   # Statuses
   status: Status
@@ -69,6 +74,7 @@ translations:
   # Members and forms
   login: Log in
   admin: Admin
+  email: Email
   username: Username
   password: Password
   password_confirmation: Password Confirmation
@@ -80,6 +86,10 @@ translations:
   role: Role
   member: Member
   new_member: New Member
+
+  # Logs
+  site_logs: Site Logs
+  clear_logs: Clear all logs
 
   # Messages, Errors & Confirmations
   admin_404: 'That page did not exist, so we sent you here instead.'
@@ -95,6 +105,7 @@ translations:
   page_saved: 'Page saved successfully!'
   entry_saved: 'Entry saved successfully!'
   member_saved: 'Member saved successfully!'
+  viewing_all: Viewing all
 
   error: Error
   error_form_submission: 'Sorry, an error prevented the form submission.'
@@ -102,9 +113,9 @@ translations:
   access_denied: Access Denied
   enable_curl: cURL must be enabled to perform a security test.
 
-  # System
-  system_status: System Status
-  system_files_security_check: System Files Security Check
+  # Security
+  security_status: Security Status
+  security_files_security_check: Site Files Security Check
   folder_file: Folder/File
   action_required: Action Required
   secure: Secure
@@ -120,3 +131,4 @@ translations:
   security_user_files: "Your user files are accessible to the web. It is critical that you protect these files."
   security_content_folder: "Your content folder is accessible to the web. While not critical, it is best practice to protect this folder."
   security_template_files: "Your theme template files are accessible to the web. While not critical, it is best practice to protect these files."
+  security_logs_folder: "Your logs folder is accessible to the web. It is critical that you protect this folder."
