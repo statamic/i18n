@@ -15,6 +15,7 @@ fr:
   in: dans
 
   # Nav
+  home: Accueil
   dashboard: Tableau de bord
   pages: Pages
   content: Contenu
@@ -45,6 +46,7 @@ fr:
   delete_page: Supprimer la page
   select_new_page_type: Choisir le type de la nouvelle page
   parent: Parent
+  or: ou
 
   update_available: Mise à jour disponible
   up_to_date: Vous êtes à jour !
@@ -95,8 +97,8 @@ fr:
   admin_404: "Page non trouvée."
   already_exists: existe déjà
   is_required: requis
-  content_not_writable: Dossier content non modifiable
-  users_not_writable: Dossier users non modifiable
+  content_not_writable: "Oups, votre dossier 'content' et/ou ses fichiers ne sont pas modifiables. Vous devez corriger cela."
+  users_not_writable: "Oups, votre dossier 'users' et/ou ses fichiers ne sont pas modifiables. Vous devez corriger cela."
   msg_password_encrypted: "Mot de passe chiffré. SVP, reconnectez-vous."
   incorrect_username: Nom d'utilisateur incorrect
   incorrect_password: Mot de passe incorrect

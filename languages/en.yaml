@@ -15,6 +15,7 @@ translations:
   in: in
 
   # Nav
+  home: Home
   dashboard: Dashboard
   pages: Pages
   content: Content
@@ -45,6 +46,7 @@ translations:
   delete_page: Delete Page
   select_new_page_type: Select New Page Type
   parent: Parent
+  or: or
 
   update_available: update available
   up_to_date: up to date
@@ -95,8 +97,8 @@ translations:
   admin_404: 'That page did not exist, so we sent you here instead.'
   already_exists: already exists
   is_required: is required
-  content_not_writable: Content folder not writable
-  users_not_writable: Users folder not writable
+  content_not_writable: "Whoops, your content folder and/or files aren't writable. You'll want to fix that."
+  users_not_writable: "Whoops, your users folder and/or files aren't writable. You'll want to fix that."
   msg_password_encrypted: 'Password has been encrypted. Please login again.'
   incorrect_username: Username not found
   incorrect_password: Incorrect password
