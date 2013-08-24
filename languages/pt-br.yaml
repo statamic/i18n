@@ -1,7 +1,7 @@
 #####################################
 #
 #  Brazilian Portuguese (by MarchiMedia)
-# 
+#
 # ###################################
 
 translations:
@@ -15,8 +15,10 @@ translations:
   in: em
 
   # Navegação
+  home: Início
   dashboard: Mural
   pages: Páginas
+  content: Conteúdo
   members: Usuários
   account: Conta
   system: Sistema
@@ -28,6 +30,8 @@ translations:
   # Entradas
   entry: Entrada
   entries: Entradas
+  create: Criar
+  new_entry: Nova entrada
   create_entry: Criar entrada
   delete_entry: Excluir entrada
   view_entry: Ver entrada
@@ -42,6 +46,7 @@ translations:
   delete_page: Apagar página
   select_new_page_type: Selecione novo tipo de página
   parent: Mãe
+  or: ou
 
   update_available: atualização disponível
   up_to_date: está em dia
@@ -57,8 +62,10 @@ translations:
   order_number: Posição sequencial
   publish_date: Data de publicação
   publish_time: Horário da publicação
+  save: Salvar
   save_publish: 'Salvar & publicar'
   content: Conteúdo
+  new: Novo
 
   # Status
   status: Status
@@ -69,6 +76,7 @@ translations:
   # Usuários and formulários
   login: Entrar
   admin: Administrador
+  email: E-mail
   username: Usuário
   password: Senha
   password_confirmation: Confirmação de senha
@@ -80,6 +88,10 @@ translations:
   role: Função
   member: Usuário
   new_member: Novo usuário
+
+  # Logs
+  site_logs: Registros do site
+  clear_logs: Apagar registros
 
   # Mensagens, Erros & Confirmações
   admin_404: 'A página não existe, então nós enviamos você para este local.'
@@ -93,8 +105,9 @@ translations:
   incorrect_username_password: 'Nome de usuário ou senha incorreta. Tente novamente.'
   entry_deleted: 'Entrada excluída!'
   page_saved: 'Página salva!'
-  entry_saved: 'Entrada salva!' 
+  entry_saved: 'Entrada salva!'
   member_saved: 'Usuário registrado!'
+  viewing_all: 'Visualizando:'
 
   error: Erro
   error_form_submission: 'Desculpe, um erro impediu o envio do formulário'
@@ -120,5 +133,4 @@ translations:
   security_user_files: "Seu arquivos de usuário estão acessíveis na web. É crítico que você proteja esta pasta..."
   security_content_folder: "Sua pasta de conteúdo está acessível na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
   security_template_files: "Seus arquivos de templates de temas estão acessíveis na web. Apesar de não crítico, a melhor prática é proteger esta pasta."
-
-
+  security_logs_folder: "Os registros do site estão acessíveis na web. É crítico que você proteja esta pasta."

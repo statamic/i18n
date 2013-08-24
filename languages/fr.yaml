@@ -4,7 +4,7 @@
 #
 # ###################################
 
-fr:
+translations:
 
   # Universal
   add: Ajouter
@@ -40,7 +40,7 @@ fr:
   # Pages
   page: Page
   new_top_level_page: Nouvelle page parent
-  site_pages: pages du site
+  site_pages: Pages du site
   new_child_page: Nouvelle page enfant
   view_page: Voir la page
   delete_page: Supprimer la page
@@ -107,7 +107,7 @@ fr:
   page_saved: "Page enregistrée avec succès !"
   entry_saved: "Article enregistré avec succès !"
   member_saved: "Utilisateur enregistré avec succès !"
-  viewing_all: Affichage de tous/toutes les
+  viewing_all: Affichage des
 
   error: Erreur
   error_form_submission: "Désolé, une erreur a empêché l'envoi du formulaire"
