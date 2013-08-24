@@ -116,8 +116,8 @@ translations:
   enable_curl: cURL deve ser ativado para executar um teste de segurança.
 
   # Sistema
-  system_status: Status do sistema
-  system_files_security_check: Verificação de segurança dos arquivos de sistema
+  security_status: Status do sistema
+  security_files_security_check: Verificação de segurança dos arquivos de sistema
   folder_file: Pasta/Arquivo
   action_required: Ação necessária
   secure: Seguro
