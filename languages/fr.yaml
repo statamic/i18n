@@ -30,7 +30,7 @@ translations:
   # Entries
   entry: Article
   entries: Articles
-  Create: Créer
+  create: Créer
   new_entry: Nouvel article
   create_entry: Ajouter un nouvel article
   delete_entry: Supprimer l'article
