@@ -10,7 +10,7 @@ translations:
   add: Ajouter
   delete: Supprimer
   list: Afficher
-  none: Aucun
+  none: Aucune
   view: Voir
   in: dans
 
@@ -132,5 +132,5 @@ translations:
   security_settings_files: "Vos fichiers 'settings' sont accessibles depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_user_files: "Vos fichiers 'user' sont accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_content_folder: "Votre dossier 'content' est accessible depuis le web. Bien que non essentiel, protéger ce dossier est une pratique recommandée.",
-  security_template_files: "Vos fichiers modèles de thème sont accessible depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
+  security_template_files: "Vos fichiers modèles de thème sont accessibles depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
   security_logs_folder: "Votre dossier 'logs' est accessible depuis le web. Il est essentiel que vous protégiez ce dossier."
