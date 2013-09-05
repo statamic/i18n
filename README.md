@@ -29,3 +29,4 @@ We've included a `template.yaml` file with all the fields emptied out and ready 
 - Polish
 - Russian
 - Spanish
+- Swedish

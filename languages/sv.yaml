@@ -4,7 +4,7 @@
 # 
 # ###################################
 
-sv:
+translations:
 
   # Universal
   add: Lägg till
@@ -12,19 +12,26 @@ sv:
   list: Lista
   none: Ingen
   view: Visa
+  in: i
 
   # Nav
+  home: Hem
   dashboard: Verktygspanel
   pages: Sidor
+  content: Innehåll
   members: Medlemmar
   account: Konto
   system: System
   help: Hjälp
-  view_site: Visa site
+  view_site: Visa webbplats
   logout: Logga ut
+  logs: Loggar
 
   # Entries
   entry: Inlägg
+  entries: Inlägg
+  create: Skapa
+  new_entry: Nytt inlägg
   create_entry: Skapa inlägg
   delete_entry: Ta bort inlägg
   view_entry: Visa inlägg
@@ -33,11 +40,17 @@ sv:
   # Pages
   page: Sida
   new_top_level_page: Ny toppsida
-  site_pages: Sitesidor
-
+  site_pages: Webbplatssidor
   new_child_page: Ny undersida
   view_page: Visa sida
+  delete_page: Ta bort sida
   select_new_page_type: Välj ny sidtyp
+  parent: Förälder
+  or: eller
+
+  update_available: uppdatering tillgänglig
+  up_to_date: uppdaterad
+  offline: Kontrollpaneln är för närvarande offline.
 
   # Publish
   title: Titel
@@ -49,8 +62,10 @@ sv:
   order_number: Sorteringsnummer
   publish_date: Publiseringsdatum
   publish_time: Publiseringstid
+  save: Spara
   save_publish: 'Spara & Publisera'
   content: Innehåll
+  new: Ny
 
   # Statuses
   status: Status
@@ -61,6 +76,7 @@ sv:
   # Members and forms
   login: Inloggning
   admin: Administratör
+  email: E-post
   username: Användarnamn
   password: Lösenord
   password_confirmation: Bekräfta lösenord
@@ -72,6 +88,10 @@ sv:
   role: Roll
   member: Medlem
   new_member: Ny medlem
+
+  # Logs
+  site_logs: Webbplatsloggar
+  clear_logs: Ta bort alla loggar
 
   # Messages, Errors & Confirmations
   admin_404: 'Sidan fanns inte, så vi skickade hit dig istället.'
@@ -87,6 +107,7 @@ sv:
   page_saved: 'Sida sparad!'
   entry_saved: 'Inlägg sparat!' 
   member_saved: 'Medlem sparad!'
+  viewing_all: Visar alla
 
   error: Fel
   error_form_submission: 'Ett fel hindrade forumläret från att skickas.'
@@ -94,14 +115,14 @@ sv:
   access_denied: Tillgång nekad
   enable_curl: cURL måste aktiveras för att genomföra säkerhetstesten.
 
-  # System
+  # Security
   system_status: Systemstatus
   system_files_security_check: Systemfiler säkerhetskontroll
   folder_file: Mapp/Fil
   action_required: Åtgärd Krävs
   secure: Säker
   unsecure: Osäker
-  user_accounts_security_check: Användarkontons säkerhetskontroll
+  user_accounts_security_check: Användarkonton säkerhetskontroll
   user_file: Användarfil
   encrypted: Krypterad
   unencrypted: Okrypterad
@@ -112,3 +133,4 @@ sv:
   security_user_files: "Dina användarfiler är tillgängliga från webben. Det är viktigt att du skyddar dessa filer.",
   security_content_folder: "Din innehållsmapp är tillgänglig från webben. Även om det inte är allvarligt, så är det bäst att skydda mappen.",
   security_template_files: "Dina tema-mallfiler är tillgängliga från webben. Även om det inte är allvarligt, så är det bäst att skydda dessa filer."
+  security_logs_folder: "Din loggmapp är tillgänglig från webben. Det är viktigt att du skyddar den här mappen."
