@@ -1,8 +1,7 @@
 #####################################
 #
-#  German (by maxx) 
+#  German (by maxx & felics) 
 #  #!tB declares Translations I'm not happy with
-#  #!tB sind noch nicht perfekt
 # ###################################
 
 de:
@@ -13,19 +12,26 @@ de:
   list: Auflisten
   none: Nichts #!tB
   view: Anzeigen
+  in: in
 
   # Nav
+  home: Home
   dashboard: Dashboard
   pages: Seiten
+  content: Inhalt
   members: Benutzer
   account: Account
   system: System
   help: Hilfe
   view_site: Seite anzeigen
   logout: Logout
+  logs: Logs
 
   # Entries
   entry: Eintrag
+  entries: Einträge
+  create: Erstellen
+  new_entry: Neuer Eintrag
   create_entry: Eintrag erstellen
   delete_entry: Eintrag löschen
   view_entry: Eintrag anzeigen
@@ -35,10 +41,16 @@ de:
   page: Seite
   new_top_level_page: Neue Hauptseite
   site_pages: Webseiten Seiten #!tB what is that ?
-  
   new_child_page: Neue Unterseite
   view_page: Seite anzeigen
-  select_new_page_type: Neue Seitenart auswählen #!tB
+  delete_page: Seite löschen
+  select_new_page_type: Neue Seitenart auswählen
+  parent: Übergeordnet
+  or: oder
+  
+  update_available: Update verfügbar
+  up_to_date: Auf dem neuesten Stand
+  offline: Das Controlpanel ist zur Zeit offline.
 
   # Publish
   title: Titel
@@ -46,12 +58,14 @@ de:
   date: Datum
   number: Nummer
   editing: in Bearbeitung #!tB
-  enter_title: Titel eingeben
+  enter_title: Titel eingeben...
   order_number: Ordnungsnummer #!tB
   publish_date: Veröffentlichungsdatum 
   publish_time: Veröffentlichungszeitpunkt 
+  save: Speichern
   save_publish: 'Speichern & Veröffentlichen'
   content: Inhalt
+  new: Neu
 
   # Statuses
   status: Status
@@ -62,17 +76,22 @@ de:
   # Members and forms
   login: Login
   admin: Admin
+  email: Email
   username: Benutzername
   password: Passwort
   password_confirmation: Passwortbestätigung
   type_again: 'Bitte noch einmal eingeben'
-  encrypt_password: Passwort verschlüsseln
+  encrypt_password: Passwort verschlüsseln?
   first_name: Vorname
   last_name: Nachname
   biography: Biografie
   role: Rolle
   member: Benutzer
   new_member: Neuer Benutzer
+  
+  # Logs
+  site_logs: Seiten Logs
+  clear_logs: Alle Logs entfernen
 
   # Messages, Errors & Confirmations
   admin_404: 'Diese Seite existiert nicht.'
@@ -88,6 +107,7 @@ de:
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
   member_saved: 'Benutzer erfolgreich gespeichert!'
+  viewing_all: Sie betrachten alle
 
   error: Fehler
   error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
@@ -95,7 +115,7 @@ de:
   access_denied: Zugriff verweigert
   enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
-  # System
+  # Security
   system_status: System Status
   system_files_security_check: Sicherheitstest der Systemdateien
   folder_file: Ordner/Datei
@@ -113,5 +133,6 @@ de:
   security_user_files: "Deine Benutzerdateien ist über das Web erreichbar. Es wichtig, dass Sie diesen Ordner schützen.",
   security_content_folder: "Dein Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch aber Sie sollten diesen Ordner schützen.",
   security_template_files: "Deine Gestaltungsvorlagen (Templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
+  security_logs_folder: "Ihre Logs sind über das Web lesbar. Es ist wichtig, dass Sie diesen Ordner schützen."
 
 
