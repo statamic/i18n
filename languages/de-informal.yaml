@@ -102,16 +102,16 @@ translations:
   msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
-  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuchen Sie noch einmal.'
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuche noch einmal.'
   entry_deleted: 'Eintrag erfolgreich gelöscht!'
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
   member_saved: 'Benutzer erfolgreich gespeichert!'
-  viewing_all: Sie betrachten alle
+  viewing_all: Du betrachtest alle
 
   error: Fehler
   error_form_submission: 'Ein Fehler verhindert das Senden des Formulars'
-  are_you_sure: Sind Sie sicher? Dies kann nicht rückgängig gemacht werden.
+  are_you_sure: Bist du sicher? Dies kann nicht rückgängig gemacht werden.
   access_denied: Zugriff verweigert
   enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
