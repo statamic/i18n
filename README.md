@@ -25,6 +25,7 @@ We've included a `template.yaml` file with all the fields emptied out and ready 
 - German (formal)
 - German (informal)
 - Hungarian
+- Italian
 - Korean
 - Polish
 - Russian
