@@ -1,10 +1,10 @@
 #####################################
 #
-#  Danish (by Henning Horn)
-# 
+#  Danish (by Henning Horn and Kasper Isager)
+#
 # ###################################
 
-da:
+translations:
 
   # Universal
   add: Tilføj
@@ -12,19 +12,26 @@ da:
   list: List
   none: Ingen
   view: Vis
+  in: i
 
   # Nav
+  home: Hjem
   dashboard: Dashboard
   pages: Sider
+  content: Indhold
   members: Medlemmer
   account: Konto
   system: System
   help: Hjælp
   view_site: Vis site
   logout: Log ud
+  logs: Logs
 
   # Entries
   entry: Indlæg
+  entries: Indlæg
+  create: Opret
+  new_entry: Nyt indlæg
   create_entry: Opret indlæg
   delete_entry: Slet indlæg
   view_entry: Vis indlæg
@@ -34,10 +41,16 @@ da:
   page: Side
   new_top_level_page: Ny topside
   site_pages: Site sider
-  
   new_child_page: Ny underside
   view_page: Vis side
+  delete_page: Slet side
   select_new_page_type: Vælg ny sidetype
+  parent: Forælder
+  or: Eller
+
+  update_available: opdatering tilgængelig
+  up_to_date: ingen nye opdateringer
+  offline: Kontrolpanelet er offline.
 
   # Publish
   title: Titel
@@ -49,8 +62,10 @@ da:
   order_number: Rækkefølgenummer
   publish_date: Udgivelsesdato
   publish_time: Udgivelsestidspunkt
+  save: Gem
   save_publish: 'Gem & publiser'
   content: Indhold
+  new: Ny
 
   # Statuses
   status: Status
@@ -61,6 +76,7 @@ da:
   # Members and forms
   login: Log ind
   admin: Admin
+  email: Email
   username: Brugernavn
   password: Adgangskode
   password_confirmation: Bekræft adgangskode
@@ -72,6 +88,10 @@ da:
   role: Rolle
   member: Medlem
   new_member: Nyt medlem
+
+  # Logs
+  site_logs: Site logs
+  clear_logs: Ryd alle logs
 
   # Messages, Errors & Confirmations
   admin_404: 'Siden eksisterer ikke, så vi sendte dig herhen i stedet.'
@@ -85,8 +105,9 @@ da:
   incorrect_username_password: 'Forkert brugernavn eller password. Prøv igen.'
   entry_deleted: 'Indlæg slettet med succes!'
   page_saved: 'Side gemt med succes!'
-  entry_saved: 'Indlæg gemt med succes!' 
+  entry_saved: 'Indlæg gemt med succes!'
   member_saved: 'Medlem gemt med succes!'
+  viewing_all: Viser alle
 
   error: Fejl
   error_form_submission: 'Beklager, en fejl forhindrede formularen i at blive sendt'
@@ -112,4 +133,4 @@ da:
   security_user_files: "Dine brugerfiler er tilgængelige via nettet. Det er kritisk at du beskytter denne mappe.",
   security_content_folder: "Din content-mappe er tilgængelig via nettet. Det er ikke kritisk, men den bedste praksis er at beskytte denne mappe.",
   security_template_files: "Dine tema-filer er tilgængelig via nettet. Det er ikke kritisk, men den bedste praksis er at beskytte denne mappe."
-  
+  security_logs_folder: "Din log-mappe er tilgængelig via nettet. Det er kritisk at du beskytter denne mappe."
