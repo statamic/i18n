@@ -4,13 +4,13 @@
 #
 # ###################################
 
-fr:
+translations:
 
   # Universal
   add: Ajouter
   delete: Supprimer
   list: Afficher
-  none: Aucun
+  none: Aucune
   view: Voir
   in: dans
 
@@ -30,7 +30,7 @@ fr:
   # Entries
   entry: Article
   entries: Articles
-  Create: Créer
+  create: Créer
   new_entry: Nouvel article
   create_entry: Ajouter un nouvel article
   delete_entry: Supprimer l'article
@@ -40,7 +40,7 @@ fr:
   # Pages
   page: Page
   new_top_level_page: Nouvelle page parent
-  site_pages: pages du site
+  site_pages: Pages du site
   new_child_page: Nouvelle page enfant
   view_page: Voir la page
   delete_page: Supprimer la page
@@ -107,7 +107,7 @@ fr:
   page_saved: "Page enregistrée avec succès !"
   entry_saved: "Article enregistré avec succès !"
   member_saved: "Utilisateur enregistré avec succès !"
-  viewing_all: Affichage de tous/toutes les
+  viewing_all: Affichage des
 
   error: Erreur
   error_form_submission: "Désolé, une erreur a empêché l'envoi du formulaire"
@@ -132,5 +132,5 @@ fr:
   security_settings_files: "Vos fichiers 'settings' sont accessibles depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_user_files: "Vos fichiers 'user' sont accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_content_folder: "Votre dossier 'content' est accessible depuis le web. Bien que non essentiel, protéger ce dossier est une pratique recommandée.",
-  security_template_files: "Vos fichiers modèles de thème sont accessible depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
+  security_template_files: "Vos fichiers modèles de thème sont accessibles depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
   security_logs_folder: "Votre dossier 'logs' est accessible depuis le web. Il est essentiel que vous protégiez ce dossier."
