@@ -1,8 +1,8 @@
-#####################################
+#########################################################################
 #
-#  French (by Andrea DeMers @ademers)
+#  French (by Andrea DeMers @ademers and Emmanuel Beauchamps @putitinred)
 #
-# ###################################
+# #######################################################################
 
 translations:
 
@@ -11,8 +11,8 @@ translations:
   delete: Supprimer
   list: Afficher
   none: Aucune
-  view: Voir
-  in: dans
+  view: Visualiser
+  in: "dans "
 
   # Nav
   home: Accueil
@@ -32,24 +32,32 @@ translations:
   entries: Articles
   create: Créer
   new_entry: Nouvel article
+  editing_entry: "Modification de l'article "
   create_entry: Ajouter un nouvel article
   delete_entry: Supprimer l'article
   view_entry: Voir l'article
   list_entries: Afficher les articles
+  take_action: Action
+  delete_entries: Supprimer les articles
+  confirm_delete: Oui, je confirme
 
   # Pages
   page: Page
+  edit_page: "Modifier la page "
+  editing_page: Modification de la page
   new_top_level_page: Nouvelle page parent
   site_pages: Pages du site
   new_child_page: Nouvelle page enfant
   view_page: Voir la page
   delete_page: Supprimer la page
   select_new_page_type: Choisir le type de la nouvelle page
-  parent: Parent
+  parent: "Parent "
   or: ou
+  pagedelete_confirm: "Êtes-vous certain de vouloir supprimer cette page ?"
 
   update_available: Mise à jour disponible
   up_to_date: Vous êtes à jour !
+
   offline: Le panneau de contrôle est actuellement hors ligne.
 
   # Publish
@@ -68,7 +76,7 @@ translations:
   new: Nouvelle
 
   # Statuses
-  status: État
+  status: Statut
   live: Publié
   draft: Brouillon
   hidden: Caché
@@ -80,7 +88,7 @@ translations:
   username: Nom d'utilisateur
   password: Mot de passe
   password_confirmation: Confirmation du mot de passe
-  type_again: "SVP, saisissez de nouveau"
+  type_again: "SVP, entrez-le de nouveau"
   encrypt_password: Chiffrer le mot de passe ?
   first_name: Prénom
   last_name: Nom
@@ -88,36 +96,75 @@ translations:
   role: Rôle
   member: Utilisateur
   new_member: Nouvel utilisateur
+  creating_member: Création d'un nouvel utilisateur
+  editing_member: "Modification de l'utilisateur : "
 
   # Logs
   site_logs: Journaux du site
   clear_logs: Effacer tous les journaux
+  log_file: Votre fichier journal
+  log_unwritable: n'est pas inscriptible, donc les journaux ne peuvent être écrits.
+  showing: Affichage de
+  messages_all: tous les messages
+  messages_debug: seulement les messages de débogage
+  messages_info: seulement les messages d'info
+  messages_warn: seulement les messages d'alerte
+  messages_error: seulement les messages d'erreur
+  messages_fatal: seulement les messages critiques
+  info_plus: les messages d'info ou plus critiques
+  warn_plus: les messages d'alerte ou plus critiques
+  error_plus: les messages d'erreur ou plus critiques
+  messages_happened: qui ont été émis le
+  messages_level: Niveau
+  messages_when: Quand
+  messages_what: Quelle origine
+  messages_page: Page
+  messages_message: Message
+  log_filter_nomessages: Ce journal existe bien, mais ne contient aucun message avec ce filtre.
+  log_nomessages: Ce journal existe bien, mais il n'y a aucun message.
+  log_nomessages_logged: Aucun message n'a été journalisé pour l'instant.
+  logging_yes: "Ce site <strong>journalise</strong> les messages."
+  logging_no: "Ce site <strong>ne journalise pas</strong> les messages."
 
-  # Messages, Errors & Confirmations
+  log_messages: "Les messages sont de ce niveau ou plus critiques : "
+  log_turning_on: "Pour activer la journalisation, définissez la variable <code>_log_enabled</code> à <code>vrai (true)</code> dans le fichier <code>_config/settings.yaml</code>."
+
+ # Messages, Errors & Confirmations
+  site_unlicensed: Ce site n'est pas enregistré. Merci d'acheter puis de saisir votre clef de licence.
   admin_404: "Page non trouvée."
-  already_exists: existe déjà
+  already_exists: déjà existant
   is_required: requis
+  content_not_found: "Contenu introuvable !"
   content_not_writable: "Oups, votre dossier 'content' et/ou ses fichiers ne sont pas modifiables. Vous devez corriger cela."
   users_not_writable: "Oups, votre dossier 'users' et/ou ses fichiers ne sont pas modifiables. Vous devez corriger cela."
   msg_password_encrypted: "Mot de passe chiffré. SVP, reconnectez-vous."
+  password_confirmation_required: " et confirmation sont obligatoires"
+  password_confirmation_match: " et confirmation ne sont pas identiques"
   incorrect_username: Nom d'utilisateur incorrect
   incorrect_password: Mot de passe incorrect
   incorrect_username_password: "Nom d'utilisateur ou mot de passe incorrect. SVP, essayez à nouveau"
   entry_deleted: "Article supprimé avec succès !"
+  entries_deleted: "Articles supprimés avec succès !"
+  page_deleted: "Page supprimée avec succès !"
+  page_unable_delete: "Impossible de supprimer la page."
+  member_deleted: "Utilisateur supprimé avec succès !"
   page_saved: "Page enregistrée avec succès !"
   entry_saved: "Article enregistré avec succès !"
   member_saved: "Utilisateur enregistré avec succès !"
   viewing_all: Affichage des
 
   error: Erreur
-  error_form_submission: "Désolé, une erreur a empêché l'envoi du formulaire"
-  are_you_sure: Êtes-vous certain(e) ? Cette action ne peut être annulée.
+  error_form_submission: "Désolé, l'erreur suivante a empêché l'envoi du formulaire :"
+  are_you_sure: Êtes-vous certain(e) ? Cette action ne peut être annulée !
   access_denied: Accès refusé
   enable_curl: cURL doit être activé pour effectuer un test de sécurité.
 
   # Security
   security_status: Point sur la sécurité
   security_files_security_check: Contrôle de sécurité des fichiers du site
+  secure_status: Statut
+  password_status: Statut du mot de passe
+  curl_needed: "Vous devez activer cURL sur votre serveur afin que la sécurité de votre installation soit automatiquement contrôlée."
   folder_file: Dossier/Fichier
   action_required: Action requise
   secure: Sécurisé
@@ -130,7 +177,12 @@ translations:
   security_app_folder: "Votre dossier 'application' est accessible depuis le web. Bien que non essentiel, protéger ce dossier est une pratique recommandée.",
   security_config_folder: "Votre dossier 'config' est accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_settings_files: "Vos fichiers 'settings' sont accessibles depuis le web. Il est essentiel que vous protégiez ce dossier.",
-  security_user_files: "Vos fichiers 'user' sont accessible depuis le web. Il est essentiel que vous protégiez ce dossier.",
+  security_user_files: "Vos fichiers 'user' sont accessibles depuis le web. Il est essentiel que vous protégiez ce dossier.",
   security_content_folder: "Votre dossier 'content' est accessible depuis le web. Bien que non essentiel, protéger ce dossier est une pratique recommandée.",
   security_template_files: "Vos fichiers modèles de thème sont accessibles depuis le web. Bien que non essentiel, protéger ces fichiers est une pratique recommandée."
   security_logs_folder: "Votre dossier 'logs' est accessible depuis le web. Il est essentiel que vous protégiez ce dossier."
+
+  # Location
+  location_name: Nom de l'emplacement
+  latitude: Latitude
+  longitude: Longitude

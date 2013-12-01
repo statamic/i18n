@@ -32,13 +32,19 @@ translations:
   entries: Entries
   create: Create
   new_entry: New Entry
+  editing_entry: Editing entry
   create_entry: Create Entry
   delete_entry: Delete Entry
   view_entry: View Entry
   list_entries: List Entries
+  take_action: Take Action
+  delete_entries: Delete Entries
+  confirm_delete: Yes I'm Sure
 
   # Pages
   page: Page
+  edit_page: Edit Page
+  editing_page: Editing Page
   new_top_level_page: New Top Level Page
   site_pages: Site Pages
   new_child_page: New Child Page
@@ -47,6 +53,7 @@ translations:
   select_new_page_type: Select New Page Type
   parent: Parent
   or: or
+  pagedelete_confirm: "Are you sure you wish to delete this page?"
 
   update_available: update available
   up_to_date: up to date
@@ -63,7 +70,7 @@ translations:
   publish_date: Publish Date
   publish_time: Publish Time
   save: Save
-  save_publish: 'Save & Publish'
+  save_publish: "Save & Publish"
   content: Content
   new: New
 
@@ -80,7 +87,7 @@ translations:
   username: Username
   password: Password
   password_confirmation: Password Confirmation
-  type_again: 'Type it again, please'
+  type_again: "Type it again, please"
   encrypt_password: Encrypt Password?
   first_name: First Name
   last_name: Last Name
@@ -88,29 +95,64 @@ translations:
   role: Role
   member: Member
   new_member: New Member
+  creating_member: Creating new member
+  editing_member: "Editing member: "
 
   # Logs
   site_logs: Site Logs
   clear_logs: Clear all logs
+  log_file: Your log file
+  log_unwritable: is not writable, and thus, logs cannot be written.
+  showing: Showing
+  messages_all: all messages
+  messages_debug: only debug messages
+  messages_info: only info messages
+  messages_warn: only warn messages
+  messages_error: only error messages
+  messages_fatal: only fatal messages
+  info_plus: info messages or worse
+  warn_plus: warn messages or worse
+  error_plus: error messages or worse
+  messages_happened: that happened on
+  messages_level: Level
+  messages_when: When
+  messages_what: What Caused This
+  messages_page: Page
+  messages_message: Message
+  log_filter_nomessages: "This log file exists, but contains no messages with this filter."
+  log_nomessages: "This log file exists, but there are no messages."
+  log_nomessages_logged: "No messages have been logged yet."
+  logging_yes: "This site <strong>is</strong> logging messages."
+  logging_no: "This site <strong>is not</strong> logging messages."
+  log_messages: "Messages are from the following level or worse: "
+  log_turning_on: "To turn on logging, set <code>_log_enabled</code> to <code>true</code> in <code>_config/settings.yaml</code>."
 
   # Messages, Errors & Confirmations
-  admin_404: 'That page did not exist, so we sent you here instead.'
+  site_unlicensed: This site is unlicensed. Please purchase and enter your license key.
+  admin_404: "That page did not exist, so we sent you here instead."
   already_exists: already exists
   is_required: is required
+  content_not_found: "Content not found!"
   content_not_writable: "Whoops, your content folder and/or files aren't writable. You'll want to fix that."
   users_not_writable: "Whoops, your users folder and/or files aren't writable. You'll want to fix that."
-  msg_password_encrypted: 'Password has been encrypted. Please login again.'
+  msg_password_encrypted: "Password has been encrypted. Please login again."
+  password_confirmation_required: "and confirmation is required"
+  password_confirmation_match: "and confirmation do not match"
   incorrect_username: Username not found
   incorrect_password: Incorrect password
-  incorrect_username_password: 'Incorrect username or password. Try again.'
-  entry_deleted: 'Entry deleted successfully!'
-  page_saved: 'Page saved successfully!'
-  entry_saved: 'Entry saved successfully!'
-  member_saved: 'Member saved successfully!'
+  incorrect_username_password: "Incorrect username or password. Try again."
+  entry_deleted: "Entry successfully deleted!"
+  entries_deleted: "Entries successfully deleted!"
+  page_deleted: "Page successfully deleted!"
+  page_unable_delete: "Unable to delete page."
+  member_deleted: "Member successfully deleted!"
+  page_saved: "Page saved successfully!"
+  entry_saved: "Entry saved successfully!"
+  member_saved: "Member saved successfully!"
   viewing_all: Viewing all
 
   error: Error
-  error_form_submission: 'Sorry, an error prevented the form submission.'
+  error_form_submission: "Sorry, an error prevented the form submission."
   are_you_sure: Are you sure? This cannot be undone.
   access_denied: Access Denied
   enable_curl: cURL must be enabled to perform a security test.
@@ -118,6 +160,9 @@ translations:
   # Security
   security_status: Security Status
   security_files_security_check: Site Files Security Check
+  secure_status: Secure Status
+  password_status: Password Status
+  curl_needed: "You'll need to enable cURL on your server to automatically test your security."
   folder_file: Folder/File
   action_required: Action Required
   secure: Secure
@@ -134,3 +179,9 @@ translations:
   security_content_folder: "Your content folder is accessible to the web. While not critical, it is best practice to protect this folder."
   security_template_files: "Your theme template files are accessible to the web. While not critical, it is best practice to protect these files."
   security_logs_folder: "Your logs folder is accessible to the web. It is critical that you protect this folder."
+
+  # Location
+  location_name: Name of Location
+  latitude: Latitude
+  longitude: Longitude
+
