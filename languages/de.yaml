@@ -116,7 +116,7 @@ translations:
   messages_happened: geloggt am
   messages_level: Level
   messages_when: Wann
-  messages_what: Was
+  messages_what: Ursache der Meldung
   messages_page: Seite
   messages_message: Meldung
   log_filter_nomessages: "Das Log-File existiert, beinhaltet aber keine Meldungen dieser Kategorie."
@@ -158,8 +158,8 @@ translations:
   enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
   # Security
-  system_status: System Status
-  system_files_security_check: Sicherheitstest der Systemdateien
+  security_status: System Status
+  security_files_security_check: Sicherheitstest der Systemdateien
   secure_status: Sicherheitsstatus
   password_status: Passwortstatus
   curl_needed: "Sie müssen cURL auf diesem Server aktivieren um Ihre Sicherheit automatisch zu testen."
