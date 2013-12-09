@@ -10,7 +10,7 @@ translations:
   add: Hinzufügen
   delete: Löschen
   list: Alle anzeigen
-  none: Nichts #!tB
+  none: Keine #!tB
   view: Anzeigen
   in: in
 
@@ -32,13 +32,19 @@ translations:
   entries: Einträge
   create: Erstellen
   new_entry: Neuer Eintrag
+  editing_entry: Du bearbeitest
   create_entry: Eintrag erstellen
   delete_entry: Eintrag löschen
   view_entry: Eintrag anzeigen
   list_entries: Einträge auflisten
+  take_action: Aktion
+  delete_entries: Einträge löschen
+  confirm_delete: Ja, lösche diese Einträge.
 
   # Pages
   page: Seite
+  edit_page: Seite bearbeiten
+  editing_page: Du bearbeitest die Seite
   new_top_level_page: Neue Hauptseite
   site_pages: Seiten deiner Website
   new_child_page: Neue Unterseite
@@ -47,7 +53,8 @@ translations:
   select_new_page_type: Neue Seitenart auswählen
   parent: Übergeordnet
   or: oder
-  
+  pagedelete_confirm: "Bist du sicher, dass du diese Einträge löschen möchtest?"
+
   update_available: Update verfügbar
   up_to_date: Auf dem neuesten Stand
   offline: Das Controlpanel ist zur Zeit offline.
@@ -88,22 +95,57 @@ translations:
   role: Rolle
   member: Benutzer
   new_member: Neuer Benutzer
+  creating_member: Du erstellst ein neues Mitglied
+  editing_member: "Du bearbeitest folgendes Mitglied:"
   
   # Logs
   site_logs: Seiten-Logs
   clear_logs: Alle Logs entfernen
+  log_file: Dein Log-File
+  log_unwritable: ist nicht schreibbar und kann deswegen nicht erstellt werden.
+  showing: Anzeige #!tb
+  messages_all: alle Meldungen
+  messages_debug: nur Debug-Meldungen
+  messages_info: nur Info-Meldungen
+  messages_warn: nur Warnungen
+  messages_error: nur Fehlermeldungen
+  messages_fatal: nur fatale Meldungen
+  info_plus: Info-Meldungen oder schlimmer
+  warn_plus: Warnungen oder schlimmer
+  error_plus: Fehlermeldungen oder schlimmer
+  messages_happened: geloggt am
+  messages_level: Level
+  messages_when: Wann
+  messages_what: Was
+  messages_page: Seite
+  messages_message: Meldung
+  log_filter_nomessages: "Das Log-File existiert, beinhaltet aber keine Meldungen dieser Kategorie."
+  log_nomessages: "Das Log-File existiert, beinhaltet aber keine Meldungen."
+  log_nomessages_logged: "Es wurden noch keine Meldungen geloggt."
+  logging_yes: "Diese Seite <strong>loggt</strong> Meldungen."
+  logging_no: "Diese Seite <strong>loggt keine</strong> Meldungen."
+  log_messages: "Es werden Meldungen ab der folgenden Stufe angezeigt:"
+  log_turning_on: "Um das Log zu nutzen, stelle <code>_log_enabled</code> auf <code>true</code> in <code>_config/settings.yaml</code>."
 
   # Messages, Errors & Confirmations
+  site_unlicensed: Diese Seite ist unlizenziert. Bitte kaufe eine Lizenz und aktiviere diese.
   admin_404: 'Diese Seite existiert nicht.'
   already_exists: existiert bereits
   is_required: ist erforderlich
+  content_not_found: "Inhalt nicht gefunden!"
   content_not_writable: Inhaltsordner ist nicht schreibbar
   users_not_writable: Benutzerordner ist nicht schreibbar
   msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
+  password_confirmation_required: "und eine Bestätigung ist erforderlich."
+  password_confirmation_match: "und die Bestätigung stimmt nicht überein"
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
-  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuche noch einmal.'
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuche es noch einmal.'
   entry_deleted: 'Eintrag erfolgreich gelöscht!'
+  entries_deleted: "Einträge erfolgreich gelöscht!"
+  page_deleted: "Seite erfolgreich gelöscht!"
+  page_unable_delete: "Seite kann nicht gelöscht werden!"
+  member_deleted: "Mitglied erfolgreich gelöscht!"
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
   member_saved: 'Benutzer erfolgreich gespeichert!'
@@ -118,6 +160,9 @@ translations:
   # Security
   system_status: System Status
   system_files_security_check: Sicherheitstest der Systemdateien
+  secure_status: Sicherheitsstatus
+  password_status: Passwortstatus
+  curl_needed: "Du musst cURL auf diesem Server aktivieren um deine Sicherheit automatisch zu testen."
   folder_file: Ordner/Datei
   action_required: Aktion erforderlich
   secure: Sicher
@@ -134,3 +179,9 @@ translations:
   security_content_folder: "Dein Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch, aber du solltest diesen Ordner schützen.",
   security_template_files: "Deine Gestaltungsvorlagen(_templates) sind über das Web erreichbar. Es ist nicht kritisch, aber du solltest diese Dateien schützen.",
   security_logs_folder: "Dein Log-Ordner ist über das Web erreichbar.  Es wichtig, dass du diesen Ordner schützt.",
+  
+  # Location
+  location_name: Name des Ortes
+  latitude: Breitengrad
+  longitude: Längengrad
+  
