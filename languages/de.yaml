@@ -140,7 +140,7 @@ translations:
   password_confirmation_match: "und die Bestätigung stimmt nicht überein"
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
-  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuchen Sie noch einmal.'
+  incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuchen Sie es noch einmal.'
   entry_deleted: 'Eintrag erfolgreich gelöscht!'
   entries_deleted: "Einträge erfolgreich gelöscht!"
   page_deleted: "Seite erfolgreich gelöscht!"
