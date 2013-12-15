@@ -32,13 +32,19 @@ translations:
   entries: 
   create: 
   new_entry: 
+  editing_entry: 
   create_entry: 
   delete_entry: 
   view_entry: 
   list_entries: 
+  take_action: 
+  delete_entries: 
+  confirm_delete: 
 
   # Pages
   page: 
+  edit_page: 
+  editing_page: 
   new_top_level_page: 
   site_pages: 
   new_child_page: 
@@ -47,6 +53,7 @@ translations:
   select_new_page_type: 
   parent: 
   or: 
+  pagedelete_confirm: 
 
   update_available: 
   up_to_date: 
@@ -88,22 +95,57 @@ translations:
   role: 
   member: 
   new_member: 
+  creating_member: 
+  editing_member: 
 
   # Logs
   site_logs: 
   clear_logs: 
+  log_file: 
+  log_unwritable: 
+  showing: 
+  messages_all: 
+  messages_debug: 
+  messages_info: 
+  messages_warn: 
+  messages_error: 
+  messages_fatal: 
+  info_plus: 
+  warn_plus: 
+  error_plus: 
+  messages_happened: 
+  messages_level: 
+  messages_when: 
+  messages_what: 
+  messages_page: 
+  messages_message: 
+  log_filter_nomessages: 
+  log_nomessages: 
+  log_nomessages_logged: 
+  logging_yes: 
+  logging_no: 
+  log_messages: 
+  log_turning_on: 
 
   # Messages, Errors & Confirmations
+  site_unlicensed: 
   admin_404: 
   already_exists: 
   is_required: 
+  content_not_found: 
   content_not_writable: 
   users_not_writable: 
   msg_password_encrypted: 
+  password_confirmation_required: 
+  password_confirmation_match: 
   incorrect_username: 
   incorrect_password: 
   incorrect_username_password: 
   entry_deleted: 
+  entries_deleted: 
+  page_deleted: 
+  page_unable_delete: 
+  member_deleted: 
   page_saved: 
   entry_saved: 
   member_saved: 
@@ -118,6 +160,9 @@ translations:
   # Security
   security_status: 
   security_files_security_check: 
+  secure_status: 
+  password_status: 
+  curl_needed: 
   folder_file: 
   action_required: 
   secure: 
@@ -134,3 +179,8 @@ translations:
   security_content_folder: 
   security_template_files: 
   security_logs_folder: 
+
+  # Location
+  location_name: 
+  latitude: 
+  longitude: 
