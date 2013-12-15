@@ -19,7 +19,7 @@ translations:
   dashboard: Dashboard
   pages: Seiten
   content: Inhalt
-  members: Benutzer
+  members: Mitglieder
   account: Account
   system: System
   help: Hilfe
@@ -93,8 +93,8 @@ translations:
   last_name: Nachname
   biography: Biografie
   role: Rolle
-  member: Benutzer
-  new_member: Neuer Benutzer
+  member: Mitglied
+  new_member: Neues Mitglied
   creating_member: Sie erstellen ein neues Mitglied
   editing_member: "Sie bearbeiten folgendes Mitglied:"
   
@@ -148,7 +148,7 @@ translations:
   member_deleted: "Mitglied erfolgreich gelöscht!"
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
-  member_saved: 'Benutzer erfolgreich gespeichert!'
+  member_saved: 'Mitglied erfolgreich gespeichert!'
   viewing_all: Sie betrachten alle
 
   error: Fehler
