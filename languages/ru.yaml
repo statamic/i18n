@@ -14,7 +14,7 @@ ru:
   view: Осматривать
 
   # Nav
-  dashboard: Приборная Панель
+  dashboard: Контрольная Панель
   pages: Страницы
   members: Пользователи
   account: Детали
@@ -24,11 +24,11 @@ ru:
   logout: Выйти
 
   # Entries
-  entry: Внесение
-  create_entry: Создать Внесение
-  delete_entry: Удалить Внесение
+  entry: Запись
+  create_entry: Создать Запись
+  delete_entry: Удалить Запись
   view_entry: Посмотреть Внесение
-  list_entries: Список Внесений
+  list_entries: Список Записей
 
   # Pages
   page: Страница
@@ -41,20 +41,20 @@ ru:
 
   # Publish
   title: Название
-  slug: Чистатая Ссылка
+  slug: Постоянная Ссылка
   date: Число
   number: Номер
   editing: Редактирование
   enter_title: Напишите Название...
-  order_number: Order Номер
-  publish_date: Число Опубликовати
-  publish_time: Время Опубликовати
+  order_number: Порядковый Номер
+  publish_date: Дата Публикации
+  publish_time: Время Публикации
   save_publish: 'Сохранить & Опубликовать'
   content: Содержание
 
   # Statuses
   status: Статус
-  live: Живая
+  live: Опубликовано
   draft: Черновик
   hidden: Скрытое
 
@@ -83,34 +83,34 @@ ru:
   incorrect_username: Имя пользователя не найдено
   incorrect_password: Неправильный пароль
   incorrect_username_password: 'Неправильное имя пользователя или пароль. Попробуйте еще раз.'
-  entry_deleted: 'Внесение успешно удалено!'
+  entry_deleted: 'Запись успешно удалена!'
   page_saved: 'Страница успешно сохранена!'
-  entry_saved: 'Внесение успешно сохранены!'
+  entry_saved: 'Записи успешно сохранены!'
   member_saved: 'Пользователь успешно сохранен!'
 
   error: Ошибка
   error_form_submission: 'Извините, ошибка помешала отправке формы'
   are_you_sure: Вы уверены? Это не может быть отменено.
   access_denied: Доступ Запрещен
-  enable_curl: cURL должен быть включен выполнить тест безопасности.
+  enable_curl: cURL должен быть включен, чтобы выполнить тест безопасности.
 
   # System
   system_status: Состояние системы
-  system_files_security_check: Системные файлы проверки безопасности
+  system_files_security_check: Проверка безопасности системных файлов
   folder_file: Папка/Файл
-  action_required: Необходимо Действия
+  action_required: Необходимо Выполнить
   secure: Безопасный
   unsecure: Небезопасный
-  user_accounts_security_check: User Accounts Security Check
+  user_accounts_security_check: Проверка Безопасности Пользовательского Аккаунта
   user_file: Файл Пользователя
   encrypted: Зашифрованный
   unencrypted: Незашифрованный
   action_encrypt_password: Зашифровать Пароль
-  security_app_folder: "Ваша программная папка доступна в Интернете. Хотя не критично, но лучше защитить эту папку.",
-  security_config_folder: "Ваша папка конфигурация доступна в Интернете. Очень важно, что вы защищаете эту папку.",
-  security_settings_files: "Ваша папка установок доступна в Интернете. Очень важно, что вы защищаете эту папку.",
-  security_user_files: "Ваши файлы пользователей являются доступный в Интернете. Очень важно, что вы защищаете эту папку.",
-  security_content_folder: "Ваша папка содержаний доступна в Интернете. Хотя не критично, но лучше защитить эту папку.",
-  security_template_files: "Ваша папка дизайн темы доступна в Интернете. Хотя не критично, но лучше защитить эту папку."
+  security_app_folder: "Ваша программная папка доступна в Интернете. Это не критично, но лучше защитить эту папку.",
+  security_config_folder: "Ваша папка конфигурация доступна в Интернете. Очень важно защитить эту папку.",
+  security_settings_files: "Ваша папка установок доступна в Интернете. Очень важно защитить эту папку.",
+  security_user_files: "Ваши файлы пользователей доступны в Интернете. Очень важно защитить эту папку.",
+  security_content_folder: "Ваша папка содержаний доступна в Интернете. Это не критично, но лучше защитить эту папку.",
+  security_template_files: "Ваша папка с шаблоном дизайна доступна в Интернете. Это не критично, но лучше защитить эту папку."
 
 
