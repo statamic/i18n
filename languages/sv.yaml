@@ -60,16 +60,16 @@ translations:
   editing: Ändrar
   enter_title: Fyll i titel...
   order_number: Sorteringsnummer
-  publish_date: Publiseringsdatum
-  publish_time: Publiseringstid
+  publish_date: Publiceringsdatum
+  publish_time: Publiceringstid
   save: Spara
-  save_publish: 'Spara & Publisera'
+  save_publish: 'Spara & Publicera'
   content: Innehåll
   new: Ny
 
   # Statuses
   status: Status
-  live: Publiserad
+  live: Publicerad
   draft: Utkast
   hidden: Gömd
 
