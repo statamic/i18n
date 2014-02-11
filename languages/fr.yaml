@@ -140,6 +140,7 @@ translations:
   msg_password_encrypted: "Mot de passe chiffré. SVP, reconnectez-vous."
   password_confirmation_required: " et confirmation sont obligatoires"
   password_confirmation_match: " et confirmation ne sont pas identiques"
+  password_confirmation_does_not_match: "Le mot de passe et sa confirmation ne sont pas identiques."
   incorrect_username: Nom d'utilisateur incorrect
   incorrect_password: Mot de passe incorrect
   incorrect_username_password: "Nom d'utilisateur ou mot de passe incorrect. SVP, essayez à nouveau"
@@ -151,6 +152,8 @@ translations:
   page_saved: "Page enregistrée avec succès !"
   entry_saved: "Article enregistré avec succès !"
   member_saved: "Utilisateur enregistré avec succès !"
+  invalid_username: "Le nom d'utilisateur saisi contient des caractères invalides."
+  username_already_exists: "Ce nom d'utilisateur a déjà été pris."
   viewing_all: Affichage des
 
   error: Erreur
