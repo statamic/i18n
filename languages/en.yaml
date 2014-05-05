@@ -53,6 +53,7 @@ translations:
   select_new_page_type: Select New Page Type
   parent: Parent
   or: or
+  and: and
   pagedelete_confirm: "Are you sure you wish to delete this page?"
 
   update_available: update available
@@ -138,6 +139,7 @@ translations:
   msg_password_encrypted: "Password has been encrypted. Please login again."
   password_confirmation_required: "and confirmation is required"
   password_confirmation_match: "and confirmation do not match"
+  password_confirmation_does_not_match: "Password and password confirmation do not match."
   incorrect_username: Username not found
   incorrect_password: Incorrect password
   incorrect_username_password: "Incorrect username or password. Try again."
@@ -149,6 +151,8 @@ translations:
   page_saved: "Page saved successfully!"
   entry_saved: "Entry saved successfully!"
   member_saved: "Member saved successfully!"
+  invalid_username: "The username entered contains invalid characters."
+  username_already_exists: "Someone with that username already exists."
   viewing_all: Viewing all
 
   error: Error
