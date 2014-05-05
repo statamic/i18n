@@ -53,11 +53,11 @@ translations:
   select_new_page_type: Choisir le type de la nouvelle page
   parent: "Parent "
   or: ou
+  and: et
   pagedelete_confirm: "Êtes-vous certain de vouloir supprimer cette page ?"
 
   update_available: Mise à jour disponible
   up_to_date: Vous êtes à jour !
-
   offline: Le panneau de contrôle est actuellement hors ligne.
 
   # Publish
@@ -125,7 +125,6 @@ translations:
   log_nomessages_logged: Aucun message n'a été journalisé pour l'instant.
   logging_yes: "Ce site <strong>journalise</strong> les messages."
   logging_no: "Ce site <strong>ne journalise pas</strong> les messages."
-
   log_messages: "Les messages sont de ce niveau ou plus critiques : "
   log_turning_on: "Pour activer la journalisation, définissez la variable <code>_log_enabled</code> à <code>vrai (true)</code> dans le fichier <code>_config/settings.yaml</code>."
 
