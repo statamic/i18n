@@ -53,6 +53,7 @@ translations:
   select_new_page_type: 
   parent: 
   or: 
+  and: 
   pagedelete_confirm: 
 
   update_available: 
@@ -149,6 +150,8 @@ translations:
   page_saved: 
   entry_saved: 
   member_saved: 
+  invalid_username: 
+  username_already_exists: 
   viewing_all: 
 
   error: 
