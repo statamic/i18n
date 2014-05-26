@@ -120,9 +120,9 @@ translations:
   messages_what: Quelle origine
   messages_page: Page
   messages_message: Message
-  log_filter_nomessages: Ce journal existe bien, mais ne contient aucun message avec ce filtre.
-  log_nomessages: Ce journal existe bien, mais il n'y a aucun message.
-  log_nomessages_logged: Aucun message n'a été journalisé pour l'instant.
+  log_filter_nomessages: "Ce journal existe bien, mais ne contient aucun message avec ce filtre."
+  log_nomessages: "Ce journal existe bien, mais il n'y a aucun message."
+  log_nomessages_logged: "Aucun message n'a été journalisé pour l'instant."
   logging_yes: "Ce site <strong>journalise</strong> les messages."
   logging_no: "Ce site <strong>ne journalise pas</strong> les messages."
   log_messages: "Les messages sont de ce niveau ou plus critiques : "
