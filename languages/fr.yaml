@@ -13,6 +13,7 @@ translations:
   none: Aucune
   view: Visualiser
   in: "dans "
+  remove: Supprimer
 
   # Nav
   home: Accueil
@@ -161,6 +162,16 @@ translations:
   access_denied: Accès refusé
   enable_curl: cURL doit être activé pour effectuer un test de sécurité.
 
+# File-upload errors
+  upload_error_ini_size: Le téléchargement du fichier a échoué : la taille du fichier dépasse celle autorisée dans le paramétrage PHP.
+  upload_error_form_size: Le téléchargement du fichier a échoué : la taille du fichier dépasse celle que le paramètre `MAX_FILE_SIZE` autorise pour le formulaire.
+  upload_error_err_partial: Le téléchargement du fichier a échoué : le fichier n'a été que partiellement téléchargé.
+  upload_error_no_file: Le téléchargement du fichier a échoué : aucun fichier sélectionné pour le téléchargement.
+  upload_error_no_temp_dir: Le téléchargement du fichier a échoué : aucun répertoire temporaire n'a été spécifié.
+  upload_error_cant_write: Le téléchargement du fichier a échoué : le répertoire temporaire n'est peut-être pas inscriptible.
+  upload_error_extension: Le téléchargement du fichier a échoué : une extension de PHP a stoppé le process de téléchargement.
+  upload_error_unknown: Le téléchargement du fichier a échoué pour une raison inconnue.
+
   # Security
   security_status: Point sur la sécurité
   security_files_security_check: Contrôle de sécurité des fichiers du site
@@ -188,3 +199,10 @@ translations:
   location_name: Nom de l'emplacement
   latitude: Latitude
   longitude: Longitude
+
+# Raven
+  export_csv: Exporter au format CSV
+  raven: Raven
+  raven_forms: Formulaires Raven
+  form: Formulaire
+  submissions: Soumissions
