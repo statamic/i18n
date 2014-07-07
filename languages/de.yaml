@@ -1,6 +1,6 @@
 #####################################
 #
-#  German (by maxx & felics) 
+#  German (by mxst & felics) 
 #  #!tB declares Translations I'm not happy with
 # ###################################
 
@@ -13,6 +13,7 @@ translations:
   none: Keine #!tB
   view: Anzeigen
   in: in
+  remove: Entfernen
 
   # Nav
   home: Home
@@ -53,6 +54,7 @@ translations:
   select_new_page_type: Neue Seitenart auswählen
   parent: Übergeordnet
   or: oder
+  and: und
   pagedelete_confirm: "Sind Sie sicher, dass Sie diese Einträge löschen möchten?"
 
   update_available: Update verfügbar
@@ -97,7 +99,7 @@ translations:
   new_member: Neues Mitglied
   creating_member: Sie erstellen ein neues Mitglied
   editing_member: "Sie bearbeiten folgendes Mitglied:"
-  
+
   # Logs
   site_logs: Seiten-Logs
   clear_logs: Alle Logs entfernen
@@ -138,6 +140,7 @@ translations:
   msg_password_encrypted: 'Password wurde verschlüsselt. Bitte noch einmal einloggen.'
   password_confirmation_required: "und eine Bestätigung ist erforderlich."
   password_confirmation_match: "und die Bestätigung stimmt nicht überein"
+  password_confirmation_does_not_match: "Passwort und Bestätigung stimmen nicht überein"
   incorrect_username: Benutzername nicht gefunden
   incorrect_password: Falsches Passwort
   incorrect_username_password: 'Benutzername oder Passwort ist falsch. Versuchen Sie es noch einmal.'
@@ -149,6 +152,8 @@ translations:
   page_saved: 'Seite erfolgreich gespeichert!'
   entry_saved: 'Eintrag erfolgreich gespeichert!' 
   member_saved: 'Mitglied erfolgreich gespeichert!'
+  invalid_username: "Dei eingegebene Benutzername enthält ungültige Zeichen."
+  username_already_exists: "Dieser Benutzername ist bereits vergeben."
   viewing_all: Sie betrachten alle
 
   error: Fehler
@@ -156,6 +161,16 @@ translations:
   are_you_sure: Sind Sie sicher? Dies kann nicht rückgängig gemacht werden.
   access_denied: Zugriff verweigert
   enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
+
+  # File-upload errors
+  upload_error_ini_size: Hochladen der Datei fehlgeschlagen. Die Dateigröße überschreitet die in der PHP konfiguration erlaubte Größe.
+  upload_error_form_size: Hochladen der Datei fehlgeschlagen. Die Dateigröße überschreitet die erlaubte `MAX_FILE_SIZE` des Formulars.
+  upload_error_err_partial: Hochladen der Datei fehlgeschlagen. Die Datei wurde nur teilweise hochgeladen.
+  upload_error_no_file: Hochladen der Datei fehlgeschlagen. Es wurde keine Datei ausgewählt.
+  upload_error_no_temp_dir: Hochladen der Datei fehlgeschlagen. Es wurde kein temporäres Upload-Verzeichnis angegeben.
+  upload_error_cant_write: Hochladen der Datei fehlgeschlagen. Das temporäre Upload-Verzeichnis ist nicht schreibbar.
+  upload_error_extension: Hochladen der Datei fehlgeschlagen. Eine PHP extension hat das Hochladen unterbrochen.
+  upload_error_unknown: Hochladen der Datei aus unbekannten Gründen fehlgeschlagen.
 
   # Security
   security_status: System Status
@@ -179,9 +194,15 @@ translations:
   security_content_folder: "Ihr Inhaltsordner ist über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diesen Ordner schützen.",
   security_template_files: "Ihre Gestaltungsvorlagen(_templates) sind über das Web erreichbar. Es ist nicht kritisch, aber Sie sollten diese Dateien schützen.",
   security_logs_folder: "Ihr Log-Ordner ist über das Web erreichbar. Es ist wichtig, dass Sie diesen Ordner schützen.",
-  
+
   # Location
   location_name: Name des Ortes
   latitude: Breitengrad
   longitude: Längengrad
-  
+
+  # Raven
+  export_csv: Export zu CSV
+  raven: Raven
+  raven_forms: Raven Formulare
+  form: Formular
+  submissions: Übertragungen
