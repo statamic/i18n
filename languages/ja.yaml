@@ -40,7 +40,7 @@ translations:
   list_entries: エントリーを一覧 # Not used?
   take_action: アクションを選択
   delete_entries: エントリーを削除
-  confirm_delete: はい、削除します
+  confirm_action: はい、削除します
 
   # Pages
   page: ページ

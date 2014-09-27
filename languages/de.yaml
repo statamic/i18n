@@ -40,7 +40,7 @@ translations:
   list_entries: Einträge auflisten
   take_action: Aktion
   delete_entries: Einträge löschen
-  confirm_delete: Ja, lösche diese Einträge.
+  confirm_action: Ja, lösche diese Einträge.
 
   # Pages
   page: Seite
