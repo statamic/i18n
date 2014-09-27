@@ -40,7 +40,7 @@ translations:
   list_entries: List Entries
   take_action: Take Action
   delete_entries: Delete Entries
-  confirm_delete: Yes I'm Sure
+  confirm_action: Yes I'm Sure
 
   # Pages
   page: Page

@@ -39,7 +39,7 @@ translations:
   list_entries: 
   take_action: 
   delete_entries: 
-  confirm_delete: 
+  confirm_action: 
 
   # Pages
   page: 

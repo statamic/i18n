@@ -40,7 +40,7 @@ translations:
   list_entries: Afficher les articles
   take_action: Action
   delete_entries: Supprimer les articles
-  confirm_delete: Oui, je confirme
+  confirm_action: Oui, je confirme
 
   # Pages
   page: Page

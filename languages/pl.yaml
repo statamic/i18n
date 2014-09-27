@@ -40,7 +40,7 @@ translations:
   list_entries: Pokaż wpisy
   take_action: Akcja
   delete_entries: Usuń wpisy
-  confirm_delete: "Tak, jestem pewien."
+  confirm_action: "Tak, jestem pewien."
 
   # Pages
   page: Strona
