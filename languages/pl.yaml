@@ -1,70 +1,95 @@
-#################################################
+#####################################
 #
-#  Polish (by Mike Bronka - www.mikebronka.com)
-# 
-# ###############################################
+#  Polish (by @robcio - twitter.com/robcio)
+#
+# ###################################
 
-pl:
+translations:
 
   # Universal
   add: Dodaj
   delete: Usuń
-  list: Pokaż
+  list: Lista
   none: Brak
   view: Zobacz
+  in: w
+  remove: Usuń
 
   # Nav
-  dashboard: Podsumowanie
+  home: Strona główna
+  dashboard: Centrum
   pages: Strony
+  content: Treści
   members: Użytkownicy
   account: Moje konto
   system: System
   help: Pomoc
-  view_site: Pokaż stronę
-  logout: Wyloguj
+  view_site: Zobacz stronę
+  logout: Wyloguj się
+  logs: Dziennik
 
   # Entries
   entry: Wpis
+  entries: Wpisy
+  create: Utwórz
+  new_entry: Nowy wpis
+  editing_entry: Edytuj wpis
   create_entry: Dodaj wpis
   delete_entry: Usuń wpis
-  view_entry: Pokaż wpis
+  view_entry: Zobacz wpis
   list_entries: Pokaż wpisy
+  take_action: Akcja
+  delete_entries: Usuń wpisy
+  confirm_action: "Tak, jestem pewien."
 
   # Pages
   page: Strona
+  edit_page: Edytuj stronę
+  editing_page: Edycja strony
   new_top_level_page: Dodaj nową stronę
   site_pages: Strony
-  
   new_child_page: Nowa podstrona
-  view_page: Pokaż stronę
-  select_new_page_type: Wybież typ nowej strony
+  view_page: Zobacz stronę
+  delete_page: Usuń stronę
+  select_new_page_type: Wybierz typ nowej strony
+  parent: Strona nadrzędna
+  or: lub
+  and: i
+  pagedelete_confirm: "Napewno usunąć tę stronę?"
+
+  update_available: dostępna aktualizacja
+  up_to_date: zaktualizowany
+  offline: Panel zarządzania jest niedostępny.
 
   # Publish
   title: Tytuł
-  slug: Link mod-rewrite
+  slug: Przyjazny link
   date: Data
   number: Numer
   editing: Edytujesz
-  enter_title: Wprowadź tytuł...
+  enter_title: Wpisz tytuł...
   order_number: Lp.
   publish_date: Data publikacji
   publish_time: Czas publikacji
-  save_publish: 'Zapisz i opublikuj'
+  save: Zapisz
+  save_publish: "Publikuj i zapisz"
   content: Treść
+  new: Nowy
 
   # Statuses
   status: Status
   live: Opublikowany
-  draft: Roboczy
+  draft: Wersja robocza
   hidden: Ukryty
 
   # Members and forms
   login: Zaloguj się
   admin: Admin
+  email: Email
   username: Użytkownik
   password: Hasło
   password_confirmation: Potwierdź hasło
-  type_again: 'Wpisz ponownie'
+  type_again: "Wpisz ponownie"
   encrypt_password: Zakodować hasło?
   first_name: Imię
   last_name: Nazwisko
@@ -72,43 +97,112 @@ pl:
   role: Funkcja
   member: Użytkownik
   new_member: Nowy użytkownik
+  creating_member: Dodawanie nowego użytkownika
+  editing_member: "Edycja użytkownika: "
+
+  # Logs
+  site_logs: Dziennik strony
+  clear_logs: Wyczyść dziennik
+  log_file: Twój dziennik aktywności
+  log_unwritable: brak prawa zapisu. Plik nie może zostać utworzony.
+  showing: Wyświetla
+  messages_all: wszystko
+  messages_debug: tylko procesowe
+  messages_info: tylko informacje
+  messages_warn: tylko ostrzeżenia
+  messages_error: tylko błędy
+  messages_fatal: tylko błędy krytyczne
+  info_plus: wpisy informacyjne lub gorsze
+  warn_plus: ostrzeżenia lub gorsze
+  error_plus: błędy lub gorsze
+  messages_happened: zdarzenie
+  messages_level: Poziom
+  messages_when: Kiedy
+  messages_what: Przyczyna
+  messages_page: Strona
+  messages_message: Wiadomość
+  log_filter_nomessages: "Dziennik istnieje, lecz nie zawiera treści zgodnej z wybranym filtrem."
+  log_nomessages: "Dziennik istnieje, lecz nie zawiera żadnej treści."
+  log_nomessages_logged: "Brak wpisów w dzienniku"
+  logging_yes: "Dziennik aktywności jest <strong>włączony</strong>."
+  logging_no: "Dziennik aktywności jest <strong>wyłączony</strong>."
+  log_messages: "Messages are from the following level or worse: "
+  log_turning_on: "Aby włączyć logowanie ustaw <code>_log_enabled</code> na <code>true</code> w pliku <code>_config/settings.yaml</code>."
 
   # Messages, Errors & Confirmations
-  admin_404: 'Podana strona nie istnieje'
+  site_unlicensed: Strona nie posiada licencji. Zakup kopię i wprowadź kod licencyjny.
+  admin_404: "Strona nie istenieje"
   already_exists: już istnieje
   is_required: wymagane
-  content_not_writable: Brak uprawnień do zapisu w katalogu Content
-  users_not_writable: Brak uprawnień do zapisu w katalogu Users
-  msg_password_encrypted: 'Hasło zostało zakodowane. Zaloguj się ponownie.'
+  content_not_found: "Treści nie znaleziono!"
+  content_not_writable: "Brak uprawnień do zapisu w katalogu /content."
+  users_not_writable: "Brak uprawnień do zapisu w katalogu /users."
+  msg_password_encrypted: "Hasło zostało zakodowane. Zaloguj się ponownie"
+  password_confirmation_required: "wymagane potwierdzenie hasła"
+  password_confirmation_match: "hasła się różnią"
+  password_confirmation_does_not_match: "Wpisane hasła nie są zgodne."
   incorrect_username: Nie znaleziono użytkownika
   incorrect_password: Nieprawidłowe hasło
-  incorrect_username_password: 'Nieprawidłowa nazwa użytkownia lub hasło. Spróbuj ponownie.'
-  entry_deleted: 'Wpis został usunięty poprawnie!'
-  page_saved: 'Strona zstała zapisana poprawnie!'
-  entry_saved: 'Wpis został zapisany poprawnie!' 
-  member_saved: 'Dane użytkownika zostały zapisane poprawnie!'
+  incorrect_username_password: "Nieprawidłowa nazwa użytkownika lub hasło. Spróbuj ponownie."
+  entry_deleted: "Wpis został usunięty poprawnie!"
+  entries_deleted: "Wpisy zostały usunięte poprawnie!"
+  page_deleted: "Strona została usunięta poprawnie!"
+  page_unable_delete: "Nie mogę usunąć strony."
+  member_deleted: "Użytkownik został usunięty poprawnie!"
+  page_saved: "Strona została zapisana poprawnie!"
+  entry_saved: "Wpis został zapisany poprawnie!"
+  member_saved: "Użytkownik został zapisany poprawnie!"
+  invalid_username: "Nazwa użytkownika zawiera niedozwolone znaki"
+  username_already_exists: "Istnieje już taki użytkownik."
+  viewing_all: Zobacz wszystko
 
   error: Błąd
-  error_form_submission: 'Formularz nie został wysłany z powodu błędu.'
-  are_you_sure: Ta operacja wymaga potwierdzenia.
-  access_denied: Brak dostępu.
-  enable_curl: 'Biblioteka cURL musi być aktywowana, aby przeprowadzić test bezpieczeństwa.'
+  error_form_submission: "Formularz nie został wysłany z powodu błędu."
+  are_you_sure: Jesteś pewień? Nie będziesz mógł cofnąć zmian.
+  access_denied: Brak dostępu
+  enable_curl: "Aby przeprowadzić test bezpieczeństwa biblioteka cURL musi być aktywowana."
 
-  # System
-  system_status: Status systemu
-  system_files_security_check: Test bezpieczeństwa plików systemowych.
+  # File-upload errors
+  upload_error_ini_size: Przesyłanie pliku nie powiodło się. Rozmaiar pliku jest większy niż konfiguracja PHPini na to pozwala.
+  upload_error_form_size: Przesyłanie pliku nie powiodło się. Rozmiar pliku jest przekracza wartość `max_file_size`.
+  upload_error_err_partial: Przesyłanie pliku nie powiodło się. Plik został przesłany tylko częściowo.
+  upload_error_no_file: Przesyłanie pliku nie powiodło się. Nie wybrano pliku do załadowania.
+  upload_error_no_temp_dir: Przesyłanie pliku nie powiodło się. Katalog tymczasowy nie został określony.
+  upload_error_cant_write: Przesyłanie pliku nie powiodło się. Katalog tymczasowy może nie posiadać prawa do zapisu.
+  upload_error_extension: Przesyłanie pliku nie powiodło się. Moduł PHP przestał działać podczas przesyłania.
+  upload_error_unknown: Przesyłanie pliku nie powiodło się z nieznanych przyczyn.
+
+  # Security
+  security_status: Status bezpieczeństwa systemu
+  security_files_security_check: Test bezpieczeństwa plików systemowych.
+  secure_status: Poziom bezpieczeństwa
+  password_status: Status hasła
+  curl_needed: "Biblioteka cURL musi być aktywowana, aby przeprowadzić test bezpieczeństwa."
   folder_file: Katalog/Plik
   action_required: Wymagania
   secure: Zabezpieczony
-  unsecure: Nie zabezpieczony
+  unsecure: Niezabezpieczony
   user_accounts_security_check: Test bezpieczeństwa kont użytkowników
   user_file: Plik użytkownika
   encrypted: Zaszyfrowany
-  unencrypted: Nie zaszyfrowany
+  unencrypted: Niezaszyfrowany
   action_encrypt_password: Zaszyfruj hasło
-  security_app_folder: "Katalog '_app' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu.",
-  security_config_folder: "Katalog '_config' jest dostępny w internecie. Wymagane jest zabezpieczenie tego katalogu.",
-  security_settings_files: "Plik ustawień 'settings.yaml' jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku.",
-  security_user_files: "Twój plik użytkownika jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku.",
-  security_content_folder: "Katalog '_content' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu.",
+  security_app_folder: "Katalog '_app' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu."
+  security_config_folder: "Katalog '_config' jest dostępny w internecie. Wymagane jest zabezpieczenie tego katalogu."
+  security_settings_files: "Plik ustawień 'settings.yaml' jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku."
+  security_user_files: "Twój plik użytkownika jest dostępny w internecie. Wymagane jest zabezpieczenie tego pliku."
+  security_content_folder: "Katalog '_content' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu."
   security_template_files: "Twój plik szablonu jest dostępny w internecie. Zalecane jest zabezpieczenie tego pliku."
+  security_logs_folder: "Katalog '_logs' jest dostępny w internecie. Zalecane jest zabezpieczenie tego katalogu."
+
+  # Location
+  location_name: Nazwa lokalizacji
+  latitude: Szerokość geograficzna
+  longitude: Długość geograficzna
+
+  # Raven
+  export_csv: Eksportuj do CSV
+  raven: Raven
+  raven_forms: Formularze Raven
+  form: Formularz
+  submissions: Zgłoszenia
