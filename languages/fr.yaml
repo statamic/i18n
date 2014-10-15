@@ -40,6 +40,7 @@ translations:
   list_entries: Afficher les articles
   take_action: Action
   delete_entries: Supprimer les articles
+  confirm_delete: Oui, je confirme
   confirm_action: Oui, je confirme
 
   # Pages
@@ -72,7 +73,8 @@ translations:
   publish_date: Date de publication
   publish_time: Heure de publication
   save: Enregistrer
-  save_publish: "Enregistrer & Publier"
+  save_publish: "Publier"
+  save_publish_continue: "Publier & Continuer"
   content: Contenu
   new: Nouvelle
 
@@ -89,6 +91,7 @@ translations:
   username: Nom d'utilisateur
   password: Mot de passe
   password_confirmation: Confirmation du mot de passe
+  change_password: Modifier le mot de passe
   type_again: "SVP, entrez-le de nouveau"
   encrypt_password: Chiffrer le mot de passe ?
   first_name: Prénom
@@ -99,6 +102,9 @@ translations:
   new_member: Nouvel utilisateur
   creating_member: Création d'un nouvel utilisateur
   editing_member: "Modification de l'utilisateur : "
+  reset_password_url_invalid: Cette URL est invalide
+  reset_password_url_expired: Ce lien a expiré
+  member_doesnt_exist: L'utilisateur n'existe pas
 
   # Logs
   site_logs: Journaux du site

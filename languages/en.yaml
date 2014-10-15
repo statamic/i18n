@@ -40,6 +40,7 @@ translations:
   list_entries: List Entries
   take_action: Take Action
   delete_entries: Delete Entries
+  confirm_delete: Yes I'm Sure
   confirm_action: Yes I'm Sure
 
   # Pages
@@ -72,7 +73,8 @@ translations:
   publish_date: Publish Date
   publish_time: Publish Time
   save: Save
-  save_publish: "Save & Publish"
+  save_publish: "Publish"
+  save_publish_continue: "Publish & Continue"
   content: Content
   new: New
 
@@ -89,6 +91,7 @@ translations:
   username: Username
   password: Password
   password_confirmation: Password Confirmation
+  change_password: Change Password
   type_again: "Type it again, please"
   encrypt_password: Encrypt Password?
   first_name: First Name
@@ -99,6 +102,9 @@ translations:
   new_member: New Member
   creating_member: Creating new member
   editing_member: "Editing member: "
+  reset_password_url_invalid: This URL is invalid
+  reset_password_url_expired: This link has expired
+  member_doesnt_exist: Member doesn't exist
 
   # Logs
   site_logs: Site Logs
