@@ -212,3 +212,9 @@ translations:
   raven_forms: Raven Forms
   form: Form
   submissions: Submissions
+
+  # File
+  upload_file: Upload a file
+  drop_your_file: Drop your file
+  max_files_reached: Max files reached
+  choose_existing_file: Choose an existing file
