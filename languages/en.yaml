@@ -14,6 +14,18 @@ translations:
   view: View
   in: in
   remove: Remove
+  move: Move
+  toggle: Toggle
+  options: Options
+  cancel: Cancel
+  by: by
+  
+  # Timing
+  today: today
+  tomorrow: tomorrow
+  yesterday: yesterday
+  at: at
+  published: Published
 
   # Nav
   home: Home
@@ -167,7 +179,7 @@ translations:
   are_you_sure: Are you sure? This cannot be undone.
   access_denied: Access Denied
   enable_curl: cURL must be enabled to perform a security test.
-  
+
   # File-upload errors
   upload_error_ini_size: File upload failed. The file’s size is more than PHP’s configuration allows.
   upload_error_form_size: File upload failed. The file’s size is more than the `MAX_FILE_SIZE` on the form allows.
@@ -213,8 +225,31 @@ translations:
   form: Form
   submissions: Submissions
 
+  # Revisions
+  view_page_history: View Revisions
+  choose_revision_to_view: Choose a revision to view
+  view_this_revision: View this revision
+  first_save: First saved revision
+  published_on: Published on
+  you_are_here: You Are Here
+  viewing_revision: You are viewing a revision of this page from %s. You can re-publish it as-is, make changes then publish, or
+  viewing_revision_link: go back to the live version
+  what_changed: Describe What Changed
+  file_deleted: File deleted
+
+  
   # File
   upload_file: Upload a file
   drop_your_file: Drop your file
   max_files_reached: Max files reached
   choose_existing_file: Choose an existing file
+  choose_file_from: Choose a file from
+  file_deleted: File deleted
+  file_doesnt_exist: File does not exist
+  file_no_config: No config provided
+  file_no_path: No path provided
+  file_deleting_not_permitted: Deleting files is not permitted
+
+  # Replicator
+  hide_all: Hide all
+  show_all: Show all
