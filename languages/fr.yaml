@@ -14,6 +14,18 @@ translations:
   view: Visualiser
   in: "dans "
   remove: Supprimer
+  move: Déplacer
+  toggle: Basculer
+  options: Options
+  cancel: Annuler
+  by: par
+
+  #Timing
+  today: aujourd'hui
+  tomorrow: demain
+  yesterday: hier
+  at: à
+  published: "Publiée :"
 
   # Nav
   home: Accueil
@@ -213,8 +225,32 @@ translations:
   form: Formulaire
   submissions: Soumissions
 
+  # Revisions
+  view_page_history: Voir les versions
+  choose_revision_to_view: Choisir la version à visualiser
+  view_this_revision: Voir cette version
+  first_save: Première version enregistrée
+  published_on: Publiée le
+  you_are_here: Vous êtes ici
+  viewing_revision: Vous visualisez une version de cette page datant du %s. Vous pouvez la re-publier telle quelle, effectuer des modifications puis la publier, ou
+  viewing_revision_link: retourner à la version actuellement publiée
+  what_changed: Décrivez ce qui a changé
+  file_deleted: Fichier supprimé
+
+
   # File
   upload_file: Téléverser un fichier
   drop_your_file: Déposer votre fichier
   max_files_reached: Nombre maximal de fichiers atteint
-  choose_existing_file: Choisissez un fichier existant
+  choose_existing_file: Choisir un fichier existant
+  choose_file_from: Choisir un fichier dans
+  file_deleted: Fichier supprimé
+  file_doesnt_exist: Le fichier n'existe pas
+  file_no_config: Aucune configuration fournie
+  file_no_path: Aucun chemin d'accès fourni
+  file_deleting_not_permitted: La suppression des fichiers n'est pas autorisée
+
+  # Replicator
+  hide_all: Tout masquer
+  show_all: Tout afficher
+
