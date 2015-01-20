@@ -1,116 +1,256 @@
-#####################################
+###################################
 #
-#  Russian (by Sergei Filippov)
+#  Ru (by v0ff for 1.10.1 )
 #
 # ###################################
 
-ru:
+translations:
 
   # Universal
   add: Добавить
   delete: Удалить
   list: Список
-  none: Ничто
-  view: Осматривать
+  none: Нет
+  view: Смотреть
+  in: в
+  remove: Удалить
+  move: Передвинуть
+  toggle: Переключить
+  options: Опции
+  cancel: Отмена
+  by: по(на) 
+
+  # Timing   обязательно сверить после визуальной обкатки !!!
+  today: сегодня
+  tomorrow: завтра
+  yesterday: вчера
+  at: _  
+  published: Опубликован
 
   # Nav
-  dashboard: Контрольная Панель
+  home: Домой
+  dashboard: Глав Панель
   pages: Страницы
+  content: Содержимое
   members: Пользователи
-  account: Детали
+  account: Аккаунт
   system: Система
   help: Помощь
-  view_site: Посмотреть Сайт
+  view_site: На сайт
   logout: Выйти
+  logs: Логи
 
   # Entries
   entry: Запись
-  create_entry: Создать Запись
-  delete_entry: Удалить Запись
-  view_entry: Посмотреть Внесение
-  list_entries: Список Записей
+  entries: Записи
+  create: Создать
+  new_entry: Новая запись
+  editing_entry: Редактирование
+  create_entry: Создать запись
+  delete_entry: Удалить запись
+  view_entry: Просмотреть
+  list_entries: Список
+  take_action: Применить
+  delete_entries: Удалить записи
+  confirm_delete: Да удалить
+  confirm_action: Да, конечно
 
   # Pages
-  page: Страница
-  new_top_level_page: Новая Страница Верхнего Уровня
-  site_pages: Страницы Сайта
+  page: Страица
+  edit_page: Редактировать страницу
+  editing_page: Редактирование
+  new_top_level_page: Новая главная страница
+  site_pages: Страници сайта
+  new_child_page: Новая подстраница
+  view_page: Просмотреть
+  delete_page: Удалить
+  select_new_page_type: Выбрать тип для новой страницы
+  parent: Родитель
+  or: или
+  and: и
+  pagedelete_confirm: "Реально удалить эту страницу?"
 
-  new_child_page: Новая Страница Нижнего Уровня
-  view_page: Просмотр Страницы
-  select_new_page_type: Выберите Новый Тип Страницы
+  update_available: доступно обновление
+  up_to_date: версия актуальна 
+  offline: Главная панель, недоступна.
 
   # Publish
-  title: Название
-  slug: Постоянная Ссылка
-  date: Число
+  title: Заголовок
+  slug: Ссылка
+  date: Дата
   number: Номер
   editing: Редактирование
-  enter_title: Напишите Название...
-  order_number: Порядковый Номер
-  publish_date: Дата Публикации
-  publish_time: Время Публикации
-  save_publish: 'Сохранить & Опубликовать'
-  content: Содержание
+  enter_title: Введите заголовок...
+  order_number: По номеру
+  publish_date: Дата публикации
+  publish_time: Время публикации
+  save: Сохранить
+  save_publish: "Опубликовать"
+  save_publish_continue: "Сохранить и продолжить"
+  content: Содержимое
+  new: Новое(-ая -ое)
 
   # Statuses
   status: Статус
-  live: Опубликовано
+  live: Опубликован
   draft: Черновик
-  hidden: Скрытое
+  hidden: Скрытый
 
   # Members and forms
-  login: Вход
+  login: Войти
   admin: Админ
-  username: Имя Пользователя
+  email: емейл
+  username: Логин
   password: Пароль
-  password_confirmation: Подтверждение Пароля
-  type_again: 'Введите еще раз, пожалуйста'
-  encrypt_password: Зашифровать Пароль?
+  password_confirmation: Подтверждение пароля
+  change_password: Сменить пароль
+  type_again: "Введите снова"
+  encrypt_password: Зашифровать пароль?
   first_name: Имя
   last_name: Фамилия
-  biography: Биография
+  biography: Немного о себе
   role: Роль
   member: Пользователь
-  new_member: Новый Пользователь
+  new_member: Новый пользователь
+  creating_member: Создать новго пользователя
+  editing_member: "Редактирование: "
+  reset_password_url_invalid: Ссылка неверна
+  reset_password_url_expired: Эта ссылка устарела
+  member_doesnt_exist: Пользователь не существует
+
+  # Logs
+  site_logs: Логи сайта
+  clear_logs: Очистить все логи
+  log_file: Твой логфаил
+  log_unwritable: нет доступа на запись, лог не записан.
+  showing: Показать 
+  messages_all: все сообщения
+  messages_debug: только отладочные
+  messages_info: только информационные
+  messages_warn: толко предупреждения
+  messages_error: только ошибки
+  messages_fatal: только фатальные
+  info_plus: только информационные и хуже
+  warn_plus: предупреждения и хуже
+  error_plus: ошибки и хуже
+  messages_happened: сообщения на 
+  messages_level: Уровень
+  messages_when: Когда
+  messages_what: Чем это вызвано
+  messages_page: Страницы
+  messages_message: Сообщения
+  log_filter_nomessages: "В лог файле, запрошенных записей нет."
+  log_nomessages: "Нет записей в логфаиле."
+  log_nomessages_logged: "Сообщения еще небыли записаны."
+  logging_yes: "Сайт <strong>пишет</strong> записи в лог."
+  logging_no: "Сайт <strong>не пишет</strong> в лог."
+  log_messages: "Сообщения с текущими параметрами или ниже: "
+  log_turning_on: "Чтобы включить запись логов необходимо изменить  <code>_log_enabled</code>  на <code>true</code> в конфиг файле <code>_config/settings.yaml</code>."
 
   # Messages, Errors & Confirmations
-  admin_404: 'Это страница не существует, поэтому мы послали вас сюда.'
+
+  admin_404: "Страница не существует, поэтому вы попали сюда."
   already_exists: уже существует
-  is_required: требуется
-  content_not_writable: Папка с Содержанием не позволяет записи
-  users_not_writable: Папка Пользователей не позволяет записи
-  msg_password_encrypted: 'Пароль зашифрован. Пожалуйста, войдите еще раз.'
+  is_required: обязательно
+  content_not_found: "Содержимое не найдено!"
+  content_not_writable: "Нет разрешения на запись в папка для загрузки."
+  users_not_writable: "Нет доступа на запись в папке пользователей."
+  msg_password_encrypted: "Пароль был зашифрован, зайдите снова."
+  password_confirmation_required: " и подтверждение обязательно!"
+  password_confirmation_match: " и подтверждение не совпадает"
+  password_confirmation_does_not_match: "Пароль и подтверждение не совпадают."
   incorrect_username: Имя пользователя не найдено
-  incorrect_password: Неправильный пароль
-  incorrect_username_password: 'Неправильное имя пользователя или пароль. Попробуйте еще раз.'
-  entry_deleted: 'Запись успешно удалена!'
-  page_saved: 'Страница успешно сохранена!'
-  entry_saved: 'Записи успешно сохранены!'
-  member_saved: 'Пользователь успешно сохранен!'
+  incorrect_password: Пароль не верен
+  incorrect_username_password: "Имя и пароль не верны, попробуйте еще раз."
+  entry_deleted: "Запись удалена"
+  entries_deleted: "Записи удалены!"
+  page_deleted: "Страница удалена!"
+  page_unable_delete: "Невозможно удалить страницу."
+  member_deleted: "Пользователь удален!"
+  page_saved: "Страница сохранена!"
+  entry_saved: "Запись успешно сохранена!"
+  member_saved: "Пользователь создан!"
+  invalid_username: "Немрное имя пользователя."
+  username_already_exists: "Данное имя уже существует."
+  viewing_all: Смотреть все
 
   error: Ошибка
-  error_form_submission: 'Извините, ошибка помешала отправке формы'
-  are_you_sure: Вы уверены? Это не может быть отменено.
-  access_denied: Доступ Запрещен
-  enable_curl: cURL должен быть включен, чтобы выполнить тест безопасности.
+  error_form_submission: "Ошибка при отправке формы."
+  are_you_sure: Вы уверены? этой действие не отменить.
+  access_denied: В доступе отказано
+  enable_curl: cURL должен быть включен для теста безопасности.
+  
+  # File-upload errors
+  upload_error_ini_size: Загрузка не удалась. Размер файла больше чер разрешено в PHP.ini.
+  upload_error_form_size: Загрузка не удалась. Размер файла больше чем  разрешено в `MAX_FILE_SIZE` .
+  upload_error_err_partial: Загрузка не удалась. Файл только частично загружен.
+  upload_error_no_file: Загрузка не удалась. Файл не выбран для загрузки.
+  upload_error_no_temp_dir: Загрузка не удалась. Папка для хранения файлов не указана.
+  upload_error_cant_write: Загрузка не удалась. Папка для хранения файлов недоступна для записи.
+  upload_error_extension: Загрузка не удалась. Расширение PHP остановило загрузку.
+  upload_error_unknown: Загрузка не удалась, причина не известна.
 
-  # System
-  system_status: Состояние системы
-  system_files_security_check: Проверка безопасности системных файлов
-  folder_file: Папка/Файл
-  action_required: Необходимо Выполнить
-  secure: Безопасный
-  unsecure: Небезопасный
-  user_accounts_security_check: Проверка Безопасности Пользовательского Аккаунта
-  user_file: Файл Пользователя
-  encrypted: Зашифрованный
-  unencrypted: Незашифрованный
-  action_encrypt_password: Зашифровать Пароль
-  security_app_folder: "Ваша программная папка доступна в Интернете. Это не критично, но лучше защитить эту папку.",
-  security_config_folder: "Ваша папка конфигурация доступна в Интернете. Очень важно защитить эту папку.",
-  security_settings_files: "Ваша папка установок доступна в Интернете. Очень важно защитить эту папку.",
-  security_user_files: "Ваши файлы пользователей доступны в Интернете. Очень важно защитить эту папку.",
-  security_content_folder: "Ваша папка содержаний доступна в Интернете. Это не критично, но лучше защитить эту папку.",
-  security_template_files: "Ваша папка с шаблоном дизайна доступна в Интернете. Это не критично, но лучше защитить эту папку."
+  # Security
+  security_status: Статус безопасности
+  security_files_security_check: Проверка файлов
+  secure_status: Безопатсность
+  password_status: Статус пароля
+  curl_needed: "Необходимо включить cURL на сервере для запуска теста."
+  folder_file: Папка/Фаил
+  action_required: Обязательное действие
+  secure: Безопастно
+  unsecure: Не безопастно
+  user_accounts_security_check: Проверка пользовательских аккаунтов
+  user_file: Фаил пользователя
+  encrypted: Зашифрован
+  unencrypted: Незашифрован
+  action_encrypt_password: Зашифрованный пароль
+  security_app_folder: "Ваша папка _app доступна в Интернете. Хотя это и не критично, но лучше защитить эту папку."
+  security_config_folder: "Ваша папка _config доступна в Интернете. Хотя это и не критично, но лучше защитить эту папку."
+  security_settings_files: "Ваша папка настроек доступна в Интернете. Хотя это и не критично, но лучше защитить эту папку."
+  security_user_files: "Ваша папка пользователей доступна в Интернете. Хотя это и не критично, но лучше защитить эту папку."
+  security_content_folder: "Ваша папка _content доступна в Интернете. Хотя это и не критично, и обязательно защитить эту папку."
+  security_template_files: "Ваша папка _template доступна в Интернете. Хотя это и не критично, и НЕОБОДИМО защитить эту папку."
+  security_logs_folder: "Ваша папка _logs доступна в Интернете. Это опастно и обязательно надо закрыть доступ к этой папке."
+
+  # Location
+  location_name: Имя координаты
+  latitude: Широта
+  longitude: Долгота
+
+  # Raven
+  export_csv: Экспорт в CSV
+  raven: Raven
+  raven_forms: Raven формы
+  form: Форма
+  submissions: Передачи
+
+  # Revisions
+  view_page_history: Просмотреть Изменения
+  choose_revision_to_view: Выберите версию для просмотра
+  view_this_revision: Просмотреть эту версию
+  first_save: Первое изменение
+  published_on: Опубликован
+  you_are_here: Вы здесь
+  viewing_revision: Вы смотрите изменения этой страници с %s. Вы можете повторно опубликовать её как есть, внести изменения затем опубликовать, или
+  viewing_revision_link: вернутся к текущим настройкам
+  what_changed: Опишите что изменилось
+  file_deleted: Файл удален 
 
 
+  # File
+  upload_file: Загрузить
+  drop_your_file: Дропнуть фаил
+  max_files_reached: Макс кол-во достигнуто
+  choose_existing_file: Выберите существующий файл
+  choose_file_from: Выберете фаил из
+  file_deleted: Файл удален
+  file_doesnt_exist: Файл не существует
+  file_no_config: Отсутствует конфигурация
+  file_no_path: Не указан путь
+  file_deleting_not_permitted: Удаление не разрешено
+ 
+  # Replicator
+  hide_all: Скрыть все
+  show_all: Отобразить всё
+  
