@@ -1,6 +1,6 @@
 #####################################
 #
-#  German (by mxst & felics) 
+#  German (by maxx & felics)
 #  #!tB declares Translations I'm not happy with
 # ###################################
 
@@ -14,6 +14,18 @@ translations:
   view: Anzeigen
   in: in
   remove: Entfernen
+  move: Bewegen
+  toggle: Toggle #!tB
+  options: Optionen
+  cancel: Abbrechen
+  by: von
+
+  # Timing
+  today: Heute
+  tomorrow: Morgen
+  yesterday: Gestern
+  at: um
+  published: Veröffentlicht
 
   # Nav
   home: Home
@@ -40,7 +52,8 @@ translations:
   list_entries: Einträge auflisten
   take_action: Aktion
   delete_entries: Einträge löschen
-  confirm_action: Ja, lösche diese Einträge.
+  confirm_delete: Ja, lösche diese Einträge.
+  confirm_action: Ja, ich bin sicher.
 
   # Pages
   page: Seite
@@ -66,13 +79,14 @@ translations:
   slug: Slug
   date: Datum
   number: Nummer
-  editing: in Bearbeitung #!tB
+  editing: wird bearbeitet
   enter_title: Titel eingeben...
-  order_number: Ordnungsnummer #!tB
-  publish_date: Veröffentlichungsdatum 
-  publish_time: Veröffentlichungszeitpunkt 
+  order_number: Eintragsnummer
+  publish_date: Veröffentlichungsdatum
+  publish_time: Veröffentlichungszeitpunkt
   save: Speichern
-  save_publish: 'Speichern & Veröffentlichen'
+  save_publish: "Speichern & Veröffentlichen"
+  save_publish_continue: "Veröffentlichen & Fortfahren"
   content: Inhalt
   new: Neu
 
@@ -89,6 +103,7 @@ translations:
   username: Benutzername
   password: Passwort
   password_confirmation: Passwortbestätigung
+  change_password: Passwort ändern
   type_again: 'Bitte noch einmal eingeben'
   encrypt_password: Passwort verschlüsseln?
   first_name: Vorname
@@ -99,11 +114,14 @@ translations:
   new_member: Neues Mitglied
   creating_member: Sie erstellen ein neues Mitglied
   editing_member: "Sie bearbeiten folgendes Mitglied:"
+  reset_password_url_invalid: Die URL ist ungültig
+  reset_password_url_expired: Dieser Link ist abgelaufen
+  member_doesnt_exist: Mitglied existiert nicht
 
   # Logs
   site_logs: Seiten-Logs
   clear_logs: Alle Logs entfernen
-  log_file: Ihr Log-File
+  log_file: Log-File
   log_unwritable: ist nicht schreibbar und kann deswegen nicht erstellt werden.
   showing: Anzeige #!tb
   messages_all: alle Meldungen
@@ -150,10 +168,10 @@ translations:
   page_unable_delete: "Seite kann nicht gelöscht werden!"
   member_deleted: "Mitglied erfolgreich gelöscht!"
   page_saved: 'Seite erfolgreich gespeichert!'
-  entry_saved: 'Eintrag erfolgreich gespeichert!' 
+  entry_saved: 'Eintrag erfolgreich gespeichert!'
   member_saved: 'Mitglied erfolgreich gespeichert!'
-  invalid_username: "Dei eingegebene Benutzername enthält ungültige Zeichen."
-  username_already_exists: "Dieser Benutzername ist bereits vergeben."
+  invalid_username: "Der eingegebene Benutzername enthält ungültige Zeichen."
+  username_already_exists: "Ein Benutzer mit diesem Benutzername existiert bereits."
   viewing_all: Sie betrachten alle
 
   error: Fehler
@@ -163,26 +181,26 @@ translations:
   enable_curl: Für den Sicherheitstest muss cURL eingeschaltet sein.
 
   # File-upload errors
-  upload_error_ini_size: Hochladen der Datei fehlgeschlagen. Die Dateigröße überschreitet die in der PHP konfiguration erlaubte Größe.
-  upload_error_form_size: Hochladen der Datei fehlgeschlagen. Die Dateigröße überschreitet die erlaubte `MAX_FILE_SIZE` des Formulars.
-  upload_error_err_partial: Hochladen der Datei fehlgeschlagen. Die Datei wurde nur teilweise hochgeladen.
-  upload_error_no_file: Hochladen der Datei fehlgeschlagen. Es wurde keine Datei ausgewählt.
-  upload_error_no_temp_dir: Hochladen der Datei fehlgeschlagen. Es wurde kein temporäres Upload-Verzeichnis angegeben.
-  upload_error_cant_write: Hochladen der Datei fehlgeschlagen. Das temporäre Upload-Verzeichnis ist nicht schreibbar.
-  upload_error_extension: Hochladen der Datei fehlgeschlagen. Eine PHP extension hat das Hochladen unterbrochen.
-  upload_error_unknown: Hochladen der Datei aus unbekannten Gründen fehlgeschlagen.
+  upload_error_ini_size: Upload fehlgeschlagen. Die Datei ist größer als die PHP-Konfiguration erlaubt.
+  upload_error_form_size: Upload fehlgeschlagen. Die Datei ist größer als die "MAX_FILE_SIZE" des Formulars erlaubt.
+  upload_error_err_partial: Upload fehlgeschlagen. Die Datei wurde nur unvollständig hochgeladen.
+  upload_error_no_file: Upload fehlgeschlagen. Es wurde keine Datei zum Upload ausgewählt.
+  upload_error_no_temp_dir: Upload fehlgeschlagen. Es wurde kein temporäres Verzeichnis festgelegt.
+  upload_error_cant_write: Upload fehlgeschlagen. Das temporäre Verzeichnis ist nicht schreibbar.
+  upload_error_extension: Upload fehlgeschlagen. Eine PHP-Erweiterung verhinderte den Upload.
+  upload_error_unknown: Upload aus unbekannten Gründen fehlgeschlagen.
 
   # Security
   security_status: System Status
   security_files_security_check: Sicherheitstest der Systemdateien
   secure_status: Sicherheitsstatus
   password_status: Passwortstatus
-  curl_needed: "Sie müssen cURL auf diesem Server aktivieren um Ihre Sicherheit automatisch zu testen."
+  curl_needed: "Sie müssen cURL auf diesem Server aktivierenn um Ihre Sicherheit automatisch zu testen."
   folder_file: Ordner/Datei
   action_required: Aktion erforderlich
   secure: Sicher
   unsecure: Unsicher
-  user_accounts_security_check: Sicherheitstest der Benutzeraccounts 
+  user_accounts_security_check: Sicherheitstest der Benutzeraccounts
   user_file: Benutzerdatei #!tB
   encrypted: Verschlüsselt
   unencrypted: Unverschlüsselt
@@ -199,10 +217,39 @@ translations:
   location_name: Name des Ortes
   latitude: Breitengrad
   longitude: Längengrad
-
+  
   # Raven
-  export_csv: Export zu CSV
+  export_csv: Zu CSV exportieren
   raven: Raven
   raven_forms: Raven Formulare
   form: Formular
-  submissions: Übertragungen
+  submissions: Einreichungen
+
+  # Revisions
+  view_page_history: Versionen anzeigen
+  choose_revision_to_view: Eine Version zum betrachten auswählen
+  view_this_revision: Diese Version betrachten
+  first_save: Erste Revision
+  published_on: Veröffentlicht am
+  you_are_here: Du bist hier
+  viewing_revision: Du siehst dir eine Revision dieser Seite von %s an. Du kannst die Seite in ihrem jetzigen Zustand wiederveröffentlichen, sie mit Änderungen veröffentlichen, oder
+  viewing_revision_link: zurück zu der Live-Version gehen
+  what_changed: Beschreibung der Änderungen
+  file_deleted: Datei gelöscht
+
+
+  # File
+  upload_file: Eine Datei hochladen
+  drop_your_file: Datei ablegen
+  max_files_reached: Maximale Anzahl an Dateien erreicht
+  choose_existing_file: Eine existierende Datei auswählen
+  choose_file_from: Wähle eine Datei aus
+  file_deleted: Datei gelöscht
+  file_doesnt_exist: Datei existiert nicht
+  file_no_config: Keine Konfigurationsdatei vorhanden
+  file_no_path: Kein Pfad vorhanden
+  file_deleting_not_permitted: Das Löschen von Dateien ist nicht erlaubt
+
+  # Replicator
+  hide_all: Alle verstecken
+  show_all: Alle zeigen
