@@ -219,11 +219,21 @@ translations:
   longitude: Längengrad
   
   # Raven
-  export_csv: Zu CSV exportieren
+  export_csv: CSV exportieren
   raven: Raven
   raven_forms: Raven Formulare
+  nav_title_raven: Formulare
   form: Formular
   submissions: Einreichungen
+  delete_files: Dateien löschen
+  spam: Spam
+  ham: Ham
+  all_submissions: Alle Einreichungen
+  mark_as_spam: Markieren als Spam
+  mark_as_ham: Markieren als Ham
+  batch_delete: Dateien gelöscht
+  batch_spam: Markiert als Spam
+  batch_ham: Markiert als Ham
 
   # Revisions
   view_page_history: Versionen anzeigen
