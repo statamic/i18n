@@ -222,8 +222,10 @@ translations:
   export_csv: CSV exportieren
   raven: Raven
   raven_forms: Raven Formulare
+  nav_icon_raven: form
   nav_title_raven: Formulare
   form: Formular
+  Overview: Übersicht
   submissions: Einreichungen
   delete_files: Dateien löschen
   spam: Spam
@@ -232,8 +234,8 @@ translations:
   mark_as_spam: Markieren als Spam
   mark_as_ham: Markieren als Ham
   batch_delete: Dateien gelöscht
-  batch_spam: Markiert als Spam
-  batch_ham: Markiert als Ham
+  batch_spam: Verschoben in Spam
+  batch_ham: Verschoben in Ham
 
   # Revisions
   view_page_history: Versionen anzeigen
