@@ -351,4 +351,15 @@ return [
     'label' => 'Etiquette',
     'type' => 'Type',
     'route' => 'Route',
+    
+    'nav_content' => 'Contenu',
+    'nav_tools' => 'Outils',
+    'nav_configure' => 'Configurer',
+    'nav_addons' => 'Addons',
+    'nav_fieldsets' => 'Fieldsets',
+    'nav_settings' => 'Paramètres',
+    'nav_users' => 'Utilisateurs',
+    
+    'mount_collection' => 'Monter la Collection',
+    'unmount_collection' => 'Démonter la Collection'
 ];

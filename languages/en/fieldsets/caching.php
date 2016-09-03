@@ -15,12 +15,15 @@ return [
    'static_caching_enabled' => 'Enable',
 
    'static_caching_length' => 'Default Cache length',
-   'static_caching_length_instruct' => 'How long should each page be cached, in seconds.',
+   'static_caching_length_instruct' => 'How long should each page be cached, in seconds. This only applies when using the "cache" type.',
 
    'static_caching_type' => 'Caching Type',
    'static_caching_type_instruct' => 'Saving to file will generate html files at `static`, and you will need to set up your htaccess.
                                       Otherwise, the standard cache will be used.',
-                                      
+
+    'static_caching_file_path' => 'Static Files Path',
+    'static_caching_file_path_instruct' => 'The location where files will be written when using file-based caching.',
+
     'static_caching_ignore_query_strings' => 'Ignore query strings',
     'static_caching_ignore_query_strings_instruct' => 'When enabled, a page will be treated as the same URL regardless of any query string parameters.  
                                                        Cannot be disabled when using file-based static caching.',

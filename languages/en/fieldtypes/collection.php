@@ -9,7 +9,7 @@ return [
     'label' => 'Label',
     'label_instruct' => 'How the values should appear. You may use variables within the string, eg. `{{ title }} ({{ date format="Y" }})`',
     'collection' => 'Collection',
-    'collection_instruct' => 'The name of the collection from which to show entries.',
+    'collection_instruct' => 'The collection from which to show entries.',
     'mode' => 'UI Mode',
     'mode_instruct' => 'How the field should be displayed.',
 

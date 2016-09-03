@@ -351,4 +351,15 @@ return [
     'label' => 'Label',
     'type' => 'Type',
     'route' => 'Route',
+
+    'nav_content' => 'Content',
+    'nav_tools' => 'Tools',
+    'nav_configure' => 'Configure',
+    'nav_addons' => 'Addons',
+    'nav_fieldsets' => 'Fieldsets',
+    'nav_settings' => 'Settings',
+    'nav_users' => 'Users',
+
+    'mount_collection' => 'Mount Collection',
+    'unmount_collection' => 'Unmount Collection'
 ];

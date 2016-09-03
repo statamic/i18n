@@ -9,7 +9,7 @@ return [
     'label' => 'Etiquette',
     'label_instruct' => 'La façon dont les valeurs doivent apparaître. Vous pouvez utiliser des variables dans la chaîne, ex. `{{ titre }} ({{ date format="Y" }})`',
     'collection' => 'Collection',
-    'collection_instruct' => 'Le nom de la collection dont sont issus les articles à afficher.',
+    'collection_instruct' => 'La collection dont sont issus les articles à afficher.',
     'mode' => 'Mode UI',
     'mode_instruct' => 'La façon dont le champ doit être affiché.',
 
