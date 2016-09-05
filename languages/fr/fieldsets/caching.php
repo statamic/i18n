@@ -21,7 +21,7 @@ return [
     'static_caching_type_instruct' => '"Enregistrer comme fichier" va générer des fichiers HTML dans `static`, et vous devrez paramétrer votre htaccess.
                                        Sinon, le cache standard sera utilisé.',
                                        
-    'static_caching_file_path' => 'Chemin des fichiers statiques',
+    'static_caching_file_path' => 'Chemin serveur pour les fichiers statiques',
     'static_caching_file_path_instruct' => 'L\'emplacement dans lequel les fichiers sont écrits quand vous utilisez le caching à base de fichiers.',
     
     'static_caching_ignore_query_strings' => 'Ignorer les chaînes de requête',
