@@ -26,5 +26,9 @@ return [
                             
     'protect' => 'Protection globale du système',
     'protect_instruct' => 'Saisir ici une règle de protection entraînera son application automatique à la totalité du frontal de votre site.',
+    
+    'csrf_exclude' => 'URLs exclues de CSRF',
+    'csrf_exclude_instruct' => 'Une liste d\'URLs à exclure de la protection CSRF',
+
   
 ];

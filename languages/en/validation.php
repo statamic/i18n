@@ -89,6 +89,14 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'fields' => [
+            'username' => [
+                'not_in' => 'The selected username is taken.',
+            ],
+            'email' => [
+                'not_in' => 'The selected email is taken.',
+            ]
+        ]
     ],
 
     /*

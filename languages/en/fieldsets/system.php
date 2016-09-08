@@ -27,5 +27,8 @@ return [
 
     'protect' => 'System-wide Protection',
     'protect_instruct' => 'Entering a protection scheme here will apply it to your entire site\'s front-end.',
+    
+    'csrf_exclude' => 'CSRF Excluded URLs',
+    'csrf_exclude_instruct' => 'A list of URLS to exclude from CSRF protection',
 
 ];
