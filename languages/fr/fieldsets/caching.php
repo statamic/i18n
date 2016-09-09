@@ -15,17 +15,17 @@ return [
 		'static_caching_enabled' => 'Activer',
 
 		'static_caching_length' => 'Durée de cache par défaut',
-    'static_caching_length_instruct' => 'La durée de mise en cache de chaque page, en secondes. Ne s\'applique que lorsque vous utilisez le type "cache".',
+    'static_caching_length_instruct' => 'La durée de mise en cache de chaque page, en secondes. Ne s\'applique que lorsque vous utilisez le type "Cache".',
 
 		'static_caching_type' => 'Type de mise en cache',
-    'static_caching_type_instruct' => '"Enregistrer comme fichier" va générer des fichiers HTML dans `static`, et vous devrez paramétrer votre htaccess.
+    'static_caching_type_instruct' => '"Fichier" va générer des fichiers HTML dans `static`, et vous devrez également paramétrer votre fichier .htaccess.
                                        Sinon, le cache standard sera utilisé.',
                                        
     'static_caching_file_path' => 'Chemin serveur pour les fichiers statiques',
-    'static_caching_file_path_instruct' => 'L\'emplacement dans lequel les fichiers sont écrits quand vous utilisez le caching à base de fichiers.',
+    'static_caching_file_path_instruct' => 'L\'emplacement dans lequel les fichiers sont écrits quand vous utilisez le cache à base de fichiers statiques.',
     
     'static_caching_ignore_query_strings' => 'Ignorer les chaînes de requête',
     'static_caching_ignore_query_strings_instruct' => 'S\'il est sur <b>Activer</b>, une page sera traitée comme une même URL, sans jamais tenir compte des paramètres de chaîne de requête.  
-                                                       Ne peut pas être désactivé quand vous utilisez le cache statique de fichiers.',
+                                                       Ne peut pas être désactivé quand vous utilisez le cache à base de fichiers statiques.',
 
 ];
