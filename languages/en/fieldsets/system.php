@@ -8,6 +8,9 @@ return [
     'locales' => 'Locales',
     'locales_instruct' => 'The locales from which your site will be accessed.',
 
+    'timezone' => 'Timezone',
+    'timezone_instruct' => 'The [timezone](http://php.net/manual/en/timezones.php) you want your site to operate under.',
+
     'date_format' => 'Date format',
     'date_format_instruct' => 'The PHP date format string used when outputting unformatted date variables.',
 

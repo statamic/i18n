@@ -26,6 +26,7 @@ return [
     'show_titles' => 'Show Titles',
     'choose_page_type' => 'Choose Page Type',
     'parent_page' => 'Parent Page',
+    'pages_reordered' => 'Pages reordered successfully.',
 
     // Collections
     'collections' => 'Collection|Collections',

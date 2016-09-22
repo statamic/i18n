@@ -8,6 +8,9 @@ return [
     'locales' => 'Langues',
     'locales_instruct' => 'Les langues dans lesquelles votre site sera affiché.',
 
+    'timezone' => 'Fuseau horaire',
+    'timezone_instruct' => 'Le [fuseau horaire](http://php.net/manual/en/timezones.php) dans lequel vous souhaitez que votre site fonctionne.',
+    
     'date_format' => 'Format de date',
     'date_format_instruct' => 'La chaîne de formatage de date PHP utilisée lors de la production de variables Dates non formatées.',
 
