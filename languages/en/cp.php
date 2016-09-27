@@ -65,6 +65,10 @@ return [
     'taxonomy_created' => 'Taxonomy Created',
     'taxonomies_empty_heading' => 'Taxonomies',
     'taxonomies_empty' => 'A Taxonomy is a system of classifying data around a set of unique characteristics, such as category or color.',
+    'taxonomies_title_instructions' => 'The name of your taxonomy.',
+    'taxonomies_slug_instructions' => 'This is how the taxonomy will be referenced in templates.',
+    'taxonomies_fieldset_instructions' => 'The fields that should be displayed when editing terms in this taxonomy.',
+    'taxonomies_route_instructions' => 'The terms in this taxonomy will have URLs that follow this routing scheme.',
 
     'taxonomy_terms' => 'Term|Terms',
     'create_taxonomy_term_button' => 'Create :term',
@@ -116,6 +120,10 @@ return [
     'focal_point_label' => 'Click image to adjust the focal point',
     'focal_point_instructions' => 'The focal point is used when cropping so the most important part of the image is not removed.',
 
+    // Folder
+    'folder_title_instructions' => 'The display name of the folder.',
+    'folder_directory_instructions' => 'The filesystem directory name',
+
     // Asset Containers
     'asset_containers' => 'Asset Container|Asset Containers',
     'manage_asset_containers' => 'Manage Asset Containers',
@@ -126,18 +134,51 @@ return [
     'asset_container_updated' => 'Asset Container updated',
     'asset_containers_empty_heading' => 'There are no configured asset containers.',
     'asset_containers_empty' => 'Each asset container can be a location on your file system, which can either be publicly accessible or protected from prying eyes.',
+    'select_asset_container' => 'Select an asset container.',
+
+    // Asset Folders
+    'create_folder' => 'Create Folder',
+    'edit_folder' => 'Edit Folder',
+    'asset_name_instructions' => 'The display name of the container.',
+    'asset_handle_instructions' => 'A unique string that you can use to reference your container. <b>This cannot be changed after creation.</b>',
+    'asset_fieldset_instructions' => 'The fieldset to be used by assets in this container.',
+    'asset_driver_instructions' => 'Where will the assets be stored and accessed?',
+    'asset_path_instructions' => 'Location of the folder on the filesystem.',
+    'asset_url_instructions' => 'URL of the folder.',
+
+    // Set Builder
+    'add_set' => 'Add Set',
+    'edit_set' => 'Edit Set',
+    'delete_set' => 'Delete Set',
+    'set_fields_instructions' => "Choose this set's fields",
+
+    // Amazon S3
+    'access_key_id' => 'Access Key ID',
+    'secret_access_key' => 'Secret Access Key',
 
     // Users
     'users' => 'User|Users',
     'nav_users' => 'Users',
     'create_user_button' => 'Create User',
-    'create_user' => 'Create a User',
+    'create_user' => 'Create User',
+    'create_a_user' => 'Create a User',
     'user_created' => 'User created',
     'editing_user' => 'Editing User',
     'user_updated' => 'User updated',
     'send_activation_email' => 'Send activation email',
+    'send_password_reset_email' => 'Send password reset email',
+    'copy_activation_link' => 'Copy activation link',
+    'copy_password_reset_link' => 'Copy password reset link',
+    'account' => 'Account',
     'my_account' => 'My Account',
     'logout' => 'Logout',
+    'user_options' => 'User Options',
+    'user_bio_instructions' => 'A little bit about you, if you like.',
+    'user_account_created' => 'A user account has been created.',
+
+    // Password Reset
+    'reset_code_missing' => 'No code specified.',
+    'reset_code_invalid' => 'Invalid code',
 
     // Roles
     'roles' => 'Role|Roles',
@@ -153,6 +194,17 @@ return [
     // Permissions
     'permissions' => 'Permission|Permissions',
     'access' => 'Access',
+    'checking_folder_permissions' => 'Checking folder permissions, please wait...',
+    'folders_permission_valid' => 'File and folder permissions look great!',
+    'folders_unwritable' => 'The following directories need to be writable:',
+
+    // Error Pages
+    'permission_denied' => 'Permission Denied',
+    'permission_denied_instructions' => "You don't have permission to view this page.",
+    'page_not_found' => 'Page not found',
+    'page_not_found_instructions' => 'The page you requested does not exist.',
+    'learn_more_about_developer_mode' => 'Learn more about developer mode.',
+
 
     // User Groups
     'usergroups' => 'User Group|User Groups',
@@ -178,6 +230,9 @@ return [
     'settings_email' => 'Email',
     'settings_theming' => 'Theming',
     'settings_users' => 'Users',
+    'settings_updated' => 'Settings updated.',
+    'settings_locales_instructions' => "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer.",
+    'settings_debug_mode_instructions' => "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production.",
 
     // Addons
     'addons' => 'Addon|Addons',
@@ -203,15 +258,24 @@ return [
     'create_title' => 'Create Title',
     'display_name' => "Display Name",
     'display_name_instructions' => "The field's label shown in the Control Panel.",
+    'display_text' => 'Display Text',
+    'display_text_instructions' => "The field's label",
+    'field_name' => 'Field Name',
+    'field_name_instructions' => 'The field variable',
+    'field_required' => 'Required',
+    'field_required_instructions' => 'This field is required',
     'field_variable' => "Field Variable",
     'field_variable_instructions' => "The field's template variable.",
     'field_instructions_instructions' => "Basic Markdown is allowed. Encouraged, even.",
+    'field_width_instructions' => 'The size of the field in the fieldset layout.',
     'validation_rules' => "Validation Rules",
     'validation_instructions' => "Has access to all of Laravel's",
     'validation_instructions_link_text' => 'validation rules',
+    'validation_rules_instructions' => 'Enter a pipe delimited string of <a href=":url" target="_blank">validation rules</a>.',
     'default_value' => 'Default Value',
     'field_default_value_instructions' => 'Enter the default value for string-type fields.',
     'edit_field' => 'Edit Field',
+    'choose_field_to_edit' => "Choose a field to edit its settings.",
 
 
     // Forms
@@ -228,9 +292,21 @@ return [
     'empty_responses' => 'This form is awaiting responses.',
     'create_formset' => 'Create Formset',
     'editing_formset' => 'Editing Formset',
+    'import' => 'Import',
     'export' => 'Export',
     'export_csv' => 'Export as CSV',
     'export_json' => 'Export as JSON',
+
+    // Formset Builder
+    'formset_title_instructions' => "Your formset's proper label.",
+    'formset_slug_instructions' => 'How the formset will be referenced.',
+    'formset_columns_instructions' => 'Choose which columns should be displayed and in what order.',
+    'formset_metrics_instructions' => 'Specify any metrics you would like displayed.',
+    'formset_emails_instructions' => 'Add any emails you want to be sent upon submission.',
+    'formset_honeypot_field' => 'Honeypot Field',
+    'formset_honeypot_instructions' => 'The field name to be used for the honeypot.',
+    'formset_honeypot_link' => "What's a honeypot?",
+    'formset_fields_instructions' => 'Choose and customize the fields in this form.',
 
     // Updater
     'nav_updater' => 'Updater',
@@ -239,14 +315,66 @@ return [
     'upgrade_to_version' => 'Upgrade to :version',
     'downgrade_to_version' => 'Downgrade to :version',
     'update_available' => 'Update Available',
+    'update_complete' => 'Update complete.',
     'up_to_date' => 'Up to date!',
     'on_latest' => 'You are running the latest version of Statamic',
     'current_version' => 'Current Version',
     'released_on_date' => 'Released on :date',
     'updates_available' => 'There is an update available|There are :updates updates available',
+    'backup_failed' => 'Backup Failed',
+    'backup' => 'Backup',
+    'backed_up' => 'Backed up',
+    'backing_up' => 'Backing up...',
+    'backing_up_instructions' => "We're zipping up your <code>statamic</code> folder, just in case you need to roll back.",
+    'backup_reminder' => 'This is a safe process. We back up everything during running the update so you can always find your most recent version in <code>local/temp</code> if something goes wrong.',
+
+    // Download
+    'downloading' => 'Downloading...',
+    'downloaded' => 'Downloaded.',
+    'download_failed' => 'Download Failed',
+    'downloading_latest' => 'Getting the latest and greatest version of Statamic for you.',
+    'downloading_version' => 'Getting v:version',
+
+    // Installation
+    'installation' => 'Installation',
+    'installation_has_failed' => 'Installation has failed',
+    'preparing_installation' => 'Installation will begin once the backup and download have completed.',
+    'now_running' => "You're now running Statamic v:version",
+    'statamic_ready' => 'Statamic is ready and waiting for you.',
+    'delete_installer' => 'Please delete the <code>installer.php</code> file.',
+    'installer_deleted' => 'I deleted it. Take me to the Control Panel &rarr;',
+
+    // Archive
+    'unzipping_files' => 'Unzipping files...',
+    'unzipping_files_instructions' => 'Placing the files from the Statamic zip in a temporary location.',
+    'unzipped_files' => 'Files unzipped.',
+
+    // Dependencies
+    'installing_dependencies' => 'Installing Dependencies...',
+    'installing_dependencies_instructions' => 'Any addons with dependencies will need to be fetched. This may take a moment.',
+    'dependencies_installed' => 'Dependencies installed.',
+
+    // Swap Release
+    'swapping_files' => 'Swapping files...',
+    'swapping_files_instructions' => 'Your smelly old Statamic files are being swapped for sparkly clean new ones.',
+    'files_swapped' => 'Files swapped.',
+
+    // Clean Up
+    'cleaning_up' => 'Cleaning up...',
+    'cleaning_up_instructions' => "We're deleting the temporary files created during the update.",
 
     // Importers
     'nav_import' => 'Import',
+    'site_url' => 'Site URL',
+    'import_from_version' => 'Import content from Statamic :version',
+    'import_complete' => 'Import Complete',
+    'import_has_completed' => 'The import has completed.',
+    'import_summary' => 'Import Summary',
+    'import_site_url_instructions' => 'Enter the URL of the existing website you will be importing.',
+
+    // Export
+    'export_failed' => 'Exporting Failed',
+    'export_export_failed_with_error' => 'Export faileed with error:',
 
     'manage_widgets' => 'Manage Widgets',
 
@@ -264,11 +392,27 @@ return [
     'status_active' => 'Active',
     'published' => 'Published',
 
+    // Shortcuts
+    'keyboard_shortcuts' => 'Keyboard Shortcuts',
+    'show_keyboard_shortcuts' => 'Show Keyboard Shortcuts',
+
+    // License
+    'license_unauthorized' => 'This license belongs to another domain. Visit <a href=":url" target="_blank">your account</a> to change it.',
+    'license_missing' => 'You are on a public domain without a license. Please <a href=":url">add your license key</a>.',
+    'checking_license_key' => 'Checking your license key, please wait...',
+    'license_valid' => 'You have a valid license key.',
+    'license_invalid' => 'This key is invalid.',
+    'license_key_instructions' => 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.',
+    'enter_license_key' => 'Please enter your license key to access to the control panel on a public domain.',
+
+    'continue_in_trial_mode' => 'Continue in Trial Mode',
+
     // Verbs and helpers
     'actions' => 'Action|Actions',
     'add' => 'Add',
     'edit' => 'Edit',
     'view' => 'View',
+    'remove' => 'Remove',
     'update' => 'Update',
     'delete' => 'Delete',
     'duplicate' => 'Duplicate',
@@ -287,6 +431,7 @@ return [
     'loading' => 'Loading',
     'expand' => 'Expand',
     'collapse' => 'Collapse',
+    'show' => 'Show',
     'hide' => 'Hide',
     'edit_layout' => 'Edit Layout',
     'save_layout' => 'Save Layout',
@@ -300,6 +445,20 @@ return [
     'add_row' => 'Add Row',
     'localizable' => 'Localizable',
     'date_col_header' => 'Date',
+    'please_wait' => 'Please Wait...',
+    'exporting' => 'Exporting...',
+    'importing' => 'Importing...',
+    'return_to_dashboard' => 'Return to Dashboard',
+    'publish_content' => 'Publish Content',
+    'close_this_window' => 'Close this Window',
+    'toggle_navigation' => 'Toggle navigation',
+    'logging_in' => 'Logging in...',
+    'logged_in' => 'Logged in! Taking you to the control panel...',
+    'write' => 'Write',
+    'preview' => 'Preview',
+    'collapse_all' => 'Collapse All',
+    'expand_all' => 'Expand All',
+    'please_select' => 'Please select',
 
     // Nouns and whatnot
     'fields' => 'Field|Fields',
@@ -331,11 +490,18 @@ return [
     'new' => 'New',
     'or' => 'or',
     'order' => 'Order',
+    'one_quarter' => '1/4 - One quarter',
+    'three_quarters' => '3/4 - Three quarters',
+    'one_third' => '1/3 - One third',
+    'two_thirds' => '2/3 - Two thirds',
+    'half' => 'Half',
+    'full_width' => 'Full width',
     'width' => 'Width',
     'version' => 'Version',
     'versions' => 'Version|Versions',
     'developer' => 'Developer',
     'developers' => 'Developer|Developers',
+    'developer_mode' => 'Developer Mode',
     'description' => 'Description',
     'descriptions' => 'Description|Descriptions',
     'name' => 'Name',
@@ -352,6 +518,25 @@ return [
     'label' => 'Label',
     'type' => 'Type',
     'route' => 'Route',
+    'terms' => 'Term|Terms',
+    'progress' => 'Progress',
+    'variables' => 'Variable|Variables',
+    'license_key' => 'License Key',
+    'driver' => 'Driver',
+    'path' => 'Path',
+    'url' => 'URL',
+    'bucket' => 'Bucket',
+    'region' => 'Region',
+    'metrics' => 'Metric|Metrics',
+    'whats_this' => "What's this?",
+    'first_name' => 'First name',
+    'last_name' => 'Last name',
+    'bio' => 'Bio',
+    'markdown_cheatsheet' => 'Markdown Cheatsheet',
+    'locales_and_urls' => 'Locales and URLs',
+    'debug_mode' => 'Debug Mode',
+    'defined_in_environment' => 'Managed externally by your environment.',
+    'be_right_back' => 'Be right back.',
 
     'nav_content' => 'Content',
     'nav_tools' => 'Tools',
