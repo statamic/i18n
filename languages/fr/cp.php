@@ -547,5 +547,8 @@ return [
     'nav_users' => 'Utilisateurs',
     
     'mount_collection' => 'Monter la Collection',
-    'unmount_collection' => 'Démonter la Collection'
+    'unmount_collection' => 'Démonter la Collection',
+    
+    // Validation
+    'handle_exists' => 'Un emplacement possédant cet identifiant existe déjà.',
 ];

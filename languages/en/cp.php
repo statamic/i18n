@@ -547,5 +547,8 @@ return [
     'nav_users' => 'Users',
 
     'mount_collection' => 'Mount Collection',
-    'unmount_collection' => 'Unmount Collection'
+    'unmount_collection' => 'Unmount Collection',
+
+    // Validation
+    'handle_exists' => 'A container with this handle already exists.',
 ];
