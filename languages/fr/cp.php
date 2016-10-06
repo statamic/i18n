@@ -291,6 +291,7 @@ return [
     'response' => 'réponse|réponses',
     'empty_responses' => 'Ce formulaire attend des réponses.',
     'create_formset' => 'Créer un Formset',
+    'creating_formset' => 'Création du Formset',
     'editing_formset' => 'Mise à jour du Formset',
     'import' => 'Importer',
     'export' => 'Exporter',

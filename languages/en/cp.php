@@ -291,6 +291,7 @@ return [
     'response' => 'response|responses',
     'empty_responses' => 'This form is awaiting responses.',
     'create_formset' => 'Create Formset',
+    'creating_formset' => 'Creating Formset',
     'editing_formset' => 'Editing Formset',
     'import' => 'Import',
     'export' => 'Export',
