@@ -313,10 +313,10 @@ return [
     'nav_updater' => 'Mise à Jour',
     'updates'     => 'Mises à jour',
     'upgrade_to_latest' => 'Téléchargez la dernière MAJ',
-    'upgrade_to_version' => 'Mettre à jour vers :version',
+    'upgrade_to_version' => 'Mise à jour vers :version',
     'downgrade_to_version' => 'Revenir vers :version',
     'update_available' => 'MàJ disponible',
-    'update_complete' => 'MàJ terminée.',
+    'update_complete' => 'Mise à jour terminée.',
     'up_to_date' => 'Statamic est à jour !',
     'on_latest' => 'Vous utilisez la dernière version de Statamic',
     'current_version' => 'Version actuelle',
@@ -324,16 +324,16 @@ return [
     'updates_available' => 'Une mise à jour est disponible|Il y a :updates mises à jour disponibles',
     'backup_failed' => 'La sauvegarde a échoué',
     'backup' => 'Sauvegarde',
-    'backed_up' => 'Sauvegardé',
+    'backed_up' => 'Sauvegardée',
     'backing_up' => 'Sauvegarde en cours...',
     'backing_up_instructions' => "Nous zippons votre répertoire <code>statamic</code>, au cas où vous auriez besoin de revenir en arrière.",
-    'backup_reminder' => 'C\'est un process sécurisé. Nous sauvegardons tout lorsque nous réalisons la MAJ, de telle sorte que vous puissiez toujours retrouver votre version la plus récente dans <code>local/temp</code> si jamais quelque chose se passait mal.',
+    'backup_reminder' => 'Process sécurisé ! Nous sauvegardons tout lorsque nous réalisons la mise à jour, afin que vous puissiez toujours retrouver la version précédente dans <code>local/temp</code> si jamais quelque chose se passait mal.',
 
     // Download
     'downloading' => 'Téléchargement en cours...',
     'downloaded' => 'Téléchargée.',
     'download_failed' => 'Le téléchargement a échoué',
-    'downloading_latest' => 'Récupération pour vous de la dernière et meilleure version de Statamic.',
+    'downloading_latest' => 'Nous récupérons pour vous la toute dernière et meilleure version de Statamic.',
     'downloading_version' => 'Téléchargement de v:version',
 
     // Installation
@@ -357,15 +357,15 @@ return [
 
     // Swap Release
     'swapping_files' => 'Remplacement des fichiers...',
-    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont remplacés par de tout nouveau, tout beau.',
+    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont en cours de remplacement par d\'autres, tout neuf !',
     'files_swapped' => 'Fichiers remplacés.',
 
     // Clean Up
     'cleaning_up' => 'Nettoyage...',
-    'cleaning_up_instructions' => "Nous supprimons les fichiers temporaires créés durant la mise à jour.",
+    'cleaning_up_instructions' => "Nous supprimons les fichiers temporaires créés pendant la mise à jour.",
     
     // Importers
-    'nav_import' => 'Importer',
+    'nav_import' => 'Import',
     'site_url' => 'Site URL',
     'import_from_version' => 'Importez du contenu venant de Statamic :version',
     'import_complete' => 'Import terminé',
