@@ -324,14 +324,14 @@ return [
     'updates_available' => 'Une mise à jour est disponible|Il y a :updates mises à jour disponibles',
     'backup_failed' => 'La sauvegarde a échoué',
     'backup' => 'Sauvegarde',
-    'backed_up' => 'Sauvegardée',
+    'backed_up' => 'Sauvegarde effectuée',
     'backing_up' => 'Sauvegarde en cours...',
     'backing_up_instructions' => "Nous zippons votre répertoire <code>statamic</code>, au cas où vous auriez besoin de revenir en arrière.",
     'backup_reminder' => 'Process sécurisé ! Nous sauvegardons tout lorsque nous réalisons la mise à jour, afin que vous puissiez toujours retrouver la version précédente dans <code>local/temp</code> si jamais quelque chose se passait mal.',
 
     // Download
     'downloading' => 'Téléchargement en cours...',
-    'downloaded' => 'Téléchargée.',
+    'downloaded' => 'Téléchargement effectué',
     'download_failed' => 'Le téléchargement a échoué',
     'downloading_latest' => 'Nous récupérons pour vous la toute dernière et meilleure version de Statamic.',
     'downloading_version' => 'Téléchargement de v:version',
@@ -340,7 +340,7 @@ return [
     'installation' => 'Installation',
     'installation_has_failed' => 'L\'installation a échoué',
     'preparing_installation' => 'L\'installation débutera dès la fin des processus de sauvegarde et de téléchargement.',
-    'now_running' => "Vous êtes désormais sous Statamic v:version",
+    'now_running' => "Votre site fonctionne désormais sous Statamic v:version",
     'statamic_ready' => 'Statamic est prêt et il vous attend.',
     'delete_installer' => 'Merci de supprimer le fichier <code>installer.php</code>.',
     'installer_deleted' => 'Je l\'ai bien supprimé. Re-dirigez moi vers le panneau de contrôle &rarr;',
@@ -357,7 +357,7 @@ return [
 
     // Swap Release
     'swapping_files' => 'Remplacement des fichiers...',
-    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont en cours de remplacement par d\'autres, tout neuf !',
+    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont en cours de remplacement par d\'autres, tous neufs !',
     'files_swapped' => 'Fichiers remplacés.',
 
     // Clean Up
