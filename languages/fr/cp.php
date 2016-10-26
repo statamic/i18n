@@ -331,7 +331,7 @@ return [
 
     // Download
     'downloading' => 'Téléchargement en cours...',
-    'downloaded' => 'Téléchargement effectué',
+    'downloaded' => 'Téléchargement effectué.',
     'download_failed' => 'Le téléchargement a échoué',
     'downloading_latest' => 'Nous récupérons pour vous la toute dernière et meilleure version de Statamic.',
     'downloading_version' => 'Téléchargement de v:version',
