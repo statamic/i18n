@@ -15,7 +15,7 @@ return [
     'image_manipulation_driver_instruct' => "In some cases ImageMagick can be faster, but isn't available on all servers.",
 
     'image_manipulation_cached' => 'Serve cached images directly',
-    'image_manipulation_cached_instruct' => 'Should images be generated before they are requested? [Read more](https://docs.statamic.com/reference/tags/glide#serving-cached-images)',
+    'image_manipulation_cached_instruct' => 'Should images be generated before they are requested? <a href="https://docs.statamic.com/reference/tags/glide#serving-cached-images" target="_blank">Read more</a>.',
 
     'image_manipulation_cached_path' => 'Cached images path',
     'image_manipulation_cached_path_instruct' => 'When serving cached images directly, this is where they will be stored. This must be a publicly accessible location.',
