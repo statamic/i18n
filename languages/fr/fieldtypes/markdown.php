@@ -10,5 +10,8 @@ return [
 
     'folder' => 'Répertoire',
     'folder_instruct' => 'Choisir le répertoire afin de restreindre les fichiers.',
+    
+    'restrict' => 'Restreindre au Répertoire',
+    'restrict_instruct' => 'Interdire la navigation vers d\'autres répertoires de ressources ou emplacements.',
 
 ];

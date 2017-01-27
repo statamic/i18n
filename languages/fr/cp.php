@@ -8,6 +8,7 @@ return [
     'sneak_peek' => 'Aperçu',
     'sneak_peeking' => 'Jeter un coup d\'oeil',
     'view_site' => 'Voir le site',
+    'visit_url' => 'Visitez l\'URL',
     'search_for_anything' => 'Rechercher',
 
     // Pages
@@ -114,11 +115,15 @@ return [
     'filesize' => 'Taille du fichier',
     'date_modified' => 'Date modifiée',
     'parent_folder' => 'Répertoire parent',
-    'asset_folder_empty_heading' => 'Ce répertoire ne contient aucune ressource.',
+    'asset_folder_empty_heading' => 'Répertoire vide.',
     'asset_folder_empty' => 'Vous pouvez télécharger de nouvelles ressources dans ce répertoire en glissant-déposant des fichiers sur la zone encadrée ci-dessus.',
     'focal_point' => 'Point focal',
     'focal_point_label' => 'Cliquez sur l\'image pour ajuster le point focal',
     'focal_point_instructions' => 'Le point focal est utilisé lors du rognage de telle sorte que la partie la plus importante de l\'image ne disparaisse pas.',
+    'or_drag_and_drop_files' => 'ou glissez et déposez les fichiers.',
+    'no_asset_container_specified' => 'Aucun emplacement de ressources indiqué.',
+    'rename_file' => 'Renommer le fichier',
+    'rename_file_warning' => 'Renommer un fichier ne mettra pas à jour les liens qui pointent vers lui, ce qui _peut_ entraîner l\'apparition de liens brisés sur votre site.',
     
     // Folder
     'folder_title_instructions' => 'Le nom associé à ce répertoire pour l\'affichage.',
@@ -145,6 +150,7 @@ return [
     'asset_driver_instructions' => 'Où les ressources seront-elles stockées et appelées ?',
     'asset_path_instructions' => 'Emplacement du répertoire dans le système de fichiers.',
     'asset_url_instructions' => 'URL du répertoire.',
+    'asset_folder_basename' => 'Nom du répertoire',
 
     // Set Builder
     'add_set' => 'Ajouter un jeu',
@@ -203,7 +209,8 @@ return [
     'permission_denied_instructions' => "Vous n'avez pas les droits suffisants pour accéder à cette page.",
     'page_not_found' => 'Page non trouvée',
     'page_not_found_instructions' => 'La page demandée n\'existe pas.',
-    'learn_more_about_developer_mode' => 'En savoir plus sur le mode développeur.',
+    'learn_more_about_trial_mode' => 'En savoir plus sur le mode essai.',
+    'session_expired' => 'Votre session a expiré',
 
 
     // User Groups
@@ -255,6 +262,7 @@ return [
     'fieldset_create_title_instructions' => "Titre optionnel et modifiable qui est affiché lors de la création de nouveau contenu avec ce fieldset.",
     'fieldset_hide_instructions' => "Masquer ce fieldset dans les dialogues de sélection ?",
     'fieldset_fields_instructions' => 'Affecter et customiser les champs et les types de champs dans ce fieldset.',
+    'fieldset_taxonomies_instructions' => 'Afficher, masquer et paramétrer les taxonomies qui doivent être affichées dans ce fieldset.',
     'create_title' => 'Créer le titre',
     'display_name' => "Nom affiché",
     'display_name_instructions' => "L'étiquette de champ affichée dans le panneau de contrôle.",
@@ -416,6 +424,7 @@ return [
     'remove' => 'Enlever',
     'update' => 'Mettre à jour',
     'delete' => 'Supprimer',
+    'uncheck_all' => 'Tout décocher',
     'duplicate' => 'Dupliquer',
     'manage' => 'Gérer',
     'create' => 'Créer',
@@ -439,6 +448,7 @@ return [
     'save_order' => 'Enregistrer l\'ordre',
     'toggle_dropdown' => 'Inverser le menu déroulant',    
     'confirm_delete_items' => 'Cet élément sera supprimé|Les éléments sélectionnés seront supprimés',
+    'confirm_delete_folder' => 'Ce répertoire sera supprimé',
     'configure' => 'Configurer',
     'browse' => 'Parcourir',
     'select' => 'Sélectionner',
@@ -460,6 +470,7 @@ return [
     'collapse_all' => 'Tout réduire',
     'expand_all' => 'Tout déplier',
     'please_select' => 'Merci de sélectionner',
+    'selected' => 'sélectionné',
 
     // Nouns and whatnot
     'fields' => 'Champ|Champs',
@@ -549,6 +560,10 @@ return [
     
     'mount_collection' => 'Monter la Collection',
     'unmount_collection' => 'Démonter la Collection',
+    
+    'trial_mode' => 'Mode Essai',
+    'trial_mode_badge' => 'ESSAI GRATUIT',
+    'trial_mode_explanation' => "Merci de saisir votre clef de licence pour débloquer tout le potentiel de Statamic et pour l'utiliser avec un nom de domaine public.",
     
     // Validation
     'handle_exists' => 'Un emplacement possédant cet identifiant existe déjà.',

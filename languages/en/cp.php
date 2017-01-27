@@ -8,6 +8,7 @@ return [
     'sneak_peek' => 'Sneak Peek',
     'sneak_peeking' => 'Sneaking a Peek',
     'view_site' => 'View Site',
+    'visit_url' => 'Visit URL',
     'search_for_anything' => 'Search for anything',
 
     // Pages
@@ -114,11 +115,15 @@ return [
     'filesize' => 'File size',
     'date_modified' => 'Date modified',
     'parent_folder' => 'Parent folder',
-    'asset_folder_empty_heading' => 'This folder contains no assets.',
+    'asset_folder_empty_heading' => 'Empty folder.',
     'asset_folder_empty' => 'You may upload new assets into this folder by dragging and dropping files into the outlined area above.',
     'focal_point' => 'Focal point',
     'focal_point_label' => 'Click image to adjust the focal point',
     'focal_point_instructions' => 'The focal point is used when cropping so the most important part of the image is not removed.',
+    'or_drag_and_drop_files' => 'or drag and drop files.',
+    'no_asset_container_specified' => 'No asset container specified.',
+    'rename_file' => 'Rename File',
+    'rename_file_warning' => 'Renaming a file will not update any references to it, which _may_ result in broken links in your site.',
 
     // Folder
     'folder_title_instructions' => 'The display name of the folder.',
@@ -145,6 +150,7 @@ return [
     'asset_driver_instructions' => 'Where will the assets be stored and accessed?',
     'asset_path_instructions' => 'Location of the folder on the filesystem.',
     'asset_url_instructions' => 'URL of the folder.',
+    'asset_folder_basename' => 'Folder name',
 
     // Set Builder
     'add_set' => 'Add Set',
@@ -203,7 +209,8 @@ return [
     'permission_denied_instructions' => "You don't have permission to view this page.",
     'page_not_found' => 'Page not found',
     'page_not_found_instructions' => 'The page you requested does not exist.',
-    'learn_more_about_developer_mode' => 'Learn more about developer mode.',
+    'learn_more_about_trial_mode' => 'Learn more about trial mode.',
+    'session_expired' => 'Your session has expired.',
 
 
     // User Groups
@@ -255,6 +262,7 @@ return [
     'fieldset_create_title_instructions' => "Optional, customizable title shown when creating new content with this fieldset.",
     'fieldset_hide_instructions' => "Hide this fieldset from selection dialogs?",
     'fieldset_fields_instructions' => 'Assign and customize the fields and fieldtypes in this fieldset.',
+    'fieldset_taxonomies_instructions' => 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.',
     'create_title' => 'Create Title',
     'display_name' => "Display Name",
     'display_name_instructions' => "The field's label shown in the Control Panel.",
@@ -416,6 +424,7 @@ return [
     'remove' => 'Remove',
     'update' => 'Update',
     'delete' => 'Delete',
+    'uncheck_all' => 'Uncheck All',
     'duplicate' => 'Duplicate',
     'manage' => 'Manage',
     'create' => 'Create',
@@ -439,6 +448,7 @@ return [
     'save_order' => 'Save Order',
     'toggle_dropdown' => 'Toggle Dropdown',
     'confirm_delete_items' => 'This item will be deleted|The selected items will be deleted',
+    'confirm_delete_folder' => 'This folder will be deleted',
     'configure' => 'Configure',
     'browse' => 'Browse',
     'select' => 'Select',
@@ -460,6 +470,7 @@ return [
     'collapse_all' => 'Collapse All',
     'expand_all' => 'Expand All',
     'please_select' => 'Please select',
+    'selected' => 'selected',
 
     // Nouns and whatnot
     'fields' => 'Field|Fields',
@@ -549,6 +560,10 @@ return [
 
     'mount_collection' => 'Mount Collection',
     'unmount_collection' => 'Unmount Collection',
+
+    'trial_mode' => 'Trial Mode',
+    'trial_mode_badge' => 'FREE TRIAL',
+    'trial_mode_explanation' => "Please enter your license key to unlock Statamic's full potential and run on a public domain.",
 
     // Validation
     'handle_exists' => 'A container with this handle already exists.',

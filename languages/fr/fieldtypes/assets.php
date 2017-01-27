@@ -10,5 +10,8 @@ return [
 
     'max_files' => 'Fichiers Max',
     'max_files_instruct' => 'Le nombre maximum de fichiers autorisé.',
+    
+    'restrict' => 'Restreindre au Répertoire',
+    'restrict_instruct' => 'Interdire la navigation vers d\'autres répertoires ou emplacements.',
 
 ];

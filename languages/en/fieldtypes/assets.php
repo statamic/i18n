@@ -11,4 +11,7 @@ return [
     'max_files' => 'Max Files',
     'max_files_instruct' => 'The maximum number of allowed files.',
 
+    'restrict' => 'Restrict to Folder',
+    'restrict_instruct' => 'Prevent navigation to other folders or containers.',
+
 ];

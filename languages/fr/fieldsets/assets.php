@@ -19,4 +19,8 @@ return [
 
     'image_manipulation_cached_path' => 'Chemin serveur des images en cache',
     'image_manipulation_cached_path_instruct' => 'Lorsque vous servez directement des images en cache, c\'est l\'emplacement où elles sont stockées. Il faut impérativement que ce soit un emplacement accessible publiquement.',
+    
+    'image_manipulation_presets' => 'Préréglages de Manipulation Image',
+    'image_manipulation_presets_instruct' => 'Indiquez un ou des [Préréglages Glide](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (en YAML) que vous voudriez référencer dans les modèles. Ils seront alors automatiquement générés lorsque des ressources seront téléchargées.',
+
 ];
