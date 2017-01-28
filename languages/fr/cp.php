@@ -40,7 +40,7 @@ return [
     'collection_updated' => ':title mis à jour',
     'collections_empty' => 'Les collections contiennent des groupes d\'articles similaires qui suivent tous le même schéma URL.',
     'collection_title_instructions' => 'Le nom associé à votre collection.',
-    'collection_handle_instructions' => "Le nom de la variable collection utilisé dans les paramètres et les modèles.",
+    'collection_handle_instructions' => "La façon dont la collection sera référencée dans les paramètres et les modèles.",
     'collection_order_instructions' => "Définissez la méthode de tri par défaut pour les articles de cette collection.",
     'collection_route_instructions' => "La route contrôle le schéma URL que tous les articles de cette collection devront suivre.",
 
@@ -116,7 +116,7 @@ return [
     'date_modified' => 'Date modifiée',
     'parent_folder' => 'Répertoire parent',
     'asset_folder_empty_heading' => 'Répertoire vide.',
-    'asset_folder_empty' => 'Vous pouvez télécharger de nouvelles ressources dans ce répertoire en glissant-déposant des fichiers sur la zone encadrée ci-dessus.',
+    'asset_folder_empty' => 'Vous pouvez télécharger de nouvelles ressources dans ce répertoire en glissant-déposant des fichiers sur la zone symbolisée ci-dessus.',
     'focal_point' => 'Point focal',
     'focal_point_label' => 'Cliquez sur l\'image pour ajuster le point focal',
     'focal_point_instructions' => 'Le point focal est utilisé lors du rognage de telle sorte que la partie la plus importante de l\'image ne disparaisse pas.',
@@ -127,7 +127,7 @@ return [
     
     // Folder
     'folder_title_instructions' => 'Le nom associé à ce répertoire pour l\'affichage.',
-    'folder_directory_instructions' => 'Le nom de l\'annuaire du système de fichiers',
+    'folder_directory_instructions' => 'Le nom du répertoire dans l\'arborescence des fichiers.',
 
     // Asset Containers
     'asset_containers' => 'Emplacement de ressources|Emplacements de ressources',
@@ -138,14 +138,14 @@ return [
     'editing_asset_container' => 'Modification d\'un emplacement de ressources',
     'asset_container_updated' => 'Emplacement de ressources mis à jour',
     'asset_containers_empty_heading' => 'Aucun emplacement de ressources n\'a été configuré.',
-    'asset_containers_empty' => 'Chaque emplacement de ressources peut être un répertoire de votre système de fichiers, au choix publiquement accessible ou protégé des regards indiscrets.',
+    'asset_containers_empty' => 'Chaque emplacement de ressources peut être un répertoire de votre système de fichiers, soit publiquement accessible, soit protégé des regards indiscrets.',
     'select_asset_container' => 'Sélectionner un emplacement de ressources.',
 
     // Asset Folders
     'create_folder' => 'Créer un répertoire',
     'edit_folder' => 'Modifier le répertoire',
     'asset_name_instructions' => 'Le nom associé à cet emplacement pour l\'affichage.',
-    'asset_handle_instructions' => 'Une chaîne unique que vous pouvez utiliser pour faire référence à votre emplacement. <b>Ne peux PLUS être modifié après création.</b>',
+    'asset_handle_instructions' => 'Une chaîne unique que vous pouvez utiliser pour faire référence à votre emplacement. <b>NE peut PLUS être modifié après création.</b>',
     'asset_fieldset_instructions' => 'Le fieldset utilisé par les ressources placées dans cet emplacement.',
     'asset_driver_instructions' => 'Où les ressources seront-elles stockées et appelées ?',
     'asset_path_instructions' => 'Emplacement du répertoire dans le système de fichiers.',
@@ -263,7 +263,7 @@ return [
     'fieldset_hide_instructions' => "Masquer ce fieldset dans les dialogues de sélection ?",
     'fieldset_fields_instructions' => 'Affecter et customiser les champs et les types de champs dans ce fieldset.',
     'fieldset_taxonomies_instructions' => 'Afficher, masquer et paramétrer les taxonomies qui doivent être affichées dans ce fieldset.',
-    'create_title' => 'Créer le titre',
+    'create_title' => 'Titre pour création',
     'display_name' => "Nom affiché",
     'display_name_instructions' => "L'étiquette de champ affichée dans le panneau de contrôle.",
     'display_text' => 'Texte affiché',
