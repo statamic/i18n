@@ -28,4 +28,11 @@ return [
     'static_caching_ignore_query_strings_instruct' => 'When enabled, a page will be treated as the same URL regardless of any query string parameters.  
                                                        Cannot be disabled when using file-based static caching.',
 
+    'static_caching_exclude' => 'Excluded URLs',
+    'static_caching_exclude_instruct' => 'A list of URLs that should be excluded from caching.',
+
+    'static_caching_invalidation' => 'Invalidation Rules',
+    'static_caching_invalidation_instruct' => 'An array of invalidation rules.',
+
+
 ];

@@ -27,5 +27,12 @@ return [
     'static_caching_ignore_query_strings' => 'Ignorer les chaînes de requête',
     'static_caching_ignore_query_strings_instruct' => 'S\'il est sur <b>Activer</b>, une page sera traitée comme une même URL, sans jamais tenir compte des paramètres de chaîne de requête.  
                                                        Ne peut pas être désactivé quand vous utilisez le cache à base de fichiers statiques.',
+                                                      
+		'static_caching_exclude' => 'URLs exclues',
+    'static_caching_exclude_instruct' => 'Une liste d\'URLs qui seront exclues de la mise en cache.',
+
+    'static_caching_invalidation' => 'Règles d\'invalidation',
+    'static_caching_invalidation_instruct' => 'Une matrice de règles d\'invalidation.',
+
 
 ];
