@@ -73,6 +73,8 @@ return [
     "timezone"             => ":attribute doit être une zone valide.",
     "unique"               => ":attribute a déjà été pris(e).",
     "url"                  => "le format de :attribute est invalide.",
+    "entry_slug_exists"    => "L'identificateur existe déjà.",
+    "page_uri_exists"      => "L'identificateur existe déjà.",
 
     /*
     |--------------------------------------------------------------------------

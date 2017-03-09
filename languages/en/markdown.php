@@ -5,6 +5,12 @@ return [
     'cheatsheet' => '
 <p>Markdown is a text-to-HTML markup syntax for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format that is converted to structurally valid HTML.</p>
 
+<h3>Headers</h3>
+<pre class="language-markdown"><code># This is an h1
+## This is an h2
+## This is an h3, and so on.
+</code></pre>
+
 <h3>Bold &amp; Italic</h3>
 <pre class="language-markdown"><code>You can make things *emphasized*, **bold**, or _**both**_.</code></pre>
 
