@@ -110,6 +110,7 @@ return [
     'sync_assets' => 'Synchroniser ressources',
     'syncing_assets' => 'Synchro des ressources',		
     'new_folder' => 'Nouveau répertoire',
+    'upload' => 'Télécharger',
     'uploads' => 'Téléchargement|Téléchargements',
     'filename' => 'Nom du fichier',
     'filesize' => 'Taille',
@@ -124,6 +125,10 @@ return [
     'no_asset_container_specified' => 'Aucun emplacement de ressources indiqué.',
     'rename_file' => 'Renommer le fichier',
     'rename_file_warning' => 'Renommer un fichier ne mettra pas à jour les liens qui pointent vers lui, ce qui _peut_ entraîner l\'apparition de liens brisés sur votre site.',
+    'move_file' => 'Déplacer le fichier',
+    'dimensions' => 'Dimensions',
+    'last_modified' => 'Dernière modification',
+
     
     // Folder
     'folder_title_instructions' => 'Le nom associé à ce répertoire pour l\'affichage.',
@@ -308,8 +313,7 @@ return [
     
     // Formset Builder
     'formset_title_instructions' => "Le nom associé à votre formset.",
-    'formset_slug_instructions' => 'La façon dont le formset sera référencé.',
-    'formset_columns_instructions' => 'Choisissez quelles colonnes doivent être affichées et dans quel ordre.',
+    'formset_slug_instructions' => 'La façon dont le formset sera référencé.',    
     'formset_metrics_instructions' => 'Précisez les métriques que vous souhaitez voir affichées.',
     'formset_emails_instructions' => 'Ajouter tous les emails que vous souhaitez envoyer lors de la soumission.',
     'formset_honeypot_field' => 'Champ Pot de Miel',

@@ -110,6 +110,7 @@ return [
     'sync_assets' => 'Sync assets',
     'syncing_assets' => 'Syncing assets',
     'new_folder' => 'New Folder',
+    'upload' => 'Upload',
     'uploads' => 'Upload|Uploads',
     'filename' => 'Filename',
     'filesize' => 'File size',
@@ -124,6 +125,10 @@ return [
     'no_asset_container_specified' => 'No asset container specified.',
     'rename_file' => 'Rename File',
     'rename_file_warning' => 'Renaming a file will not update any references to it, which _may_ result in broken links in your site.',
+    'move_file' => 'Move file',
+    'dimensions' => 'Dimensions',
+    'last_modified' => 'Last Modified',
+
 
     // Folder
     'folder_title_instructions' => 'The display name of the folder.',
@@ -309,7 +314,6 @@ return [
     // Formset Builder
     'formset_title_instructions' => "Your formset's proper label.",
     'formset_slug_instructions' => 'How the formset will be referenced.',
-    'formset_columns_instructions' => 'Choose which columns should be displayed and in what order.',
     'formset_metrics_instructions' => 'Specify any metrics you would like displayed.',
     'formset_emails_instructions' => 'Add any emails you want to be sent upon submission.',
     'formset_honeypot_field' => 'Honeypot Field',
