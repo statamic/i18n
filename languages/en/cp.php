@@ -385,6 +385,13 @@ return [
     'import_summary' => 'Import Summary',
     'import_site_url_instructions' => 'Enter the URL of the existing website you will be importing.',
 
+    'duplicate_item_warning'  => "There's one duplicate.|There are :count duplicates.",
+    'uncheck_duplicates' => 'Uncheck Duplicates',
+
+    'from_json' => 'From JSON',
+    'json_file' => 'JSON File',
+    'upload_json_file' => 'Upload a JSON file',
+
     // Export
     'export_failed' => 'Exporting Failed',
     'export_export_failed_with_error' => 'Export faileed with error:',
@@ -447,6 +454,7 @@ return [
     'collapse' => 'Collapse',
     'show' => 'Show',
     'hide' => 'Hide',
+    'move' => 'Move',
     'edit_layout' => 'Edit Layout',
     'save_layout' => 'Save Layout',
     'save_order' => 'Save Order',
@@ -553,6 +561,7 @@ return [
     'debug_mode' => 'Debug Mode',
     'defined_in_environment' => 'Managed externally by your environment.',
     'be_right_back' => 'Be right back.',
+    'size' => 'Size',
 
     'nav_content' => 'Content',
     'nav_tools' => 'Tools',

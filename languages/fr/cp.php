@@ -384,6 +384,13 @@ return [
     'import_has_completed' => 'L\'import est terminé.',
     'import_summary' => 'Synthèse de l\'import',
     'import_site_url_instructions' => 'Entrez l\'URL du site web existant que vous souhaitez importer.',
+    
+    'duplicate_item_warning'  => "Il y a un doublon.|Il y a :count doublons.",
+    'uncheck_duplicates' => 'Décocher les doublons',
+
+    'from_json' => 'A partir de JSON',
+    'json_file' => 'Fichier JSON',
+    'upload_json_file' => 'Télécharger un fichier JSON',
 
     // Export
     'export_failed' => 'L\'export a échoué',
@@ -447,6 +454,7 @@ return [
     'collapse' => 'Réduire',
     'show' => 'Afficher',
     'hide' => 'Masquer',
+    'move' => 'Déplacer',
     'edit_layout' => 'Modifier la mise en page',
     'save_layout' => 'Enregistrer la mise en page',
     'save_order' => 'Enregistrer l\'ordre',
@@ -553,6 +561,7 @@ return [
     'debug_mode' => 'Mode Débogage',
     'defined_in_environment' => 'Géré en externe par votre environnement.',
     'be_right_back' => 'Revenez vite.',
+		'size' => 'Taille',
 
     'nav_content' => 'Contenu',
     'nav_tools' => 'Outils',
