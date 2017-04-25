@@ -562,6 +562,7 @@ return [
     'defined_in_environment' => 'Managed externally by your environment.',
     'be_right_back' => 'Be right back.',
     'size' => 'Size',
+    'attribute_field_name' => ':attribute field',
 
     'nav_content' => 'Content',
     'nav_tools' => 'Tools',

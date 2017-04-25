@@ -562,7 +562,8 @@ return [
     'defined_in_environment' => 'Géré en externe par votre environnement.',
     'be_right_back' => 'Revenez vite.',
 		'size' => 'Taille',
-
+		'attribute_field_name' => 'champ :attribute',
+		
     'nav_content' => 'Contenu',
     'nav_tools' => 'Outils',
     'nav_configure' => 'Configurer',
