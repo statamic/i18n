@@ -213,7 +213,7 @@ return [
     'folders_unwritable' => 'Les chemins de répertoires suivants doivent être inscriptibles :',
 
     // Error Pages
-    'error' = 'Erreur',
+    'error' => 'Erreur',
     'permission_denied' => 'Autorisation refusée',
     'permission_denied_instructions' => "Vous n'avez pas les droits suffisants pour accéder à cette page.",
     'page_not_found' => 'Page non trouvée',
