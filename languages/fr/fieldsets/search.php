@@ -13,5 +13,8 @@ return [
 
     'default_index' => 'Index par défaut',
     'default_index_instruct' => 'Le nom de l\'index de recherche par défaut.',
+    
+    'searchable' => 'Champs recherchables',
+    'searchable_instruct' => 'Les champs recherchables pour l\'index par défaut.',
 
 ];

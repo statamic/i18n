@@ -14,4 +14,7 @@ return [
     'default_index' => 'Default index',
     'default_index_instruct' => 'The name of the default search index.',
 
+    'searchable' => 'Searchable fields',
+    'searchable_instruct' => 'The searchable fields for the default index.'
+
 ];

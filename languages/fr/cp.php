@@ -21,8 +21,6 @@ return [
     'editing_page' => 'Modification de la page',
     'page_updated' => 'Page mise à jour',
     'home' => 'Accueil',
-    'pages_empty_heading' => 'Pages du site',
-    'pages_empty' => 'Les pages sont utilisées pour créer les différentes sections et structures d\'URL de votre site, ainsi que pour gérer leur contenu respectif.',
     'show_urls' => 'Afficher les URLs',
     'show_titles' => 'Afficher les titres',
     'choose_page_type' => 'Choisir le type de page',
@@ -176,16 +174,21 @@ return [
     'user_created' => 'Utilisateur créé',
     'editing_user' => 'Modification de l\'utilisateur',
     'user_updated' => 'Utilisateur mis à  jour',
+    'reset_password' => 'Réinitialiser votre mot de passe',
+    'send_email' => 'Envoyer l\'email',
     'send_activation_email' => 'Envoyer l\'email d\'activation',
     'send_password_reset_email' => 'Envoyer l\'email de réinitialisation du mot de passe',
     'copy_activation_link' => 'Copier le lien d\'activation',
     'copy_password_reset_link' => 'Copier le lien de réinitialisation du mot de passe',
+    'password_reset_sent' => 'L\'email de réinitialisation du mot de passe a été envoyé',
     'account' => 'Compte',
     'my_account' => 'Mon compte',
     'logout' => 'Déconnexion',
     'user_options' => 'Options utilisateur',
     'user_bio_instructions' => 'Quelques infos à propos de vous, si vous le voulez bien.',
     'user_account_created' => 'Un compte utilisateur a été créé.',
+    'forgot_password' => 'Mot de passe oublié ?',
+    'go_back' => 'Revenir en arrière',
 
     // Password Reset
     'reset_code_missing' => 'Aucun code n\'a été précisé.',
@@ -210,11 +213,11 @@ return [
     'folders_unwritable' => 'Les chemins de répertoires suivants doivent être inscriptibles :',
 
     // Error Pages
+    'error' = 'Erreur',
     'permission_denied' => 'Autorisation refusée',
     'permission_denied_instructions' => "Vous n'avez pas les droits suffisants pour accéder à cette page.",
     'page_not_found' => 'Page non trouvée',
     'page_not_found_instructions' => 'La page demandée n\'existe pas.',
-    'learn_more_about_trial_mode' => 'En savoir plus sur le mode essai.',
     'session_expired' => 'Votre session a expiré',
 
 
@@ -417,8 +420,8 @@ return [
     'show_keyboard_shortcuts' => 'Afficher les raccourcis clavier',
 
     // License
-    'license_unauthorized' => 'Cette licence appartient à un autre domaine. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
-    'license_missing' => 'Vous êtes sur un domaine public sans licence. Merci d\'<a href=":url">ajouter votre clef de licence</a>.',
+    'license_wrong_domain' => 'Cette licence appartient au domaine :domain. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
+    'license_no_domain' => 'Aucun domaine n\'est associé à cette licence. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
     'checking_license_key' => 'Vérification de votre clef de licence, merci de patienter...',
     'license_valid' => 'Votre clef de licence est valide.',
     'license_invalid' => 'Cette clef est invalide !',
@@ -426,6 +429,11 @@ return [
     'enter_license_key' => 'Merci de saisir votre clef de licence pour accéder au panneau de contrôle sur un domaine public.',
 
     'continue_in_trial_mode' => 'Continuer en mode essai',
+    'unlicensed' => 'Pas de licence valide !',
+    'on_trial_with_invalid_license' => 'Vous êtes actuellement en mode essai, mais votre licence est invalide.',
+    'on_trial_without_license' => 'Vous êtes actuellement en mode essai. Rappelez-vous d\'ajouter une clef de licence valide avant de passer sur un domaine public.',
+    'invalid_statamic_license' => 'Votre licence Statamic est invalide.',
+    'couldnt_connect_to_outpost' => 'Un problème est survenu en tentant de prendre contact avec l\'Outpost Statamic !',
     
     // Verbs and helpers
     'actions' => 'Action|Actions',
@@ -537,6 +545,8 @@ return [
     'authors' => 'Auteur|Auteurs',
     'installer' => 'Installateur',
     'search' => 'Rechercher',
+    'search_results' => 'Résultats de la recherche',
+    'no_search_results' => 'Aucun résultat',
     'instructions' => 'Instructions',
     'handle' => 'Identifiant',
     'label' => 'Etiquette',
@@ -577,8 +587,7 @@ return [
     
     'trial_mode' => 'Mode Essai',
     'trial_mode_badge' => 'ESSAI GRATUIT',
-    'trial_mode_explanation' => "Merci de saisir votre clef de licence pour débloquer tout le potentiel de Statamic et pour l'utiliser avec un nom de domaine public.",
-    
+        
     // Validation
     'handle_exists' => 'Un emplacement possédant cet identifiant existe déjà.',
 ];

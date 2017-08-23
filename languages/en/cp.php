@@ -21,8 +21,6 @@ return [
     'editing_page' => 'Editing Page',
     'page_updated' => 'Page Updated',
     'home' => 'Home',
-    'pages_empty_heading' => 'Site Pages',
-    'pages_empty' => 'Pages are used to create the various sections and URL structures of your site, as well as manage their respective content.',
     'show_urls' => 'Show URLs',
     'show_titles' => 'Show Titles',
     'choose_page_type' => 'Choose Page Type',
@@ -176,16 +174,21 @@ return [
     'user_created' => 'User created',
     'editing_user' => 'Editing User',
     'user_updated' => 'User updated',
+    'reset_password' => 'Reset your password',
+    'send_email' => 'Send email',
     'send_activation_email' => 'Send activation email',
     'send_password_reset_email' => 'Send password reset email',
     'copy_activation_link' => 'Copy activation link',
     'copy_password_reset_link' => 'Copy password reset link',
+    'password_reset_sent' => 'Password reset email sent',
     'account' => 'Account',
     'my_account' => 'My Account',
     'logout' => 'Logout',
     'user_options' => 'User Options',
     'user_bio_instructions' => 'A little bit about you, if you like.',
     'user_account_created' => 'A user account has been created.',
+    'forgot_password' => 'Forgot password?',
+    'go_back' => 'Go back',
 
     // Password Reset
     'reset_code_missing' => 'No code specified.',
@@ -210,11 +213,11 @@ return [
     'folders_unwritable' => 'The following directories need to be writable:',
 
     // Error Pages
+    'error' => 'Error',
     'permission_denied' => 'Permission Denied',
     'permission_denied_instructions' => "You don't have permission to view this page.",
     'page_not_found' => 'Page not found',
     'page_not_found_instructions' => 'The page you requested does not exist.',
-    'learn_more_about_trial_mode' => 'Learn more about trial mode.',
     'session_expired' => 'Your session has expired.',
 
 
@@ -369,7 +372,7 @@ return [
 
     // Swap Release
     'swapping_files' => 'Swapping files...',
-    'swapping_files_instructions' => 'Your smelly old Statamic files are being swapped for sparkly clean new ones.',
+    'swapping_files_instructions' => 'Statamic is being injected with software growth hormone (SGH). Results will be visible mere moments.',
     'files_swapped' => 'Files swapped.',
 
     // Clean Up
@@ -417,8 +420,8 @@ return [
     'show_keyboard_shortcuts' => 'Show Keyboard Shortcuts',
 
     // License
-    'license_unauthorized' => 'This license belongs to another domain. Visit <a href=":url" target="_blank">your account</a> to change it.',
-    'license_missing' => 'You are on a public domain without a license. Please <a href=":url">add your license key</a>.',
+    'license_wrong_domain' => 'This license belongs to :domain. Visit <a href=":url" target="_blank">your account</a> to change it.',
+    'license_no_domain' => 'This license has no domain associated with it. Visit <a href=":url" target="_blank">your account</a> to change it.',
     'checking_license_key' => 'Checking your license key, please wait...',
     'license_valid' => 'You have a valid license key.',
     'license_invalid' => 'This key is invalid.',
@@ -426,6 +429,11 @@ return [
     'enter_license_key' => 'Please enter your license key to access to the control panel on a public domain.',
 
     'continue_in_trial_mode' => 'Continue in Trial Mode',
+    'unlicensed' => 'Unlicensed',
+    'on_trial_with_invalid_license' => 'You are currently on trial mode, but your license is invalid.',
+    'on_trial_without_license' => 'You are currently on trial mode. Remember to add a license key before you move to a public domain.',
+    'invalid_statamic_license' => 'Your Statamic license is invalid.',
+    'couldnt_connect_to_outpost' => 'There was a problem communicating with the Statamic Outpost.',
 
     // Verbs and helpers
     'actions' => 'Action|Actions',
@@ -537,6 +545,8 @@ return [
     'authors' => 'Author|Authors',
     'installer' => 'Installer',
     'search' => 'Search',
+    'search_results' => 'Search Results',
+    'no_search_results' => 'No Search Results',
     'instructions' => 'Instructions',
     'handle' => 'Handle',
     'label' => 'Label',
@@ -577,7 +587,6 @@ return [
 
     'trial_mode' => 'Trial Mode',
     'trial_mode_badge' => 'FREE TRIAL',
-    'trial_mode_explanation' => "Please enter your license key to unlock Statamic's full potential and run on a public domain.",
 
     // Validation
     'handle_exists' => 'A container with this handle already exists.',

@@ -8,7 +8,7 @@ return [
 <h3>Headers</h3>
 <pre class="language-markdown"><code># This is an h1
 ## This is an h2
-## This is an h3, and so on.
+### This is an h3, and so on.
 </code></pre>
 
 <h3>Bold &amp; Italic</h3>

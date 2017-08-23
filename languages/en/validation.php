@@ -75,6 +75,7 @@ return [
     "url"                  => "The :attribute format is invalid.",
     "entry_slug_exists"    => "Slug already exists.",
     "page_uri_exists"      => "Slug already exists.",
+    "unique_asset_filename" => "An asset with this filename exists.",
 
     /*
     |--------------------------------------------------------------------------
