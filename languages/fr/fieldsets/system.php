@@ -34,6 +34,6 @@ return [
     'csrf_exclude_instruct' => 'Une liste d\'URLs à exclure de la protection CSRF',
 
   	'php_max_memory_limit' => 'Limite maxi mémoire PHP',
-    'php_max_memory_limit_instruct' => "La quantité maximale de mémoire que Statamic essaiera d'utiliser lors de l'exécution d'opérations très gourmandes en mémoire, comme la manipulation d'image.  \nLaissez la zone vide pour utiliser autant de mémoire que possible. Vous pouvez préciser la valeur en bytes ou [un raccourci de valeur reconnu par PHP](http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes).",
+    'php_max_memory_limit_instruct' => "La quantité maximale de mémoire que Statamic essaiera d'utiliser lors de l'exécution d'opérations très gourmandes en mémoire, comme la manipulation d'image.  \nLaissez la zone vide pour utiliser autant de mémoire que possible. Vous pouvez préciser la valeur en bytes ou [une valeur raccourcie reconnue par PHP](http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes).",
     
 ];
