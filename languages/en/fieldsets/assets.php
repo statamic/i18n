@@ -23,4 +23,11 @@ return [
     'image_manipulation_presets' => 'Image Manipulation Presets',
     'image_manipulation_presets_instruct' => 'Specify any [Glide presets](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (as YAML) that you want to be referenced within templates. These will be automatically generated when assets are uploaded.',
 
+    'thumbnail_max_width' => 'Max image width for thumbnails',
+    'thumbnail_max_width_instruct' => 'Images wider than this will not have thumbnails generated.',
+
+    'thumbnail_max_height' => 'Max image height for thumbnails',
+    'thumbnail_max_height_instruct' => 'Images taller than this will not have thumbnails generated.',
+
+
 ];

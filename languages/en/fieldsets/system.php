@@ -34,4 +34,7 @@ return [
     'csrf_exclude' => 'CSRF Excluded URLs',
     'csrf_exclude_instruct' => 'A list of URLS to exclude from CSRF protection',
 
+    'php_max_memory_limit' => 'PHP Max Memory Limit',
+    'php_max_memory_limit_instruct' => "The max amount of memory Statamic will try to use when performing memory intensive operations like image manipulation.  \nLeave blank to use as much memory as possible. You may specify bytes or [PHP recognized shorthand values](http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes).",
+
 ];

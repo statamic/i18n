@@ -37,4 +37,7 @@ return [
     'allow_php' => 'Allow PHP in templates',
     'allow_php_instruct' => 'PHP code is disabled in templates by default for security.',
 
+    'markdown_hard_wrap' => 'Markdown Hard Wrapping',
+    'markdown_hard_wrap_instruct' => "By default, markdown requires two trailing spaces at the end of a line to indicate a line break.  \nEnabling this option will disable that behavior.",
+
 ];

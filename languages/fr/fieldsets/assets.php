@@ -22,5 +22,12 @@ return [
     
     'image_manipulation_presets' => 'Préréglages de Manipulation Image',
     'image_manipulation_presets_instruct' => 'Indiquez un ou des [Préréglages Glide](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (en YAML) que vous voudriez référencer dans les modèles. Ils seront alors automatiquement générés lorsque des ressources seront téléchargées.',
+    
+    'thumbnail_max_width' => 'Largeur d\'image max pour miniatures',
+    'thumbnail_max_width_instruct' => 'Aucune miniature ne sera générée pour les images plus larges que cette valeur (en pixels).',
+
+    'thumbnail_max_height' => 'Hauteur d\'image max pour miniatures',
+    'thumbnail_max_height_instruct' => 'Aucune miniature ne sera générée pour les images plus hautes que cette valeur (en pixels).',
+
 
 ];

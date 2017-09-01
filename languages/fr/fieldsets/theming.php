@@ -37,4 +37,7 @@ return [
     'allow_php' => 'Autoriser le PHP dans les modèles',
     'allow_php_instruct' => 'Le code PHP est désactivé par défaut dans les modèles pour des raisons de sécurité.',
 
+		'markdown_hard_wrap' => 'Forçage retour à la ligne Markdown',
+    'markdown_hard_wrap_instruct' => "Par défaut, Markdown exige 2 espaces à la fin d'une ligne pour indiquer un retour à la ligne.  \nL'activation de cette option désactivera ce comportement.",
+
 ];
