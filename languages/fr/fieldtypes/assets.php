@@ -3,7 +3,7 @@
 return [
 
     'container' => 'Emplacement',
-    'container_instruct' => 'Choisir l\'emplacement de ressources',
+    'container_instruct' => 'Choisir l’emplacement de ressources',
 
     'folder' => 'Répertoire',
     'folder_instruct' => 'Choisir un répertoire à afficher par défaut. Laissez à blanc pour afficher le répertoire racine.',
@@ -12,6 +12,9 @@ return [
     'max_files_instruct' => 'Le nombre maximum de fichiers autorisé.',
     
     'restrict' => 'Restreindre au Répertoire',
-    'restrict_instruct' => 'Interdire la navigation vers d\'autres répertoires ou emplacements.',
+    'restrict_instruct' => 'Interdire la navigation vers d’autres répertoires ou emplacements.',
+    
+    'mode' => 'Mode d’affichage',
+    'mode_instruct' => 'La façon d’afficher les ressources sélectionnées (Liste ou Grille).',
 
 ];

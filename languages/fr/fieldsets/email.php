@@ -7,8 +7,8 @@ return [
     'driver' => 'Driver',
     'driver_instruct' => 'Le service utilisé pour envoyer les emails.',
 
-    'from_name' => 'Nom de l\'expéditeur',
-    'from_email' => 'Adresse email de l\'expéditeur',
+    'from_name' => 'Nom de l’expéditeur',
+    'from_email' => 'Adresse email de l’expéditeur',
 
     'section_smtp' => 'Paramètres SMTP',
     'host' => 'Hôte',

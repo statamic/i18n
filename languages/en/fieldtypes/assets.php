@@ -14,4 +14,7 @@ return [
     'restrict' => 'Restrict to Folder',
     'restrict_instruct' => 'Prevent navigation to other folders or containers.',
 
+    'mode' => 'Display Mode',
+    'mode_instruct' => 'How the selected assets should be displayed.',
+
 ];

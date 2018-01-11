@@ -5,17 +5,18 @@ return [
     // General CP
     'dashboard' => 'Tableau de bord',
     'nav_dashboard' => 'Tableau de bord',
-    'sneak_peek' => 'Aperçu',
-    'sneak_peeking' => 'Jeter un coup d\'oeil',
+    'sneak_peek' => 'Aperçu en direct',
+    'sneak_peeking' => 'Aperçu en direct',
     'view_site' => 'Voir le site',
-    'visit_url' => 'Visitez l\'URL',
+    'visit_url' => 'Visitez l’URL',
     'search_for_anything' => 'Rechercher',
 
     // Pages
+    'page' => 'Page',
     'pages' => 'Page|Pages',
     'nav_pages' => 'Pages',
     'create_page_button' => 'Créer une page',
-    'edit_homepage_button' => 'Modifier la page d\'accueil',
+    'edit_homepage_button' => 'Modifier la page d’accueil',
     'create_page' => 'Créer une nouvelle page',
     'page_created' => 'Page créée',
     'editing_page' => 'Modification de la page',
@@ -36,24 +37,26 @@ return [
     'collection_created' => ':title créé',
     'editing_collection' => 'Modification de :collection',
     'collection_updated' => ':title mis à jour',
-    'collections_empty' => 'Les collections contiennent des groupes d\'articles similaires qui suivent tous le même schéma URL.',
+    'collections_empty' => 'Les collections contiennent des groupes d’articles similaires qui suivent tous le même schéma URL.',
     'collection_title_instructions' => 'Le nom associé à votre collection.',
     'collection_handle_instructions' => "La façon dont la collection sera référencée dans les paramètres et les modèles.",
     'collection_order_instructions' => "Définissez la méthode de tri par défaut pour les articles de cette collection.",
     'collection_route_instructions' => "La route contrôle le schéma URL que tous les articles de cette collection devront suivre.",
 
     // Entries
+    'entry' => 'Article',
     'entries' => 'Article|Articles',
     'nav_entries' => 'Articles',
     'create_entry_button' => 'Créer un article',
     'create_entry' => 'Nouvel article dans :noun',
     'entry_created' => 'Article créé',
-    'editing_entry' => 'Modification de l\'article',
+    'editing_entry' => 'Modification de l’article',
     'entry_updated' => 'Article mis à jour',
     'entries_empty_heading' => 'Articles :type',
     'entries_empty' => 'Les articles sont des bouts de contenu qui ont leur propre URL et qui sont souvent affichés dans des listes, comme les articles de blogs, les communiqués de presse et les évènements.',
 
     // Taxonomies
+    'taxonomy' => 'Taxonomie',
     'taxonomies' => 'Taxonomie|Taxonomies',
     'nav_taxonomies' => 'Taxonomies',
     'create_taxonomy' => 'Créer une nouvelle taxonomie',
@@ -63,7 +66,7 @@ return [
     'taxonomy_updated' => 'Taxonomie mise à jour',
     'taxonomy_created' => 'Taxonomie créée',
     'taxonomies_empty_heading' => 'Taxonomies',
-    'taxonomies_empty' => 'Une taxonomie est un système de classification des données à partir d\'un jeu de caractéristiques uniques, telles que la catégorie ou la couleur.',
+    'taxonomies_empty' => 'Une taxonomie est un système de classification des données à partir d’un jeu de caractéristiques uniques, telles que la catégorie ou la couleur.',
     'taxonomies_title_instructions' => 'Le nom associé à votre taxonomie.',
     'taxonomies_slug_instructions' => 'La façon dont la taxonomie sera référencée dans les modèles.',
     'taxonomies_fieldset_instructions' => 'Les champs affichés lors de la modification des termes de cette taxonomie.',
@@ -74,19 +77,22 @@ return [
     'create_taxonomy_term' => 'Créer un(e) :term',
     'taxonomy_term_created' => 'Terme de taxonomie créé',
     'taxonomy_terms_empty_heading' => 'Termes dans :term',
-    'taxonomy_terms_empty' => 'Alors que la taxonomie est le regroupement, un terme est véritablement l\'étiquette qui s\'applique à un bout de contenu. Par exemple, "Rouge" sera un terme dans la taxonomie "Couleurs".',
+    'taxonomy_terms_empty' => 'Alors que la taxonomie est le regroupement, un terme est véritablement l’étiquette qui s’applique à un bout de contenu. Par exemple, "Rouge" sera un terme dans la taxonomie "Couleurs".',
 
     // Globals
+    'global' => 'Globale',
     'globals' => 'Globale|Globales',
     'nav_globals' => 'Globales',
+    'global_sets' => 'Jeux de globales',
     'manage_global_sets' => 'Gérer les jeux de globales',
+    'configuring_global_set' => 'Configuration du jeu de globales',
     'create_global_set_button' => 'Créer un jeu de globales',
     'create_global_set' => 'Créer un nouveau jeu de globales',
     'global_set_created' => ':type créé',
     'editing_globals' => 'Modification des globales',
     'globals_updated' => 'Globales mises à jour',
     'globals_empty_heading' => 'Jeux de globales',
-    'globals_empty' => 'Les jeux de globales sont des groupes de variables qui représentent du contenu qui n\'est pas lié à une URL, tel que le nom de la société, une adresse, les coordonnées de contact. Les globales peuvent également correspondre à des paramètres de niveau Modèle, comme des limites, des décalages et des commutateurs afficher/masquer.',
+    'globals_empty' => 'Les jeux de globales sont des groupes de variables qui représentent du contenu qui n’est pas lié à une URL, tel que le nom de la société, une adresse, les coordonnées de contact. Les globales peuvent également correspondre à des paramètres de niveau Modèle, comme des limites, des décalages et des commutateurs afficher/masquer.',
     'general_globals' => 'Général',
     'globals_title_instructions' => "Le nom associé à votre jeu de globales. Par exemple : Contenu Pied de Page ou encore Paramètres Barre Latérale.",
     'globals_slug_instructions' => "La façon dont le jeu de globales sera référencé dans les modèles. Par exemple : <code>contenu_du_pied_de_page</code> ou <code>parametres_barre_laterale</code>.",
@@ -117,37 +123,38 @@ return [
     'asset_folder_empty_heading' => 'Répertoire vide.',
     'asset_folder_empty' => 'Vous pouvez télécharger de nouvelles ressources dans ce répertoire en glissant-déposant des fichiers sur la zone symbolisée ci-dessus.',
     'focal_point' => 'Point focal',
-    'focal_point_label' => 'Cliquez sur l\'image pour ajuster le point focal',
-    'focal_point_instructions' => 'Le point focal est utilisé lors du rognage de telle sorte que la partie la plus importante de l\'image ne disparaisse pas.',
+    'focal_point_label' => 'Cliquez sur l’image pour ajuster le point focal',
+    'focal_point_instructions' => 'Le point focal est utilisé lors du rognage de telle sorte que la partie la plus importante de l’image ne disparaisse pas.',
     'or_drag_and_drop_files' => 'ou glissez et déposez les fichiers.',
     'no_asset_container_specified' => 'Aucun emplacement de ressources indiqué.',
     'rename_file' => 'Renommer le fichier',
-    'rename_file_warning' => 'Renommer un fichier ne mettra pas à jour les liens qui pointent vers lui, ce qui _peut_ entraîner l\'apparition de liens brisés sur votre site.',
+    'rename_file_warning' => 'Renommer un fichier ne mettra pas à jour les liens qui pointent vers lui, ce qui _peut_ entraîner l’apparition de liens brisés sur votre site.',
     'move_file' => 'Déplacer le fichier',
+    'move_file_warning' => 'Déplacer un fichier ne mettra pas à jour les liens qui y font référence, ce qui _pourrait_ casser des liens sur votre site.',
     'dimensions' => 'Dimensions',
     'last_modified' => 'Dernière modification',
 
     
     // Folder
-    'folder_title_instructions' => 'Le nom associé à ce répertoire pour l\'affichage.',
-    'folder_directory_instructions' => 'Le nom du répertoire dans l\'arborescence des fichiers.',
+    'folder_title_instructions' => 'Le nom associé à ce répertoire pour l’affichage.',
+    'folder_directory_instructions' => 'Le nom du répertoire dans l’arborescence des fichiers.',
 
     // Asset Containers
     'asset_containers' => 'Emplacement de ressources|Emplacements de ressources',
     'manage_asset_containers' => 'Gérer les emplacements de ressources',
     'new_asset_container' => 'Nouvel emplacement de ressources',
-    'creating_asset_container' => 'Création d\'un emplacement de ressources',
+    'creating_asset_container' => 'Création d’un emplacement de ressources',
     'asset_container_created' => 'Emplacement de ressources créé',
-    'editing_asset_container' => 'Modification d\'un emplacement de ressources',
+    'editing_asset_container' => 'Modification d’un emplacement de ressources',
     'asset_container_updated' => 'Emplacement de ressources mis à jour',
-    'asset_containers_empty_heading' => 'Aucun emplacement de ressources n\'a été configuré.',
+    'asset_containers_empty_heading' => 'Aucun emplacement de ressources n’a été configuré.',
     'asset_containers_empty' => 'Chaque emplacement de ressources peut être un répertoire de votre système de fichiers, soit publiquement accessible, soit protégé des regards indiscrets.',
     'select_asset_container' => 'Sélectionner un emplacement de ressources.',
 
     // Asset Folders
     'create_folder' => 'Créer un répertoire',
     'edit_folder' => 'Modifier le répertoire',
-    'asset_name_instructions' => 'Le nom associé à cet emplacement pour l\'affichage.',
+    'asset_name_instructions' => 'Le nom associé à cet emplacement pour l’affichage.',
     'asset_handle_instructions' => 'Une chaîne unique que vous pouvez utiliser pour faire référence à votre emplacement. <b>NE peut PLUS être modifié après création.</b>',
     'asset_fieldset_instructions' => 'Le fieldset utilisé par les ressources placées dans cet emplacement.',
     'asset_driver_instructions' => 'Où les ressources seront-elles stockées et appelées ?',
@@ -166,24 +173,28 @@ return [
     'secret_access_key' => 'Secret Access Key',
 
     // Users
+    'user' => 'Utilisateur',
     'users' => 'Utilisateur|Utilisateurs',
     'nav_users' => 'Utilisateurs',
+    'manage_users' => 'Gérer les utilisateurs',
     'create_user_button' => 'Créer un utilisateur',
     'create_user' => 'Créer un utilisateur',
     'create_a_user' => 'Créer un utilisateur',
     'user_created' => 'Utilisateur créé',
-    'editing_user' => 'Modification de l\'utilisateur',
+    'editing_user' => 'Modification de l’utilisateur',
     'user_updated' => 'Utilisateur mis à  jour',
     'reset_password' => 'Réinitialiser votre mot de passe',
-    'send_email' => 'Envoyer l\'email',
-    'send_activation_email' => 'Envoyer l\'email d\'activation',
-    'send_password_reset_email' => 'Envoyer l\'email de réinitialisation du mot de passe',
-    'copy_activation_link' => 'Copier le lien d\'activation',
+    'send_email' => 'Envoyer l’email',
+    'send_activation_email' => 'Envoyer l’email d’activation',
+    'send_password_reset_email' => 'Envoyer l’email de réinitialisation du mot de passe',
+    'copy_activation_link' => 'Copier le lien d’activation',
     'copy_password_reset_link' => 'Copier le lien de réinitialisation du mot de passe',
-    'password_reset_sent' => 'L\'email de réinitialisation du mot de passe a été envoyé',
+    'password_reset_sent' => 'L’email de réinitialisation du mot de passe a été envoyé',
     'account' => 'Compte',
     'my_account' => 'Mon compte',
+    'profile' => 'Profil',
     'logout' => 'Déconnexion',
+    'sign_out' => 'Déconnexion',
     'user_options' => 'Options utilisateur',
     'user_bio_instructions' => 'Quelques infos à propos de vous, si vous le voulez bien.',
     'user_account_created' => 'Un compte utilisateur a été créé.',
@@ -191,7 +202,7 @@ return [
     'go_back' => 'Revenir en arrière',
 
     // Password Reset
-    'reset_code_missing' => 'Aucun code n\'a été précisé.',
+    'reset_code_missing' => 'Aucun code n’a été précisé.',
     'reset_code_invalid' => 'Code invalide',
 
     // Roles
@@ -203,7 +214,7 @@ return [
     'editing_role' => 'Modification du rôle',
     'role_updated' => 'Rôle mis à jour',
     'roles_empty_heading' => 'Rôles utilisateur',
-    'roles_empty' => 'Les rôles utilisateur vous permettent de regrouper un certain nombre d\'autorisations sous une seule étiquette. Par exemple : éditeur, publicateur, administrateur.',
+    'roles_empty' => 'Les rôles utilisateur vous permettent de regrouper un certain nombre d’autorisations sous une seule étiquette. Par exemple : éditeur, publicateur, administrateur.',
 
     // Permissions
     'permissions' => 'Autorisation|Autorisations',
@@ -215,22 +226,22 @@ return [
     // Error Pages
     'error' => 'Erreur',
     'permission_denied' => 'Autorisation refusée',
-    'permission_denied_instructions' => "Vous n'avez pas les droits suffisants pour accéder à cette page.",
+    'permission_denied_instructions' => "Vous n’avez pas les droits suffisants pour accéder à cette page.",
     'page_not_found' => 'Page non trouvée',
-    'page_not_found_instructions' => 'La page demandée n\'existe pas.',
+    'page_not_found_instructions' => 'La page demandée n’existe pas.',
     'session_expired' => 'Votre session a expiré',
 
 
     // User Groups
-    'usergroups' => 'Groupe d\'utilisateurs|Groupes d\'utilisateurs',
-    'nav_user-groups' => 'Groupes d\'utilisateurs',
+    'usergroups' => 'Groupe d’utilisateurs|Groupes d’utilisateurs',
+    'nav_user-groups' => 'Groupes d’utilisateurs',
     'create_usergroup_button' => 'Créer un groupe',
-    'creating_usergroup' => 'Création d\'un groupe d\'utilisateurs',
-    'usergroup_created' => 'Groupe d\'utilisateurs créé',
-    'editing_usergroup' => 'Modification d\'un groupe d\'utilisateurs',
-    'usergroup_updated' => 'Groupe d\'utilisateurs mis à jour',
-    'usergroups_empty_heading' => 'Groupes d\'utilisateurs',
-    'usergroups_empty' => 'Les groupes d\'utilisateurs vous permettent d\'associer des utilisateurs et des rôles dans un seul groupe.',
+    'creating_usergroup' => 'Création d’un groupe d’utilisateurs',
+    'usergroup_created' => 'Groupe d’utilisateurs créé',
+    'editing_usergroup' => 'Modification d’un groupe d’utilisateurs',
+    'usergroup_updated' => 'Groupe d’utilisateurs mis à jour',
+    'usergroups_empty_heading' => 'Groupes d’utilisateurs',
+    'usergroups_empty' => 'Les groupes d’utilisateurs vous permettent d’associer des utilisateurs et des rôles dans un seul groupe.',
 
     // Settings
     'settings' => 'Paramètre|Paramètres',
@@ -247,12 +258,13 @@ return [
     'settings_users' => 'Utilisateurs',
     'settings_updated' => 'Paramètres mis à jour.',
     'settings_locales_instructions' => "Créez une langue pour chaque traduction dont vous aurez besoin. Vous pouvez passer cette étape pour le moment et y revenir plus tard si vous le préférez.",
-    'settings_debug_mode_instructions' => "L\'activation du mode débogage affichera toutes les erreurs à l\'écran. C\'est un super outil quand le site est en développement, mais n\'oubliez pas de le désactiver quand il est en production !",
+    'settings_debug_mode_instructions' => "L’activation du mode débogage affichera toutes les erreurs à l’écran. C’est un super outil quand le site est en développement, mais n’oubliez pas de le désactiver quand il est en production !",
 
     // Addons
     'addons' => 'Addon|Addons',
+    'manage_addons' => 'Gérer les addons',
     'nav_addons' => 'Addons',
-    'addons_empty_heading' => 'Il n\'y a aucun addon',
+    'addons_empty_heading' => 'Il n’y a aucun addon',
     'addons_empty' => 'Les addons étendent les fonctionnalités de Statamic.',
   
     // Fieldsets & Fields
@@ -264,18 +276,18 @@ return [
     'fieldset_created' => 'Fieldset créé',
     'editing_fieldset' => 'Modification du fieldset',
     'fieldset_updated' => 'Fieldset mis à jour',
-    'fieldsets_empty' => 'Les fieldsets vous permettent de créer et de gérer des groupes réutilisables de types de champs qui en retour gèrent votre contenu. C\'est ainsi que la mise en forme du contenu se passe.',
+    'fieldsets_empty' => 'Les fieldsets vous permettent de créer et de gérer des groupes réutilisables de types de champs qui en retour gèrent votre contenu. C’est ainsi que la mise en forme du contenu se passe.',
     'fieldset_title_instructions' => 'Le nom associé au fieldset. Habituellement un nom commun singulier.',
     'fieldset_handle_instructions' => "La façon dont le fieldset sera référencé dans les paramètres et les modèles.",
     'fieldset_create_title_instructions' => "Titre optionnel et modifiable qui est affiché lors de la création de nouveau contenu avec ce fieldset.",
     'fieldset_hide_instructions' => "Masquer ce fieldset dans les dialogues de sélection ?",
-    'fieldset_fields_instructions' => 'Affecter et customiser les champs et les types de champs dans ce fieldset.',
-    'fieldset_taxonomies_instructions' => 'Afficher, masquer et paramétrer les taxonomies qui doivent être affichées dans ce fieldset.',
+    'fieldset_fields_instructions' => 'Affectez et personnalisez les champs et les types de champs dans ce fieldset.',
+    'fieldset_taxonomies_instructions' => 'Affichez (ou masquez) et paramétrez les taxonomies proposées dans ce fieldset.',
     'create_title' => 'Titre pour création',
     'display_name' => "Nom affiché",
-    'display_name_instructions' => "L'étiquette de champ affichée dans le panneau de contrôle.",
+    'display_name_instructions' => "L’étiquette de champ affichée dans le panneau de contrôle.",
     'display_text' => 'Texte affiché',
-    'display_text_instructions' => "L'étiquette de champ",
+    'display_text_instructions' => "L’étiquette de champ",
     'field_name' => 'Nom du champ',
     'field_name_instructions' => 'La variable associée au champ',
     'field_required' => 'Obligatoire',
@@ -283,7 +295,7 @@ return [
     'field_variable' => "Variable de champ",
     'field_variable_instructions' => "La variable de modèle du champ.",
     'field_instructions_instructions' => "Le Markdown basique est autorisé. Encouragé, même.",
-    'field_width_instructions' => 'La taille du champ dans l\'écran de disposition du fieldset.',
+    'field_width_instructions' => 'La taille du champ dans l’écran de disposition du fieldset.',
     'validation_rules' => "Règles de validation",
     'validation_instructions' => "Possibilité de saisir toutes",
     'validation_instructions_link_text' => 'règles de validation Laravel',
@@ -292,7 +304,16 @@ return [
     'field_default_value_instructions' => 'Entrez la valeur par défaut pour les champs de type chaîne de caractères.',
     'edit_field' => 'Modifier le champ',
     'choose_field_to_edit' => "Choisissez un champ pour modifier ses paramètres.",
-
+    
+    'display_conditions' => 'Conditions d’affichage',
+    'display_conditions_instructions' => 'Paramétrez "quand" ce champ devra être affiché.',
+    'always_show' => 'Toujours l’afficher',
+    'show_when' => 'L’afficher quand...',
+    'hide_when' => 'Le masquer quand...',
+    'standard' => 'Standard',
+    'custom' => 'Personnalisée',
+    'display_standard_instructions' => 'Choisissez une combinaison de champs et de valeurs correspondantes.',
+    'display_custom_instructions' => 'Saisissez le nom de votre méthode conditionnelle Javascript personnalisée.',
 
     // Forms
     'form' => 'Formulaire',
@@ -305,11 +326,13 @@ return [
     'form_submission_deleted' => 'Soumission supprimée.',
     'submissions' => 'Soumission|Soumissions',
     'response' => 'réponse|réponses',
-    'empty_responses' => 'Ce formulaire attend des réponses.',
+    'empty_responses' => 'Ce formulaire est en attente de réponses.',
     'create_formset' => 'Créer un Formset',
     'creating_formset' => 'Création du Formset',
     'editing_formset' => 'Mise à jour du Formset',
     'import' => 'Importer',
+    'import_data' => 'Importer des données',
+    'import_link_text' => 'Découvrez l’import au format JSON',
     'export' => 'Exporter',
     'export_csv' => 'Exporter en CSV',
     'export_json' => 'Exporter en JSON',
@@ -318,15 +341,16 @@ return [
     'formset_title_instructions' => "Le nom associé à votre formset.",
     'formset_slug_instructions' => 'La façon dont le formset sera référencé.',    
     'formset_metrics_instructions' => 'Précisez les métriques que vous souhaitez voir affichées.',
-    'formset_emails_instructions' => 'Ajouter tous les emails que vous souhaitez envoyer lors de la soumission.',
+    'formset_emails_instructions' => 'Ajouter tous les emails que vous souhaitez envoyer lors d’une soumission.',
     'formset_honeypot_field' => 'Champ Pot de Miel',
     'formset_honeypot_instructions' => 'Le nom du champ à utiliser pour le pot de miel.',
-    'formset_honeypot_link' => "Qu'est-ce qu'un pot de miel ?",
-    'formset_fields_instructions' => 'Choisissez et personnalisez les champs dans ce formulaire.',
+    'formset_honeypot_link' => "Qu’est-ce qu'un pot de miel ?",
+    'formset_fields_instructions' => 'Choisissez et personnalisez les champs de ce formulaire.',
 
     // Updater
     'nav_updater' => 'Mise à Jour',
     'updates'     => 'Mises à jour',
+    'system_updates' => 'Mises à Jour Système',
     'upgrade_to_latest' => 'Téléchargez la dernière MAJ',
     'upgrade_to_version' => 'Mise à jour vers :version',
     'downgrade_to_version' => 'Revenir vers :version',
@@ -343,6 +367,7 @@ return [
     'backing_up' => 'Sauvegarde en cours...',
     'backing_up_instructions' => "Nous zippons votre répertoire <code>statamic</code>, au cas où vous auriez besoin de revenir en arrière.",
     'backup_reminder' => 'Process sécurisé ! Nous sauvegardons tout lorsque nous réalisons la mise à jour, afin que vous puissiez toujours retrouver la version précédente dans <code>local/temp</code> si jamais quelque chose se passait mal.',
+    'couldnt_fetch_updates' => 'Un problème est survenu en tentant de récupérer les mises à jour',
 
     // Download
     'downloading' => 'Téléchargement en cours...',
@@ -353,12 +378,12 @@ return [
 
     // Installation
     'installation' => 'Installation',
-    'installation_has_failed' => 'L\'installation a échoué',
-    'preparing_installation' => 'L\'installation débutera dès la fin des processus de sauvegarde et de téléchargement.',
+    'installation_has_failed' => 'L’installation a échoué',
+    'preparing_installation' => 'L’installation débutera dès la fin des processus de sauvegarde et de téléchargement.',
     'now_running' => "Votre site fonctionne désormais sous Statamic v:version",
     'statamic_ready' => 'Statamic est prêt et il vous attend.',
     'delete_installer' => 'Merci de supprimer le fichier <code>installer.php</code>.',
-    'installer_deleted' => 'Je l\'ai bien supprimé. Re-dirigez moi vers le panneau de contrôle &rarr;',
+    'installer_deleted' => 'Je l’ai bien supprimé. Re-dirigez moi vers le panneau de contrôle &rarr;',
 
     // Archive
     'unzipping_files' => 'Dézippage des fichiers...',
@@ -372,7 +397,7 @@ return [
 
     // Swap Release
     'swapping_files' => 'Remplacement des fichiers...',
-    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont en cours de remplacement par d\'autres, tous neufs !',
+    'swapping_files_instructions' => 'Vos vieux fichiers Statamic sont en cours de remplacement par d’autres, tous neufs !',
     'files_swapped' => 'Fichiers remplacés.',
 
     // Clean Up
@@ -384,9 +409,9 @@ return [
     'site_url' => 'Site URL',
     'import_from_version' => 'Importez du contenu venant de Statamic :version',
     'import_complete' => 'Import terminé',
-    'import_has_completed' => 'L\'import est terminé.',
-    'import_summary' => 'Synthèse de l\'import',
-    'import_site_url_instructions' => 'Entrez l\'URL du site web existant que vous souhaitez importer.',
+    'import_has_completed' => 'L’import est terminé.',
+    'import_summary' => 'Synthèse de l’import',
+    'import_site_url_instructions' => 'Entrez l’URL du site web existant que vous souhaitez importer.',
     
     'duplicate_item_warning'  => "Il y a un doublon.|Il y a :count doublons.",
     'uncheck_duplicates' => 'Décocher les doublons',
@@ -396,8 +421,8 @@ return [
     'upload_json_file' => 'Télécharger un fichier JSON',
 
     // Export
-    'export_failed' => 'L\'export a échoué',
-    'export_export_failed_with_error' => 'L\'export a échoué avec l\'erreur :',
+    'export_failed' => 'L’export a échoué',
+    'export_export_failed_with_error' => 'L’export a échoué avec l’erreur :',
     
     'manage_widgets' => 'Gérer les Widgets',
     
@@ -421,19 +446,21 @@ return [
 
     // License
     'license_wrong_domain' => 'Cette licence appartient au domaine :domain. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
-    'license_no_domain' => 'Aucun domaine n\'est associé à cette licence. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
+    'license_no_domain' => 'Aucun domaine n’est associé à cette licence. Visitez <a href=":url" target="_blank">votre compte</a> pour la modifier.',
     'checking_license_key' => 'Vérification de votre clef de licence, merci de patienter...',
     'license_valid' => 'Votre clef de licence est valide.',
     'license_invalid' => 'Cette clef est invalide !',
     'license_key_instructions' => 'Merci de saisir votre clef de licence. Vous pouvez trouver la vôtre dans votre <a href=":licenses">Compte Statamic</a> ou vous pouvez <a href=":buy_license">acheter une nouvelle licence</a> si besoin.',
     'enter_license_key' => 'Merci de saisir votre clef de licence pour accéder au panneau de contrôle sur un domaine public.',
+    'add_license_key' => 'Ajouter Clef de Licence',
+    'buy_now' => 'Acheter Maintenant',
 
     'continue_in_trial_mode' => 'Continuer en mode essai',
     'unlicensed' => 'Pas de licence valide !',
     'on_trial_with_invalid_license' => 'Vous êtes actuellement en mode essai, mais votre licence est invalide.',
-    'on_trial_without_license' => 'Vous êtes actuellement en mode essai. Rappelez-vous d\'ajouter une clef de licence valide avant de passer sur un domaine public.',
+    'on_trial_without_license' => 'Vous êtes actuellement en mode essai. Rappelez-vous d’ajouter une clef de licence valide avant de passer sur un domaine public.',
     'invalid_statamic_license' => 'Votre licence Statamic est invalide.',
-    'couldnt_connect_to_outpost' => 'Un problème est survenu en tentant de prendre contact avec l\'Outpost Statamic !',
+    'couldnt_connect_to_outpost' => 'Un problème est survenu en tentant de prendre contact avec l’Outpost Statamic !',
     
     // Verbs and helpers
     'actions' => 'Action|Actions',
@@ -455,7 +482,7 @@ return [
     'save_and_continue' => 'Enregistrer et continuer',
     'are_you_sure' => 'Êtes-vous sûr ?',
     'yes_im_sure' => 'Oui, je suis sûr !',
-    'refresh' => 'Raffraîchir',
+    'refresh' => 'Rafraîchir',
     'cancel' => 'Annuler',
     'loading' => 'Chargement',
     'expand' => 'Développer',
@@ -465,9 +492,10 @@ return [
     'move' => 'Déplacer',
     'edit_layout' => 'Modifier la mise en page',
     'save_layout' => 'Enregistrer la mise en page',
-    'save_order' => 'Enregistrer l\'ordre',
+    'save_order' => 'Enregistrer l’ordre',
     'toggle_dropdown' => 'Inverser le menu déroulant',    
     'confirm_delete_items' => 'Cet élément sera supprimé|Les éléments sélectionnés seront supprimés',
+    'confirm_delete_page' => 'Cette page sera supprimée ainsi que tous ses pages enfants',
     'confirm_delete_folder' => 'Ce répertoire sera supprimé',
     'configure' => 'Configurer',
     'browse' => 'Parcourir',
@@ -491,6 +519,9 @@ return [
     'expand_all' => 'Tout déplier',
     'please_select' => 'Merci de sélectionner',
     'selected' => 'sélectionné',
+    'add_another_item' => 'Ajouter un autre élément',
+    'show_drafts' => 'Afficher les brouillons',
+    'hide_drafts' => 'Masquer les brouillons',
 
     // Nouns and whatnot
     'fields' => 'Champ|Champs',
@@ -516,7 +547,7 @@ return [
     'datestring' => 'Date',
     'items' => 'Elément|Eléments',
     'add_date' => 'Ajouter la date',
-    'add_time' => 'Ajouter l\'heure',
+    'add_time' => 'Ajouter l’heure',
     'login' => 'Connexion',
     'login_with' => 'Connexion avec :provider',
     'new' => 'Nouvelle',
@@ -562,7 +593,7 @@ return [
     'bucket' => 'Conteneur',
     'region' => 'Région',
     'metrics' => 'Métrique|Métriques',
-    'whats_this' => "Qu'est-ce que c'est ?",
+    'whats_this' => "Qu’est-ce que c’est ?",
     'first_name' => 'Prénom',
     'last_name' => 'Nom',
     'bio' => 'Biographie',
@@ -573,6 +604,7 @@ return [
     'be_right_back' => 'Revenez vite.',
 		'size' => 'Taille',
 		'attribute_field_name' => 'champ :attribute',
+    'read_only_mode' => "Mode Lecture Seule",
 		
     'nav_content' => 'Contenu',
     'nav_tools' => 'Outils',
@@ -581,13 +613,23 @@ return [
     'nav_fieldsets' => 'Fieldsets',
     'nav_settings' => 'Paramètres',
     'nav_users' => 'Utilisateurs',
+    'nav_resolve_duplicate_ids' => 'IDs en doublon',
     
     'mount_collection' => 'Monter la Collection',
     'unmount_collection' => 'Démonter la Collection',
     
     'trial_mode' => 'Mode Essai',
-    'trial_mode_badge' => 'ESSAI GRATUIT',
+    'trial_mode_badge' => 'Statamic fonctionne actuellement en mode Essai Gratuit.',
         
     // Validation
     'handle_exists' => 'Un emplacement possédant cet identifiant existe déjà.',
+    
+    // Duplicate ID Manager
+    'duplicate_id_title' => 'IDs en doublon',
+    'no_duplicate_ids' => 'Aucune ID en doublon n’a été détectée.',
+    
+    // Path
+    'path_resolves_to'    => 'Le chemin d’accès renvoie :path',
+    'path_exists'         => 'Le chemin d’accès existe.',
+    'path_does_not_exist' => 'Le chemin d’accès n’existe pas.',    
 ];

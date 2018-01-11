@@ -2,7 +2,7 @@
 
 return [
 
-    'mode' => 'Mode d\'affichage',
+    'mode' => 'Mode d’affichage',
     'mode_instruct' => 'Comment cette grille doit-elle être affichée ?',
 
     'max_rows' => 'Lignes Max',

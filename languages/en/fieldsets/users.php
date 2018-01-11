@@ -9,4 +9,7 @@ return [
     'new_user_roles' => 'New User Roles',
     'new_user_roles_instruct' => 'Any users that register through the front-end of your site will be assigned these roles.',
 
+    'enable_gravatar' => 'Enable Gravar',
+    'enable_gravatar_instruct' => "Use [Gravatar.com](http://gravatar.com) as a source for automatic User avatars.",
+
 ];

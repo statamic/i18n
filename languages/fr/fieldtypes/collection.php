@@ -3,7 +3,7 @@
 return [
 
     'max_items' => 'Nb articles maxi',
-    'max_items_instruct' => 'Le nombre maximum d\'articles qui peuvent être sélectionnés.',
+    'max_items_instruct' => 'Le nombre maximum d’articles qui peuvent être sélectionnés.',
     'sort' => 'Ordre de tri',
     'sort_instruct' => 'Trier les articles en utilisant nom_du_champ:ordre. Vous pouvez ajouter des règles supplémentaires en les séparant par des "pipes". Ex: `date:desc|titre:asc`',
     'label' => 'Etiquette',

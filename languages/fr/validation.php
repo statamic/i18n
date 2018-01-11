@@ -14,7 +14,7 @@ return [
     */
 
     "accepted"             => ":attribute doit être accepté.",
-    "active_url"           => ":attribute n\'est pas une URL valide.",
+    "active_url"           => ":attribute n’est pas une URL valide.",
     "after"                => ":attribute doit être une date postérieure au :date.",
     "alpha"                => ":attribute ne peut contenir que des lettres.",
     "alpha_dash"           => ":attribute ne peut contenir que des lettres, des chiffres et des tirets.",
@@ -28,8 +28,8 @@ return [
         "array"   => ":attribute doit avoir entre :min et :max articles.",
     ],
     "boolean"              => ":attribute doit être vrai ou faux.",
-    "confirmed"            => "La confirmation de :attribute n\'est pas identique.",
-    "date"                 => ":attribute n\'est pas une date valide.",
+    "confirmed"            => "La confirmation de :attribute n’est pas identique.",
+    "date"                 => ":attribute n’est pas une date valide.",
     "date_format"          => ":attribute ne correspond pas au format :format.",
     "different"            => ":attribute et :other doivent être différents.",
     "digits"               => ":attribute doit faire :digits décimales.",
@@ -94,10 +94,10 @@ return [
         ],
         'fields' => [
             'username' => [
-                'not_in' => 'L\'identifiant sélectionné est déjà pris.',
+                'not_in' => 'L’identifiant sélectionné est déjà pris.',
             ],
             'email' => [
-                'not_in' => 'L\'email sélectionné est déjà pris.',
+                'not_in' => 'L’email sélectionné est déjà pris.',
             ]
         ]
     ],
