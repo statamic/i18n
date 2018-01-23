@@ -258,6 +258,7 @@ return [
     'settings_users' => 'Utilisateurs',
     'settings_updated' => 'Paramètres mis à jour.',
     'settings_locales_instructions' => "Créez une langue pour chaque traduction dont vous aurez besoin. Vous pouvez passer cette étape pour le moment et y revenir plus tard si vous le préférez.",
+    'settings_locales_index_php_warning' => "Vous devrez mettre la variable <code>\$locale</code> à <code>:locale</code> dans votre fichier <code>index.php</code>.",
     'settings_debug_mode_instructions' => "L’activation du mode débogage affichera toutes les erreurs à l’écran. C’est un super outil quand le site est en développement, mais n’oubliez pas de le désactiver quand il est en production !",
 
     // Addons

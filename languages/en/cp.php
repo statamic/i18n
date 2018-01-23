@@ -258,6 +258,7 @@ return [
     'settings_users' => 'Users',
     'settings_updated' => 'Settings updated.',
     'settings_locales_instructions' => "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer.",
+    'settings_locales_index_php_warning' => "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file.",
     'settings_debug_mode_instructions' => "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production.",
 
     // Addons
@@ -397,7 +398,7 @@ return [
 
     // Swap Release
     'swapping_files' => 'Swapping files...',
-    'swapping_files_instructions' => 'Statamic is being injected with software growth hormone (SGH). Results will be visible mere moments.',
+    'swapping_files_instructions' => 'Statamic is being injected with software growth hormone (SGH). Results will be visible in mere moments.',
     'files_swapped' => 'Files swapped.',
 
     // Clean Up
