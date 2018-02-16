@@ -133,6 +133,7 @@ return [
     'move_file_warning' => 'Moving a file will not update any references to it, which _may_ result in broken links in your site.',
     'dimensions' => 'Dimensions',
     'last_modified' => 'Last Modified',
+    'url_resolves_to' => 'URL resolves to: :path',
 
 
     // Folder
@@ -191,6 +192,7 @@ return [
     'copy_password_reset_link' => 'Copy password reset link',
     'password_reset_sent' => 'Password reset email sent',
     'account' => 'Account',
+    'password' => 'Password',
     'my_account' => 'My Account',
     'profile' => 'Profile',
     'logout' => 'Logout',
@@ -345,6 +347,8 @@ return [
     'formset_emails_instructions' => 'Add any emails you want to be sent upon submission.',
     'formset_honeypot_field' => 'Honeypot Field',
     'formset_honeypot_instructions' => 'The field name to be used for the honeypot.',
+    'formset_store_field' => 'Store Submissions',
+    'formset_store_instructions' => 'Whether form submissions should be stored. Useful if you only wish to get email notifications.',
     'formset_honeypot_link' => "What's a honeypot?",
     'formset_fields_instructions' => 'Choose and customize the fields in this form.',
 
@@ -630,7 +634,7 @@ return [
     'no_duplicate_ids' => 'No duplicate IDs detected.',
 
     // Path
-    'path_resolves_to'    => 'Path resolves to :path',
+    'path_resolves_to'    => 'Path resolves to: :path',
     'path_exists'         => 'Path exists.',
     'path_does_not_exist' => 'Path does not exist.',
 ];

@@ -133,8 +133,9 @@ return [
     'move_file_warning' => 'Déplacer un fichier ne mettra pas à jour les liens qui y font référence, ce qui _pourrait_ casser des liens sur votre site.',
     'dimensions' => 'Dimensions',
     'last_modified' => 'Dernière modification',
-
+    'url_resolves_to' => 'L’URL renvoie : :path',
     
+        
     // Folder
     'folder_title_instructions' => 'Le nom associé à ce répertoire pour l’affichage.',
     'folder_directory_instructions' => 'Le nom du répertoire dans l’arborescence des fichiers.',
@@ -191,6 +192,7 @@ return [
     'copy_password_reset_link' => 'Copier le lien de réinitialisation du mot de passe',
     'password_reset_sent' => 'L’email de réinitialisation du mot de passe a été envoyé',
     'account' => 'Compte',
+    'password' => 'Mot de passe',
     'my_account' => 'Mon compte',
     'profile' => 'Profil',
     'logout' => 'Déconnexion',
@@ -345,6 +347,8 @@ return [
     'formset_emails_instructions' => 'Ajouter tous les emails que vous souhaitez envoyer lors d’une soumission.',
     'formset_honeypot_field' => 'Champ Pot de Miel',
     'formset_honeypot_instructions' => 'Le nom du champ à utiliser pour le pot de miel.',
+    'formset_store_field' => 'Conserver les soumissions',
+    'formset_store_instructions' => 'Détermine si les soumissions de formulaires doivent être conservées ou non. Utile si vous souhaitez seulement recevoir des notifications par email.',
     'formset_honeypot_link' => "Qu’est-ce qu'un pot de miel ?",
     'formset_fields_instructions' => 'Choisissez et personnalisez les champs de ce formulaire.',
 
@@ -630,7 +634,7 @@ return [
     'no_duplicate_ids' => 'Aucune ID en doublon n’a été détectée.',
     
     // Path
-    'path_resolves_to'    => 'Le chemin d’accès renvoie :path',
+    'path_resolves_to'    => 'Le chemin d’accès renvoie : :path',
     'path_exists'         => 'Le chemin d’accès existe.',
     'path_does_not_exist' => 'Le chemin d’accès n’existe pas.',    
 ];
