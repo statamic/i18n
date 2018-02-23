@@ -258,7 +258,8 @@ return [
     'settings_email' => 'Email',
     'settings_theming' => 'Thème',
     'settings_users' => 'Utilisateurs',
-    'settings_updated' => 'Paramètres mis à jour.',
+    'settings_updated' => 'Paramètres enregistrés.',
+    'settings_updated_and_indexed' => 'Paramètres enregistrés et index de recherche mis à jour.',
     'settings_locales_instructions' => "Créez une langue pour chaque traduction dont vous aurez besoin. Vous pouvez passer cette étape pour le moment et y revenir plus tard si vous le préférez.",
     'settings_locales_index_php_warning' => "Vous devrez mettre la variable <code>\$locale</code> à <code>:locale</code> dans votre fichier <code>index.php</code>.",
     'settings_debug_mode_instructions' => "L’activation du mode débogage affichera toutes les erreurs à l’écran. C’est un super outil quand le site est en développement, mais n’oubliez pas de le désactiver quand il est en production !",
@@ -595,6 +596,8 @@ return [
     'driver' => 'Driver',
     'path' => 'Chemin',
     'url' => 'URL',
+    'valid_url' => 'URL valide',
+    'invalid_url' => 'URL non valide',
     'bucket' => 'Conteneur',
     'region' => 'Région',
     'metrics' => 'Métrique|Métriques',
@@ -609,7 +612,8 @@ return [
     'be_right_back' => 'Revenez vite.',
 		'size' => 'Taille',
 		'attribute_field_name' => 'champ :attribute',
-    'read_only_mode' => "Mode Lecture Seule",
+    'read_only_mode' => 'Mode Lecture Seule',
+    'next_step' => 'Etape suivante',
 		
     'nav_content' => 'Contenu',
     'nav_tools' => 'Outils',
@@ -636,5 +640,14 @@ return [
     // Path
     'path_resolves_to'    => 'Le chemin d’accès renvoie : :path',
     'path_exists'         => 'Le chemin d’accès existe.',
-    'path_does_not_exist' => 'Le chemin d’accès n’existe pas.',    
+    'path_does_not_exist' => 'Le chemin d’accès n’existe pas.',
+    
+    // Bard
+    'link'               => 'Lien',
+    'paste_or_type_link' => 'Collez ou entrez un lien',
+    'bold'               => 'Gras',
+    'italic'             => 'Italique',
+    'blockquote'         => 'Citation',
+    'h2'                 => 'Balise en-tête H2',
+    'h3'                 => 'Balise en-tête H3',
 ];
