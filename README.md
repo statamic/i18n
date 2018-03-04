@@ -1,33 +1,17 @@
-# Statamic i18n (Internationalization)
-
-Language translation files for the Statamic control panel.
-
+# Statamic Control Panel Translations ![Statamic 2.8.7](https://img.shields.io/badge/statamic-2.8.7-blue.svg?style=flat-square)
 ---
 
-The next version of Statamic will support fully translated control panels, starting with Western left-to-right character sets, and more complex (and right-to-left) languages in the future.
+## Installing a Translation
+
+1. Download this repo as a zip file
+2. Copy the desired translation folder (e.g. `languages/fr`) into `site/lang`.
+3. Set `locale: fr` (or translation of choice) in your Control Panel settings area (or `site/settings/cp.yaml`) to apply to all users, or in individual user's files to apply to only that user.
 
 ## Contributing
 
-We're looking to the community to help get some of these translations going. Feel free to fork, edit, and send pull requests with new languages, fixes, updates, and corrections to any language file.
-
-Alternately (or if you're not Github savvy), you can email translations and/or corrections to <gentlemen@statamic.com>.
-
-We've included a `template.yaml` file with all the fields emptied out and ready for your multi-lingual mastery!
+We're looking to the community to help with translation. Feel free to fork, edit, and send pull requests with new languages, fixes, updates, and corrections to any language files.
 
 ## Complete Translations
 
 - English
-- Brazilian Portuguese
-- Danish (formal)
-- Danish (informal)
-- Dutch
 - French
-- German (formal)
-- German (informal)
-- Hungarian
-- Italian
-- Korean
-- Polish
-- Russian
-- Spanish
-- Swedish
