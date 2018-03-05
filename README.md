@@ -12,5 +12,7 @@ We're looking to the community to help with translation. Feel free to fork, edit
 
 ## Complete Translations
 
-- English
-- French
+- Dutch (nl) - Latest: 2.6.2
+- English (en) - Latest: 2.8.7
+- French (fr) - Latest: 2.8.7
+- German (de) - Latest: 2.6.7
