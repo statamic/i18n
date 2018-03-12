@@ -9,7 +9,7 @@ return [
     'container_instruct' => 'Choose the Asset Container for file uploads.',
 
     'folder' => 'Folder',
-    'folder_instruct' => 'Choose the folder to restrict files.',
+    'folder_instruct' => 'Choose a folder to show by default.',
 
     'restrict_assets' => 'Restrict to Folder',
     'restrict_assets_instruct' => 'Prevent navigation to other asset folders or containers.',
@@ -29,7 +29,9 @@ return [
     'link_validation' => 'Link Validation',
     'link_validation_instruct' => 'Check for common URL protocols on links.',
 
-    'paste' => 'Paste Behavior',
-    'paste_instruct' => 'Configure paste behavior. Use the [MediumEditor docs](https://github.com/yabwe/medium-editor/blob/master/OPTIONS.md#paste-options) as a reference.'
+    'force_plain_text' => 'Force Pasting as Plain Text',
+    'force_plain_text_instruct' => 'Forces pasting as plain text, removing any and all formatting.',
 
+    'clean_pasted_html' => 'Clean Pasted HTML on Paste',
+    'clean_pasted_html_instruct' => 'Cleans pasted content from different sources, like Google Docs, etc.'
 ];

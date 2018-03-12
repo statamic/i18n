@@ -76,6 +76,9 @@ return [
     "entry_slug_exists"    => "L'identificateur existe déjà.",
     "page_uri_exists"      => "L'identificateur existe déjà.",
     "unique_asset_filename" => "Une ressource avec ce nom de fichier existe déjà.",
+    
+    // Extended validation rules
+    "ext" => ":attribute doit être un fichier du type : :extensions",
 
     /*
     |--------------------------------------------------------------------------
