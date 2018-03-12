@@ -16,3 +16,7 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - English (en) - Latest: 2.8.8
 - French (fr) - Latest: 2.8.8
 - German (de) - Latest: 2.6.7
+
+## Changes between versions
+
+- [2.8.7 → 2.8.8](https://github.com/statamic/i18n/compare/f6c3214...de75a05)
