@@ -42,7 +42,8 @@ return [
     'collection_handle_instructions' => "La façon dont la collection sera référencée dans les paramètres et les modèles.",
     'collection_order_instructions' => "Définissez la méthode de tri par défaut pour les articles de cette collection.",
     'collection_route_instructions' => "La route contrôle le schéma URL que tous les articles de cette collection devront suivre.",
-
+    'collection_does_not_exist' => 'La collection :collection n’existe pas.',
+    
     // Entries
     'entry' => 'Article',
     'entries' => 'Article|Articles',
@@ -120,6 +121,7 @@ return [
     'filesize' => 'Taille',
     'date_modified' => 'Date de modification',
     'parent_folder' => 'Répertoire parent',
+    'containers' => 'Emplacements',
     'asset_folder_empty_heading' => 'Répertoire vide.',
     'asset_folder_empty' => 'Vous pouvez télécharger de nouvelles ressources dans ce répertoire en glissant-déposant des fichiers sur la zone symbolisée ci-dessus.',
     'focal_point' => 'Point focal',
@@ -186,11 +188,17 @@ return [
     'user_updated' => 'Utilisateur mis à  jour',
     'reset_password' => 'Réinitialiser votre mot de passe',
     'send_email' => 'Envoyer l’email',
+    'email_sent' => 'Email envoyé',
     'send_activation_email' => 'Envoyer l’email d’activation',
     'send_password_reset_email' => 'Envoyer l’email de réinitialisation du mot de passe',
+    'password_reset_email_not_sent' => 'Email non envoyé. Merci de vérifier les journaux système.',
     'copy_activation_link' => 'Copier le lien d’activation',
     'copy_password_reset_link' => 'Copier le lien de réinitialisation du mot de passe',
+    'copy_password_reset_link_failed' => 'Un problème est survenu lors de la génération du lien. Merci de vérifier les journaux système.',
     'password_reset_sent' => 'L’email de réinitialisation du mot de passe a été envoyé',
+    'account_activated' => 'Votre compte a bien été activé',
+    'password_reset_success' => 'Votre mot de passe a bien été réinitialisé',
+    'activate_account' => 'Activer votre compte',
     'account' => 'Compte',
     'password' => 'Mot de passe',
     'my_account' => 'Mon compte',
@@ -201,6 +209,9 @@ return [
     'user_bio_instructions' => 'Quelques infos à propos de vous, si vous le voulez bien.',
     'user_account_created' => 'Un compte utilisateur a été créé.',
     'forgot_password' => 'Mot de passe oublié ?',
+    'invalid_user' => 'Utilisateur invalide',
+    'invalid_code' => 'Code invalide',
+    'invalid_creds' => 'Identifiants invalides',
     'go_back' => 'Revenir en arrière',
 
     // Password Reset
@@ -263,6 +274,16 @@ return [
     'settings_locales_instructions' => "Créez une langue pour chaque traduction dont vous aurez besoin. Vous pouvez passer cette étape pour le moment et y revenir plus tard si vous le préférez.",
     'settings_locales_index_php_warning' => "Vous devrez mettre la variable <code>\$locale</code> à <code>:locale</code> dans votre fichier <code>index.php</code>.",
     'settings_debug_mode_instructions' => "L’activation du mode débogage affichera toutes les erreurs à l’écran. C’est un super outil quand le site est en développement, mais n’oubliez pas de le désactiver quand il est en production !",
+    
+    'shorthand' => 'Raccourci',
+    'shorthand_instructions' => 'Le code langue sur 2 caractères.<br> Exemple : `en`, `fr`.',
+    'add_locale' => 'Ajouter une langue',
+    'full_locale' => 'Code langue complet',
+    'full_locale_instructions' => 'Utilisé par PHP pour la localisation des dates.<br>Exemple : `en_US`, `fr_CA`.',
+    'locale_name_instructions' => 'Utilisé pour l’affichage.<br> Exemple : `Américain`, `Français`.',
+    'locale_url_instructions' => 'Exemple : `http://example.com/fr/`',
+
+
 
     // Addons
     'addons' => 'Addon|Addons',
@@ -636,6 +657,7 @@ return [
     // Duplicate ID Manager
     'duplicate_id_title' => 'IDs en doublon',
     'no_duplicate_ids' => 'Aucune ID en doublon n’a été détectée.',
+    'generate_new_id' => 'Générer une nouvelle ID.',
     
     // Path
     'path_resolves_to'    => 'Le chemin d’accès renvoie : :path',

@@ -29,7 +29,9 @@ return [
     'link_validation' => 'Validation des liens',
     'link_validation_instruct' => 'Vérifie que des protocoles URL communs sont utilisés pour tous les liens.',
 
-    'paste' => 'Comportement lors du collage',
-    'paste_instruct' => 'Configurez ce qu’il doit se passer lors du collage. Utilisez les [docs MediumEditor](https://github.com/yabwe/medium-editor/blob/master/OPTIONS.md#paste-options) comme référence.'
+    'force_plain_text' => 'Forcer le collage en texte brut',
+    'force_plain_text_instruct' => 'Force le collage des données au format texte brut en supprimant TOUS les formats du contenu copié.',
 
+    'clean_pasted_html' => 'Nettoyer le HTML lors du collage',
+    'clean_pasted_html_instruct' => 'Nettoie le contenu collé en provenance de différentes sources, comme Google Docs, etc.'
 ];

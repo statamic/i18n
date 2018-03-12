@@ -77,6 +77,9 @@ return [
     "page_uri_exists"      => "Slug already exists.",
     "unique_asset_filename" => "An asset with this filename exists.",
 
+    // Extended validation rules
+    "ext" => "The :attribute must be a file of type: :extensions",
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
