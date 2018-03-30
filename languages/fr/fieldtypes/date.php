@@ -8,6 +8,9 @@ return [
     'allow_time' => 'Autoriser l’horodatage ?',
     'allow_time_instruct' => 'Si activé, vous serez autorisé à sélectionner un horaire.',
     
+    'require_time' => 'Exiger l’horodatage ?',
+    'require_time_instruct' => 'Si activé, vous devrez impérativement sélectionner un horaire.',    
+    
     'earliest_date' => 'Première Date',
     'earliest_date_instruct' => 'Définissez la première date qui pourra être sélectionnée.',
     
