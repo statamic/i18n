@@ -41,6 +41,8 @@ return [
     'collection_title_instructions' => 'The proper name of your collection.',
     'collection_handle_instructions' => "The collection's variable name used in settings and templates.",
     'collection_order_instructions' => "Set the default sorting method for entries in this collection.",
+    'collection_fieldset_instructions' => "The default fieldset, unless otherwise specified.",
+    'collection_template_instructions' => "The default template, unless otherwise specified.",
     'collection_route_instructions' => "The route controls the URL pattern all entries in the collection will follow.",
     'collection_does_not_exist' => 'Collection :collection does not exist.',
 
@@ -243,6 +245,7 @@ return [
     'page_not_found' => 'Page not found',
     'page_not_found_instructions' => 'The page you requested does not exist.',
     'session_expired' => 'Your session has expired.',
+    'stache_building' => 'The cache is being updated. Please wait and try again.',
 
 
     // User Groups
@@ -308,6 +311,7 @@ return [
     'fieldset_hide_instructions' => "Hide this fieldset from selection dialogs?",
     'fieldset_fields_instructions' => 'Assign and customize the fields and fieldtypes in this fieldset.',
     'fieldset_taxonomies_instructions' => 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.',
+    'fieldset_date_and_time_instructions' => 'You may customize the date field behavior. This only applies when the fieldset is used on a date based entry.',
     'create_title' => 'Create Title',
     'display_name' => "Display Name",
     'display_name_instructions' => "The field's label shown in the Control Panel.",
@@ -460,6 +464,8 @@ return [
     'thing_configure' => 'Configure :thing',
     'thing_saved' => ':thing saved.',
     'thing_editing' => 'Editing :thing',
+
+    'saved_success' => 'Saved',
 
     // Statuses
     'statuses' => 'Status|Statuses',
@@ -635,6 +641,7 @@ return [
     'attribute_field_name' => ':attribute field',
     'read_only_mode' => "Read Only Mode",
     'next_step' => "Next Step",
+    'invalid_creds' => 'These credentials are incorrect',
 
     'nav_content' => 'Content',
     'nav_tools' => 'Tools',

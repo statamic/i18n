@@ -41,6 +41,8 @@ return [
     'collection_title_instructions' => 'Le nom associé à votre collection.',
     'collection_handle_instructions' => "La façon dont la collection sera référencée dans les paramètres et les modèles.",
     'collection_order_instructions' => "Définissez la méthode de tri par défaut pour les articles de cette collection.",
+    'collection_fieldset_instructions' => "Le fieldset par défaut, sauf indication contraire.",
+    'collection_template_instructions' => "Le template par défaut, sauf indication contraire.",
     'collection_route_instructions' => "La route contrôle le schéma URL que tous les articles de cette collection devront suivre.",
     'collection_does_not_exist' => 'La collection :collection n’existe pas.',
     
@@ -243,6 +245,7 @@ return [
     'page_not_found' => 'Page non trouvée',
     'page_not_found_instructions' => 'La page demandée n’existe pas.',
     'session_expired' => 'Votre session a expiré',
+    'stache_building' => 'Le cache est en cours de mise à jour. Merci de patienter puis réessayez.',
 
 
     // User Groups
@@ -308,6 +311,7 @@ return [
     'fieldset_hide_instructions' => "Masquer ce fieldset dans les dialogues de sélection ?",
     'fieldset_fields_instructions' => 'Affectez et personnalisez les champs et les types de champs dans ce fieldset.',
     'fieldset_taxonomies_instructions' => 'Affichez (ou masquez) et paramétrez les taxonomies proposées dans ce fieldset.',
+    'fieldset_date_and_time_instructions' => 'Vous pouvez personnaliser le comportement du champ date. Cela n’est applicable que lorsque le fieldset est utilisé pour un article qui s’appuie sur la date.',
     'create_title' => 'Titre pour création',
     'display_name' => "Nom affiché",
     'display_name_instructions' => "L’étiquette de champ affichée dans le panneau de contrôle.",
@@ -460,6 +464,8 @@ return [
     'thing_configure' => 'Configurer :thing',
     'thing_saved' => ':thing enregistré.',
     'thing_editing' => 'Modification de :thing',
+    
+    'saved_success' => 'Enregistré',
 
     // Statuses
     'statuses' => 'Statut|Statuts',
@@ -635,6 +641,7 @@ return [
 		'attribute_field_name' => 'champ :attribute',
     'read_only_mode' => 'Mode Lecture Seule',
     'next_step' => 'Etape suivante',
+    'invalid_creds' => 'Ces identifiants sont incorrects',
 		
     'nav_content' => 'Contenu',
     'nav_tools' => 'Outils',

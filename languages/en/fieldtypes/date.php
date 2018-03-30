@@ -8,6 +8,9 @@ return [
     'allow_time' => 'Allow times?',
     'allow_time_instruct' => 'If enabled, you will be able to select a time.',
 
+    'require_time' => 'Require time?',
+    'require_time_instruct' => 'If enabled, you will be forced to select a time.',
+
     'earliest_date' => 'Earliest Date',
     'earliest_date_instruct' => 'Set the earliest selectable date.',
 
