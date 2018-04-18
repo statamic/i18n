@@ -7,7 +7,7 @@ return [
     'depth' => 'Tiefe',
     'depth_instruct' => 'Wie viele Ebenen angezeigt werden sollen.',
     'max_items' => 'Max. Einträge',
-    'max_items_instruct' => 'Die maximale Anzahl Seiten die ausgewählt werden kann.',
+    'max_items_instruct' => 'Die maximale Anzahl von Seiten, die ausgewählt werden kann.',
     'sort' => 'Sortierung',
     'sort_instruct' => 'Sortiere die Einträge mit `fieldname:order`. Es können mehrere Regeln mit senkrechten Strichen getrennt werden. Beispiel: `date:desc|title:asc`',
     'label' => 'Bezeichnung',
