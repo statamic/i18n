@@ -335,7 +335,7 @@ return [
     'formset_fields_instructions' => 'Wähle und bearbeite die Felder für das Formular.',  // 'Choose and customize the fields in this form.'
 
     // Updater
-    'nav_updater' => 'Aktualisierung',  // 'Updater'
+    'nav_updater' => 'Aktualisierungen',  // 'Updater'
     'updates'     => 'Aktualisierungen',  // 'Updates'
     'upgrade_to_latest' => 'Auf letzte Version aktualisieren',  // 'Upgrade to Latest'
     'upgrade_to_version' => 'Aktualisiere auf :version',  // 'Upgrade to :version'
