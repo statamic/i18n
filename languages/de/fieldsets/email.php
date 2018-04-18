@@ -18,10 +18,10 @@ return [
     'password' => 'Passwort', // 'Password'
 
     'section_mandrill' => 'Mandrill Einstellungen', // 'Mandrill Settings'
-    'mandrill_secret' => 'Geheimnis', // 'Secret'
+    'mandrill_secret' => 'Geheimer Schlüssel', // 'Secret'
 
     'section_mailgun' => 'Mailgun Einstellungen', // 'Mailgun Settings'
-    'mailgun_secret' => 'Geheimnis', // 'Secret'
+    'mailgun_secret' => 'Geheimer Schlüssel', // 'Secret'
     'mailgun_domain' => 'Domäne', // 'Domain'
 
 ];
