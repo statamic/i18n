@@ -8,8 +8,8 @@ return [
     'sneak_peek' => 'Vorschau',  // 'Sneak Peek'
     'sneak_peeking' => 'Vorschau',  // 'Sneaking a Peek'
     'view_site' => 'Seite anzeigen',  // 'View Site'
-    'visit_url' => 'URL anzeigen',  // 'Visit URL'
-    'search_for_anything' => 'Globale Suche',  // 'Search for anything'
+    'visit_url' => 'URL aufrufen',  // 'Visit URL'
+    'search_for_anything' => 'Suche nach irgendetwas',  // 'Search for anything'
 
     // Pages
     'pages' => 'Seite|Seiten',  // 'Page|Pages'
@@ -28,19 +28,19 @@ return [
     'pages_reordered' => 'Seiten erfolgreich sortiert.',  // 'Pages reordered successfully.'
 
     // Collections
-    'collections' => 'Kollektion|Kollektionen',  // 'Collection|Collections'
-    'nav_collections' => 'Kollektionen',  // 'Collections'
-    'manage_collections' => 'Kollektionen verwalten',  // 'Manage Collections'
-    'create_collection_button' => 'Kollektion erstellen',  // 'Create Collection'
-    'create_collection' => 'Neue Kollektion erstellen',  // 'Create a New Collection'
+    'collections' => 'Sammlung|Sammlungen',  // 'Collection|Collections'
+    'nav_collections' => 'Sammlungen',  // 'Collections'
+    'manage_collections' => 'Sammlungen verwalten',  // 'Manage Collections'
+    'create_collection_button' => 'Sammlung erstellen',  // 'Create Collection'
+    'create_collection' => 'Neue Sammlung erstellen',  // 'Create a New Collection'
     'collection_created' => ':title erstellt',  // ':title Created'
     'editing_collection' => 'Bearbeite :collection',  // 'Editing :collection'
     'collection_updated' => ':title aktualisiert',  // ':title Updated'
-    'collections_empty' => 'Kollektionen sind Container für Gruppen von Einträgen, die ähnliche Inhalte haben und die gleiche URL-Logik verwenden.',  // 'Collections are containers that hold groups of similar entries all following the same URL pattern.'
-    'collection_title_instructions' => 'Kollektion-Name.',  // 'The proper name of your collection.'
-    'collection_handle_instructions' => "Die Variable der Kollektion wird intern für Einstellungen und Vorlagen verwendet.",  // "The collection's variable name used in settings and templates."
-    'collection_order_instructions' => "Definiere die Standard-Sortierungsmethode für Einträge in diese Kollektion.",  // "Set the default sorting method for entries in this collection."
-    'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Kollektion.",  // "The route controls the URL pattern all entries in the collection will follow."
+    'collections_empty' => 'Sammlungen sind eine Zusammenfassung für Gruppen von Einträgen, die ähnliche Inhalte haben und die gleiche URL-Logik verwenden.',  // 'Collections are containers that hold groups of similar entries all following the same URL pattern.'
+    'collection_title_instructions' => 'Sammlungs-Name.',  // 'The proper name of your collection.'
+    'collection_handle_instructions' => "Die Variable der Sammlung wird intern für Einstellungen und Vorlagen verwendet.",  // "The collection's variable name used in settings and templates."
+    'collection_order_instructions' => "Definiere die Standard-Sortierungsmethode für Einträge in dieser Sammlung.",  // "Set the default sorting method for entries in this collection."
+    'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.",  // "The route controls the URL pattern all entries in the collection will follow."
 
     // Entries
     'entries' => 'Eintrag|Einträge',  // 'Entry|Entries'
@@ -72,9 +72,9 @@ return [
     'taxonomy_terms' => 'Begriff|Begriffe',  // 'Term|Terms'
     'create_taxonomy_term_button' => 'Erstelle :term',  // 'Create :term'
     'create_taxonomy_term' => 'Neuen :term erstellen',  // 'Create a New :term'
-    'taxonomy_term_created' => 'Kategorie Begriff erstellt',  // 'Taxonomy term created'
+    'taxonomy_term_created' => 'Kategorie-Begriff erstellt',  // 'Taxonomy term created'
     'taxonomy_terms_empty_heading' => 'Liste der :term',  // 'Terms in :term'
-    'taxonomy_terms_empty' => 'Wenn Daten über Kategorien verbunden sind, ist der Begriff das eigentliche Etikett für einen Datensatz. Z.b. Rot wäre ein Begriff in der Kategorie Farben.',  // 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".'
+    'taxonomy_terms_empty' => 'Wenn Daten über Kategorien verbunden sind, ist der Begriff das eigentliche Etikett für einen Datensatz. Z.B. Rot wäre ein Begriff in der Kategorie Farben.',  // 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".'
 
     // Globals
     'globals' => 'Global|Globale',  // 'Global|Globals'
@@ -87,10 +87,10 @@ return [
     'globals_updated' => 'Globale aktualisiert',  // 'Globals Updated'
     'globals_empty_heading' => 'Globale Sets',  // 'Global Sets'
     'globals_empty' => 'Globale Daten sind Daten, die nicht an eine URL gebunden und allgemeiner und seitenübergreifender Natur sind: z.B. Firmen-Daten, Adressen, allgemeine Einstellungen für Vorlagen wie Schalter, Limiten, Farben, Zeige/Verberge, Vorgaben, etc.',  // 'Global sets are groups of variables that represent content that isn\'t tied to a URL, such as company name, address, contact info, or even template level settings like limits, offsets, and show/hide toggles.'
-    'general_globals' => 'Generell',  // 'General'
+    'general_globals' => 'Allgemein',  // 'General'
     'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fusszeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Sidebar Settings."
     'globals_slug_instructions' => "Der interne Variablen-Name für ein globales Set. Z.B.: <code>footer_content</code> oder <code>sidebar_settings</code>.",  // "This is the variable used in your templates. For example: <code>footer_content</code> or <code>sidebar_settings</code>."
-    'globals_fieldset_instructions' => "Wähle die gewünschte Eingabemaske, Deine globalen Daten.",  // "Pick which group of fields you want to use to manage this fieldset."
+    'globals_fieldset_instructions' => "Wähle die gewünschten Eingabefelder, um die Eingabemaske zu verwalten.",  // "Pick which group of fields you want to use to manage this fieldset."
 
     // Assets
     'assets' => 'Medium|Medien',  // 'Asset|Assets'
@@ -103,22 +103,22 @@ return [
     'asset_created' => 'Medium erstellt',  // 'Asset Created'
     'editing_asset' => 'Medium bearbeiten',  // 'Editing Asset'
     'asset_updated' => 'Medium aktualisiert',  // 'Asset Updated'
-    'drop_to_upload' => 'Hereinziehen zum hochladen',  // 'Drop to Upload'
+    'drop_to_upload' => 'Hereinziehen zum Hochladen',  // 'Drop to Upload'
     'upload_asset' => 'Medium hochladen',  // 'Upload Asset'
     'sync_assets' => 'Medien synchronisieren',  // 'Sync assets'
     'syncing_assets' => 'Synchronisiere Medien',  // 'Syncing assets'
     'new_folder' => 'Neuer Ordner',  // 'New Folder'
     'upload' => 'Hochladen',  // 'Upload'
-    'uploads' => 'Hochladen|Hochgeladene',  // 'Upload|Uploads'
+    'uploads' => 'Upload|Uploads',  // 'Upload|Uploads', no correct German definiton for that, leave as is
     'filename' => 'Dateiname',  // 'Filename'
-    'filesize' => 'Dateigrösse',  // 'File size'
+    'filesize' => 'Dateigröße',  // 'File size'
     'date_modified' => 'Modifikationsdatum',  // 'Date modified'
     'parent_folder' => 'Übergeordneter Ordner',  // 'Parent folder'
     'asset_folder_empty_heading' => 'Leerer Ordner.',  // 'Empty folder.'
-    'asset_folder_empty' => 'Du kannst neue Medien in diesen Ordner hochladen indem du Dateien in den oben markierten Bereich ziehst.',  // 'You may upload new assets into this folder by dragging and dropping files into the outlined area above.'
+    'asset_folder_empty' => 'Du kannst neue Medien in diesen Ordner hochladen, indem du Dateien in den oben markierten Bereich ziehst.',  // 'You may upload new assets into this folder by dragging and dropping files into the outlined area above.'
     'focal_point' => 'Fokus-Punkt',  // 'Focal point'
-    'focal_point_label' => 'Auf Bild gewünschten Fokus-Punkt anklicken um diesen zu ändern',  // 'Click image to adjust the focal point'
-    'focal_point_instructions' => 'Der Fokus-Punkt wird für Bildauschnitte verwendet und definiert den wichtigen sichtbaren Bereich.',  // 'The focal point is used when cropping so the most important part of the image is not removed.'
+    'focal_point_label' => 'Klicke auf das Bild, um den Fokus-Punkt zu ändern',  // 'Click image to adjust the focal point'
+    'focal_point_instructions' => 'Der Fokus-Punkt wird für Bildauschnitte verwendet und definiert den wichtigen, sichtbaren Bereich.',  // 'The focal point is used when cropping so the most important part of the image is not removed.'
     'or_drag_and_drop_files' => 'oder Medien hier reinziehen.',  // 'or drag and drop files.'
     'no_asset_container_specified' => 'Der Medien-Container ist undefiniert.',  // 'No asset container specified.'
     'rename_file' => 'Datei umbenennen',  // 'Rename File'
@@ -162,7 +162,7 @@ return [
     'set_fields_instructions' => "Wähle die Eingabefelder für dieses Set",  // "Choose this set's fields"
 
     // Amazon S3
-    'access_key_id' => 'Zugriffsschlüssel ID',  // 'Access Key ID'
+    'access_key_id' => 'Zugriffsschlüssel-ID',  // 'Access Key ID'
     'secret_access_key' => 'Geheimer Zugriffsschlüssel',  // 'Secret Access Key'
 
     // Users
@@ -177,14 +177,14 @@ return [
     'reset_password' => 'Passwort zurücksetzten',
     'send_email' => 'E-Mail senden',
     'send_activation_email' => 'Aktivierungs-Mail senden',  // 'Send activation email'
-    'send_password_reset_email' => 'Passwortzurücksetzen-Mail senden',  // 'Send password reset email'
-    'copy_activation_link' => 'Aktivierungs-Link kopieren',  // 'Copy activation link'
-    'copy_password_reset_link' => 'Passwortzurücksetzen-Link kopieren',  // 'Copy password reset link'
-    'password_reset_sent' => 'Passwortzurücksetzen-E-Mail versendet',
+    'send_password_reset_email' => 'Passwort-zurücksetzen-Mail senden',  // 'Send password reset email'
+    'copy_activation_link' => 'Aktivierungslink kopieren',  // 'Copy activation link'
+    'copy_password_reset_link' => 'Passwort-zurücksetzen-Link kopieren',  // 'Copy password reset link'
+    'password_reset_sent' => 'Passwort-zurücksetzen-E-Mail versendet',
     'account' => 'Konto',  // 'Account'
     'my_account' => 'Mein Konto',  // 'My Account'
     'logout' => 'Ausloggen',  // 'Logout'
-    'user_options' => 'Benutzer Optionen',  // 'User Options'
+    'user_options' => 'Benutzer-Optionen',  // 'User Options'
     'user_bio_instructions' => 'Etwas über Dich, wenn Du möchtest',  // 'A little bit about you, if you like.'
     'user_account_created' => 'Benutzer-Konto erstellt.',  // 'A user account has been created.'
     'forgot_password' => 'Passwort vergessen?',
@@ -203,7 +203,7 @@ return [
     'editing_role' => 'Rolle bearbeiten',  // 'Editing Role'
     'role_updated' => 'Rolle aktualisiert',  // 'Role Updated'
     'roles_empty_heading' => 'Benutzerrollen',  // 'User Roles'
-    'roles_empty' => 'Benutzerrollen erlauben es Ihnen Berechtigungen zu gruppieren. Als Beispiel Redakteur und Admin',  // 'User Roles allow you to group a number of permissions under a single label. For example, editor, publisher, and admin.'
+    'roles_empty' => 'Benutzerrollen erlauben es, Berechtigungen zu gruppieren. Z.B.: Redakteur und Admin',  // 'User Roles allow you to group a number of permissions under a single label. For example, editor, publisher, and admin.'
 
     // Permissions
     'permissions' => 'Berechtigung|Berechtigungen',  // 'Permission|Permissions'
@@ -246,8 +246,8 @@ return [
     'settings_theming' => 'Oberfläche',  // 'Theming'
     'settings_users' => 'Benutzer',  // 'Users'
     'settings_updated' => 'Einstellungen aktualisiert.',  // 'Settings updated.'
-    'settings_locales_instructions' => "Erstelle einen Sprache für jede Übersetzung. Sie können dies auch zu einem späteren Zeitpunkt erfassen.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
-    'settings_debug_mode_instructions' => "Bei aktiviertem Debug Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung aber deaktivieren Sie dies nach der Aufschaltung.",  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
+    'settings_locales_instructions' => "Erstelle einen Sprache für jede Übersetzung. Sie können dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
+    'settings_debug_mode_instructions' => "Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung, vergessen Sie aber nicht, diesen Modus wieder zu deaktivieren.",  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
 
     // Addons
     'addons' => 'Erweiterung|Erweiterungen',  // 'Addon|Addons'
@@ -265,21 +265,13 @@ return [
     'editing_fieldset' => 'Eingabemaske bearbeiten',  // 'Editing Fieldset'
     'fieldset_updated' => 'Eingabemaske aktualisiert',  // 'Fieldset updated'
 
-    'fieldsets_empty' => 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
-    'fieldset_title_instructions' => 'The proper name of the fieldset. Usually a singular noun.',  // 'The proper name of the fieldset. Usually a singular noun.'
-    'fieldset_handle_instructions' => "The fieldset's variable name used in settings and templates.",  // "The fieldset's variable name used in settings and templates."
-    'fieldset_create_title_instructions' => "Optional, customizable title shown when creating new content with this fieldset.",  // "Optional, customizable title shown when creating new content with this fieldset."
-    'fieldset_hide_instructions' => "Hide this fieldset from selection dialogs?",  // "Hide this fieldset from selection dialogs?"
-    'fieldset_fields_instructions' => 'Assign and customize the fields and fieldtypes in this fieldset.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
-    'fieldset_taxonomies_instructions' => 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
-
-    'fieldsets_empty' => 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
-    'fieldset_title_instructions' => 'The proper name of the fieldset. Usually a singular noun.',  // 'The proper name of the fieldset. Usually a singular noun.'
-    'fieldset_handle_instructions' => "The fieldset's variable name used in settings and templates.",  // "The fieldset's variable name used in settings and templates."
-    'fieldset_create_title_instructions' => "Optional, customizable title shown when creating new content with this fieldset.",  // "Optional, customizable title shown when creating new content with this fieldset."
-    'fieldset_hide_instructions' => "Hide this fieldset from selection dialogs?",  // "Hide this fieldset from selection dialogs?"
-    'fieldset_fields_instructions' => 'Assign and customize the fields and fieldtypes in this fieldset.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
-    'fieldset_taxonomies_instructions' => 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
+    'fieldsets_empty' => 'Eingabemasken lassen dich wieder benutzbare Gruppen erstellen, die dich deine Inhalte einfacher verwalten lassen. Hier passiert das Erstellen deiner Inhaltsstruktur.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
+    'fieldset_title_instructions' => 'Der Name der Eingabemaske. Normalerweise ein Hauptwort in der Einzahl.',  // 'The proper name of the fieldset. Usually a singular noun.'
+    'fieldset_handle_instructions' => "Der Variablen-Name, der in den Einstellungen und im Layout verwendet wird.",  // "The fieldset's variable name used in settings and templates."
+    'fieldset_create_title_instructions' => "Optional, Veränderbarer Titel, der angezeigt wird, sobald neuer Inhalt mit dieser Eingabemaske erstellt wird.",  // "Optional, customizable title shown when creating new content with this fieldset."
+    'fieldset_hide_instructions' => "Diese Eingabemaske im Auswahldialog verstecken?",  // "Hide this fieldset from selection dialogs?"
+    'fieldset_fields_instructions' => 'Weise Eingabefelder dieser Eingabemaske zu und verändere diese.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
+    'fieldset_taxonomies_instructions' => 'Zeige, verstecke, und konfiguriere Kategorien, die bei dieser Eingabemaske angezeigt werden sollten.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
 
     'create_title' => 'Titel erstellen',  // 'Create Title'
     'display_name' => "Anzeige-Name",  // "Display Name"
@@ -287,28 +279,28 @@ return [
     'display_text' => 'Anzeige-Text',  // 'Display Text'
     'display_text_instructions' => "Feld-Beschreibung",  // "The field's label"
     'field_name' => 'Feld Name',  // 'Field Name'
-    'field_name_instructions' => 'Feld Variable',  // 'The field variable'
+    'field_name_instructions' => 'Feld-Variable',  // 'The field variable'
     'field_required' => 'Pflicht',  // 'Required'
-    'field_required_instructions' => 'Das ist ein Pflichtfeld',  // 'This field is required'
-    'field_variable' => "Feld Variable",  // "Field Variable"
-    'field_variable_instructions' => "Feld Vorlage-Variable.",  // "The field's template variable."
+    'field_required_instructions' => 'Dies ist ein Pflichtfeld',  // 'This field is required'
+    'field_variable' => "Feld-Variable",  // "Field Variable"
+    'field_variable_instructions' => "Die Vorlage-Variable des Feldes.",  // "The field's template variable."
     'field_instructions_instructions' => "Einfaches Markdown ist hier möglich.",  // "Basic Markdown is allowed. Encouraged, even."
-    'field_width_instructions' => 'Feldgrösse in Eingabemaske.',  // 'The size of the field in the fieldset layout.'
-    'validation_rules' => "Validierungs-Regeln",  // "Validation Rules"
-    'validation_instructions' => "Alle Laravel Validierungs-Regeln sind hier möglich",  // "Has access to all of Laravel's"
-    'validation_instructions_link_text' => 'Validierungs-Regeln',  // 'validation rules'
-    'validation_rules_instructions' => 'Gebe eine mit senkrechten Strichen getrennte Liste von <a href=":url" target="_blank">Validations-Regeln</a> an.',  // 'Enter a pipe delimited string of <a href=":url" target="_blank">validation rules</a>.'
+    'field_width_instructions' => 'Die Feldgröße der Eingabemaske.',  // 'The size of the field in the fieldset layout.'
+    'validation_rules' => "Validierungsregeln",  // "Validation Rules"
+    'validation_instructions' => "Alle Laravel Validierungsregeln sind hier möglich",  // "Has access to all of Laravel's"
+    'validation_instructions_link_text' => 'Validierungsregeln',  // 'validation rules'
+    'validation_rules_instructions' => 'Gib eine mit senkrechten Strichen getrennte Liste von <a href=":url" target="_blank">Validationsregeln</a> an.',  // 'Enter a pipe delimited string of <a href=":url" target="_blank">validation rules</a>.'
     'default_value' => 'Standardwert',  // 'Default Value'
     'field_default_value_instructions' => 'Gib den Standardwert für das Textfeld ein.',  // 'Enter the default value for string-type fields.'
     'edit_field' => 'Feld bearbeiten',  // 'Edit Field'
-    'choose_field_to_edit' => "Wählte ein Feld um die Einstellungen zu bearbeiten.",  // "Choose a field to edit its settings."
+    'choose_field_to_edit' => "Wähle ein Feld, um die Einstellungen zu bearbeiten.",  // "Choose a field to edit its settings."
 
 
     // Forms
     'form' => 'Formular',  // 'Form'
     'forms' => 'Formular|Formulare',  // 'Form|Forms'
     'nav_forms' => 'Formulare',  // 'Forms'
-    'forms_empty' => 'Formulare sammeln, rapportieren und zeigen Benutzer-Einsendungen an.',  // 'Forms collect, display, and report user submitted reponses.'
+    'forms_empty' => 'Formulare sammeln, melden und zeigen Benutzer-Einsendungen an.',  // 'Forms collect, display, and report user submitted reponses.'
     'create_form' => 'Formular erstellen',  // 'Create Form'
     'form_updated' => 'Formular aktualisiert',  // 'Form updated'
     'form_created' => 'Formular erstellt',  // 'Form created'
@@ -327,8 +319,8 @@ return [
     // Formset Builder
     'formset_title_instructions' => "Bezeichnung des Formularset.",  // "Your formset's proper label."
     'formset_slug_instructions' => 'Wie das Formularset referenziert wird.',  // 'How the formset will be referenced.'
-    'formset_metrics_instructions' => 'Definiere Metriken die angezeigt werden sollen.',  // 'Specify any metrics you would like displayed.'
-    'formset_emails_instructions' => 'Füge E-Mails hinzu die versendet werden sollen.',  // 'Add any emails you want to be sent upon submission.'
+    'formset_metrics_instructions' => 'Definiere Metriken, die angezeigt werden sollen.',  // 'Specify any metrics you would like displayed.'
+    'formset_emails_instructions' => 'Füge E-Mails hinzu, die versendet werden sollen.',  // 'Add any emails you want to be sent upon submission.'
     'formset_honeypot_field' => 'Honeypot-Feld',  // 'Honeypot Field'
     'formset_honeypot_instructions' => 'Der Name des Honeypot-Feld.',  // 'The field name to be used for the honeypot.'
     'formset_honeypot_link' => "Was ist ein Honeypot?",  // "What's a honeypot?"
@@ -355,10 +347,10 @@ return [
     'backup_reminder' => 'Dies ist ein sicherer Prozess. Wir sichern alles während der Aktualisierung, du kannst die letzte Version unter  <code>local/temp</code> finden, falls etwas schief laufen sollte.',  // 'This is a safe process. We back up everything during running the update so you can always find your most recent version in <code>local/temp</code> if something goes wrong.'
 
     // Download
-    'downloading' => 'Lade herunter …',  // 'Downloading...'
+    'downloading' => 'Lade herunter…',  // 'Downloading...'
     'downloaded' => 'Heruntergeladen.',  // 'Downloaded.'
     'download_failed' => 'Herunterladen fehlgeschlagen',  // 'Download Failed'
-    'downloading_latest' => 'Wir besorgen Dir jetzt die neuste grossartige Statamic Version.',  // 'Getting the latest and greatest version of Statamic for you.'
+    'downloading_latest' => 'Wir besorgen Dir jetzt die neuste und beste Statamic Version.',  // 'Getting the latest and greatest version of Statamic for you.'
     'downloading_version' => 'Lade v:version',  // 'Getting v:version'
 
     // Installation
@@ -391,11 +383,11 @@ return [
 
     // Importers
     'nav_import' => 'Import',  // 'Import'
-    'site_url' => 'Seiten URL',  // 'Site URL'
+    'site_url' => 'Seiten-URL',  // 'Site URL'
     'import_from_version' => 'Importiere Inhalt von Statamic :version',  // 'Import content from Statamic :version'
     'import_complete' => 'Import abgeschlossen',  // 'Import Complete'
     'import_has_completed' => 'Der Import wurde abgeschlossen.',  // 'The import has completed.'
-    'import_summary' => 'Import Zusammenfassung',  // 'Import Summary'
+    'import_summary' => 'Import-Zusammenfassung',  // 'Import Summary'
     'import_site_url_instructions' => 'Gib die URL der zu importierenden Seite ein.',  // 'Enter the URL of the existing website you will be importing.'
     'duplicate_item_warning'  => "Ein Duplikat gefunden.|:count Duplikate gefunden.",
     'uncheck_duplicates' => 'Duplikate abwählen',
@@ -419,7 +411,7 @@ return [
 
     // Statuses
     'statuses' => 'Status|Status',  // 'Status|Statuses'
-    'status_pending' => 'Hängig',  // 'Pending'
+    'status_pending' => 'Ausstehend',  // 'Pending'
     'status_active' => 'Aktiv',  // 'Active'
     'published' => 'Publiziert',  // 'Published'
 
@@ -428,13 +420,13 @@ return [
     'show_keyboard_shortcuts' => 'Tastatur Kurzbefehle zeigen',  // 'Show Keyboard Shortcuts'
 
     // License
-    'license_wrong_domain' => 'Diese Lizenz gehört zu :domain. Besuche <a href=":url" target="_blank">dein Konto</a> um diese zu ändern.',
-    'license_no_domain' => 'Diese Lizenz ist keiner Domain zugewiesen. Besuche <a href=":url" target="_blank">dein Konto</a> um dies zu ändern.',
+    'license_wrong_domain' => 'Diese Lizenz gehört zu :domain. Besuche <a href=":url" target="_blank">dein Konto</a>, um diese zu ändern.',
+    'license_no_domain' => 'Diese Lizenz ist keiner Domain zugewiesen. Besuche <a href=":url" target="_blank">dein Konto</a>, um dies zu ändern.',
     'checking_license_key' => 'Überprüfe den Lizenzschlüssel, bitte warten …',  // 'Checking your license key, please wait...'
     'license_valid' => 'Du hast einen gültigen Lizenzschlüssel.',  // 'You have a valid license key.'
     'license_invalid' => 'Der Lizenzschlüssel ist ungültig..',  // 'This key is invalid.'
-    'license_key_instructions' => 'Bitte gebe deinen Lizenzschlüssel ein. Du findest ihn in deinem <a href=":licenses">Statamic-Konto</a> oder du kannst <a href=":buy_license">eine neue Lizenz kaufen</a>.',  // 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.'
-    'enter_license_key' => 'Bitte gebe deinen Lizenzschlüssel ein um das Kontrollzentrum auf einer öffentlichen Domain zu verwenden.',  // 'Please enter your license key to access to the control panel on a public domain.'
+    'license_key_instructions' => 'Bitte gib deinen Lizenzschlüssel ein. Du findest ihn in deinem <a href=":licenses">Statamic-Konto</a> oder du kannst <a href=":buy_license">eine neue Lizenz kaufen</a>.',  // 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.'
+    'enter_license_key' => 'Bitte gebe deinen Lizenzschlüssel ein, um das Kontrollzentrum auf einer öffentlichen Domain zu verwenden.',  // 'Please enter your license key to access to the control panel on a public domain.'
 
     'continue_in_trial_mode' => 'Kostenlose Testversion weiterhin verwenden',  // 'Continue in Trial Mode'
     'unlicensed' => 'Nicht lizensiert',
@@ -478,7 +470,7 @@ return [
     'confirm_delete_items' => 'Diese File wird gelöscht|Die ausgewählten Files werden gelöscht',  // 'This item will be deleted|The selected items will be deleted'
     'confirm_delete_folder' => 'Dieser Ordner wird gelöscht',  // 'This folder will be deleted'
     'configure' => 'Konfigurieren',  // 'Configure'
-    'browse' => 'Anzeigen',  // 'Browse'
+    'browse' => 'Suchen',  // 'Browse'
     'select' => 'Auswählen',  // 'Select'
     'localizing' => 'Lokalisiere',  // 'Localizing'
     'add_row' => 'Reihe hinzufügen',  // 'Add Row'
@@ -538,17 +530,17 @@ return [
     'full_width' => 'Volle Breite',  // 'Full width'
     'width' => 'Breite',  // 'Width'
     'version' => 'Version',  // 'Version'
-    'versions' => 'Version|Versions',  // 'Version|Versions'
+    'versions' => 'Version|Versionen',  // 'Version|Versions'
     'developer' => 'Entwickler',  // 'Developer'
     'developers' => 'Entwickler|Entwickler',  // 'Developer|Developers'
-    'developer_mode' => 'Entwickler Modus',  // 'Developer Mode'
+    'developer_mode' => 'Entwickler-Modus',  // 'Developer Mode'
     'description' => 'Beschreibung',  // 'Description'
     'descriptions' => 'Beschreibung|Beschreibungen',  // 'Description|Descriptions'
     'name' => 'Name',  // 'Name'
     'username' => 'Benutzername',  // 'Username'
     'email' =>'E-Mail',  // Email'
     'done' => 'Erledigt',  // 'Done'
-    'close' => 'Schliessen',  // 'Close'
+    'close' => 'Schließen',  // 'Close'
     'templates' => 'Vorlage|Vorlagen',  // 'Template|Templates'
     'authors' => 'Autor|Autoren',  // 'Author|Authors'
     'installer' => 'Installer',  // 'Installer'
@@ -569,17 +561,17 @@ return [
     'url' => 'URL',  // 'URL'
     'bucket' => 'Bucket',  // 'Bucket'
     'region' => 'Region',  // 'Region'
-    'metrics' => 'Metrik|Metrik',  // 'Metric|Metrics'
+    'metrics' => 'Metrik|Metriken',  // 'Metric|Metrics'
     'whats_this' => "Was ist das?",  // "What's this?"
     'first_name' => 'Vorname',  // 'First name'
     'last_name' => 'Nachname',  // 'Last name'
     'bio' => 'Bio',  // 'Bio'
-    'markdown_cheatsheet' => 'Markdown Hilfe',  // 'Markdown Cheatsheet'
+    'markdown_cheatsheet' => 'Markdown-Hilfe',  // 'Markdown Cheatsheet'
     'locales_and_urls' => 'Sprachen und URLs',  // 'Locales and URLs'
-    'debug_mode' => 'Debug Modus',  // 'Debug Mode'
+    'debug_mode' => 'Debug-Modus',  // 'Debug Mode'
     'defined_in_environment' => 'Verwaltet durch externe Umgebung.',  // 'Managed externally by your environment.'
     'be_right_back' => 'Wir sind gleich wieder da.',  // 'Be right back.'
-    'size' => 'Grösse',
+    'size' => 'Größe',
     'attribute_field_name' => ':attribute Feld',
 
     'nav_content' => 'Inhalt',  // 'Content'
@@ -590,12 +582,12 @@ return [
     'nav_settings' => 'Einstellungen',  // 'Settings'
     'nav_users' => 'Benutzer',  // 'Users'
 
-    'mount_collection' => 'Kollektion verlinken',  // 'Mount Collection'
-    'unmount_collection' => 'Kollektion entfernen',  // 'Unmount Collection'
+    'mount_collection' => 'Sammlung verlinken',  // 'Mount Collection'
+    'unmount_collection' => 'Sammlung entfernen',  // 'Unmount Collection'
 
     'trial_mode' => 'Testmodus',  // 'Trial Mode'
     'trial_mode_badge' => 'Kostenlose Testversion',  // 'FREE TRIAL'
 
     // Validation
-    'handle_exists' => 'Ein Medien container mit diesem Handle besteht bereits.',  // 'A container with this handle already exists.'
+    'handle_exists' => 'Ein Medien-Container mit diesem Handle existiert bereits.',  // 'A container with this handle already exists.'
 ];
