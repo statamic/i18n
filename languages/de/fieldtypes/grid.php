@@ -11,7 +11,7 @@ return [
     'min_rows' => 'Min. Reihen',
     'min_rows_instruct' => 'Die minimale Anzahl an Reihen.',
 
-    'add_row' => 'Zeile hinzufügen',
+    'add_row' => 'Zeile-hinzufügen-Text',
     'add_row_instruct' => 'Optional, ändere den Text der "Zeile hinzufügen"-Schaltfläche.',
 
     'fields' => 'Felder',
