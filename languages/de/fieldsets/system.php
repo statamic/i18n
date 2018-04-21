@@ -3,7 +3,7 @@
 return [
 
     'license_key' => 'Lizenzschlüssel', //'License Key',
-    'license_key_instruct' => 'Erfasse den Lizenzschlüssel zu dieser Seite gemäss den Infos auf Deinem [Statamic Konto](https:/account.statamic.com/licenses).', //'Enter the key for the corresponding domain from your [Statamic Account](https:/account.statamic.com/licenses).',
+    'license_key_instruct' => 'Erfasse den Lizenzschlüssel zu dieser Seite gemäß den Infos auf Deinem [Statamic-Konto](https:/account.statamic.com/licenses).', //'Enter the key for the corresponding domain from your [Statamic Account](https:/account.statamic.com/licenses).',
 
     'locales' => 'Sprache', //'Locales',
     'locales_instruct' => 'Die gewünschten Sprachen für Deine Seite', //'The locales from which your site will be accessed.',
@@ -33,12 +33,12 @@ return [
                             // Each item will be available to select when creating a Redactor field.',
 
     'protect' => 'Systemweiter Schutz', //'System-wide Protection',
-    'protect_instruct' => 'Das eingegebene Sicherheits-Schema wird auf der gesamten Seite genutzt und schützt diese.', //'Entering a protection scheme here will apply it to your entire site\'s front-end.',
+    'protect_instruct' => 'Das eingegebene Sicherheitsschema wird auf der gesamten Seite genutzt und schützt diese.', //'Entering a protection scheme here will apply it to your entire site\'s front-end.',
     
     'csrf_exclude' => 'CSRF ausgeschlossene URLs', //'CSRF Excluded URLs',
     'csrf_exclude_instruct' => 'Liste der von CSRF-Schutz ausgeschlossenen URLS', //'A list of URLS to exclude from CSRF protection',
 
     'php_max_memory_limit' => 'Maximales PHP Speicherlimit',
-    'php_max_memory_limit_instruct' => "Die maximale Menge an Arbeitsspeicher die Statamic bei Speicher intensiven Arbeiten wie Bildmanipulationen verwenden darf.  \nLeer lassen um so viel Speicher wie möglich zu verwenden. Es können Bytes oder [von PHP erkannte Kurzwerte](https://secure.php.net/manual/de/faq.using.php#faq.using.shorthandbytes) verwendet werden.",
+    'php_max_memory_limit_instruct' => "Die maximale Menge an Arbeitsspeicher, die Statamic bei speicherintensiven Arbeiten wie Bildmanipulationen verwenden darf.  \nLeer lassen um so viel Speicher wie möglich zu verwenden. Es können Bytes oder [von PHP erkannte Kurzwerte](https://secure.php.net/manual/de/faq.using.php#faq.using.shorthandbytes) verwendet werden.",
 
 ];
