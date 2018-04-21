@@ -59,6 +59,7 @@ return [
     "regex"                => "Le format de :attribute est invalide.",
     "required"             => ":attribute est obligatoire.",
     "required_if"          => ":attribute est obligatoire quand :other est :value.",
+    "required_unless"      => "Le champ :attribute est obligatoire à moins que :other soit dans :values.",
     "required_with"        => ":attribute est obligatoire quand :values est présent(e).",
     "required_with_all"    => ":attribute est obligatoire quand :values est présent(e).",
     "required_without"     => ":attribute est obligatoire quand :values est absent(e).",
