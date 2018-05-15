@@ -17,3 +17,4 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - French (fr) - Latest: 2.8.11
 - German (de) - Latest: 2.8.10
 - Russian (ru) - Latest: 2.8.8
+- Arabic (ar) - Latest: 2.8.11
