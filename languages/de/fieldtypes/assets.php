@@ -14,4 +14,7 @@ return [
     'restrict' => 'Auf Ordner beschränken',   // 'Restrict to Folder'
     'restrict_instruct' => 'Verhindert das navigieren zu anderen Ordnern oder Containern.',   // 'Prevent navigation to other folders or containers.'
 
+    'mode' => 'Anzeigemodus', // 'Display Mode',
+    'mode_instruct' => 'Wie die selektierten Anlagen angezeigt werden sollten.', // 'How the selected assets should be displayed.',
+    
 ];
