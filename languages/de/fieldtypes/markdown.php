@@ -3,7 +3,7 @@
 return [
 
     'cheatsheet' => 'Markdown Hilfe',
-    'cheatsheet_instruct' => 'Wenn aktiviert, wir ein Link zur Markdown Hilfe angezeigt.',
+    'cheatsheet_instruct' => 'Wenn aktiviert, wird ein Link zur Markdown Hilfe angezeigt.',
 
     'container' => 'Medien-Container',
     'container_instruct' => 'Wähle den Medien-Container für Dateien.',
