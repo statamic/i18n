@@ -1,14 +1,20 @@
 <?php
 
 return [
+	
+    'allow_blank' => 'Erlaube leere Angabe?', // 'Allow blank values?'
+    'allow_blank_instruct' => 'Wenn aktiviert, kann das Datum geleert werden.' // 'If enabled, you will be able to clear the date.',
 
-    'allow_blank' => 'Erlaube leere Angabe?',
-    'allow_blank_instruct' => 'Wenn aktiviert, kann das Datum leer gelassen werden.',
+    'allow_time' => 'Erlaube Uhrzeiten?', // 'Allow times?'
+    'allow_time_instruct' => 'Wenn aktiviert, kann eine Uhrzeit gewählt werden.', // 'If enabled, you will be able to select a time.'
+    
+    'require_time' => 'Zeit benötigt?', // 'Require time?',
+    'require_time_instruct' => 'Wenn aktiviert, dann muss eine Zeit gewählt werden.', // 'If enabled, you will be forced to select a time.',
 
-    'allow_time' => 'Erlaube Uhrzeiten?',
-    'allow_time_instruct' => 'Wenn aktiviert, kann eine Uhrzeit gewählt werden.',
+    'earliest_date' => 'Frühstes Datum', // 'Earliest Date'
+    'earliest_date_instruct' => 'Wähle das frühste auswählbare Datum.' // 'Set the earliest selectable date.',
 
-    'earliest_date' => 'Frühestes Datum',
-    'earliest_date_instruct' => 'Wähle das früheste, auswählbare Datum.',
-
+    'format' => 'Datumsformat', // 'Date Format'
+    'format_instruct' => 'Wie das Datum angezeigt werden sollte. Alle [PHP Datumsformate](http://php.net/manual/en/function.date.php) können benutzt werden.', // 'How the date should be saved. Any [PHP date formatting variables](http://php.net/manual/en/function.date.php) may be used.'
+    
 ];
