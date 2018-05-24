@@ -11,8 +11,8 @@ return [
     'min_rows' => 'Min. Reihen',
     'min_rows_instruct' => 'Die minimale Anzahl an Reihen.',
 
-    'add_row' => 'Reihe hinzufügen Schaltflächen Text',
-    'add_row_instruct' => 'Optional, ändere den Text der "Reihe hinzufügen" Schaltfläche.',
+    'add_row' => 'Zeile-hinzufügen-Text',
+    'add_row_instruct' => 'Optional, ändere den Text der "Zeile hinzufügen"-Schaltfläche.',
 
     'fields' => 'Felder',
     'fields_instruct' => 'Grid\'s sind Zeilen von wiederholenden Feldern.',

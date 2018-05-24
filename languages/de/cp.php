@@ -97,7 +97,7 @@ return [
     'globals_empty_heading' => 'Globale Sets',  // 'Global Sets'
     'globals_empty' => 'Globale Daten sind Daten, die nicht an eine URL gebunden und allgemeiner und seitenübergreifender Natur sind: z.B. Firmen-Daten, Adressen, allgemeine Einstellungen für Vorlagen wie Schalter, Limiten, Farben, Zeige/Verberge, Vorgaben, etc.',  // 'Global sets are groups of variables that represent content that isn\'t tied to a URL, such as company name, address, contact info, or even template level settings like limits, offsets, and show/hide toggles.'
     'general_globals' => 'Allgemein',  // 'General'
-    'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fusszeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Settings."
+    'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fußzeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Settings."
     'globals_slug_instructions' => "Der interne Variablen-Name für ein globales Set. Z.B.: <code>footer_content</code> oder <code>sidebar_settings</code>.",  // "This is the variable used in your templates. For example: <code>footer_content</code> or <code>sidebar_settings</code>."
     'globals_fieldset_instructions' => "Wähle die gewünschten Eingabefelder, um die Eingabemaske zu verwalten.",  // "Pick which group of fields you want to use to manage this fieldset."
 

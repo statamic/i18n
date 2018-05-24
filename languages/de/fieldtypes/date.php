@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+	
     'allow_blank' => 'Erlaube leere Angabe?', // 'Allow blank values?'
     'allow_blank_instruct' => 'Wenn aktiviert, kann das Datum geleert werden.' // 'If enabled, you will be able to clear the date.',
 
