@@ -173,12 +173,13 @@ return [
     'toggle_fields' => 'Toggle Fields',
     'sidebar' => 'Sidebar',
     'meta' => 'Meta',
+    'all' => 'All',
 
     // Set Builder
     'add_set' => 'Add Set',
     'edit_set' => 'Edit Set',
     'delete_set' => 'Delete Set',
-    'toggle_set' => 'Toggle Sets',
+    'toggle_sets' => 'Toggle Sets',
     'set_fields_instructions' => "Choose this set's fields",
 
     // Amazon S3
@@ -340,6 +341,7 @@ return [
     'field_default_value_instructions' => 'Enter the default value for string-type fields.',
     'edit_field' => 'Edit Field',
     'choose_field_to_edit' => "Choose a field to edit its settings.",
+    'select_fieldtype' => 'Select Fieldtype',
     'field_added' => ":fieldtype field added.",
     'set_added' => "Set added.",
     'append_taxonomies' => 'Append Taxonomies on Entries',

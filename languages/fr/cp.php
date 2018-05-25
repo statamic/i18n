@@ -173,12 +173,13 @@ return [
     'toggle_fields' => 'Basculer les champs',
     'sidebar' => 'Barre latérale',
     'meta' => 'Meta',
+    'all' => 'Tous',
     
     // Set Builder
     'add_set' => 'Ajouter un jeu',
     'edit_set' => 'Modifier le jeu',
     'delete_set' => 'Supprimer le jeu',
-    'toggle_set' => 'Basculer les jeux',
+    'toggle_sets' => 'Basculer les jeux',
     'set_fields_instructions' => "Choisissez les champs de ce jeu",
 
     // Amazon S3
@@ -340,6 +341,7 @@ return [
     'field_default_value_instructions' => 'Entrez la valeur par défaut pour les champs de type chaîne de caractères.',
     'edit_field' => 'Modifier le champ',
     'choose_field_to_edit' => "Choisissez un champ pour modifier ses paramètres.",
+    'select_fieldtype' => 'Choisissez le type de champ',
     'field_added' => "Champ :fieldtype ajouté.",
     'set_added' => "Jeu ajouté.",
     'append_taxonomies' => 'Ajouter les taxonomies aux articles',
