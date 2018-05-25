@@ -173,12 +173,13 @@ return [
     'toggle_fields' => 'Felder umschalten', // 'Toggle Fields'
     'sidebar' => 'Seitenleiste', // 'Sidebar'
     'meta' => 'Meta', // 'Meta'
+    'all' => 'Alle', // 'All'
 
     // Set Builder
     'add_set' => 'Set hinzufügen',  // 'Add Set'
     'edit_set' => 'Set bearbeiten',  // 'Edit Set'
     'delete_set' => 'Set löschen',  // 'Delete Set'
-    'toggle_set' => 'Sets umschalten', // 'Toggle Sets'
+    'toggle_sets' => 'Sets umschalten', // 'Toggle Sets'
     'set_fields_instructions' => "Wähle die Eingabefelder für dieses Set",  // "Choose this set's fields"
 
     // Amazon S3
@@ -340,6 +341,7 @@ return [
     'field_default_value_instructions' => 'Gib den Standardwert für das Textfeld ein.',  // 'Enter the default value for string-type fields.'
     'edit_field' => 'Feld bearbeiten',  // 'Edit Field'
     'choose_field_to_edit' => "Wähle ein Feld, um die Einstellungen zu bearbeiten.",  // "Choose a field to edit its settings."
+    'select_fieldtype' => 'Feldtypen auswählen', // 'Select Fieldtype'
     'field_added' => ":fieldtype Feld hinzugefügt.", // ":fieldtype field added."
     'set_added' => "Set hinzugefügt.", // "Set added."
     'append_taxonomies' => 'Hänge Kategorien an Einträge an', // 'Append Taxonomies on Entries'
