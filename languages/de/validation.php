@@ -59,6 +59,7 @@ return [
     'regex'                => ':attribute Format ist ungültig.',
     'required'             => ':attribute muss ausgefüllt sein.',
     'required_if'          => ':attribute muss ausgefüllt sein, wenn :other :value ist.',
+    'required_unless'      => ':attribute muss ausgefüllt sein, außer :other hat einen dieser Werte: :values',
     'required_with'        => ':attribute muss angegeben werden, wenn :values ausgefüllt wurde.',
     'required_with_all'    => ':attribute muss angegeben werden, wenn :values ausgefüllt wurde.',
     'required_without'     => ':attribute muss angegeben werden, wenn :values nicht ausgefüllt wurde.',
@@ -76,6 +77,9 @@ return [
     "entry_slug_exists"    => "Der Slug existiert bereits.",  // "Slug already exists."
     "page_uri_exists"      => "Der Slug existiert bereits.",  // "Slug already exists."
     "unique_asset_filename" => "Eine Datei mit diesem Namen existiert bereits.",
+    
+    // Extended validation rules
+    "ext" => ":attribute muss vom Dateityp `:extensions` sein",
 
     /*
     |--------------------------------------------------------------------------

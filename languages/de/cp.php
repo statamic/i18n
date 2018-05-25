@@ -12,6 +12,7 @@ return [
     'search_for_anything' => 'Suche nach irgendetwas',  // 'Search for anything'
 
     // Pages
+    'page' => 'Seite', // 'Page',
     'pages' => 'Seite|Seiten',  // 'Page|Pages'
     'nav_pages' => 'Seiten',  // 'Pages'
     'create_page_button' => 'Seite erstellen',  // 'Create Page'
@@ -40,9 +41,13 @@ return [
     'collection_title_instructions' => 'Sammlungs-Name.',  // 'The proper name of your collection.'
     'collection_handle_instructions' => "Die Variable der Sammlung wird intern für Einstellungen und Vorlagen verwendet.",  // "The collection's variable name used in settings and templates."
     'collection_order_instructions' => "Definiere die Standard-Sortierungsmethode für Einträge in dieser Sammlung.",  // "Set the default sorting method for entries in this collection."
+    'collection_fieldset_instructions' => "Die Standard Eingabemaske, außer anders spezifiziert.", // "The default fieldset, unless otherwise specified."
+    'collection_template_instructions' => "das Standard Template, außer andes spezifiziert.", // "The default template, unless otherwise specified."
     'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.",  // "The route controls the URL pattern all entries in the collection will follow."
-
+    'collection_does_not_exist' => 'Die Sammlung :collection exisitiert nicht.', // 'Collection :collection does not exist.'
+    
     // Entries
+    'entry' => 'Eintrag', // 'Entry'
     'entries' => 'Eintrag|Einträge',  // 'Entry|Entries'
     'nav_entries' => 'Einträge',  // 'Entries'
     'create_entry_button' => 'Eintrag erstellen',  // 'Create Entry'
@@ -54,6 +59,7 @@ return [
     'entries_empty' => 'Einträge sind Datensätze mit eigener URL: Diese werden z.B. für Listen, Blog-Einträge, News, Events, etc. verwendet.',  // 'Entries are bits of content that have their own URL and are often shown in lists, like blog posts, press releases, and events.'
 
     // Taxonomies
+    'taxonomy' => 'Kategorie', // 'Taxonomy'
     'taxonomies' => 'Kategorie|Kategorien',  // 'Taxonomy|Taxonomies'
     'nav_taxonomies' => 'Kategorien',  // 'Taxonomies'
     'create_taxonomy' => 'Neue Kategorie erstellen',  // 'Create New Taxonomy'
@@ -77,7 +83,10 @@ return [
     'taxonomy_terms_empty' => 'Wenn Daten über Kategorien verbunden sind, ist der Begriff das eigentliche Etikett für einen Datensatz. Z.B. Rot wäre ein Begriff in der Kategorie Farben.',  // 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".'
 
     // Globals
+    'global' => 'Global', // 'Global'
     'globals' => 'Global|Globale',  // 'Global|Globals'
+    'manage_global_sets' => 'Globale Sets verwalten', // 'Manage Global Sets'
+    'configuring_global_set' => 'Globale Sets konfigurieren', // 'Configuring Global Set'
     'nav_globals' => 'Globale',  // 'Globals'
     'manage_global_sets' => 'Verwalte globale Sets',  // 'Manage Global Sets'
     'create_global_set_button' => 'Globale Sets erstellen',  // 'Create Global Set'
@@ -88,7 +97,7 @@ return [
     'globals_empty_heading' => 'Globale Sets',  // 'Global Sets'
     'globals_empty' => 'Globale Daten sind Daten, die nicht an eine URL gebunden und allgemeiner und seitenübergreifender Natur sind: z.B. Firmen-Daten, Adressen, allgemeine Einstellungen für Vorlagen wie Schalter, Limiten, Farben, Zeige/Verberge, Vorgaben, etc.',  // 'Global sets are groups of variables that represent content that isn\'t tied to a URL, such as company name, address, contact info, or even template level settings like limits, offsets, and show/hide toggles.'
     'general_globals' => 'Allgemein',  // 'General'
-    'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fusszeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Sidebar Settings."
+    'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fußzeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Settings."
     'globals_slug_instructions' => "Der interne Variablen-Name für ein globales Set. Z.B.: <code>footer_content</code> oder <code>sidebar_settings</code>.",  // "This is the variable used in your templates. For example: <code>footer_content</code> or <code>sidebar_settings</code>."
     'globals_fieldset_instructions' => "Wähle die gewünschten Eingabefelder, um die Eingabemaske zu verwalten.",  // "Pick which group of fields you want to use to manage this fieldset."
 
@@ -114,6 +123,7 @@ return [
     'filesize' => 'Dateigröße',  // 'File size'
     'date_modified' => 'Modifikationsdatum',  // 'Date modified'
     'parent_folder' => 'Übergeordneter Ordner',  // 'Parent folder'
+    'containers' => 'Containers', // 'Containers'
     'asset_folder_empty_heading' => 'Leerer Ordner.',  // 'Empty folder.'
     'asset_folder_empty' => 'Du kannst neue Medien in diesen Ordner hochladen, indem du Dateien in den oben markierten Bereich ziehst.',  // 'You may upload new assets into this folder by dragging and dropping files into the outlined area above.'
     'focal_point' => 'Fokus-Punkt',  // 'Focal point'
@@ -124,8 +134,10 @@ return [
     'rename_file' => 'Datei umbenennen',  // 'Rename File'
     'rename_file_warning' => 'Wird eine Datei umbenannt, werden die Referenzen zu ihr nicht angepasst. Dies _kann_ zu kaputten Links in deiner Seite führen.',  // 'Renaming a file will not update any references to it, which _may_ result in broken links in your site.'
     'move_file' => 'Datei verschieben',  // 'Move file'
+    'move_file_warning' => 'Das Verschieben einer Datei aktualisiert keine Referenzen zu dieser. Kaputte Links könnten die Folge sein.', // 'Moving a file will not update any references to it, which _may_ result in broken links in your site.',
     'dimensions' => 'Dimensionen',  // 'Dimensions'
     'last_modified' => 'Änderungsdatum',  // 'Last Modified'
+    'url_resolves_to' => 'URL zeigt auf :path', // 'URL resolves to: :path'
 
 
     // Folder
@@ -154,11 +166,19 @@ return [
     'asset_path_instructions' => 'Ablageort des Ordners im internen System.',  // 'Location of the folder on the filesystem.'
     'asset_url_instructions' => 'URL des Ordners.',  // 'URL of the folder.'
     'asset_folder_basename' => 'Ordnername',  // 'Folder name'
+    
+    // Fields Builder
+    'add_field' => 'Neues Feld hinzufügen', // 'Add New Field'
+    'quick_add' => 'Schnell hinzufügen', // 'Quick Add'
+    'toggle_fields' => 'Felder umschalten', // 'Toggle Fields'
+    'sidebar' => 'Seitenleiste', // 'Sidebar'
+    'meta' => 'Meta', // 'Meta'
 
     // Set Builder
     'add_set' => 'Set hinzufügen',  // 'Add Set'
     'edit_set' => 'Set bearbeiten',  // 'Edit Set'
     'delete_set' => 'Set löschen',  // 'Delete Set'
+    'toggle_set' => 'Sets umschalten', // 'Toggle Sets'
     'set_fields_instructions' => "Wähle die Eingabefelder für dieses Set",  // "Choose this set's fields"
 
     // Amazon S3
@@ -166,8 +186,10 @@ return [
     'secret_access_key' => 'Geheimer Zugriffsschlüssel',  // 'Secret Access Key'
 
     // Users
+    'user' => 'Benutzer', // 'User'
     'users' => 'Benutzer|Benutzer',  // 'User|Users'
     'nav_users' => 'Benutzer',  // 'Users'
+    'manage_users' => 'Benutzer verwalten', // 'Manage Users'
     'create_user_button' => 'Benutzer erstellen',  // 'Create User'
     'create_user' => 'Erstelle Benutzer',  // 'Create User'
     'create_a_user' => 'Einen Benutzer erstellen',  // 'Create a User'
@@ -176,18 +198,30 @@ return [
     'user_updated' => 'Benutzer aktualisiert',  // 'User updated'
     'reset_password' => 'Passwort zurücksetzten',
     'send_email' => 'E-Mail senden',
+    'email_sent' => 'E-Mail verschickt', // 'Email sent'
     'send_activation_email' => 'Aktivierungs-Mail senden',  // 'Send activation email'
     'send_password_reset_email' => 'Passwort-zurücksetzen-Mail senden',  // 'Send password reset email'
+    'password_reset_email_not_sent' => 'E-Mail wurde nicht gesendet. Bitte überprüfe die Logs.', // 'Email not sent. Please check your logs.'
     'copy_activation_link' => 'Aktivierungslink kopieren',  // 'Copy activation link'
     'copy_password_reset_link' => 'Passwort-zurücksetzen-Link kopieren',  // 'Copy password reset link'
+    'copy_password_reset_link_failed' => 'Es gab ein Problem beim Generieren des Links. Bitte überprüfe die Logs.', // 'There was a problem generating the link. Please check your logs.'
     'password_reset_sent' => 'Passwort-zurücksetzen-E-Mail versendet',
+    'account_activated' => 'Ihr Account wurde aktiviert.', // 'Your account has been activated'
+    'password_reset_success' => 'Ihr Passwort wurde zurückgesetzt', // 'You password has been reset'
+    'activate_account' => 'Account aktivieren', // 'Activate Account'
     'account' => 'Konto',  // 'Account'
+    'password' => 'Passwort', // 'Password'
     'my_account' => 'Mein Konto',  // 'My Account'
-    'logout' => 'Ausloggen',  // 'Logout'
+    'profile' => 'Profil', // 'Profile'
+    'logout' => 'Logout',  // 'Logout'
+    'sign_out' => 'Logout', // 'Logout'
     'user_options' => 'Benutzer-Optionen',  // 'User Options'
     'user_bio_instructions' => 'Etwas über Dich, wenn Du möchtest',  // 'A little bit about you, if you like.'
     'user_account_created' => 'Benutzer-Konto erstellt.',  // 'A user account has been created.'
     'forgot_password' => 'Passwort vergessen?',
+    'invalid_user' => 'Ungültiger Benutzer', // 'Invalid user'
+    'invalid_code' => 'Ungültiger Code', // 'Invalid code'
+    'invalid_creds' => 'Ungültige Zugangsdaten', // 'Invalid credentials'
     'go_back' => 'Zurück',
 
     // Password Reset
@@ -219,6 +253,7 @@ return [
     'page_not_found' => 'Seite nicht gefunden',  // 'Page not found'
     'page_not_found_instructions' => 'Die angeforderte Seite wurde nicht gefunden.',  // 'The page you requested does not exist.'
     'session_expired' => 'Deine Sitzung ist abgelaufen.',  // 'Your session has expired.'
+    'stache_building' => 'Der Cache wird gearde aktualisiert. Bitte warten Sie und versuchen Sie es erneut.', // 'The cache is being updated. Please wait and try again.'
 
 
     // User Groups
@@ -246,11 +281,24 @@ return [
     'settings_theming' => 'Oberfläche',  // 'Theming'
     'settings_users' => 'Benutzer',  // 'Users'
     'settings_updated' => 'Einstellungen aktualisiert.',  // 'Settings updated.'
+    'settings_updated_and_indexed' => 'Einstellungen gespeichert und Such-Indizes aktualisiert.', // 'Settings saved and search indexes updated.'
     'settings_locales_instructions' => "Erstelle einen Sprache für jede Übersetzung. Sie können dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
+    'settings_locales_index_php_warning' => "Sie müssen <code>\$locale</code> zu <code>:locale</code> in der Datei <code>index.php</code> ändern.", // "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file."
     'settings_debug_mode_instructions' => "Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung, vergessen Sie aber nicht, diesen Modus wieder zu deaktivieren.",  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
 
+    'shorthand' => 'Kürzel', // 'Shorthand',
+    'shorthand_instructions' => 'Der Zwei-Zeichen-Sprache Code.<br> Beispiel: `en`, `de`.', // 'The 2 character language code.<br> Example: `en`, `de`.',
+    'add_locale' => 'Lokale hinzufügen', // 'Add Locale',
+    'full_locale' => 'Volle Lokale', // 'Full Locale',
+    'full_locale_instructions' => 'Wird für die PHP Datumslokalisierung benutzt.<br> Beispiel: `en_US`, `de_DE`', // 'Used for PHP date localization.<br>Example: `en_US`, `de_DE`.',
+    'locale_name_instructions' => 'Wird zur Anzeige benutzt.<br> Beispiel: `Englisch`, `Deutsch`', // 'Used for display.<br> Example: `English`, `German`.',
+    'locale_url_instructions' => 'Beispiel: `http://example.com/de/`', // 'Example: `http://example.com/de/`',
+    
+    
+    
     // Addons
     'addons' => 'Erweiterung|Erweiterungen',  // 'Addon|Addons'
+    'manage_addons' => 'Addons Verwalten', // 'Manage Addons'
     'nav_addons' => 'Erweiterungen',  // 'Addons'
     'addons_empty_heading' => 'Es sind keine Erweiterungen installiert',  // 'There are no addons'
     'addons_empty' => 'Erweiterungen erweitern die Funktionalität von Statamic.',  // 'Addons extend the functionality of Statamic.'
@@ -264,15 +312,13 @@ return [
     'fieldset_created' => 'Eingabemaske erstellt',  // 'Fieldset created'
     'editing_fieldset' => 'Eingabemaske bearbeiten',  // 'Editing Fieldset'
     'fieldset_updated' => 'Eingabemaske aktualisiert',  // 'Fieldset updated'
-
     'fieldsets_empty' => 'Eingabemasken lassen dich wieder benutzbare Gruppen erstellen, die dich deine Inhalte einfacher verwalten lassen. Hier passiert das Erstellen deiner Inhaltsstruktur.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
-    'fieldset_title_instructions' => 'Der Name der Eingabemaske. Normalerweise ein Hauptwort in der Einzahl.',  // 'The proper name of the fieldset. Usually a singular noun.'
-    'fieldset_handle_instructions' => "Der Variablen-Name, der in den Einstellungen und im Layout verwendet wird.",  // "The fieldset's variable name used in settings and templates."
-    'fieldset_create_title_instructions' => "Optional, Veränderbarer Titel, der angezeigt wird, sobald neuer Inhalt mit dieser Eingabemaske erstellt wird.",  // "Optional, customizable title shown when creating new content with this fieldset."
-    'fieldset_hide_instructions' => "Diese Eingabemaske im Auswahldialog verstecken?",  // "Hide this fieldset from selection dialogs?"
+    'fieldset_title_instructions' => 'Anzeigename. Normalerweise ein Hauptwort in der Einzahl.',  // 'Display Name, usually a singular noun.'
+    'fieldset_handle_instructions' => "Wird in den Einstellungen/Layouts verwendet.",  // "Used in settings/templates.",
+    'fieldset_create_title_instructions' => "Optional, wird angezeigt, sobald Neues erstellt wird.",  // "Optional, shown when creating new content"
+    'fieldset_hide_instructions' => "Im Auswahldialog verstecken?",  // "Hide from selection dialogs?"
     'fieldset_fields_instructions' => 'Weise Eingabefelder dieser Eingabemaske zu und verändere diese.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
     'fieldset_taxonomies_instructions' => 'Zeige, verstecke, und konfiguriere Kategorien, die bei dieser Eingabemaske angezeigt werden sollten.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
-
     'create_title' => 'Titel erstellen',  // 'Create Title'
     'display_name' => "Anzeige-Name",  // "Display Name"
     'display_name_instructions' => "Der im Kontrollzentrum angezeigte Name",  // "The field's label shown in the Control Panel."
@@ -294,8 +340,27 @@ return [
     'field_default_value_instructions' => 'Gib den Standardwert für das Textfeld ein.',  // 'Enter the default value for string-type fields.'
     'edit_field' => 'Feld bearbeiten',  // 'Edit Field'
     'choose_field_to_edit' => "Wähle ein Feld, um die Einstellungen zu bearbeiten.",  // "Choose a field to edit its settings."
+    'field_added' => ":fieldtype Feld hinzugefügt.", // ":fieldtype field added."
+    'set_added' => "Set hinzugefügt.", // "Set added."
+    'append_taxonomies' => 'Hänge Kategorien an Einträge an', // 'Append Taxonomies on Entries'
+    'append_taxonomies_instructions' => "Wenn diese Eingabemaske bei einem Eintrag genutzt wird, wird jede Kategorie, die nicht in der Eingabemaske definiert ist, automatisch zur Seitenleiste hinzugefügt.", // "When using this fieldset on an entry, any taxonomies not defined in the fieldset will be automatically added to the sidebar."
 
+    'sections' => 'Abschnitt|Abschnitte', // 'Section|Sections'
+    'section_label' => "Abschnitts Beschriftung", // "Section Label"
+    'section_handle' => "Abschnitts Handle", // "Section Handle"
+    'section_handle_tip' => "Tipp: Sie können den Abschnitt 'sidebar' nennen, um ihn in eine Seitenleiste zu verwandeln.", // "Tip: You can name your section 'sidebar' to transform it into one."
+    'sections_and_fields' => "Abschnitte & Felder", // "Sections & Fields"
 
+    'display_conditions' => 'Anzeige-Konditionen', // 'Display Conditions'
+    'display_conditions_instructions' => 'Konfiguriere, wann dieses Feld angezeigt wird.', // 'Configure when this field will be shown.'
+    'always_show' => 'Immer anzeigen', // 'Always Show'
+    'show_when' => 'Zeige wenn...', // 'Show when...'
+    'hide_when' => 'Verberge wenn...', // 'Hide when...'
+    'standard' => 'Standard', // 'Standard'
+    'custom' => 'Spezifisch', // 'Custom'
+    'display_standard_instructions' => 'Wähle eine Kombination aus Feldern und dazugehörigen Werten.', // 'Choose a combination of fields and corresponding values.'
+    'display_custom_instructions' => 'Geben Sie Ihrern spzeifischen JavaScript Abfrage-Methodenamen ein.', // 'Enter your custom JavaScript condition method name.'
+    
     // Forms
     'form' => 'Formular',  // 'Form'
     'forms' => 'Formular|Formulare',  // 'Form|Forms'
@@ -312,6 +377,8 @@ return [
     'creating_formset' => 'Erstelle Formularset',  // 'Creating Formset'
     'editing_formset' => 'Formularset bearbeiten',  // 'Editing Formset'
     'import' => 'Importieren',  // 'Import'
+    'import_data' => 'Daten importieren', // 'Import Data'
+    'import_link_text' => 'Erfahren Sie mehr über das Importier-JSON-Format', // 'Learn about the import JSON format'
     'export' => 'Exportieren',  // 'Export'
     'export_csv' => 'Exportiere als CSV',  // 'Export as CSV'
     'export_json' => 'Exportiere als JSON',  // 'Export as JSON'
@@ -323,19 +390,22 @@ return [
     'formset_emails_instructions' => 'Füge E-Mails hinzu, die versendet werden sollen.',  // 'Add any emails you want to be sent upon submission.'
     'formset_honeypot_field' => 'Honeypot-Feld',  // 'Honeypot Field'
     'formset_honeypot_instructions' => 'Der Name des Honeypot-Feld.',  // 'The field name to be used for the honeypot.'
+    'formset_store_field' => 'Eingaben speichern', // 'Store Submissions'
+    'formset_store_instructions' => 'Wenn Eingaben über Formulare gespeichert werden sollten. Hilfreich wenn Sie nur per E-Mail benachrichtigt werden wollen.', // 'Whether form submissions should be stored. Useful if you only wish to get email notifications.'
     'formset_honeypot_link' => "Was ist ein Honeypot?",  // "What's a honeypot?"
     'formset_fields_instructions' => 'Wähle und bearbeite die Felder für das Formular.',  // 'Choose and customize the fields in this form.'
 
     // Updater
     'nav_updater' => 'Aktualisierung',  // 'Updater'
     'updates'     => 'Aktualisierungen',  // 'Updates'
-    'upgrade_to_latest' => 'Auf letzte Version aktualisieren',  // 'Upgrade to Latest'
+    'system_updates' => 'System Updates', // 'System Updates'
+    'upgrade_to_latest' => 'Auf aktuelle Version aktualisieren',  // 'Upgrade to Latest'
     'upgrade_to_version' => 'Aktualisiere auf :version',  // 'Upgrade to :version'
     'downgrade_to_version' => 'Zurücksetzen auf :version',  // 'Downgrade to :version'
     'update_available' => 'Aktualisierung vorhanden',  // 'Update Available'
     'update_complete' => 'Aktualisierung ist fertig.',  // 'Update complete.'
     'up_to_date' => 'Aktuell!',  // 'Up to date!'
-    'on_latest' => 'Du hast die letzte Version von Statamic',  // 'You are running the latest version of Statamic'
+    'on_latest' => 'Du hast die aktuelle Version von Statamic',  // 'You are running the latest version of Statamic'
     'current_version' => 'Aktuelle Version',  // 'Current Version'
     'released_on_date' => 'Freigegeben am :date',  // 'Released on :date'
     'updates_available' => 'Es gibt eine Aktualisierung|Es gibt :updates Aktualisierungen',  // 'There is an update available|There are :updates updates available'
@@ -345,7 +415,8 @@ return [
     'backing_up' => 'Sichere…',  // 'Backing up...'
     'backing_up_instructions' => "Wir haben Deinen vorigen <code>statamic</code> Ordner gezippt und abgelegt – falls etwas schief gelaufen ist.",  // "We're zipping up your <code>statamic</code> folder, just in case you need to roll back."
     'backup_reminder' => 'Dies ist ein sicherer Prozess. Wir sichern alles während der Aktualisierung, du kannst die letzte Version unter  <code>local/temp</code> finden, falls etwas schief laufen sollte.',  // 'This is a safe process. We back up everything during running the update so you can always find your most recent version in <code>local/temp</code> if something goes wrong.'
-
+    'couldnt_fetch_updates' => 'Es gab ein Problem beim Abrufen der Updates', // 'There was a problem fetching updates'
+    
     // Download
     'downloading' => 'Lade herunter…',  // 'Downloading...'
     'downloaded' => 'Heruntergeladen.',  // 'Downloaded.'
@@ -389,8 +460,10 @@ return [
     'import_has_completed' => 'Der Import wurde abgeschlossen.',  // 'The import has completed.'
     'import_summary' => 'Import-Zusammenfassung',  // 'Import Summary'
     'import_site_url_instructions' => 'Gib die URL der zu importierenden Seite ein.',  // 'Enter the URL of the existing website you will be importing.'
+   
     'duplicate_item_warning'  => "Ein Duplikat gefunden.|:count Duplikate gefunden.",
     'uncheck_duplicates' => 'Duplikate abwählen',
+    
     'from_json' => 'Aus JSON',
     'json_file' => 'JSON-Datei',
     'upload_json_file' => 'Lade eine JSON-Datei hoch',
@@ -408,6 +481,8 @@ return [
     'thing_configure' => 'Konfiguriere :thing',  // 'Configure :thing'
     'thing_saved' => ':thing gespeichert.',  // ':thing saved.'
     'thing_editing' => ':thing bearbeitet',  // 'Editing :thing'
+    
+    'saved_success' => 'Gespeichert', // 'Saved'
 
     // Statuses
     'statuses' => 'Status|Status',  // 'Status|Statuses'
@@ -427,7 +502,9 @@ return [
     'license_invalid' => 'Der Lizenzschlüssel ist ungültig..',  // 'This key is invalid.'
     'license_key_instructions' => 'Bitte gib deinen Lizenzschlüssel ein. Du findest ihn in deinem <a href=":licenses">Statamic-Konto</a> oder du kannst <a href=":buy_license">eine neue Lizenz kaufen</a>.',  // 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.'
     'enter_license_key' => 'Bitte gebe deinen Lizenzschlüssel ein, um das Kontrollzentrum auf einer öffentlichen Domain zu verwenden.',  // 'Please enter your license key to access to the control panel on a public domain.'
-
+    'add_license_key' => 'Lizenzschlüssel hinzufügen', // 'Add License Key'
+    'buy_now' => 'Jetzt kaufen', // 'Buy Now'
+    
     'continue_in_trial_mode' => 'Kostenlose Testversion weiterhin verwenden',  // 'Continue in Trial Mode'
     'unlicensed' => 'Nicht lizensiert',
     'on_trial_with_invalid_license' => 'Kostenlose Testversion mit ungültiger Lizenz.',
@@ -439,6 +516,7 @@ return [
     'actions' => 'Aktion|Aktionen',  // 'Action|Actions'
     'add' => 'Hinzufügen',  // 'Add'
     'edit' => 'Bearbeiten',  // 'Edit'
+    'editing' => 'Wird gerade bearbeitet',
     'view' => 'Zeigen',  // 'View'
     'remove' => 'Entfernen',  // 'Remove'
     'update' => 'Aktualisieren',  // 'Update'
@@ -452,7 +530,7 @@ return [
     'save' => 'Speichern',  // 'Save'
     'saving' => 'Speichere',  // 'Saving'
     'save_changes' => 'Änderungen speichern',  // 'Save Changes'
-    'save_and_continue' => 'Speichern und weiter',  // 'Save and Continue'
+    'save_and_continue' => 'Speichern & weiter',  // 'Save and Continue'
     'are_you_sure' => 'Bist du sicher?',  // 'Are you sure?'
     'yes_im_sure' => 'Ja, sicher',  // 'Yes, I\'m sure'
     'refresh' => 'Aktualisieren',  // 'Refresh'
@@ -468,6 +546,7 @@ return [
     'save_order' => 'Reihenfolge speichern',  // 'Save Order'
     'toggle_dropdown' => 'Auswahl umschalten',  // 'Toggle Dropdown'
     'confirm_delete_items' => 'Diese File wird gelöscht|Die ausgewählten Files werden gelöscht',  // 'This item will be deleted|The selected items will be deleted'
+    'confirm_delete_page' => 'Diese Seite und all ihre untergeordneten werden gelöscht', // 'This page will be deleted along with all its children'
     'confirm_delete_folder' => 'Dieser Ordner wird gelöscht',  // 'This folder will be deleted'
     'configure' => 'Konfigurieren',  // 'Configure'
     'browse' => 'Suchen',  // 'Browse'
@@ -475,7 +554,6 @@ return [
     'localizing' => 'Lokalisiere',  // 'Localizing'
     'add_row' => 'Reihe hinzufügen',  // 'Add Row'
     'localizable' => 'Übersetzbar',  // 'Localizable'
-    'date_col_header' => 'Datum',  // 'Date'
     'please_wait' => 'Bitte warten…',  // 'Please Wait...'
     'exporting' => 'Exportiere …',  // 'Exporting...'
     'importing' => 'Importiere …',  // 'Importing...'
@@ -491,6 +569,9 @@ return [
     'expand_all' => 'Alles aufklappen',  // 'Expand All'
     'please_select' => 'Bitte wählen',  // 'Please select'
     'selected' => 'ausgewählt',  // 'selected'
+    'add_another_item' => 'Weiteres Element hinzufügen', // 'Add another item'
+    'show_drafts' => 'Zeige Entwürfe', // 'Show Drafts'
+    'hide_drafts' => 'Verberge Entwürfe', // 'Hide Drafts'
 
     // Nouns and whatnot
     'fields' => 'Feld|Felder',  // 'Field|Fields'
@@ -514,6 +595,7 @@ return [
     'dates' => 'Datum|Daten',  // 'Date|Dates'
     'date_and_time' => 'Datum und Zeit',  // 'Date and Time'
     'datestring' => 'Datum',  // 'Date'
+    'publish_date' => 'Veröffentlichungsdatum',
     'items' => 'Objekt|Objekte',  // 'Item|Items'
     'add_date' => 'Datum hinzufügen',  // 'Add date'
     'add_time' => 'Zeit hinzufügen',  // 'Add time'
@@ -522,10 +604,10 @@ return [
     'new' => 'Neu',  // 'New'
     'or' => 'oder',  // 'or'
     'order' => 'Reihenfolge',  // 'Order'
-    'one_quarter' => '1/4',  // '1/4 - One quarter'
-    'three_quarters' => '3/4',  // '3/4 - Three quarters'
-    'one_third' => '1/3',  // '1/3 - One third'
-    'two_thirds' => '2/3',  // '2/3 - Two thirds'
+    'one_quarter' => '1/4 - Ein Viertel',  // '1/4 - One quarter'
+    'three_quarters' => '3/4 - Drei Viertel',  // '3/4 - Three quarters'
+    'one_third' => '1/3 - Ein Drittel',  // '1/3 - One third'
+    'two_thirds' => '2/3 - Zwei Dritel',  // '2/3 - Two thirds'
     'half' => '50%',  // 'Half'
     'full_width' => 'Volle Breite',  // 'Full width'
     'width' => 'Breite',  // 'Width'
@@ -559,6 +641,8 @@ return [
     'driver' => 'Treiber',  // 'Driver'
     'path' => 'Pfad',  // 'Path'
     'url' => 'URL',  // 'URL'
+    'valid_url' => 'Gültige URL', // 'Valid URL'
+    'invalid_url' => 'Ungültige URL', // 'Invalid URL'
     'bucket' => 'Bucket',  // 'Bucket'
     'region' => 'Region',  // 'Region'
     'metrics' => 'Metrik|Metriken',  // 'Metric|Metrics'
@@ -571,8 +655,12 @@ return [
     'debug_mode' => 'Debug-Modus',  // 'Debug Mode'
     'defined_in_environment' => 'Verwaltet durch externe Umgebung.',  // 'Managed externally by your environment.'
     'be_right_back' => 'Wir sind gleich wieder da.',  // 'Be right back.'
-    'size' => 'Größe',
-    'attribute_field_name' => ':attribute Feld',
+    'size' => 'Größe', // 'Size'
+    'attribute_field_name' => ':attribute Feld', // ':attribute field'
+    'read_only' => "Nur Lesen", // 'Read only'
+    'read_only_mode' => 'Nur Lesen Modus', // 'Read only mode'
+    'next_step' => "Nächster Schritt", // "Next step"
+    'invalid_creds' => 'These credentials are incorrect', // 'These credentials are incorrect'
 
     'nav_content' => 'Inhalt',  // 'Content'
     'nav_tools' => 'Werkzeuge',  // 'Tools'
@@ -581,13 +669,33 @@ return [
     'nav_fieldsets' => 'Eingabemasken',  // 'Fieldsets'
     'nav_settings' => 'Einstellungen',  // 'Settings'
     'nav_users' => 'Benutzer',  // 'Users'
+    'nav_resolve_duplicate_ids' => 'Doppelte IDs', // 'Duplicate IDs'
 
     'mount_collection' => 'Sammlung verlinken',  // 'Mount Collection'
     'unmount_collection' => 'Sammlung entfernen',  // 'Unmount Collection'
 
     'trial_mode' => 'Testmodus',  // 'Trial Mode'
-    'trial_mode_badge' => 'Kostenlose Testversion',  // 'FREE TRIAL'
+    'trial_mode_badge' => 'Sie verwenden Statamic in der kostenlosen Testversion.',  // "You are running Statamic in free trial mode."
 
     // Validation
     'handle_exists' => 'Ein Medien-Container mit diesem Handle existiert bereits.',  // 'A container with this handle already exists.'
+    
+     // Duplicate ID Manager
+    'duplicate_id_title' => 'Doppelte IDs', // 'Duplicate IDs',
+    'no_duplicate_ids' => 'Keine doppelten IDs erkannt.', // 'No duplicate IDs detected.',
+    'generate_new_id' => 'Generiere neue ID.', // 'Generate new ID.',
+    
+    // Path
+    'path_resolves_to'    => 'Der Pfad zeigt zu: :path', // 'Path resolves to: :path',
+    'path_exists'         => 'Pfad existiert.', // 'Path exists.',
+    'path_does_not_exist' => 'Pfad exisitiert nicht.', // 'Path does not exist.',
+    
+    // Bard
+    'link'               => 'Link', // 'Link',
+    'paste_or_type_link' => 'Kopieren oder tippen Sie einen Link', // 'Paste or type a link',
+    'bold'               => 'Fett', // 'Bold',
+    'italic'             => 'Kursiv', // 'Italic',
+    'blockquote'         => 'Zitat', // 'Blockquote',
+    'h2'                 => 'Überschrift 2', // 'Header type two',
+    'h3'                 => 'Überschrift 3', // 'Header type three',
 ];
