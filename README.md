@@ -15,6 +15,6 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - Dutch (nl) - Latest: 2.6.2
 - English (en) - Latest: 2.9.3
 - French (fr) - Latest: 2.9.3
-- German (de) - Latest: 2.9.2
+- German (de) - Latest: 2.9.3
 - Russian (ru) - Latest: 2.8.8
 - Arabic (ar) - Latest: 2.8.11
