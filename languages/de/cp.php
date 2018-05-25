@@ -281,7 +281,7 @@ return [
     'settings_theming' => 'Oberfläche',  // 'Theming'
     'settings_users' => 'Benutzer',  // 'Users'
     'settings_updated' => 'Einstellungen aktualisiert.',  // 'Settings updated.'
-    'settings_updated_and_indexed' => 'Einstellungen gespeichert und Such-Indizes aktualisiert.' // 'Settings saved and search indexes updated.'
+    'settings_updated_and_indexed' => 'Einstellungen gespeichert und Such-Indizes aktualisiert.', // 'Settings saved and search indexes updated.'
     'settings_locales_instructions' => "Erstelle einen Sprache für jede Übersetzung. Sie können dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
     'settings_locales_index_php_warning' => "Sie müssen <code>\$locale</code> zu <code>:locale</code> in der Datei <code>index.php</code> ändern.", // "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file."
     'settings_debug_mode_instructions' => "Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung, vergessen Sie aber nicht, diesen Modus wieder zu deaktivieren.",  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
