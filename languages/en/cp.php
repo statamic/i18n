@@ -363,9 +363,9 @@ return [
     'display_standard_instructions' => 'Choose a combination of fields and corresponding values.',
     'display_custom_instructions' => 'Enter your custom JavaScript condition method name.',
 
-    'basics' => 'Baiscs', // 'Basics'
-    'visibility' => 'Sichtbarkeit', // 'Visibility'
-    'extras' => 'Extras', // 'Extras'
+    'basics' => 'Baiscs',
+    'visibility' => 'Visibility',
+    'extras' => 'Extras',
 
     'fieldtype_category_text' => 'Text',
     'fieldtype_category_media' => 'Media',
