@@ -1,4 +1,4 @@
-# Statamic Control Panel Translations ![Statamic 2.9.3](https://img.shields.io/badge/statamic-2.9.3-blue.svg?style=flat-square)
+# Statamic Control Panel Translations ![Statamic 2.9.6](https://img.shields.io/badge/statamic-2.9.6-blue.svg?style=flat-square)
 
 ## Installing a Translation
 
