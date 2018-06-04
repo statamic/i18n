@@ -12,7 +12,7 @@ return [
     'require_time_instruct' => 'Wenn aktiviert, dann muss eine Zeit gewählt werden.', // 'If enabled, you will be forced to select a time.',
 
     'earliest_date' => 'Frühstes Datum', // 'Earliest Date'
-    'earliest_date_instruct' => 'Wähle das frühste auswählbare Datum.' // 'Set the earliest selectable date.',
+    'earliest_date_instruct' => 'Wähle das frühste auswählbare Datum.', // 'Set the earliest selectable date.',
 
     'format' => 'Datumsformat', // 'Date Format'
     'format_instruct' => 'Wie das Datum angezeigt werden sollte. Alle [PHP Datumsformate](http://php.net/manual/en/function.date.php) können benutzt werden.', // 'How the date should be saved. Any [PHP date formatting variables](http://php.net/manual/en/function.date.php) may be used.'
