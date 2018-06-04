@@ -362,6 +362,18 @@ return [
     'custom' => 'Personnalisée',
     'display_standard_instructions' => 'Choisissez une combinaison de champs et de valeurs correspondantes.',
     'display_custom_instructions' => 'Saisissez le nom de votre méthode conditionnelle Javascript personnalisée.',
+    
+    'basics' => 'Bases',
+    'visibility' => 'Visibilité',
+    'extras' => 'Extras',
+
+    'fieldtype_category_text' => 'Texte',
+    'fieldtype_category_media' => 'Media',
+    'fieldtype_category_pickable' => 'Cliquable',
+    'fieldtype_category_structured' => 'Structuré',
+    'fieldtype_category_relationship' => 'Relations',
+    'fieldtype_category_special' => 'Spécial',
+    'fieldtype_category_system' => 'Système',
 
     // Forms
     'form' => 'Formulaire',
