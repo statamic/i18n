@@ -45,7 +45,7 @@ return [
     'collection_template_instructions' => "das Standard Template, außer andes spezifiziert.", // "The default template, unless otherwise specified."
     'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.",  // "The route controls the URL pattern all entries in the collection will follow."
     'collection_does_not_exist' => 'Die Sammlung :collection exisitiert nicht.', // 'Collection :collection does not exist.'
-    
+
     // Entries
     'entry' => 'Eintrag', // 'Entry'
     'entries' => 'Eintrag|Einträge',  // 'Entry|Entries'
@@ -166,7 +166,7 @@ return [
     'asset_path_instructions' => 'Ablageort des Ordners im internen System.',  // 'Location of the folder on the filesystem.'
     'asset_url_instructions' => 'URL des Ordners.',  // 'URL of the folder.'
     'asset_folder_basename' => 'Ordnername',  // 'Folder name'
-    
+
     // Fields Builder
     'add_field' => 'Neues Feld hinzufügen', // 'Add New Field'
     'quick_add' => 'Schnell hinzufügen', // 'Quick Add'
@@ -294,9 +294,9 @@ return [
     'full_locale_instructions' => 'Wird für die PHP Datumslokalisierung benutzt.<br> Beispiel: `en_US`, `de_DE`', // 'Used for PHP date localization.<br>Example: `en_US`, `de_DE`.',
     'locale_name_instructions' => 'Wird zur Anzeige benutzt.<br> Beispiel: `Englisch`, `Deutsch`', // 'Used for display.<br> Example: `English`, `German`.',
     'locale_url_instructions' => 'Beispiel: `http://example.com/de/`', // 'Example: `http://example.com/de/`',
-    
-    
-    
+
+
+
     // Addons
     'addons' => 'Erweiterung|Erweiterungen',  // 'Addon|Addons'
     'manage_addons' => 'Addons Verwalten', // 'Manage Addons'
@@ -362,7 +362,19 @@ return [
     'custom' => 'Spezifisch', // 'Custom'
     'display_standard_instructions' => 'Wähle eine Kombination aus Feldern und dazugehörigen Werten.', // 'Choose a combination of fields and corresponding values.'
     'display_custom_instructions' => 'Geben Sie Ihrern spzeifischen JavaScript Abfrage-Methodenamen ein.', // 'Enter your custom JavaScript condition method name.'
-    
+
+    'basics' => 'Baiscs', // 'Basics'
+    'visibility' => 'Sichtbarkeit', // 'Visibility'
+    'extras' => 'Extras', // 'Extras'
+
+    'fieldtype_category_text' => 'Text', // 'Text'
+    'fieldtype_category_media' => 'Medium', // 'Media'
+    'fieldtype_category_pickable' => 'Auswählbar', // 'Pickable'
+    'fieldtype_category_structured' => 'Strukturiert', // 'Structured'
+    'fieldtype_category_relationship' => 'Beziehung', // 'Relationship'
+    'fieldtype_category_special' => 'Spezial', // 'Special'
+    'fieldtype_category_system' => 'System', // 'System'
+
     // Forms
     'form' => 'Formular',  // 'Form'
     'forms' => 'Formular|Formulare',  // 'Form|Forms'
@@ -418,7 +430,7 @@ return [
     'backing_up_instructions' => "Wir haben Deinen vorigen <code>statamic</code> Ordner gezippt und abgelegt – falls etwas schief gelaufen ist.",  // "We're zipping up your <code>statamic</code> folder, just in case you need to roll back."
     'backup_reminder' => 'Dies ist ein sicherer Prozess. Wir sichern alles während der Aktualisierung, du kannst die letzte Version unter  <code>local/temp</code> finden, falls etwas schief laufen sollte.',  // 'This is a safe process. We back up everything during running the update so you can always find your most recent version in <code>local/temp</code> if something goes wrong.'
     'couldnt_fetch_updates' => 'Es gab ein Problem beim Abrufen der Updates', // 'There was a problem fetching updates'
-    
+
     // Download
     'downloading' => 'Lade herunter…',  // 'Downloading...'
     'downloaded' => 'Heruntergeladen.',  // 'Downloaded.'
@@ -462,10 +474,10 @@ return [
     'import_has_completed' => 'Der Import wurde abgeschlossen.',  // 'The import has completed.'
     'import_summary' => 'Import-Zusammenfassung',  // 'Import Summary'
     'import_site_url_instructions' => 'Gib die URL der zu importierenden Seite ein.',  // 'Enter the URL of the existing website you will be importing.'
-   
+
     'duplicate_item_warning'  => "Ein Duplikat gefunden.|:count Duplikate gefunden.",
     'uncheck_duplicates' => 'Duplikate abwählen',
-    
+
     'from_json' => 'Aus JSON',
     'json_file' => 'JSON-Datei',
     'upload_json_file' => 'Lade eine JSON-Datei hoch',
@@ -483,7 +495,7 @@ return [
     'thing_configure' => 'Konfiguriere :thing',  // 'Configure :thing'
     'thing_saved' => ':thing gespeichert.',  // ':thing saved.'
     'thing_editing' => ':thing bearbeitet',  // 'Editing :thing'
-    
+
     'saved_success' => 'Gespeichert', // 'Saved'
 
     // Statuses
@@ -506,7 +518,7 @@ return [
     'enter_license_key' => 'Bitte gebe deinen Lizenzschlüssel ein, um das Kontrollzentrum auf einer öffentlichen Domain zu verwenden.',  // 'Please enter your license key to access to the control panel on a public domain.'
     'add_license_key' => 'Lizenzschlüssel hinzufügen', // 'Add License Key'
     'buy_now' => 'Jetzt kaufen', // 'Buy Now'
-    
+
     'continue_in_trial_mode' => 'Kostenlose Testversion weiterhin verwenden',  // 'Continue in Trial Mode'
     'unlicensed' => 'Nicht lizensiert',
     'on_trial_with_invalid_license' => 'Kostenlose Testversion mit ungültiger Lizenz.',
@@ -681,17 +693,17 @@ return [
 
     // Validation
     'handle_exists' => 'Ein Medien-Container mit diesem Handle existiert bereits.',  // 'A container with this handle already exists.'
-    
-     // Duplicate ID Manager
+
+    // Duplicate ID Manager
     'duplicate_id_title' => 'Doppelte IDs', // 'Duplicate IDs',
     'no_duplicate_ids' => 'Keine doppelten IDs erkannt.', // 'No duplicate IDs detected.',
     'generate_new_id' => 'Generiere neue ID.', // 'Generate new ID.',
-    
+
     // Path
     'path_resolves_to'    => 'Der Pfad zeigt zu: :path', // 'Path resolves to: :path',
     'path_exists'         => 'Pfad existiert.', // 'Path exists.',
     'path_does_not_exist' => 'Pfad exisitiert nicht.', // 'Path does not exist.',
-    
+
     // Bard
     'link'               => 'Link', // 'Link',
     'paste_or_type_link' => 'Kopieren oder tippen Sie einen Link', // 'Paste or type a link',
