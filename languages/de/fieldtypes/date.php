@@ -3,7 +3,7 @@
 return [
 	
     'allow_blank' => 'Erlaube leere Angabe?', // 'Allow blank values?'
-    'allow_blank_instruct' => 'Wenn aktiviert, kann das Datum geleert werden.' // 'If enabled, you will be able to clear the date.',
+    'allow_blank_instruct' => 'Wenn aktiviert, kann das Datum geleert werden.', // 'If enabled, you will be able to clear the date.'
 
     'allow_time' => 'Erlaube Uhrzeiten?', // 'Allow times?'
     'allow_time_instruct' => 'Wenn aktiviert, kann eine Uhrzeit gewählt werden.', // 'If enabled, you will be able to select a time.'
