@@ -363,6 +363,18 @@ return [
     'display_standard_instructions' => 'Choose a combination of fields and corresponding values.',
     'display_custom_instructions' => 'Enter your custom JavaScript condition method name.',
 
+    'basics' => 'Baiscs',
+    'visibility' => 'Visibility',
+    'extras' => 'Extras',
+
+    'fieldtype_category_text' => 'Text',
+    'fieldtype_category_media' => 'Media',
+    'fieldtype_category_pickable' => 'Pickable',
+    'fieldtype_category_structured' => 'Structured',
+    'fieldtype_category_relationship' => 'Relationship',
+    'fieldtype_category_special' => 'Special',
+    'fieldtype_category_system' => 'System',
+
     // Forms
     'form' => 'Form',
     'forms' => 'Form|Forms',

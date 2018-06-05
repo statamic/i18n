@@ -13,7 +13,7 @@ We're looking to the community to help with translation. Feel free to fork, edit
 ## Complete Translations
 
 - Dutch (nl) - Latest: 2.6.2
-- English (en) - Latest: 2.9.3
+- English (en) - Latest: 2.9.6
 - French (fr) - Latest: 2.9.6
 - German (de) - Latest: 2.9.6
 - Polish (pl) - Latest: 2.9.6
