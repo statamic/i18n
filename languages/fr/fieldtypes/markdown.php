@@ -11,7 +11,7 @@ return [
     'folder' => 'Répertoire',
     'folder_instruct' => 'Choisir un répertoire à afficher par défaut.',
     
-    'restrict' => 'Restreindre au Répertoire',
-    'restrict_instruct' => 'Interdire la navigation vers d’autres répertoires de ressources ou emplacements.',
+    'restrict_assets' => 'Restreindre au Répertoire',
+    'restrict_assets_instruct' => 'Interdire la navigation vers d’autres répertoires de ressources ou emplacements.',
 
 ];
