@@ -11,4 +11,6 @@ return [
     'new_user_roles' => 'Neue Benutzerrolle',  // 'New User Roles'
     'new_user_roles_instruct' => 'Allen neu registrierten Benutzern wird automatisch diese Rolle zugewiesen.',  // 'Any users that register through the front-end of your site will be assigned these roles.'
 
+    'enable_gravatar' => 'Gravatar aktivieren',
+    'enable_gravatar_instruct' => 'Benutze <a href="http://gravatar.com" target="_blank">Gravatar.com</a> als Quelle für automatische Avatare.',
 ];

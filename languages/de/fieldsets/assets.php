@@ -21,7 +21,7 @@ return [
     'image_manipulation_cached_path_instruct' => 'Wenn Bilder zwischengespeichert ausgeliefert werden, werden sie unter diesem Pfad gespeichert. Dieser Pfad muss öffentlich abrufbar sein.', // 'When serving cached images directly, this is where they will be stored. This must be a publicly accessible location.'
 
     'image_manipulation_presets' => 'Bild Manipulations-Vorlagen', // 'Image Manipulation Presets'
-    'image_manipulation_presets_instruct' => 'Definiere die gewünschte [Glide Vorlage](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (als YAML). Die Bilder werden beim Hochladen automatisch, gemäß Vorlage, generiert und zwischengespeichert.', // 'Specify any [Glide presets](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (as YAML) that you want to be referenced within templates. These will be automatically generated when assets are uploaded.'
+    'image_manipulation_presets_instruct' => 'Definiere die gewünschte <a href="http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets" target="_blank">Glide Vorlage</a> (als YAML). Die Bilder werden beim Hochladen automatisch, gemäß Vorlage, generiert und zwischengespeichert.', // 'Specify any [Glide presets](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (as YAML) that you want to be referenced within templates. These will be automatically generated when assets are uploaded.'
 
     'thumbnail_max_width' => 'Maximale Breite für Thumbnails',
     'thumbnail_max_width_instruct' => 'Für Bilder die breiter sind werden keine Thumbnails generiert.',
