@@ -10,6 +10,6 @@ return [
     'new_user_roles_instruct' => 'Ces rôles seront automatiquement affectés à tous les utilisateurs qui s’inscriront via le frontal de votre site.',
     
     'enable_gravatar' => 'Activer Gravatar',
-    'enable_gravatar_instruct' => "Utilisez [Gravatar.com](http://gravatar.com) comme source d’Avatars utilisateurs automatiques.",
+    'enable_gravatar_instruct' => 'Utilisez <a href="http://gravatar.com" target="_blank">Gravatar.com</a> comme source d’Avatars utilisateurs automatiques.',
 
 ];

@@ -18,7 +18,8 @@ return [
     'static_caching_length_instruct' => 'La durée de mise en cache de chaque page, en minutes. Ne s’applique que lorsque vous utilisez le type "Cache".',
 
 		'static_caching_type' => 'Type de mise en cache',
-    'static_caching_type_instruct' => '"File" va générer des fichiers HTML dans `static`, et vous devrez également paramétrer votre fichier .htaccess.
+    'static_caching_type_instruct' => '"File" va générer des fichiers HTML dans `static`, et vous devrez également paramétrer des règles de ré-écriture sur votre serveur
+                                      <a href="https://docs.statamic.com/caching#static-page" target="_blank">(en savoir plus)</a>.
                                        Sinon, le cache standard sera utilisé.',
                                        
     'static_caching_file_path' => 'Chemin serveur pour les fichiers statiques',

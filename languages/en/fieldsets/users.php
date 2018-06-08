@@ -10,6 +10,6 @@ return [
     'new_user_roles_instruct' => 'Any users that register through the front-end of your site will be assigned these roles.',
 
     'enable_gravatar' => 'Enable Gravatar',
-    'enable_gravatar_instruct' => "Use [Gravatar.com](http://gravatar.com) as a source for automatic User avatars.",
+    'enable_gravatar_instruct' => 'Use <a href="http://gravatar.com" target="_blank">Gravatar.com</a> as a source for automatic User avatars.',
 
 ];

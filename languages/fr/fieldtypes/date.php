@@ -15,6 +15,9 @@ return [
     'earliest_date_instruct' => 'Définissez la première date qui pourra être sélectionnée.',
     
     'format' => 'Format de date',
-    'format_instruct' => 'La façon dont la date doit être enregistrée. N’importe quelles [variables de formatage de date PHP](http://php.net/manual/en/function.date.php) peuvent être utilisées.',
-
+    'format_instruct' => 'La façon dont la date doit être enregistrée. N’importe quelle <a href="https://momentjs.com/docs/#/displaying/format/" target="_blank">variable de formatage de date PHP Moment.js</a> peut être utilisée.',
+    
+    'input_format' => 'Format d’entrée',
+    'input_format_instruct' => 'La façon dont la date doit être affichée dans le champ. N’importe quelle <a href="https://momentjs.com/docs/#/displaying/format/" target="_blank">variable de formatage de date PHP Moment.js</a> peut être utilisée.'
+    
 ];

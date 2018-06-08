@@ -1,4 +1,4 @@
-# Statamic Control Panel Translations ![Statamic 2.9.6](https://img.shields.io/badge/statamic-2.9.6-blue.svg?style=flat-square)
+# Statamic Control Panel Translations ![Statamic 2.9.6](https://img.shields.io/badge/statamic-2.9.8-blue.svg?style=flat-square)
 
 ## Installing a Translation
 
@@ -13,8 +13,9 @@ We're looking to the community to help with translation. Feel free to fork, edit
 ## Complete Translations
 
 - Dutch (nl) - Latest: 2.6.2
-- English (en) - Latest: 2.9.6
-- French (fr) - Latest: 2.9.6
+- English (en) - Latest: 2.9.8
+- French (fr) - Latest: 2.9.8
 - German (de) - Latest: 2.9.6
+- Polish (pl) - Latest: 2.9.6
 - Russian (ru) - Latest: 2.8.8
 - Arabic (ar) - Latest: 2.8.11
