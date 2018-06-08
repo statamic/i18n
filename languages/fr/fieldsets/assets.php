@@ -21,7 +21,7 @@ return [
     'image_manipulation_cached_path_instruct' => 'Lorsque vous servez directement des images en cache, c’est l’emplacement où elles sont stockées. Il faut impérativement que ce soit un emplacement accessible publiquement.',
     
     'image_manipulation_presets' => 'Préréglages de Manipulation Image',
-    'image_manipulation_presets_instruct' => 'Indiquez un ou des [Préréglages Glide](http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets) (en YAML) que vous voudriez référencer dans les modèles. Ils seront alors automatiquement générés lorsque des ressources seront téléchargées.',
+    'image_manipulation_presets_instruct' => 'Indiquez un ou des <a href="http://glide.thephpleague.com/1.0/config/defaults-and-presets/#presets" target="_blank">Préréglages Glide</a> (en YAML) que vous souhaitez référencer dans les modèles. Ils seront alors automatiquement générés lorsque les ressources seront téléchargées.',
     
     'thumbnail_max_width' => 'Largeur d’image max pour miniatures',
     'thumbnail_max_width_instruct' => 'Aucune miniature ne sera générée pour les images plus larges que cette valeur (en pixels).',
