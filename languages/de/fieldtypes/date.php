@@ -15,6 +15,9 @@ return [
     'earliest_date_instruct' => 'Wähle das frühste auswählbare Datum.', // 'Set the earliest selectable date.',
 
     'format' => 'Datumsformat', // 'Date Format'
-    'format_instruct' => 'Wie das Datum angezeigt werden sollte. Alle [PHP Datumsformate](http://php.net/manual/en/function.date.php) können benutzt werden.', // 'How the date should be saved. Any [PHP date formatting variables](http://php.net/manual/en/function.date.php) may be used.'
-    
+    'format_instruct' => 'Wie das Datum gespeichert werden sollte. Alle <a href="http://php.net/manual/en/function.date.php" target="_blank">PHP Datumsformate</a> können benutzt werden.', // 'How the date should be saved. Any <a href="http://php.net/manual/en/function.date.php" target="_blank">PHP date formatting variables</a> may be used.'
+
+    'input_format' => 'Eingabeformat', // 'Input Format'
+    'input_format_instruct' => 'Wie das Datum im Feld angezeigt werden sollte. Alle <a href="https://momentjs.com/docs/#/displaying/format/" target="_blank">Moment.js Formatierungs-Variablen</a> können benutzt werden.' // 'How the date should be displayed in the field. Any <a href="https://momentjs.com/docs/#/displaying/format/" target="_blank">Moment.js date formatting variables</a> may be used.
+
 ];

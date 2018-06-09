@@ -124,8 +124,8 @@ return [
     'date_modified' => 'Modifikationsdatum',  // 'Date modified'
     'parent_folder' => 'Übergeordneter Ordner',  // 'Parent folder'
     'containers' => 'Containers', // 'Containers'
-    'asset_folder_empty_heading' => 'Leerer Ordner.',  // 'Empty folder.'
-    'asset_folder_empty' => 'Du kannst neue Medien in diesen Ordner hochladen, indem du Dateien in den oben markierten Bereich ziehst.',  // 'You may upload new assets into this folder by dragging and dropping files into the outlined area above.'
+    'asset_folder_empty_heading' => 'Leerer Ordner',  // 'Empty folder'
+    'asset_folder_empty' => 'Lade Dateien hoch, indem du sie in diesen Bereich ziehst.',  // 'Upload files by dragging and dropping them into this area.'
     'focal_point' => 'Fokus-Punkt',  // 'Focal point'
     'focal_point_label' => 'Klicke auf das Bild, um den Fokus-Punkt zu ändern',  // 'Click image to adjust the focal point'
     'focal_point_instructions' => 'Der Fokus-Punkt wird für Bildauschnitte verwendet und definiert den wichtigen, sichtbaren Bereich.',  // 'The focal point is used when cropping so the most important part of the image is not removed.'
@@ -212,6 +212,7 @@ return [
     'activate_account' => 'Account aktivieren', // 'Activate Account'
     'account' => 'Konto',  // 'Account'
     'password' => 'Passwort', // 'Password'
+    'password_for' => 'Passwort für :username', //  'Password for :username'
     'my_account' => 'Mein Konto',  // 'My Account'
     'profile' => 'Profil', // 'Profile'
     'logout' => 'Logout',  // 'Logout'
@@ -255,7 +256,9 @@ return [
     'page_not_found_instructions' => 'Die angeforderte Seite wurde nicht gefunden.',  // 'The page you requested does not exist.'
     'session_expired' => 'Deine Sitzung ist abgelaufen.',  // 'Your session has expired.'
     'stache_building' => 'Der Cache wird gearde aktualisiert. Bitte warten Sie und versuchen Sie es erneut.', // 'The cache is being updated. Please wait and try again.'
-
+    'session_expired_error' => 'Deine Sitzung ist abgelaufen. Logge dich ein, um dort weiterzumachen wo du aufgehört hast.', // 'Your session has expired. Log in to continue where you left off.'
+    'publish_error' => 'Es gab ein Problem beim Speicher deiner Daten. Mehr Details findest du in den Logs.', // 'There was an issue saving your data. More detail can be found in your logs.'
+    'error_fetching_data' => 'Es gab ein Problem beim Abrufen der Daten. Mehr Details findest du in den Logs.', // 'There was an issue fetching your data. More detail can be found in your logs.'
 
     // User Groups
     'usergroups' => 'Benutzergruppe|Benutzergruppen',  // 'User Group|User Groups'
@@ -363,7 +366,7 @@ return [
     'display_standard_instructions' => 'Wähle eine Kombination aus Feldern und dazugehörigen Werten.', // 'Choose a combination of fields and corresponding values.'
     'display_custom_instructions' => 'Geben Sie Ihrern spzeifischen JavaScript Abfrage-Methodenamen ein.', // 'Enter your custom JavaScript condition method name.'
 
-    'basics' => 'Baiscs', // 'Basics'
+    'basics' => 'Basics', // 'Basics'
     'visibility' => 'Sichtbarkeit', // 'Visibility'
     'extras' => 'Extras', // 'Extras'
 
@@ -401,7 +404,24 @@ return [
     'formset_title_instructions' => "Bezeichnung des Formularset.",  // "Your formset's proper label."
     'formset_slug_instructions' => 'Wie das Formularset referenziert wird.',  // 'How the formset will be referenced.'
     'formset_metrics_instructions' => 'Definiere Metriken, die angezeigt werden sollen.',  // 'Specify any metrics you would like displayed.'
-    'formset_emails_instructions' => 'Füge E-Mails hinzu, die versendet werden sollen.',  // 'Add any emails you want to be sent upon submission.'
+    'formset_metrics_grid_add_row' => 'Metrik', // 'Metric',
+    'formset_metrics_grid_type_field' => 'Metrik-Typ', // 'Metric Type',
+    'formset_metrics_grid_type_option_sum' => 'Summe', // 'Sum',
+    'formset_metrics_grid_type_option_total' => 'Gesamt', // 'Total',
+    'formset_metrics_grid_type_option_average' => 'Durchschnitt', // 'Average',
+    'formset_metrics_grid_label_field' => 'Bezeichnung', // 'Label',
+    'formset_metrics_grid_params_field' => 'Parameter', // 'Parameters',
+    'formset_emails_instructions' => 'Füge beliebige E-Mails hinzu, die beim Einreichen gesendet werden sollen.', // 'Add any emails you want to be sent upon submission.',
+    'formset_emails_grid_add_row' => 'E-Mail', // 'Email',
+    'formset_emails_grid_to_field' => 'Empfänger (zu)', // 'Recipient (To)',
+    'formset_emails_grid_to_instructions' => 'E-Mail des Empfängers', // 'Email address of the recipient.',
+    'formset_emails_grid_from_field' => 'Absender (von)', // 'Sender (From)',
+    'formset_emails_grid_from_instructions' => 'Leer lassen, um auf den Standardwert zurückzufallen', // 'Leave blank to fall back to the site default.',
+    'formset_emails_grid_reply_to_field' => 'Antworten auf', // 'Reply to',
+    'formset_emails_grid_subject_field' => 'Betreff', // 'Subject',
+    'formset_emails_grid_subject_instructions' => 'Betreff der E-Mail', // 'Email subject line.',
+    'formset_emails_grid_template_field' => 'Vorlage', // 'Template',
+    'formset_emails_grid_template_instructions' => 'Leer lassen, um eine automatische E-Mail zu benutzen.', // 'Leave blank to use an automagic email.',
     'formset_honeypot_field' => 'Honeypot-Feld',  // 'Honeypot Field'
     'formset_honeypot_instructions' => 'Der Name des Honeypot-Feld.',  // 'The field name to be used for the honeypot.'
     'formset_store_field' => 'Eingaben speichern', // 'Store Submissions'
@@ -545,6 +565,7 @@ return [
     'saving' => 'Speichere',  // 'Saving'
     'save_changes' => 'Änderungen speichern',  // 'Save Changes'
     'save_and_continue' => 'Speichern & weiter',  // 'Save and Continue'
+    'save_and_another' => 'Speichern & Weitere hinzufügen', // 'Save & Add Another'
     'are_you_sure' => 'Bist du sicher?',  // 'Are you sure?'
     'yes_im_sure' => 'Ja, sicher',  // 'Yes, I\'m sure'
     'refresh' => 'Aktualisieren',  // 'Refresh'
@@ -576,7 +597,8 @@ return [
     'close_this_window' => 'Fenster schliessen',  // 'Close this Window'
     'toggle_navigation' => 'Navigation umschalten',  // 'Toggle navigation'
     'logging_in' => 'Anmelden …',  // 'Logging in...'
-    'logged_in' => 'Angemeldet! Ab zum Kontrollzentrum …',  // 'Logged in! Taking you to the control panel...'
+    'logged_in' => 'Eingeloggt.',
+    'logged_in_taking_you_to_cp' => 'Angemeldet! Ab zum Kontrollzentrum ...', // 'Logged in! Taking you to the control panel...'
     'write' => 'Schreibe',  // 'Write'
     'preview' => 'Vorschau',  // 'Preview'
     'collapse_all' => 'Alles zuklappen',  // 'Collapse All'
@@ -615,6 +637,7 @@ return [
     'add_time' => 'Zeit hinzufügen',  // 'Add time'
     'login' => 'Einloggen',  // 'Login'
     'login_with' => 'Einloggen mit :provider',  // 'Login with :provider'
+    'login_to_continue' => 'Einloggen um Weiterzumachen', // "Login to Continue"
     'new' => 'Neu',  // 'New'
     'or' => 'oder',  // 'or'
     'order' => 'Reihenfolge',  // 'Order'
@@ -670,7 +693,6 @@ return [
     'defined_in_environment' => 'Verwaltet durch externe Umgebung.',  // 'Managed externally by your environment.'
     'be_right_back' => 'Wir sind gleich wieder da.',  // 'Be right back.'
     'size' => 'Größe', // 'Size'
-    'attribute_field_name' => ':attribute Feld', // ':attribute field'
     'read_only' => "Nur Lesen", // 'Read only'
     'read_only_mode' => 'Nur Lesen Modus', // 'Read only mode'
     'next_step' => "Nächster Schritt", // "Next step"

@@ -18,7 +18,8 @@ return [
    'static_caching_length_instruct' => 'Wie viele Minuten sollen Seiten gespeichert werden. Dies gilt nur beim Cache-Typ "Cache".',
 
    'static_caching_type' => 'Cache-Typ',
-   'static_caching_type_instruct' => 'Mit der Option "File" werden statische HTML-Dateien generiert und die htaccess-Datei muss angepasst werden.
+   'static_caching_type_instruct' => 'Mit der Option "File" werden statische HTML-Dateien generiert und Rewrite Regelen müssen auf dem Server erstellt werden. 
+                                      <a href="https://docs.statamic.com/caching#static-page" target="_blank">Mehr erfahren</a>. 
                                       Andernfalls wird der Standard-Cache verwendet.',
 
     'static_caching_file_path' => 'Pfad für statische Dateien',

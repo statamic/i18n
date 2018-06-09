@@ -3,13 +3,13 @@
 return [
 
     'license_key' => 'Lizenzschlüssel', //'License Key',
-    'license_key_instruct' => 'Erfasse den Lizenzschlüssel zu dieser Seite gemäß den Infos auf Deinem [Statamic-Konto](https:/account.statamic.com/licenses).', //'Enter the key for the corresponding domain from your [Statamic Account](https:/account.statamic.com/licenses).',
+    'license_key_instruct' => 'Erfasse den Lizenzschlüssel zu dieser Seite gemäß den Infos auf Deinem <a href="https://statamic.com/account/licenses" target="_blank">Statamic-Konto</a>.', //'Enter the key for the corresponding domain from your [Statamic Account](https:/account.statamic.com/licenses).',
 
     'locales' => 'Sprache', //'Locales',
     'locales_instruct' => 'Die gewünschten Sprachen für Deine Seite', //'The locales from which your site will be accessed.',
 
     'timezone' => 'Zeitzone', //'Timezone',
-    'timezone_instruct' => 'Die [Zeitzone](http://php.net/manual/en/timezones.php) in der Deine Seite betrieben wird.', //'The [timezone](http://php.net/manual/en/timezones.php) you want your site to operate under.',
+    'timezone_instruct' => 'Die <a href="http://php.net/manual/en/timezones.php" target="_blank">Zeitzone</a> in der Deine Seite betrieben wird.', //'The [timezone](http://php.net/manual/en/timezones.php) you want your site to operate under.',
 
     'date_format' => 'Datumsformat', //'Date format',
     'date_format_instruct' => 'Das PHP Format für die Standard-Ausgabe von Daten.', //'The PHP date format string used when outputting unformatted date variables.',
@@ -24,8 +24,7 @@ return [
     'app_key_instruct' => 'Dieser Schlüssel sichert Statamic. Er sollte einzigartig und mindestens 32 Zeichen lang sein.', //'This key is used to secure your application. It should be a strong, 32 character string.',
 
     'redactor' => 'Redactor Einstellungen', //'Redactor Settings',
-    'redactor_instruct' => 'YAML Interpretation von [Redactor Objekt-Einstellungen
-                            ](https://imperavi.com/assets/pdf/redactor-documentation-10.pdf).  
+    'redactor_instruct' => 'YAML Interpretation von <a href="https://imperavi.com/assets/pdf/redactor-documentation-10.pdf" target="_blank">Redactor Objekt-Einstellungen</a>.  
                             Jedes der folgenden Objekte ist beim Erstellen von Redactor-Eingabefeldern verfügbar.',
 
                             // 'YAML representations of [Redactor settings
@@ -39,6 +38,7 @@ return [
     'csrf_exclude_instruct' => 'Liste der von CSRF-Schutz ausgeschlossenen URLS', //'A list of URLS to exclude from CSRF protection',
 
     'php_max_memory_limit' => 'Maximales PHP Speicherlimit',
-    'php_max_memory_limit_instruct' => "Die maximale Menge an Arbeitsspeicher, die Statamic bei speicherintensiven Arbeiten wie Bildmanipulationen verwenden darf.  \nLeer lassen um so viel Speicher wie möglich zu verwenden. Es können Bytes oder [von PHP erkannte Kurzwerte](https://secure.php.net/manual/de/faq.using.php#faq.using.shorthandbytes) verwendet werden.",
+    'php_max_memory_limit_instruct' => 'Die maximale Menge an Arbeitsspeicher, die Statamic bei speicherintensiven Arbeiten wie Bildmanipulationen verwenden darf.
+                                        Leer lassen um so viel Speicher wie möglich zu verwenden. Es können Bytes oder <a href="http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes" target="_blank">von PHP erkannte Kurzwerte</a> verwendet werden.',
 
 ];
