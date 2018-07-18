@@ -47,6 +47,8 @@ return [
     'group_users' => 'Utilisateurs',
     'users:view' => 'Visualiser des utilisateurs',
     'users:edit' => 'Modifier des utilisateurs',
+    'users:edit-passwords' => 'Modifier les mots de passe',
+    'users:edit-roles' => 'Modifier les rôles',
     'users:create' => 'Créer des utilisateurs',
     'users:delete' => 'Supprimer des utilisateurs',
     
