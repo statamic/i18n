@@ -47,6 +47,8 @@ return [
     'group_users' => 'Users',
     'users:view' => 'View users',
     'users:edit' => 'Edit users',
+    'users:edit-passwords' => 'Edit passwords',
+    'users:edit-roles' => 'Edit roles',
     'users:create' => 'Create users',
     'users:delete' => 'Delete users',
 
