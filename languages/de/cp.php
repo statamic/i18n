@@ -197,8 +197,9 @@ return [
     'user_created' => 'Benutzer erstellt',  // 'User created'
     'editing_user' => 'Benutzer bearbeiten',  // 'Editing User'
     'user_updated' => 'Benutzer aktualisiert',  // 'User updated'
-    'reset_password' => 'Passwort zurücksetzten',
-    'send_email' => 'E-Mail senden',
+    'reset_password' => 'Passwort zurücksetzten', // 'Reset your password'
+    'change_password' => 'Passwort ändern', // 'Change password'
+    'send_email' => 'E-Mail senden', // 'Send email"
     'email_sent' => 'E-Mail verschickt', // 'Email sent'
     'send_activation_email' => 'Aktivierungs-Mail senden',  // 'Send activation email'
     'send_password_reset_email' => 'Passwort-zurücksetzen-Mail senden',  // 'Send password reset email'
@@ -529,18 +530,26 @@ return [
     'show_keyboard_shortcuts' => 'Tastatur Kurzbefehle zeigen',  // 'Show Keyboard Shortcuts'
 
     // License
-    'license_wrong_domain' => 'Diese Lizenz gehört zu :domain. Besuche <a href=":url" target="_blank">dein Konto</a>, um diese zu ändern.',
-    'license_no_domain' => 'Diese Lizenz ist keiner Domain zugewiesen. Besuche <a href=":url" target="_blank">dein Konto</a>, um dies zu ändern.',
+    'license_keys' => 'Lizenzschlüssel', // 'License Keys'
+    'trial_mode' => 'Testmodus', // 'Trial Mode'
+    'trial_mode_missing_license_keys' => 'Linzenzschlüssel müssen vor dem Online-Gehen eingegeben werden.', // 'License keys need to be entered before going live.'
+    'trial_mode_invalid_license_keys' => 'Du hast ungültige Lizenzschlüssel eingegeben.', // 'You have entered invalid license keys.'
+    'trial_mode_license_keys_for_domains' => 'Gültige Lizenschlüssel für :domains eingegeben', // 'Valid license keys entered for :domains'
+    'invalid_license_keys' => 'Bitte kaufe und füge einen Linzenschlüssel inzu oder riskiere das Verstoßen gegen unsere Linzenbestimmungen.', // 'Please purchase and enter your license key or risk violating the License Agreement.'
+    'license_keys_incorrect_domain' => 'Linzenschlüssel für ungültige Domain eingegeben. Bitte korrigiere oder riskiere gegen unsere Linzenzbestimmungen zu verstoßen.', // 'License keys entered for incorrect domain. Please remedy or risk violating the License Agreement.'
     'checking_license_key' => 'Überprüfe den Lizenzschlüssel, bitte warten …',  // 'Checking your license key, please wait...'
+    'license_missing' => 'Lizenzschlüssel fehlt.', // 'Lincese key missing.'
     'license_valid' => 'Du hast einen gültigen Lizenzschlüssel.',  // 'You have a valid license key.'
     'license_invalid' => 'Der Lizenzschlüssel ist ungültig..',  // 'This key is invalid.'
+    'license_wrong_domain' => 'Lizensiert für :domain', // 'Licensed to :domain'
+    'license_no_domain' => 'Linzenschlüssel ist keiner Domain zugeordnet.', // 'License has no domain associated with it.'
     'license_key_instructions' => 'Bitte gib deinen Lizenzschlüssel ein. Du findest ihn in deinem <a href=":licenses">Statamic-Konto</a> oder du kannst <a href=":buy_license">eine neue Lizenz kaufen</a>.',  // 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.'
-    'enter_license_key' => 'Bitte gebe deinen Lizenzschlüssel ein, um das Kontrollzentrum auf einer öffentlichen Domain zu verwenden.',  // 'Please enter your license key to access to the control panel on a public domain.'
-    'add_license_key' => 'Lizenzschlüssel hinzufügen', // 'Add License Key'
     'buy_now' => 'Jetzt kaufen', // 'Buy Now'
+    'license_statamic_link' => 'Kaufe Lizenzen und verwalte Domains unter statamic.com', // 'Buy licenses and manage domains on statamic.com'
 
     'continue_in_trial_mode' => 'Kostenlose Testversion weiterhin verwenden',  // 'Continue in Trial Mode'
     'unlicensed' => 'Nicht lizensiert',
+    'unlicensed_message' => 'Bitte kaufe eine Lizenz oder riskiere das Verstoßen gegen unsere Lizenzbestimmungen.', // 'Please purchase and enter your license key or risk violating the License Agreement.'
     'on_trial_with_invalid_license' => 'Kostenlose Testversion mit ungültiger Lizenz.',
     'on_trial_without_license' => 'Kostenlose Testversion. Vergiss nicht einen Lizenzschlüssel hinzuzufügen bevor die Seite aufgeschaltet wird.',
     'invalid_statamic_license' => 'Die Statamic Lizenz ist ungültig.',
@@ -633,8 +642,8 @@ return [
     'datestring' => 'Datum',  // 'Date'
     'publish_date' => 'Veröffentlichungsdatum',
     'items' => 'Objekt|Objekte',  // 'Item|Items'
-    'add_date' => 'Datum hinzufügen',  // 'Add date'
-    'add_time' => 'Zeit hinzufügen',  // 'Add time'
+    'add_date' => 'Datum hinzufügen',  // 'Add Date'
+    'add_time' => 'Zeit hinzufügen',  // 'Add Time'
     'login' => 'Einloggen',  // 'Login'
     'login_with' => 'Einloggen mit :provider',  // 'Login with :provider'
     'login_to_continue' => 'Einloggen um Weiterzumachen', // "Login to Continue"
@@ -709,9 +718,6 @@ return [
 
     'mount_collection' => 'Sammlung verlinken',  // 'Mount Collection'
     'unmount_collection' => 'Sammlung entfernen',  // 'Unmount Collection'
-
-    'trial_mode' => 'Testmodus',  // 'Trial Mode'
-    'trial_mode_badge' => 'Sie verwenden Statamic in der kostenlosen Testversion.',  // "You are running Statamic in free trial mode."
 
     // Validation
     'handle_exists' => 'Ein Medien-Container mit diesem Handle existiert bereits.',  // 'A container with this handle already exists.'
