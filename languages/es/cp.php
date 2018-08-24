@@ -320,7 +320,7 @@ return [
     'fieldsets_empty' => 'Los Fieldsets te permiten crear y manejar grupos reusables de tipos de campo, que a la vez manejan tu contenido. Aquí es donde sucede el modelado de contenido.',
     'fieldset_title_instructions' => 'Nombre a mostrar, usualmente un sustantivo en singular.',
     'fieldset_handle_instructions' => "Usado en ajustes/templates.",
-    'fieldset_create_title_instructions' => "Opcional, mostrado al crear contenido n",
+    'fieldset_create_title_instructions' => "Opcional, mostrado al crear contenido nuevo.",
     'fieldset_hide_instructions' => "¿Esconder de ventanas de selección?",
     'fieldset_fields_instructions' => 'Asigna y personaliza los campos y tipos de campo en este fieldset.',
     'fieldset_taxonomies_instructions' => 'Muestra, esconde y configura las taxonomías que deberían mostrarse en este fieldset.',
