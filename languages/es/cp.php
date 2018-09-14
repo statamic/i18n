@@ -609,7 +609,7 @@ return [
     'logged_in' => 'Sesión iniciada.',
     'logged_in_taking_you_to_cp' => '¡Sesión iniciada! Llevándote al panel de control...',
     'write' => 'Escribe',
-    'preview' => 'Vista precia',
+    'preview' => 'Vista previa',
     'collapse_all' => 'Contraer todo',
     'expand_all' => 'Expandir todo',
     'please_select' => 'Por favor selecciona',
