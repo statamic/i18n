@@ -117,7 +117,7 @@ return [
     'sync_assets' => 'Sincronizar medios',
     'syncing_assets' => 'Sincronizando medios',
     'new_folder' => 'Nueva carpeta',
-    'upload' => 'Carga',
+    'upload' => 'Cargar',
     'uploads' => 'Carga|Cargas',
     'filename' => 'Nombre de archivo',
     'filesize' => 'Tamaño de archivo',
