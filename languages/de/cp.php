@@ -617,6 +617,14 @@ return [
     'add_another_item' => 'Weiteres Element hinzufügen', // 'Add another item'
     'show_drafts' => 'Zeige Entwürfe', // 'Show Drafts'
     'hide_drafts' => 'Verberge Entwürfe', // 'Hide Drafts'
+    'count' => 'Zähler',
+    'reset' => 'Zurücksetzen',
+    'installed' => 'Installiert',
+    'add_condition' => 'Kondition hinzufügen',
+    'open' => 'Öffnen',
+    'download' => 'Download',
+    'locale' => 'Lokale',
+    'hidden' => 'Versteckt',
 
     // Nouns and whatnot
     'fields' => 'Feld|Felder',  // 'Field|Fields'
