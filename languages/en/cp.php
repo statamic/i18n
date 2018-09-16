@@ -617,6 +617,14 @@ return [
     'add_another_item' => 'Add another item',
     'show_drafts' => 'Show Drafts',
     'hide_drafts' => 'Hide Drafts',
+    'count' => 'Count',
+    'reset' => 'Reset',
+    'installed' => 'Installed',
+    'add_condition' => 'Add Condition',
+    'open' => 'Open',
+    'download' => 'Download',
+    'locale' => 'Locale',
+    'hidden' => 'Hidden',
 
     // Nouns and whatnot
     'fields' => 'Field|Fields',

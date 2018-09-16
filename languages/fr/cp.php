@@ -600,7 +600,7 @@ return [
     'localizable' => 'Localisable',
     'please_wait' => 'Merci de patienter...',
     'exporting' => 'Export en cours...',
-    'importing' => 'IImport en cours...',
+    'importing' => 'Import en cours...',
     'return_to_dashboard' => 'Retourner au tableau de bord',
     'publish_content' => 'Publiez du contenu',
     'close_this_window' => 'Fermez cette fenêtre',
@@ -617,6 +617,14 @@ return [
     'add_another_item' => 'Ajouter un autre élément',
     'show_drafts' => 'Afficher les brouillons',
     'hide_drafts' => 'Masquer les brouillons',
+    'count' => 'Comptage',
+    'reset' => 'Réinitialiser',
+    'installed' => 'Installé',
+    'add_condition' => 'Ajouter une condition',
+    'open' => 'Ouvrir',
+    'download' => 'Télécharger',
+    'locale' => 'Langue',
+    'hidden' => 'Masqué',
 
     // Nouns and whatnot
     'fields' => 'Champ|Champs',
