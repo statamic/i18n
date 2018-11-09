@@ -2,6 +2,9 @@
 
 return [
 
+    'buttons' => 'Toolbar Buttons',
+    'buttons_instruct' => 'Configure the buttons available in the toolbar',
+
     'sets' => 'Sets',
     'sets_instruct' => 'Bard fields can have multiple "sets" of fields.<br> A Bard field without any sets will be treated as a standard text field.',
 
@@ -14,24 +17,24 @@ return [
     'restrict_assets' => 'Restrict to Folder',
     'restrict_assets_instruct' => 'Prevent navigation to other asset folders or containers.',
 
-    'autoLink' => 'Auto Link',
-    'autoLink_instruct' => 'Automatically link any URLs in your text.',
+    'style' => 'Typography Style',
+    'style_instruct' => 'Choose your typography style.',
 
     'spellcheck' => 'Spell Check',
-    'spellcheck_instruct' => 'Enable contentEditable\'s automatic spellcheck.',
+    'spellcheck_instruct' => 'Enable your browser\'s automatic spellchecker.',
 
     'target_blank' => 'Target Blank',
-    'target_blank_instruct' => 'Automatically add `target="_blank"` on links.',
+    'target_blank_instruct' => 'Enable `target="_blank"` on links by default.',
+
+    'link_noopener' => 'Set noopener',
+    'link_noopener_instruct' => 'Set `rel="noopener"` on all created links.',
+
+    'link_noreferrer' => 'Set noreferer',
+    'link_noreferrer_instruct' => 'Set `rel="noreferrer"` on all created links.',
 
     'allow_source' => 'Allow Source',
     'allow_source_instruct' => 'Allow viewing and editing the HTML source code of your text content',
 
-    'link_validation' => 'Link Validation',
-    'link_validation_instruct' => 'Check for common URL protocols on links.',
-
-    'force_plain_text' => 'Force Pasting as Plain Text',
-    'force_plain_text_instruct' => 'Forces pasting as plain text, removing any and all formatting.',
-
-    'clean_pasted_html' => 'Clean Pasted HTML on Paste',
-    'clean_pasted_html_instruct' => 'Cleans pasted content from different sources, like Google Docs, etc.'
+    'semantic_elements' => 'Use Semantic Elements',
+    'semantic_elements_instruct' => 'Replace unsemantic `<b>` and `<i>` tags with `<strong>` and `<em>` tags.',
 ];
