@@ -16,17 +16,17 @@ return [
     'pages:delete' => 'Seiten löschen', // 'Delete pages'
     'pages:reorder' => 'Seiten sortieren', // 'Reorder pages'
 
-    'collections:*:view' => 'Eint#ge anzeigen', // 'View entries'
+    'collections:*:view' => 'Einträge anzeigen', // 'View entries'
     'collections:*:edit' => 'Einträge bearbeiten', // 'Edit entries'
     'collections:*:create' => 'Einträge erstellen', // 'Create entries'
     'collections:*:delete' => 'Einträge löschen', // 'Delete entries'
 
-    'taxonomies:*:view' => 'Begriffe anzeigen', // 'View taxonomy terms'
-    'taxonomies:*:edit' => 'Begriffe bearbeiten', // 'Edit taxonomy terms'
-    'taxonomies:*:create' => 'Begriffe erstellen', // 'Create taxonomy terms'
-    'taxonomies:*:delete' => 'Begriffe löschen', // 'Delete taxonomy terms'
+    'taxonomies:*:view' => 'Taxonomie anzeigen', // 'View taxonomy terms'
+    'taxonomies:*:edit' => 'Taxonomie bearbeiten', // 'Edit taxonomy terms'
+    'taxonomies:*:create' => 'Taxonomie erstellen', // 'Create taxonomy terms'
+    'taxonomies:*:delete' => 'Taxonomie löschen', // 'Delete taxonomy terms'
 
-    'gloabls:*:view' => 'Gloable anzeigen', // 'View globals'
+    'gloabls:*:view' => 'Globale anzeigen', // 'View globals'
     'globals:*:edit' => 'Globale bearbeiten', // 'Edit globals'
 
     'assets:*:view' => 'Medien ansehen', // 'View assets'

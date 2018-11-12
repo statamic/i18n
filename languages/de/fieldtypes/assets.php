@@ -6,7 +6,7 @@ return [
     'container_instruct' => 'Wähle einen Medien Container',   // 'Choose the Asset Container'
 
     'folder' => 'Ordner',   // 'Folder'
-    'folder_instruct' => 'Wähle einen Ordner, der standardmässig angezeigt wird. Leer lassen für den Hauptordner.',   // 'Choose a folder to show by default. Leave blank to show the root folder.'
+    'folder_instruct' => 'Wähle einen Ordner, der standardmäßig angezeigt wird. Leer lassen für den Hauptordner.',   // 'Choose a folder to show by default. Leave blank to show the root folder.'
 
     'max_files' => 'Maximale Dateien',   // 'Max Files'
     'max_files_instruct' => 'Die maximal erlaubte Anzahl von Dateien.',   // 'The maximum number of allowed files.'

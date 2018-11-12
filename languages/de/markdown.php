@@ -19,7 +19,7 @@ return [
 
 <h3>Code</h3>
 <p>
-Umfasse deinen Code mit 3 backticks (<code>```</code>) auf der Zeile davor und danach.
+Umfasse deinen Code mit drei backticks (<code>```</code>) auf der Zeile davor und danach.
 </p>
 
 <pre class="language-markdown"><code>```
@@ -30,9 +30,9 @@ dies: ist ein wenig yaml
 
 <h3>Zitate</h3>
 
-<p>Erstelle ein blockquote in dem du den Text mit <code>> </code> beginnst.</p>
+<p>Erstelle ein Zitat in dem du den Text mit <code>> </code> beginnst.</p>
 
-<pre class="language-markdown"><code>> Dies ist ein blockquote.</code></pre>
+<pre class="language-markdown"><code>> Dies ist ein Zitat.</code></pre>
 
 <h3>Bilder</h3>
 <pre class="language-markdown"><code>![alt text](http://example.com/image.jpg)</code></pre>
