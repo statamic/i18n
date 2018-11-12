@@ -26,8 +26,7 @@ return [
     'static_caching_file_path_instruct' => 'L’emplacement dans lequel les fichiers sont écrits quand vous utilisez le cache à base de fichiers statiques.',
     
     'static_caching_ignore_query_strings' => 'Ignorer les chaînes de requête',
-    'static_caching_ignore_query_strings_instruct' => 'S’il est sur <b>Activer</b>, une page sera traitée comme une même URL, sans jamais tenir compte des paramètres de chaîne de requête.  
-                                                       Ne peut pas être désactivé quand vous utilisez le cache à base de fichiers statiques.',
+    'static_caching_ignore_query_strings_instruct' => 'S’il est sur <b>Activer</b>, une page sera traitée comme une même URL, sans jamais tenir compte des paramètres de chaîne de requête.',
                                                       
 		'static_caching_exclude' => 'URLs exclues',
     'static_caching_exclude_instruct' => 'Une liste d’URLs qui seront exclues de la mise en cache.',
@@ -35,5 +34,11 @@ return [
     'static_caching_invalidation' => 'Règles d’invalidation',
     'static_caching_invalidation_instruct' => 'Une matrice de règles d’invalidation.',
 
+    'cache_tags' => 'Balises Cache',
+    'cache_tags_instruct' => 'Les balises de template {{ cache }} vous permettent de mettre en cache des sections de vos templates.',
 
+    'cache_tags_enabled' => 'Activées',
+    'cache_tags_enabled_instruct' => 'Confirme le bon fonctionnement de ces balises. La désactivation de ce paramètre s’appliquera à toutes les instances de ces balises.',
+    
+    
 ];

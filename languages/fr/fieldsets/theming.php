@@ -32,7 +32,7 @@ return [
     'default_asset_fieldset_instruct' => 'Fieldset utilisé lors de la modification d’une ressource.',
 
     'smartypants' => 'Smartypants',
-    'smartypants_instruct' => 'Activer pour convertir automatiquement les éléments typographiques (comme les guillemets et les tirets).',
+    'smartypants_instruct' => 'Convertir automatiquement les éléments typographiques (comme les guillemets et les tirets) quand vous utilisez Markdown.',
 
     'allow_php' => 'Autoriser le PHP dans les modèles',
     'allow_php_instruct' => 'Le code PHP est désactivé par défaut dans les modèles pour des raisons de sécurité.',
