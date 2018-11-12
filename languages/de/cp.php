@@ -41,10 +41,10 @@ return [
     'collection_title_instructions' => 'Sammlungs-Name.',  // 'The proper name of your collection.'
     'collection_handle_instructions' => "Die Variable der Sammlung wird intern für Einstellungen und Vorlagen verwendet.",  // "The collection's variable name used in settings and templates."
     'collection_order_instructions' => "Definiere die Standard-Sortierungsmethode für Einträge in dieser Sammlung.",  // "Set the default sorting method for entries in this collection."
-    'collection_fieldset_instructions' => "Die Standard Eingabemaske, außer anders spezifiziert.", // "The default fieldset, unless otherwise specified."
-    'collection_template_instructions' => "das Standard Template, außer andes spezifiziert.", // "The default template, unless otherwise specified."
+    'collection_fieldset_instructions' => "Die Standard Eingabemaske, außer anders definiert.", // "The default fieldset, unless otherwise specified."
+    'collection_template_instructions' => "Das Standard Template, außer anders definiert.", // "The default template, unless otherwise specified."
     'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.",  // "The route controls the URL pattern all entries in the collection will follow."
-    'collection_does_not_exist' => 'Die Sammlung :collection exisitiert nicht.', // 'Collection :collection does not exist.'
+    'collection_does_not_exist' => 'Die Sammlung :collection existiert nicht.', // 'Collection :collection does not exist.'
 
     // Entries
     'entry' => 'Eintrag', // 'Entry'
@@ -59,28 +59,28 @@ return [
     'entries_empty' => 'Einträge sind Datensätze mit eigener URL: Diese werden z.B. für Listen, Blog-Einträge, News, Events, etc. verwendet.',  // 'Entries are bits of content that have their own URL and are often shown in lists, like blog posts, press releases, and events.'
 
     // Taxonomies
-    'taxonomy' => 'Kategorie', // 'Taxonomy'
-    'taxonomies' => 'Kategorie|Kategorien',  // 'Taxonomy|Taxonomies'
-    'nav_taxonomies' => 'Kategorien',  // 'Taxonomies'
-    'create_taxonomy' => 'Neue Kategorie erstellen',  // 'Create New Taxonomy'
-    'create_taxonomy_button' => 'Kategorie erstellen',  // 'Create Taxonomy'
-    'manage_taxonomies' => 'Verwalte Kategorie',  // 'Manage Taxonomies'
-    'editing_taxonomy' => 'Bearbeite Kategorie',  // 'Editing taxonomy'
-    'taxonomy_updated' => 'Kategorie aktualisiert',  // 'Taxonomy Updated'
-    'taxonomy_created' => 'Kategorie erstellt',  // 'Taxonomy Created'
-    'taxonomies_empty_heading' => 'Kategorien',  // 'Taxonomies'
-    'taxonomies_empty' => 'Eine Kategorie verbindet Daten logisch miteinander: z.B. als Farben, Kategorien, Grössen, Eigenschaften, etc.',  // 'A Taxonomy is a system of classifying data around a set of unique characteristics, such as category or color.'
-    'taxonomies_title_instructions' => 'Name der Kategorie.',  // 'The name of your taxonomy.'
+    'taxonomy' => 'Taxonomie', // 'Taxonomy'
+    'taxonomies' => 'Taxonomie|Taxonomien',  // 'Taxonomy|Taxonomies'
+    'nav_taxonomies' => 'Taxonomien',  // 'Taxonomies'
+    'create_taxonomy' => 'Neue Taxonomie erstellen',  // 'Create New Taxonomy'
+    'create_taxonomy_button' => 'Taxonomie erstellen',  // 'Create Taxonomy'
+    'manage_taxonomies' => 'Verwalte Taxonomien',  // 'Manage Taxonomies'
+    'editing_taxonomy' => 'Bearbeite Taxonomie',  // 'Editing taxonomy'
+    'taxonomy_updated' => 'Taxonomie aktualisiert',  // 'Taxonomy Updated'
+    'taxonomy_created' => 'Taxonomie erstellt',  // 'Taxonomy Created'
+    'taxonomies_empty_heading' => 'Taxonomien',  // 'Taxonomies'
+    'taxonomies_empty' => 'Eine Taxonomie verbindet Daten logisch miteinander: z.B. als Kategorie oder Farbe.',  // 'A Taxonomy is a system of classifying data around a set of unique characteristics, such as category or color.'
+    'taxonomies_title_instructions' => 'Name der Taxonomie.',  // 'The name of your taxonomy.'
     'taxonomies_slug_instructions' => 'Dieser Name wird intern gebraucht und in den Vorlagen verwendet.',  // 'This is how the taxonomy will be referenced in templates.'
-    'taxonomies_fieldset_instructions' => 'Der Anzeigename der Kategorie.',  // 'The fields that should be displayed when editing terms in this taxonomy.'
-    'taxonomies_route_instructions' => 'Die Route kontrolliert die URL-Logik für alle Begriffe dieser Kategorie.',  // 'The terms in this taxonomy will have URLs that follow this routing scheme.'
+    'taxonomies_fieldset_instructions' => 'Der Anzeigename der Taxonomie.',  // 'The fields that should be displayed when editing terms in this taxonomy.'
+    'taxonomies_route_instructions' => 'Die Begriffe in dieser Taxonomie haben URLs, die diesem Routing-Schema folgen.',  // 'The terms in this taxonomy will have URLs that follow this routing scheme.'
 
     'taxonomy_terms' => 'Begriff|Begriffe',  // 'Term|Terms'
     'create_taxonomy_term_button' => 'Erstelle :term',  // 'Create :term'
     'create_taxonomy_term' => 'Neuen :term erstellen',  // 'Create a New :term'
-    'taxonomy_term_created' => 'Kategorie-Begriff erstellt',  // 'Taxonomy term created'
+    'taxonomy_term_created' => 'Taxonomie-Begriff erstellt',  // 'Taxonomy term created'
     'taxonomy_terms_empty_heading' => 'Liste der :term',  // 'Terms in :term'
-    'taxonomy_terms_empty' => 'Wenn Daten über Kategorien verbunden sind, ist der Begriff das eigentliche Etikett für einen Datensatz. Z.B. Rot wäre ein Begriff in der Kategorie Farben.',  // 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".'
+    'taxonomy_terms_empty' => 'Wenn Daten über Taxonomien verbunden sind, ist der Begriff das eigentliche Etikett für einen Datensatz. Z.B. Rot wäre ein Begriff in der Taxonomie Farben.',  // 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".'
 
     // Globals
     'global' => 'Global', // 'Global'
@@ -95,11 +95,11 @@ return [
     'editing_globals' => 'Globale bearbeiten',  // 'Editing Globals'
     'globals_updated' => 'Globale aktualisiert',  // 'Globals Updated'
     'globals_empty_heading' => 'Globale Sets',  // 'Global Sets'
-    'globals_empty' => 'Globale Daten sind Daten, die nicht an eine URL gebunden und allgemeiner und seitenübergreifender Natur sind: z.B. Firmen-Daten, Adressen, allgemeine Einstellungen für Vorlagen wie Schalter, Limiten, Farben, Zeige/Verberge, Vorgaben, etc.',  // 'Global sets are groups of variables that represent content that isn\'t tied to a URL, such as company name, address, contact info, or even template level settings like limits, offsets, and show/hide toggles.'
+    'globals_empty' => 'Globale Daten sind Daten, die nicht an eine URL gebunden und allgemeiner und seitenübergreifender Natur sind: z.B. Firmen-Daten, Adressen, allgemeine Einstellungen für Vorlagen wie Schalter, Limits, Farben, Zeige/Verberge, Vorgaben, etc.',  // 'Global sets are groups of variables that represent content that isn\'t tied to a URL, such as company name, address, contact info, or even template level settings like limits, offsets, and show/hide toggles.'
     'general_globals' => 'Allgemein',  // 'General'
-    'globals_title_instructions' => "Der einzigartige Name für ein globales Set: z.B. Fußzeilen Inhalt, Seiteleiste Einstellungen, etc.",  // "The proper name of your global set. For example: Footer Content, or Settings."
-    'globals_slug_instructions' => "Der interne Variablen-Name für ein globales Set. Z.B.: <code>footer_content</code> oder <code>sidebar_settings</code>.",  // "This is the variable used in your templates. For example: <code>footer_content</code> or <code>sidebar_settings</code>."
-    'globals_fieldset_instructions' => "Wähle die gewünschten Eingabefelder, um die Eingabemaske zu verwalten.",  // "Pick which group of fields you want to use to manage this fieldset."
+    'globals_title_instructions' => 'Der einzigartige Name für ein globales Set: z.B. Footer-Inhalt oder Einstellungen',  // "The proper name of your global set. For example: Footer Content, or Settings."
+    'globals_slug_instructions' => 'Der interne Variablen-Name für ein globales Set. Z.B.: <code>footer_inhalt</code> oder <code>sidebar_settings</code>.',  // "This is the variable used in your templates. For example: <code>footer_content</code> or <code>sidebar_settings</code>."
+    'globals_fieldset_instructions' => 'Wähle die gewünschten Eingabefelder, um die Eingabemaske zu verwalten.',  // "Pick which group of fields you want to use to manage this fieldset."
 
     // Assets
     'assets' => 'Medium|Medien',  // 'Asset|Assets'
@@ -121,9 +121,9 @@ return [
     'uploads' => 'Upload|Uploads',  // 'Upload|Uploads', no correct German definiton for that, leave as is
     'filename' => 'Dateiname',  // 'Filename'
     'filesize' => 'Dateigröße',  // 'File size'
-    'date_modified' => 'Modifikationsdatum',  // 'Date modified'
+    'date_modified' => 'Änderungsdatum',  // 'Date modified'
     'parent_folder' => 'Übergeordneter Ordner',  // 'Parent folder'
-    'containers' => 'Containers', // 'Containers'
+    'containers' => 'Container', // 'Containers'
     'asset_folder_empty_heading' => 'Leerer Ordner',  // 'Empty folder'
     'asset_folder_empty' => 'Lade Dateien hoch, indem du sie in diesen Bereich ziehst.',  // 'Upload files by dragging and dropping them into this area.'
     'focal_point' => 'Fokus-Punkt',  // 'Focal point'
@@ -132,17 +132,17 @@ return [
     'or_drag_and_drop_files' => 'oder Medien hier reinziehen.',  // 'or drag and drop files.'
     'no_asset_container_specified' => 'Der Medien-Container ist undefiniert.',  // 'No asset container specified.'
     'rename_file' => 'Datei umbenennen',  // 'Rename File'
-    'rename_file_warning' => 'Wird eine Datei umbenannt, werden die Referenzen zu ihr nicht angepasst. Dies _kann_ zu kaputten Links in deiner Seite führen.',  // 'Renaming a file will not update any references to it, which _may_ result in broken links in your site.'
+    'rename_file_warning' => 'Wird eine Datei umbenannt, werden die Verweise zu ihr nicht angepasst. Dies _kann_ zu kaputten Links auf deiner Website führen.',  // 'Renaming a file will not update any references to it, which _may_ result in broken links in your site.'
     'move_file' => 'Datei verschieben',  // 'Move file'
-    'move_file_warning' => 'Das Verschieben einer Datei aktualisiert keine Referenzen zu dieser. Kaputte Links könnten die Folge sein.', // 'Moving a file will not update any references to it, which _may_ result in broken links in your site.',
-    'dimensions' => 'Dimensionen',  // 'Dimensions'
+    'move_file_warning' => 'Wird eine Datei verschoben, werden die Verweise zu ihr nicht angepasst. Dies _kann_ zu kaputten Links auf deiner Website führen.', // 'Moving a file will not update any references to it, which _may_ result in broken links in your site.',
+    'dimensions' => 'Abmessungen',  // 'Dimensions'
     'last_modified' => 'Änderungsdatum',  // 'Last Modified'
     'url_resolves_to' => 'URL zeigt auf :path', // 'URL resolves to: :path'
 
 
     // Folder
     'folder_title_instructions' => 'Der angezeigte Name des Ordners.',  // 'The display name of the folder.'
-    'folder_directory_instructions' => 'Der interne System-Name des Ordner',  // 'The filesystem directory name'
+    'folder_directory_instructions' => 'Der interne System-Name des Ordners',  // 'The filesystem directory name'
 
     // Asset Containers
     'asset_containers' => 'Medien-Container|Medien-Container',  // 'Asset Container|Asset Containers'
@@ -153,14 +153,14 @@ return [
     'editing_asset_container' => 'Bearbeite Medien-Container',  // 'Editing Asset Container'
     'asset_container_updated' => 'Medien-Container aktualisiert',  // 'Asset Container updated'
     'asset_containers_empty_heading' => 'Es sind keine Medien-Container konfiguriert.',  // 'There are no configured asset containers.'
-    'asset_containers_empty' => 'Jeder Medien-Container ist ein Ort im Dateisystem und kann entweder öffentlich verfügbar oder geschützt vor Neugierigen Blicken geschützt werden.',  // 'Each asset container can be a location on your file system, which can either be publicly accessible or protected from prying eyes.'
+    'asset_containers_empty' => 'Jeder Medien-Container ist ein Ort im Dateisystem und kann entweder öffentlich verfügbar oder vor neugierigen Blicken geschützt werden.',  // 'Each asset container can be a location on your file system, which can either be publicly accessible or protected from prying eyes.'
     'select_asset_container' => 'Medien-Container auswählen.',  // 'Select an asset container.'
 
     // Asset Folders
     'create_folder' => 'Ordner erstellen',  // 'Create Folder'
     'edit_folder' => 'Ordner bearbeiten',  // 'Edit Folder'
-    'asset_name_instructions' => 'Der angezeigte Ordner Name',  // 'The display name of the container.'
-    'asset_handle_instructions' => 'Eine eindeutige Zeichenfolge als Referenz für den Container. <b>Kann nach dem erstellen nicht mehr geändert werden.</b>',  // 'A unique string that you can use to reference your container. <b>This cannot be changed after creation.</b>'
+    'asset_name_instructions' => 'Der angezeigte Ordnername',  // 'The display name of the container.'
+    'asset_handle_instructions' => 'Eine eindeutige Zeichenfolge als Referenz für den Container. <b>Kann nach dem Erstellen nicht mehr geändert werden.</b>',  // 'A unique string that you can use to reference your container. <b>This cannot be changed after creation.</b>'
     'asset_fieldset_instructions' => 'Die Eingabemaske für die Medien.',  // 'The fieldset to be used by assets in this container.'
     'asset_driver_instructions' => 'Wo sollen die Medien gespeichert und abgerufen werden?',  // 'Where will the assets be stored and accessed?'
     'asset_path_instructions' => 'Ablageort des Ordners im internen System.',  // 'Location of the folder on the filesystem.'
@@ -198,6 +198,8 @@ return [
     'editing_user' => 'Benutzer bearbeiten',  // 'Editing User'
     'user_updated' => 'Benutzer aktualisiert',  // 'User updated'
     'reset_password' => 'Passwort zurücksetzten', // 'Reset your password'
+    'choose_new_password' => 'Wähle ein neues Passwort', // 'Choose a New Password'
+    'new_password' => 'Neues Passwort', // 'New Password'
     'change_password' => 'Passwort ändern', // 'Change password'
     'send_email' => 'E-Mail senden', // 'Send email"
     'email_sent' => 'E-Mail verschickt', // 'Email sent'
@@ -219,7 +221,7 @@ return [
     'logout' => 'Logout',  // 'Logout'
     'sign_out' => 'Logout', // 'Logout'
     'user_options' => 'Benutzer-Optionen',  // 'User Options'
-    'user_bio_instructions' => 'Etwas über Dich, wenn Du möchtest',  // 'A little bit about you, if you like.'
+    'user_bio_instructions' => 'Etwas über dich, wenn du möchtest',  // 'A little bit about you, if you like.'
     'user_account_created' => 'Benutzer-Konto erstellt.',  // 'A user account has been created.'
     'forgot_password' => 'Passwort vergessen?',
     'invalid_user' => 'Ungültiger Benutzer', // 'Invalid user'
@@ -245,7 +247,7 @@ return [
     // Permissions
     'permissions' => 'Berechtigung|Berechtigungen',  // 'Permission|Permissions'
     'access' => 'Zugriff',  // 'Access'
-    'checking_folder_permissions' => 'Überprüfe Ordner-Berechtigung, bitte warten…',  // 'Checking folder permissions, please wait...'
+    'checking_folder_permissions' => 'Überprüfe Ordner-Berechtigungen, bitte warten...',  // 'Checking folder permissions, please wait...'
     'folders_permission_valid' => 'Datei und Ordner Berechtigungen sehen gut aus!',  // 'File and folder permissions look great!'
     'folders_unwritable' => 'Folgende Ordner brauchen Schreibberechtigung:',  // 'The following directories need to be writable:'
 
@@ -256,10 +258,10 @@ return [
     'page_not_found' => 'Seite nicht gefunden',  // 'Page not found'
     'page_not_found_instructions' => 'Die angeforderte Seite wurde nicht gefunden.',  // 'The page you requested does not exist.'
     'session_expired' => 'Deine Sitzung ist abgelaufen.',  // 'Your session has expired.'
-    'stache_building' => 'Der Cache wird gearde aktualisiert. Bitte warten Sie und versuchen Sie es erneut.', // 'The cache is being updated. Please wait and try again.'
+    'stache_building' => 'Der Cache wird gerade aktualisiert. Bitte warte und versuche es erneut.', // 'The cache is being updated. Please wait and try again.'
     'session_expired_error' => 'Deine Sitzung ist abgelaufen. Logge dich ein, um dort weiterzumachen wo du aufgehört hast.', // 'Your session has expired. Log in to continue where you left off.'
-    'publish_error' => 'Es gab ein Problem beim Speicher deiner Daten. Mehr Details findest du in den Logs.', // 'There was an issue saving your data. More detail can be found in your logs.'
-    'error_fetching_data' => 'Es gab ein Problem beim Abrufen der Daten. Mehr Details findest du in den Logs.', // 'There was an issue fetching your data. More detail can be found in your logs.'
+    'publish_error' => 'Es gab ein Problem beim Speichern deiner Daten. Mehr Details findest du in den Logs.', // 'There was an issue saving your data. More detail can be found in your logs.'
+    'error_fetching_data' => 'Es gab ein Problem beim Abrufen deiner Daten. Mehr Details findest du in den Logs.', // 'There was an issue fetching your data. More detail can be found in your logs.'
 
     // User Groups
     'usergroups' => 'Benutzergruppe|Benutzergruppen',  // 'User Group|User Groups'
@@ -270,7 +272,7 @@ return [
     'editing_usergroup' => 'Benutzergruppe bearbeiten',  // 'Editing User Group'
     'usergroup_updated' => 'Benutzergruppe aktualisiert',  // 'User Group updated'
     'usergroups_empty_heading' => 'Benutzergruppen',  // 'User Groups'
-    'usergroups_empty' => 'Benutzergruppen erlauben es Ihnen unterschiedliche Rollen und Benutzer in einer Gruppe zu vereinen.',  // 'User Groups allow you mix and match different roles and users together into a single group.'
+    'usergroups_empty' => 'Benutzergruppen erlauben es dir unterschiedliche Rollen und Benutzer in einer Gruppe zu vereinen.',  // 'User Groups allow you mix and match different roles and users together into a single group.'
 
     // Settings
     'settings' => 'Einstellung|Einstellungen',  // 'Setting|Settings'
@@ -287,12 +289,12 @@ return [
     'settings_users' => 'Benutzer',  // 'Users'
     'settings_updated' => 'Einstellungen aktualisiert.',  // 'Settings updated.'
     'settings_updated_and_indexed' => 'Einstellungen gespeichert und Such-Indizes aktualisiert.', // 'Settings saved and search indexes updated.'
-    'settings_locales_instructions' => "Erstelle einen Sprache für jede Übersetzung. Sie können dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
-    'settings_locales_index_php_warning' => "Sie müssen <code>\$locale</code> zu <code>:locale</code> in der Datei <code>index.php</code> ändern.", // "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file."
-    'settings_debug_mode_instructions' => "Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung, vergessen Sie aber nicht, diesen Modus wieder zu deaktivieren.",  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
+    'settings_locales_instructions' => "Erstelle eine Sprache für jede Übersetzung. Du kannst dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
+    'settings_locales_index_php_warning' => 'Du musst <code>\$locale</code> zu <code>:locale</code> in der Datei <code>index.php</code> ändern.', // "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file."
+    'settings_debug_mode_instructions' => 'Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung – vergiss aber nicht, diesen Modus wieder zu deaktivieren.',  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
 
     'shorthand' => 'Kürzel', // 'Shorthand',
-    'shorthand_instructions' => 'Der Zwei-Zeichen-Sprache Code.<br> Beispiel: `en`, `de`.', // 'The 2 character language code.<br> Example: `en`, `de`.',
+    'shorthand_instructions' => 'Kürzel aus zwei Buchstaben.<br> Beispiel: `en`, `de`.', // 'The 2 character language code.<br> Example: `en`, `de`.',
     'add_locale' => 'Lokale hinzufügen', // 'Add Locale',
     'full_locale' => 'Volle Lokale', // 'Full Locale',
     'full_locale_instructions' => 'Wird für die PHP Datumslokalisierung benutzt.<br> Beispiel: `en_US`, `de_DE`', // 'Used for PHP date localization.<br>Example: `en_US`, `de_DE`.',
@@ -317,13 +319,13 @@ return [
     'fieldset_created' => 'Eingabemaske erstellt',  // 'Fieldset created'
     'editing_fieldset' => 'Eingabemaske bearbeiten',  // 'Editing Fieldset'
     'fieldset_updated' => 'Eingabemaske aktualisiert',  // 'Fieldset updated'
-    'fieldsets_empty' => 'Eingabemasken lassen dich wieder benutzbare Gruppen erstellen, die dich deine Inhalte einfacher verwalten lassen. Hier passiert das Erstellen deiner Inhaltsstruktur.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
+    'fieldsets_empty' => 'Eingabemasken lassen dich wiederverwendbare Gruppen erstellen, die dich deine Inhalte einfacher verwalten lassen. Hier strukturiert man Inhalt.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
     'fieldset_title_instructions' => 'Anzeigename. Normalerweise ein Hauptwort in der Einzahl.',  // 'Display Name, usually a singular noun.'
     'fieldset_handle_instructions' => "Wird in den Einstellungen/Layouts verwendet.",  // "Used in settings/templates.",
-    'fieldset_create_title_instructions' => "Optional, wird angezeigt, sobald Neues erstellt wird.",  // "Optional, shown when creating new content"
+    'fieldset_create_title_instructions' => "Optional, wird angezeigt, sobald neuer Inhalt erstellt wird.",  // "Optional, shown when creating new content"
     'fieldset_hide_instructions' => "Im Auswahldialog verstecken?",  // "Hide from selection dialogs?"
     'fieldset_fields_instructions' => 'Weise Eingabefelder dieser Eingabemaske zu und verändere diese.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
-    'fieldset_taxonomies_instructions' => 'Zeige, verstecke, und konfiguriere Kategorien, die bei dieser Eingabemaske angezeigt werden sollten.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
+    'fieldset_taxonomies_instructions' => 'Zeige, verstecke, und konfiguriere Taxonomien, die bei dieser Eingabemaske angezeigt werden sollen.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
     'create_title' => 'Titel erstellen',  // 'Create Title'
     'display_name' => "Anzeige-Name",  // "Display Name"
     'display_name_instructions' => "Der im Kontrollzentrum angezeigte Name",  // "The field's label shown in the Control Panel."
@@ -334,7 +336,7 @@ return [
     'field_required' => 'Pflicht',  // 'Required'
     'field_required_instructions' => 'Dies ist ein Pflichtfeld',  // 'This field is required'
     'field_variable' => "Feld-Variable",  // "Field Variable"
-    'field_variable_instructions' => "Die Vorlage-Variable des Feldes.",  // "The field's template variable."
+    'field_variable_instructions' => 'Die Vorlagen-Variable des Feldes.',  // "The field's template variable."
     'field_instructions_instructions' => "Einfaches Markdown ist hier möglich.",  // "Basic Markdown is allowed. Encouraged, even."
     'field_width_instructions' => 'Die Feldgröße der Eingabemaske.',  // 'The size of the field in the fieldset layout.'
     'validation_rules' => "Validierungsregeln",  // "Validation Rules"
@@ -344,18 +346,18 @@ return [
     'default_value' => 'Standardwert',  // 'Default Value'
     'field_default_value_instructions' => 'Gib den Standardwert für das Textfeld ein.',  // 'Enter the default value for string-type fields.'
     'edit_field' => 'Feld bearbeiten',  // 'Edit Field'
-    'choose_field_to_edit' => "Wähle ein Feld, um die Einstellungen zu bearbeiten.",  // "Choose a field to edit its settings."
+    'choose_field_to_edit' => 'Wähle ein Feld, um dessen Einstellungen zu bearbeiten.',  // "Choose a field to edit its settings."
     'select_fieldtype' => 'Feldtypen auswählen', // 'Select Fieldtype'
-    'field_added' => ":fieldtype Feld hinzugefügt.", // ":fieldtype field added."
-    'set_added' => "Set hinzugefügt.", // "Set added."
-    'append_taxonomies' => 'Hänge Kategorien an Einträge an', // 'Append Taxonomies on Entries'
-    'append_taxonomies_instructions' => "Wenn diese Eingabemaske bei einem Eintrag genutzt wird, wird jede Kategorie, die nicht in der Eingabemaske definiert ist, automatisch zur Seitenleiste hinzugefügt.", // "When using this fieldset on an entry, any taxonomies not defined in the fieldset will be automatically added to the sidebar."
+    'field_added' => ':fieldtype Feld hinzugefügt.', // ":fieldtype field added."
+    'set_added' => 'Set hinzugefügt.', // "Set added."
+    'append_taxonomies' => 'Hänge Taxonomien an Einträge an', // 'Append Taxonomies on Entries'
+    'append_taxonomies_instructions' => 'Wenn diese Eingabemaske bei einem Eintrag genutzt wird, wird jede Taxonomie, die nicht in der Eingabemaske definiert ist, automatisch zur Seitenleiste hinzugefügt.', // "When using this fieldset on an entry, any taxonomies not defined in the fieldset will be automatically added to the sidebar."
 
     'sections' => 'Abschnitt|Abschnitte', // 'Section|Sections'
-    'section_label' => "Abschnitts Beschriftung", // "Section Label"
-    'section_handle' => "Abschnitts Handle", // "Section Handle"
-    'section_handle_tip' => "Tipp: Sie können den Abschnitt 'sidebar' nennen, um ihn in eine Seitenleiste zu verwandeln.", // "Tip: You can name your section 'sidebar' to transform it into one."
-    'sections_and_fields' => "Abschnitte & Felder", // "Sections & Fields"
+    'section_label' => 'Abschnitts Beschriftung', // "Section Label"
+    'section_handle' => 'Abschnitts Handle', // "Section Handle"
+    'section_handle_tip' => 'Tipp: Du kannst den Abschnitt \'sidebar\' nennen, um ihn in eine Seitenleiste zu verwandeln.', // "Tip: You can name your section 'sidebar' to transform it into one."
+    'sections_and_fields' => 'Abschnitte & Felder', // "Sections & Fields"
 
     'display_conditions' => 'Anzeige-Konditionen', // 'Display Conditions'
     'display_conditions_instructions' => 'Konfiguriere, wann dieses Feld angezeigt wird.', // 'Configure when this field will be shown.'
@@ -365,7 +367,7 @@ return [
     'standard' => 'Standard', // 'Standard'
     'custom' => 'Spezifisch', // 'Custom'
     'display_standard_instructions' => 'Wähle eine Kombination aus Feldern und dazugehörigen Werten.', // 'Choose a combination of fields and corresponding values.'
-    'display_custom_instructions' => 'Geben Sie Ihrern spzeifischen JavaScript Abfrage-Methodenamen ein.', // 'Enter your custom JavaScript condition method name.'
+    'display_custom_instructions' => 'Gib deinen spezifischen JavaScript Abfrage-Methodenamen ein.', // 'Enter your custom JavaScript condition method name.'
 
     'basics' => 'Basics', // 'Basics'
     'visibility' => 'Sichtbarkeit', // 'Visibility'
@@ -396,14 +398,14 @@ return [
     'editing_formset' => 'Formularset bearbeiten',  // 'Editing Formset'
     'import' => 'Importieren',  // 'Import'
     'import_data' => 'Daten importieren', // 'Import Data'
-    'import_link_text' => 'Erfahren Sie mehr über das Importier-JSON-Format', // 'Learn about the import JSON format'
+    'import_link_text' => 'Erfahre mehr über das Import-JSON-Format', // 'Learn about the import JSON format'
     'export' => 'Exportieren',  // 'Export'
     'export_csv' => 'Exportiere als CSV',  // 'Export as CSV'
     'export_json' => 'Exportiere als JSON',  // 'Export as JSON'
 
     // Formset Builder
-    'formset_title_instructions' => "Bezeichnung des Formularset.",  // "Your formset's proper label."
-    'formset_slug_instructions' => 'Wie das Formularset referenziert wird.',  // 'How the formset will be referenced.'
+    'formset_title_instructions' => 'Bezeichnung des Formularset.',  // "Your formset's proper label."
+    'formset_slug_instructions' => 'Wie auf das Formularset verwiesen wird.',  // 'How the formset will be referenced.'
     'formset_metrics_instructions' => 'Definiere Metriken, die angezeigt werden sollen.',  // 'Specify any metrics you would like displayed.'
     'formset_metrics_grid_add_row' => 'Metrik', // 'Metric',
     'formset_metrics_grid_type_field' => 'Metrik-Typ', // 'Metric Type',
@@ -426,8 +428,8 @@ return [
     'formset_honeypot_field' => 'Honeypot-Feld',  // 'Honeypot Field'
     'formset_honeypot_instructions' => 'Der Name des Honeypot-Feld.',  // 'The field name to be used for the honeypot.'
     'formset_store_field' => 'Eingaben speichern', // 'Store Submissions'
-    'formset_store_instructions' => 'Wenn Eingaben über Formulare gespeichert werden sollten. Hilfreich wenn Sie nur per E-Mail benachrichtigt werden wollen.', // 'Whether form submissions should be stored. Useful if you only wish to get email notifications.'
-    'formset_honeypot_link' => "Was ist ein Honeypot?",  // "What's a honeypot?"
+    'formset_store_instructions' => 'Wenn Eingaben über Formulare gespeichert werden sollten. Hilfreich wenn du nur per E-Mail benachrichtigt werden willst.', // 'Whether form submissions should be stored. Useful if you only wish to get email notifications.'
+    'formset_honeypot_link' => 'Was ist ein Honeypot?',  // "What's a honeypot?"
     'formset_fields_instructions' => 'Wähle und bearbeite die Felder für das Formular.',  // 'Choose and customize the fields in this form.'
 
     // Updater
@@ -448,7 +450,7 @@ return [
     'backup' => 'Sicherung',  // 'Backup'
     'backed_up' => 'Gesichert',  // 'Backed up'
     'backing_up' => 'Sichere…',  // 'Backing up...'
-    'backing_up_instructions' => "Wir haben Deinen vorigen <code>statamic</code> Ordner gezippt und abgelegt – falls etwas schief gelaufen ist.",  // "We're zipping up your <code>statamic</code> folder, just in case you need to roll back."
+    'backing_up_instructions' => 'Wir archivieren deinen <code>statamic</code> Ordner als Wiederherstellungspunkt.',  // "We're zipping up your <code>statamic</code> folder, just in case you need to roll back."
     'backup_reminder' => 'Dies ist ein sicherer Prozess. Wir sichern alles während der Aktualisierung, du kannst die letzte Version unter  <code>local/temp</code> finden, falls etwas schief laufen sollte.',  // 'This is a safe process. We back up everything during running the update so you can always find your most recent version in <code>local/temp</code> if something goes wrong.'
     'couldnt_fetch_updates' => 'Es gab ein Problem beim Abrufen der Updates', // 'There was a problem fetching updates'
 
@@ -469,22 +471,22 @@ return [
     'installer_deleted' => 'Ich habe sie gelöscht, bring mich zum Kontrollzentrum &rarr;',  // 'I deleted it. Take me to the Control Panel &rarr;'
 
     // Archive
-    'unzipping_files' => 'Entpacke Dateien …',  // 'Unzipping files...'
+    'unzipping_files' => 'Entpacke Dateien...',  // 'Unzipping files...'
     'unzipping_files_instructions' => 'Platziere die Dateien aus der Statamic ZIP-Datei an einem temporären Ort.',  // 'Placing the files from the Statamic zip in a temporary location.'
     'unzipped_files' => 'Dateien sind entpackt.',  // 'Files unzipped.'
 
     // Dependencies
-    'installing_dependencies' => 'Installiere Abhängigkeiten …',  // 'Installing Dependencies...'
+    'installing_dependencies' => 'Installiere Abhängigkeiten...',  // 'Installing Dependencies...'
     'installing_dependencies_instructions' => 'Alle Abhängigkeiten von Erweiterungen werden heruntergeladen. Dies kann einen Moment dauern.',  // 'Any addons with dependencies will need to be fetched. This may take a moment.'
     'dependencies_installed' => 'Abhängigkeiten wurden installiert.',  // 'Dependencies installed.'
 
     // Swap Release
-    'swapping_files' => 'Tausche Dateien aus …',  // 'Swapping files...'
+    'swapping_files' => 'Tausche Dateien aus...',  // 'Swapping files...'
     'swapping_files_instructions' => 'Die alten Statamic Dateien werden mit den neuen ausgetauscht.',  // 'Your smelly old Statamic files are being swapped for sparkly clean new ones.'
     'files_swapped' => 'Dateien wurden ausgetauscht.',  // 'Files swapped.'
 
     // Clean Up
-    'cleaning_up' => 'Aufräumen …',  // 'Cleaning up...'
+    'cleaning_up' => 'Aufräumen...',  // 'Cleaning up...'
     'cleaning_up_instructions' => "Die während des Aktualisierung erstellten temporären Dateien werden gelöscht.",  // "We're deleting the temporary files created during the update."
 
     // Importers
@@ -526,23 +528,23 @@ return [
     'published' => 'Publiziert',  // 'Published'
 
     // Shortcuts
-    'keyboard_shortcuts' => 'Tastatur Kurzbefehle',  // 'Keyboard Shortcuts'
-    'show_keyboard_shortcuts' => 'Tastatur Kurzbefehle zeigen',  // 'Show Keyboard Shortcuts'
+    'keyboard_shortcuts' => 'Kurzbefehle',  // 'Keyboard Shortcuts'
+    'show_keyboard_shortcuts' => 'Kurzbefehle zeigen',  // 'Show Keyboard Shortcuts'
 
     // License
     'license_keys' => 'Lizenzschlüssel', // 'License Keys'
     'trial_mode' => 'Testmodus', // 'Trial Mode'
-    'trial_mode_missing_license_keys' => 'Linzenzschlüssel müssen vor dem Online-Gehen eingegeben werden.', // 'License keys need to be entered before going live.'
+    'trial_mode_missing_license_keys' => 'Lizenzschlüssel müssen vor dem Online-Gehen eingegeben werden.', // 'License keys need to be entered before going live.'
     'trial_mode_invalid_license_keys' => 'Du hast ungültige Lizenzschlüssel eingegeben.', // 'You have entered invalid license keys.'
     'trial_mode_license_keys_for_domains' => 'Gültige Lizenschlüssel für :domains eingegeben', // 'Valid license keys entered for :domains'
-    'invalid_license_keys' => 'Bitte kaufe und füge einen Linzenschlüssel inzu oder riskiere das Verstoßen gegen unsere Linzenbestimmungen.', // 'Please purchase and enter your license key or risk violating the License Agreement.'
-    'license_keys_incorrect_domain' => 'Linzenschlüssel für ungültige Domain eingegeben. Bitte korrigiere oder riskiere gegen unsere Linzenzbestimmungen zu verstoßen.', // 'License keys entered for incorrect domain. Please remedy or risk violating the License Agreement.'
-    'checking_license_key' => 'Überprüfe den Lizenzschlüssel, bitte warten …',  // 'Checking your license key, please wait...'
-    'license_missing' => 'Lizenzschlüssel fehlt.', // 'Lincese key missing.'
+    'invalid_license_keys' => 'Bitte kaufe und füge einen Lizenzschlüssel hinzu oder riskiere gegen die Lizenzbestimmungen zu verstoßen.', // 'Please purchase and enter your license key or risk violating the License Agreement.'
+    'license_keys_incorrect_domain' => 'Lizenzschlüssel für ungültige Domain eingegeben. Bitte korrigiere oder riskiere gegen unsere Lizenzbestimmungen zu verstoßen.', // 'License keys entered for incorrect domain. Please remedy or risk violating the License Agreement.'
+    'checking_license_key' => 'Überprüfe den Lizenzschlüssel, bitte warten…',  // 'Checking your license key, please wait...'
+    'license_missing' => 'Lizenzschlüssel fehlt.', // 'License key missing.'
     'license_valid' => 'Du hast einen gültigen Lizenzschlüssel.',  // 'You have a valid license key.'
     'license_invalid' => 'Der Lizenzschlüssel ist ungültig..',  // 'This key is invalid.'
     'license_wrong_domain' => 'Lizensiert für :domain', // 'Licensed to :domain'
-    'license_no_domain' => 'Linzenschlüssel ist keiner Domain zugeordnet.', // 'License has no domain associated with it.'
+    'license_no_domain' => 'Lizenzschlüssel ist keiner Domain zugeordnet.', // 'License has no domain associated with it.'
     'license_key_instructions' => 'Bitte gib deinen Lizenzschlüssel ein. Du findest ihn in deinem <a href=":licenses">Statamic-Konto</a> oder du kannst <a href=":buy_license">eine neue Lizenz kaufen</a>.',  // 'Please enter your license key. You can find yours in your <a href=":licenses">Statamic Account</a> or you can <a href=":buy_license">buy a new license</a> if you need to.'
     'buy_now' => 'Jetzt kaufen', // 'Buy Now'
     'license_statamic_link' => 'Kaufe Lizenzen und verwalte Domains unter statamic.com', // 'Buy licenses and manage domains on statamic.com'
@@ -589,8 +591,8 @@ return [
     'save_layout' => 'Ansicht speichern',  // 'Save Layout'
     'save_order' => 'Reihenfolge speichern',  // 'Save Order'
     'toggle_dropdown' => 'Auswahl umschalten',  // 'Toggle Dropdown'
-    'confirm_delete_items' => 'Diese File wird gelöscht|Die ausgewählten Files werden gelöscht',  // 'This item will be deleted|The selected items will be deleted'
-    'confirm_delete_page' => 'Diese Seite und all ihre untergeordneten werden gelöscht', // 'This page will be deleted along with all its children'
+    'confirm_delete_items' => 'Diese Datei wird gelöscht|Die ausgewählten Dateien werden gelöscht',  // 'This item will be deleted|The selected items will be deleted'
+    'confirm_delete_page' => ' und alles Untergeordnete wird gelöscht', // ' will be deleted along with all its children'
     'confirm_delete_folder' => 'Dieser Ordner wird gelöscht',  // 'This folder will be deleted'
     'configure' => 'Konfigurieren',  // 'Configure'
     'browse' => 'Suchen',  // 'Browse'
@@ -599,15 +601,15 @@ return [
     'add_row' => 'Reihe hinzufügen',  // 'Add Row'
     'localizable' => 'Übersetzbar',  // 'Localizable'
     'please_wait' => 'Bitte warten…',  // 'Please Wait...'
-    'exporting' => 'Exportiere …',  // 'Exporting...'
-    'importing' => 'Importiere …',  // 'Importing...'
+    'exporting' => 'Exportiere...',  // 'Exporting...'
+    'importing' => 'Importiere...',  // 'Importing...'
     'return_to_dashboard' => 'Zurück zum Kontrollzentrum',  // 'Return to Dashboard'
     'publish_content' => 'Inhalt publizieren',  // 'Publish Content'
-    'close_this_window' => 'Fenster schliessen',  // 'Close this Window'
+    'close_this_window' => 'Fenster schließen',  // 'Close this Window'
     'toggle_navigation' => 'Navigation umschalten',  // 'Toggle navigation'
-    'logging_in' => 'Anmelden …',  // 'Logging in...'
+    'logging_in' => 'Anmelden...',  // 'Logging in...'
     'logged_in' => 'Eingeloggt.',
-    'logged_in_taking_you_to_cp' => 'Angemeldet! Ab zum Kontrollzentrum ...', // 'Logged in! Taking you to the control panel...'
+    'logged_in_taking_you_to_cp' => 'Angemeldet! Ab zum Kontrollzentrum…', // 'Logged in! Taking you to the control panel...'
     'write' => 'Schreibe',  // 'Write'
     'preview' => 'Vorschau',  // 'Preview'
     'collapse_all' => 'Alles zuklappen',  // 'Collapse All'
@@ -654,7 +656,7 @@ return [
     'add_time' => 'Zeit hinzufügen',  // 'Add Time'
     'login' => 'Einloggen',  // 'Login'
     'login_with' => 'Einloggen mit :provider',  // 'Login with :provider'
-    'login_to_continue' => 'Einloggen um Weiterzumachen', // "Login to Continue"
+    'login_to_continue' => 'Einloggen um fortzufahren', // "Login to Continue"
     'new' => 'Neu',  // 'New'
     'or' => 'oder',  // 'or'
     'order' => 'Reihenfolge',  // 'Order'
@@ -741,11 +743,25 @@ return [
     'path_does_not_exist' => 'Pfad exisitiert nicht.', // 'Path does not exist.',
 
     // Bard
-    'link'               => 'Link', // 'Link',
-    'paste_or_type_link' => 'Kopieren oder tippen Sie einen Link', // 'Paste or type a link',
-    'bold'               => 'Fett', // 'Bold',
-    'italic'             => 'Kursiv', // 'Italic',
-    'blockquote'         => 'Zitat', // 'Blockquote',
-    'h2'                 => 'Überschrift 2', // 'Header type two',
-    'h3'                 => 'Überschrift 3', // 'Header type three',
+    'heading_2'          => 'Überschrift 2', // 'Heading 2'
+    'heading_3'          => 'Überschrift 3', // 'Heading 3'
+    'heading_4'          => 'Überschrift 4', // 'Heading 4'
+    'heading_5'          => 'Überschrift 5', // 'Heading 5'
+    'heading_6'          => 'Überschrift 6', // 'Heading 6'
+    'bold'               => 'Fett', // 'Bold'
+    'italic'             => 'Kursiv', // 'Italic'
+    'underline'          => 'Unterstrichen', // 'Underline'
+    'strikethrough'      => 'Durchgestrichen', // 'Strikethrough'
+    'remove_formatting'  => 'Formatierung entfernen', // 'Remove Formatting'
+    'unordered_list'     => 'Aufzählungszeichen', // 'Unordered List'
+    'ordered_list'       => 'Nummerierung', // 'Ordered List'
+    'blockquote'         => 'Zitat', // 'Blockquote'
+    'superscript'        => 'Hochgestellt', // 'Superscript'
+    'subscript'          => 'Tiefgestellt', // 'Subscript'
+    'add_link'           => 'Link hinzufügen', // 'Add Link'
+    'remove_link'        => 'Link entfernen', // 'Remove Link'
+    'link_to_asset'      => 'Medium verlinken', // 'Link to Asset'
+    'inline_code'        => 'Code', // 'Inline Code' --> bessere Übersetzung?
+    'edit_link'          => 'Link editieren', // 'Edit Link'
+    'open_in_new_window' => 'In neuem Fenster öffnen', // 'Open in New Window'
 ];

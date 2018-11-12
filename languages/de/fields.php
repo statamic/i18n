@@ -14,6 +14,6 @@ return [
     */
 
     'options' => 'Optionen',  // 'Options'
-    'options_instruct' => 'Erfasse für jede Option links einen Wert und rechts eine Beschreibung.',  // 'For each option, enter the value on the left and the label on the right.'
+    'options_instruct' => 'Gib für jede Option links einen Wert und rechts eine Beschreibung ein.',  // 'For each option, enter the value on the left and the label on the right.'
 
 ];
