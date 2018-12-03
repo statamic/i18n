@@ -352,6 +352,8 @@ return [
     'set_added' => "Set added.",
     'append_taxonomies' => 'Append Taxonomies on Entries',
     'append_taxonomies_instructions' => "When using this fieldset on an entry, any taxonomies not defined in the fieldset will be automatically added to the sidebar.",
+    'type_url' => 'Type a URL',
+    'type_url_or_search' => 'Type a URL or search for an item',
 
     'sections' => 'Section|Sections',
     'section_label' => "Section Label",
@@ -743,6 +745,7 @@ return [
     'path_does_not_exist' => 'Path does not exist.',
 
     // Bard
+    'heading_1'          => 'Heading 1',
     'heading_2'          => 'Heading 2',
     'heading_3'          => 'Heading 3',
     'heading_4'          => 'Heading 4',

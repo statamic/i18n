@@ -352,6 +352,8 @@ return [
     'set_added' => 'Set hinzugefügt.', // "Set added."
     'append_taxonomies' => 'Hänge Taxonomien an Einträge an', // 'Append Taxonomies on Entries'
     'append_taxonomies_instructions' => 'Wenn diese Eingabemaske bei einem Eintrag genutzt wird, wird jede Taxonomie, die nicht in der Eingabemaske definiert ist, automatisch zur Seitenleiste hinzugefügt.', // "When using this fieldset on an entry, any taxonomies not defined in the fieldset will be automatically added to the sidebar."
+    'type_url' => 'URL eintippen', // 'Type a URL',
+    'type_url_or_search' => 'Tippe eine URL ein oder suche nach einem Eintrag', // 'Type a URL or search for an item',
 
     'sections' => 'Abschnitt|Abschnitte', // 'Section|Sections'
     'section_label' => 'Abschnitts Beschriftung', // "Section Label"
@@ -743,6 +745,7 @@ return [
     'path_does_not_exist' => 'Pfad exisitiert nicht.', // 'Path does not exist.',
 
     // Bard
+    'heading_1'          => 'Überschrift 1', // 'Heading 1',
     'heading_2'          => 'Überschrift 2', // 'Heading 2'
     'heading_3'          => 'Überschrift 3', // 'Heading 3'
     'heading_4'          => 'Überschrift 4', // 'Heading 4'

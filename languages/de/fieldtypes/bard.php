@@ -37,4 +37,7 @@ return [
 
     'semantic_elements' => 'Benutze semantische Elemente', // 'Use Semantic Elements'
     'semantic_elements_instruct' => 'Ersetze unsemantische Tags wie `<b>` und `<i>` mit `<strong>` und `<em>`.', // 'Replace unsemantic `<b>` and `<i>` tags with `<strong>` and `<em>` tags.'
+
+    'allow_internal_links' => 'Erlaube interne Links', // 'Allow Internal Links',
+    'allow_internal_links_instruct' => 'Erlaube es Seiten und Einträge in den Vorschlägen aufzutauchen.', // 'Allow pages and entries to be suggested as you type in the link toolbar.',
 ];
