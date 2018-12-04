@@ -32,12 +32,12 @@ return [
     'default_asset_fieldset_instruct' => 'Standard Eingabemaske für das Bearbeiten von Medien',  // 'The fieldset to be used when editing an asset.'
 
     'smartypants' => 'Smartypants',  // 'Smartypants'
-    'smartypants_instruct' => 'Aktiviert die automatische Umwandlung von typographischen Elementen (z.B. Anführungs- und Schlusszeichen, Bindestriche, etc.).',  // 'Enabling will automatically convert typographic elements (like quotes and dashes).'
+    'smartypants_instruct' => 'Automatische Umwandlung von typographischen Elementen (z.B. Anführungszeichen & Bindestriche) bei der Verwendung von Markdown', // 'Automatically convert typographic elements (like quotes & dashes) when using Markdown.'
 
     'allow_php' => 'PHP in den Vorlagen zulassen',  // 'Allow PHP in templates'
-    'allow_php_instruct' => 'Das Ausführen von PHP-Code in Vorlagen ist aus Sicherheitsgründen standardmässig ausgeschaltet.',  // 'PHP code is disabled in templates by default for security.'
+    'allow_php_instruct' => 'Das Ausführen von PHP-Code in Vorlagen ist aus Sicherheitsgründen standardmäßig ausgeschaltet.',  // 'PHP code is disabled in templates by default for security.'
 
     'markdown_hard_wrap' => 'Markdown harte Umbrüche',
-    'markdown_hard_wrap_instruct' => "Standardmässig werden nur bei zwei Leerzeichen am Zeilenende Umbrüche eingefügt, diese Option deaktiviert dies.",
+    'markdown_hard_wrap_instruct' => "Standardmäßig werden nur bei zwei Leerzeichen am Zeilenende Umbrüche eingefügt, diese Option deaktiviert dies.",
 
 ];

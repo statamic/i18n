@@ -23,7 +23,7 @@ return [
     'before'               => ':attribute muss ein Datum vor dem :date sein.',
     'between'              => [
         'numeric' => ':attribute muss zwischen :min & :max liegen.',
-        'file'    => ':attribute muss zwischen :min & :max Kilobytes gross sein.',
+        'file'    => ':attribute muss zwischen :min & :max Kilobytes groß sein.',
         'string'  => ':attribute muss zwischen :min & :max Zeichen lang sein.',
         'array'   => ':attribute muss zwischen :min & :max Elemente haben.',
     ],
@@ -43,14 +43,14 @@ return [
     'ip'                   => ':attribute muss eine gültige IP-Adresse sein.',
     'max'                  => [
         'numeric' => ':attribute darf maximal :max sein.',
-        'file'    => ':attribute darf maximal :max Kilobytes gross sein.',
+        'file'    => ':attribute darf maximal :max Kilobytes groß sein.',
         'string'  => ':attribute darf maximal :max Zeichen haben.',
         'array'   => ':attribute darf nicht mehr als :max Elemente haben.',
     ],
     'mimes'                => ':attribute muss den Dateityp :values haben.',
     'min'                  => [
         'numeric' => ':attribute muss mindestens :min sein.',
-        'file'    => ':attribute muss mindestens :min Kilobytes gross sein.',
+        'file'    => ':attribute muss mindestens :min Kilobytes groß sein.',
         'string'  => ':attribute muss mindestens :min Zeichen lang sein.',
         'array'   => ':attribute muss mindestens :min Elemente haben.',
     ],
@@ -67,7 +67,7 @@ return [
     'same'                 => ':attribute und :other müssen übereinstimmen.',
     'size'                 => [
         'numeric' => ':attribute muss gleich :size sein.',
-        'file'    => ':attribute muss :size Kilobyte gross sein.',
+        'file'    => ':attribute muss :size Kilobyte groß sein.',
         'string'  => ':attribute muss :size Zeichen lang sein.',
         'array'   => ':attribute muss genau :size Elemente haben.',
     ],
