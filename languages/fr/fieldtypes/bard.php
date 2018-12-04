@@ -37,4 +37,7 @@ return [
 
     'semantic_elements' => 'Utiliser Eléments Sémantiques',
     'semantic_elements_instruct' => 'Remplace les balises non-sémantiques `<b>` et `<i>` par les balises `<strong>` et `<em>`.',
+    
+    'allow_internal_links' => 'Autoriser les liens internes',
+    'allow_internal_links_instruct' => 'Autorise la suggestion de pages et articles quand vous entrez un lien.',
 ];

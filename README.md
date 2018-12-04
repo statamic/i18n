@@ -14,8 +14,8 @@ We're looking to the community to help with translation. Feel free to fork, edit
 
 - Arabic (ar) - Latest: 2.8.11
 - Dutch (nl) - Latest: 2.6.2
-- English (en) - Latest: 2.11.3
-- French (fr) - Latest: 2.11.2
+- English (en) - Latest: 2.11.3 
+- French (fr) - Latest: 2.11.3
 - German (de) - Latest: 2.11.3
 - Polish (pl) - Latest: 2.9.6
 - Russian (ru) - Latest: 2.8.8
