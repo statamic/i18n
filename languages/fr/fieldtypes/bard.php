@@ -2,6 +2,9 @@
 
 return [
 
+    'buttons' => 'Boutons barre d’outils',
+    'buttons_instruct' => 'Configurer les boutons disponibles dans la barre d’outils',
+    
     'sets' => 'Jeux',
     'sets_instruct' => 'Les champs Bard peuvent avoir de multiples "jeux" de champs.<br> Un champ Bard sans aucun jeu sera considéré comme un champ Texte standard.',
     
@@ -14,24 +17,27 @@ return [
     'restrict_assets' => 'Restreindre au Répertoire',
     'restrict_assets_instruct' => 'Restreindre la navigation et la recherche de fichiers à ce répertoire.',
     
-    'autoLink' => 'Liens auto',
-    'autoLink_instruct' => 'Transforme automatiquement les URLs dans vos textes en liens cliquables.',
+    'style' => 'Style typographique',
+    'style_instruct' => 'Choisir votre style de typographie.',
 
     'spellcheck' => 'Correcteur d’orthographe',
-    'spellcheck_instruct' => 'Active la correction automatique d’orthographe du contenu.',
+    'spellcheck_instruct' => 'Active le correcteur automatique d’orthographe de votre navigateur.',
 
     'target_blank' => 'Cible page vierge',
-    'target_blank_instruct' => 'Ajoute automatiquement `target="_blank"` à tous les liens.',
+    'target_blank_instruct' => 'Active `target="_blank"` par défaut sur tous les liens.',
 
-    'allow_source' => 'Accès aux sources',
-    'allow_source_instruct' => 'Autorise l’affichage et l’édition du code source HTML de votre contenu Texte.',
+    'link_noopener' => 'Activer noopener',
+    'link_noopener_instruct' => 'Active `rel="noopener"` sur tous les liens créés.',
 
-    'link_validation' => 'Validation des liens',
-    'link_validation_instruct' => 'Vérifie que des protocoles URL communs sont utilisés pour tous les liens.',
+    'link_noreferrer' => 'Activer noreferer',
+    'link_noreferrer_instruct' => 'Active `rel="noreferrer"` sur tous les liens créés.',
 
-    'force_plain_text' => 'Forcer le collage en texte brut',
-    'force_plain_text_instruct' => 'Force le collage des données au format texte brut en supprimant TOUS les formats du contenu copié.',
+    'allow_source' => 'Autoriser Source',
+    'allow_source_instruct' => 'Autorise l’affichage et la modification du code source HTML de votre contenu Texte.',
 
-    'clean_pasted_html' => 'Nettoyer le HTML lors du collage',
-    'clean_pasted_html_instruct' => 'Nettoie le contenu collé en provenance de différentes sources, comme Google Docs, etc.'
+    'semantic_elements' => 'Utiliser Eléments Sémantiques',
+    'semantic_elements_instruct' => 'Remplace les balises non-sémantiques `<b>` et `<i>` par les balises `<strong>` et `<em>`.',
+    
+    'allow_internal_links' => 'Autoriser les liens internes',
+    'allow_internal_links_instruct' => 'Autorise la suggestion de pages et articles quand vous entrez un lien.',
 ];

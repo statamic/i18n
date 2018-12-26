@@ -32,7 +32,7 @@ return [
     'default_asset_fieldset_instruct' => 'Fieldset used when editing an asset.',
 
     'smartypants' => 'Smartypants',
-    'smartypants_instruct' => 'Enable to automatically convert typographic elements (like quotes and dashes).',
+    'smartypants_instruct' => 'Automatically convert typographic elements (like quotes & dashes) when using Markdown.',
 
     'allow_php' => 'Allow PHP in templates',
     'allow_php_instruct' => 'PHP code is disabled in templates by default for security.',
