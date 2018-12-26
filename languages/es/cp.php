@@ -2,7 +2,7 @@
 
 return [
 
-    // General CP
+    // General del Panel de control
     'dashboard' => 'Escritorio',
     'nav_dashboard' => 'Escritorio',
     'sneak_peek' => 'Vista previa',
@@ -11,7 +11,7 @@ return [
     'visit_url' => 'Visitar URL',
     'search_for_anything' => 'Busca lo que quieras',
 
-    // Pages
+    // Páginas
     'page' => 'Página',
     'pages' => 'Página|Páginas',
     'nav_pages' => 'Páginas',
@@ -28,7 +28,7 @@ return [
     'parent_page' => 'Página superior',
     'pages_reordered' => 'Páginas reordenadas exitosamente.',
 
-    // Collections
+    // Colecciones
     'collections' => 'Colección|Colecciones',
     'nav_collections' => 'Colecciones',
     'manage_collections' => 'Administrar colecciones',
@@ -46,7 +46,7 @@ return [
     'collection_route_instructions' => "La ruta controla el patrón de URL que seguirán todas las entradas en la colección.",
     'collection_does_not_exist' => 'La colección :collection no existe.',
 
-    // Entries
+    // Entradas
     'entry' => 'Entrada',
     'entries' => 'Entrada|Entradas',
     'nav_entries' => 'Entradas',
@@ -58,7 +58,7 @@ return [
     'entries_empty_heading' => 'Entradas de :type',
     'entries_empty' => 'Las entradas son porciones de contenido que tienen su propio URL, y normalmente se muestran en listas como Entradas de blog, Comunicados de prensa o Eventos.',
 
-    // Taxonomies
+    // Taxonomías
     'taxonomy' => 'Taxonomía',
     'taxonomies' => 'Taxonomía|Taxonomías',
     'nav_taxonomies' => 'Taxonomías',
@@ -82,7 +82,7 @@ return [
     'taxonomy_terms_empty_heading' => 'Términos en :term',
     'taxonomy_terms_empty' => 'Cuando una taxonomía es un agrupamiento, el término es la etiqueta que se le aplica a una pieza de contenido. Por ejemplo, "Rojo" sería un término en la taxonomía "Colores".',
 
-    // Globals
+    // Globales
     'global' => 'Global',
     'globals' => 'Global|Globales',
     'nav_globals' => 'Globales',
@@ -198,6 +198,8 @@ return [
     'editing_user' => 'Editando usuario',
     'user_updated' => 'Usuario actualizado',
     'reset_password' => 'Restablece tu contraseña',
+    'choose_new_password' => 'Elige una nueva contraseña',
+    'new_password' => 'Contraseña nueva',
     'change_password' => 'Cambiar contraseña',
     'send_email' => 'Enviar email',
     'email_sent' => 'Email enviado',
@@ -350,6 +352,8 @@ return [
     'set_added' => "Set añadido.",
     'append_taxonomies' => 'Adjuntar taxonomías en entradas',
     'append_taxonomies_instructions' => "Al usar este fieldset en una entrada, cualquier taxonomía no definida en el fieldset se añadirá automáticamente a la barra lateral.",
+    'type_url' => 'Escribe una URL',
+    'type_url_or_search' => 'Escribe una URL o busca un elemento',
 
     'sections' => 'Sección|Secciones',
     'section_label' => "Etiqueta de la sección",
@@ -590,7 +594,7 @@ return [
     'save_order' => 'Guardar orden',
     'toggle_dropdown' => 'Alternar menú desplegable',
     'confirm_delete_items' => 'Este artículo se eliminará|Estos artículos se eliminarán',
-    'confirm_delete_page' => 'Esta página se eliminará junto con todos los descendientes que contenga',
+    'confirm_delete_page' => ' se eliminará junto con todos los descendientes que contenga',
     'confirm_delete_folder' => 'Se eliminará esta carpeta',
     'configure' => 'Configurar',
     'browse' => 'Explorar',
@@ -617,6 +621,14 @@ return [
     'add_another_item' => 'Añadir otro artículo',
     'show_drafts' => 'Mostrar borradores',
     'hide_drafts' => 'Esconder borradores',
+    'count' => 'Cuenta',
+    'reset' => 'Reset',
+    'installed' => 'Instalado',
+    'add_condition' => 'Añadir condición',
+    'open' => 'Abrir',
+    'download' => 'Descargar',
+    'locale' => 'Idioma',
+    'hidden' => 'Oculto',
 
     // Nouns and whatnot
     'fields' => 'Campo|Campos',
@@ -733,11 +745,26 @@ return [
     'path_does_not_exist' => 'La ruta no existe.',
 
     // Bard
-    'link'               => 'Enlace',
-    'paste_or_type_link' => 'Pega o escribe un enlace',
+    'heading_1'          => 'Encabezado 1',
+    'heading_2'          => 'Encabezado 2',
+    'heading_3'          => 'Encabezado 3',
+    'heading_4'          => 'Encabezado 4',
+    'heading_5'          => 'Encabezado 5',
+    'heading_6'          => 'Encabezado 6',
     'bold'               => 'Negritas',
     'italic'             => 'Itálicas',
+    'underline'          => 'Subrayado',
+    'strikethrough'      => 'Tachado',
+    'remove_formatting'  => 'Quitar formato',
+    'unordered_list'     => 'Lista sin orden',
+    'ordered_list'       => 'Lista ordenada',
     'blockquote'         => 'Cita',
-    'h2'                 => 'Encabezado dos',
-    'h3'                 => 'Encabezado tres',
+    'superscript'        => 'Superíndice',
+    'subscript'          => 'Subíndice',
+    'add_link'           => 'Añadir enlace',
+    'remove_link'        => 'Quitar enlace',
+    'link_to_asset'      => 'Enlazar a medio',
+    'inline_code'        => 'Código en línea',
+    'edit_link'          => 'Editar enlace',
+    'open_in_new_window' => 'Abrir en una ventana nueva',
 ];
