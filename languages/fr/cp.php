@@ -265,6 +265,7 @@ return [
 
     // User Groups
     'usergroups' => 'Groupe d’utilisateurs|Groupes d’utilisateurs',
+    'user_groups' => 'Groupes d’utilisateurs',
     'nav_user-groups' => 'Groupes d’utilisateurs',
     'create_usergroup_button' => 'Créer un groupe',
     'creating_usergroup' => 'Création d’un groupe d’utilisateurs',
