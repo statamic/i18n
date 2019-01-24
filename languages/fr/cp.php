@@ -265,6 +265,7 @@ return [
 
     // User Groups
     'usergroups' => 'Groupe d’utilisateurs|Groupes d’utilisateurs',
+    'user_groups' => 'Groupes d’utilisateurs',
     'nav_user-groups' => 'Groupes d’utilisateurs',
     'create_usergroup_button' => 'Créer un groupe',
     'creating_usergroup' => 'Création d’un groupe d’utilisateurs',
@@ -352,6 +353,8 @@ return [
     'set_added' => "Jeu ajouté.",
     'append_taxonomies' => 'Ajouter les taxonomies aux articles',
     'append_taxonomies_instructions' => "Lors de l’utilisation de ce fieldset pour un article, les taxonomies non définies dans le fieldset seront toutes automatiquement ajoutées à la barre latérale.",
+    'type_url' => 'Entrer une URL',
+    'type_url_or_search' => 'Entrer une URL ou rechercher un élément',
 
     'sections' => 'Section|Sections',
     'section_label' => "Etiquette de section",
@@ -743,6 +746,7 @@ return [
     'path_does_not_exist' => 'Le chemin d’accès n’existe pas.',
     
     // Bard
+    'heading_1'          => 'Balise titre H1',
     'heading_2'          => 'Balise titre H2',
     'heading_3'          => 'Balise titre H3',
     'heading_4'          => 'Balise titre H4',
