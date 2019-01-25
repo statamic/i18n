@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     // General CP
     'dashboard' => 'Kontrollzentrum',  // 'Dashboard'
     'nav_dashboard' => 'Kontrollzentrum',  // 'Dashboard'
@@ -39,11 +38,11 @@ return [
     'collection_updated' => ':title aktualisiert',  // ':title Updated'
     'collections_empty' => 'Sammlungen sind eine Zusammenfassung für Gruppen von Einträgen, die ähnliche Inhalte haben und die gleiche URL-Logik verwenden.',  // 'Collections are containers that hold groups of similar entries all following the same URL pattern.'
     'collection_title_instructions' => 'Sammlungs-Name.',  // 'The proper name of your collection.'
-    'collection_handle_instructions' => "Die Variable der Sammlung wird intern für Einstellungen und Vorlagen verwendet.",  // "The collection's variable name used in settings and templates."
-    'collection_order_instructions' => "Definiere die Standard-Sortierungsmethode für Einträge in dieser Sammlung.",  // "Set the default sorting method for entries in this collection."
-    'collection_fieldset_instructions' => "Die Standard Eingabemaske, außer anders definiert.", // "The default fieldset, unless otherwise specified."
-    'collection_template_instructions' => "Das Standard Template, außer anders definiert.", // "The default template, unless otherwise specified."
-    'collection_route_instructions' => "Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.",  // "The route controls the URL pattern all entries in the collection will follow."
+    'collection_handle_instructions' => 'Die Variable der Sammlung wird intern für Einstellungen und Vorlagen verwendet.',  // "The collection's variable name used in settings and templates."
+    'collection_order_instructions' => 'Definiere die Standard-Sortierungsmethode für Einträge in dieser Sammlung.',  // "Set the default sorting method for entries in this collection."
+    'collection_fieldset_instructions' => 'Die Standard Eingabemaske, außer anders definiert.', // "The default fieldset, unless otherwise specified."
+    'collection_template_instructions' => 'Das Standard Template, außer anders definiert.', // "The default template, unless otherwise specified."
+    'collection_route_instructions' => 'Die Route kontrolliert die URL-Logik für alle Einträge dieser Sammlung.',  // "The route controls the URL pattern all entries in the collection will follow."
     'collection_does_not_exist' => 'Die Sammlung :collection existiert nicht.', // 'Collection :collection does not exist.'
 
     // Entries
@@ -139,7 +138,6 @@ return [
     'last_modified' => 'Änderungsdatum',  // 'Last Modified'
     'url_resolves_to' => 'URL zeigt auf :path', // 'URL resolves to: :path'
 
-
     // Folder
     'folder_title_instructions' => 'Der angezeigte Name des Ordners.',  // 'The display name of the folder.'
     'folder_directory_instructions' => 'Der interne System-Name des Ordners',  // 'The filesystem directory name'
@@ -180,7 +178,7 @@ return [
     'edit_set' => 'Set bearbeiten',  // 'Edit Set'
     'delete_set' => 'Set löschen',  // 'Delete Set'
     'toggle_sets' => 'Sets umschalten', // 'Toggle Sets'
-    'set_fields_instructions' => "Wähle die Eingabefelder für dieses Set",  // "Choose this set's fields"
+    'set_fields_instructions' => 'Wähle die Eingabefelder für dieses Set',  // "Choose this set's fields"
 
     // Amazon S3
     'access_key_id' => 'Zugriffsschlüssel-ID',  // 'Access Key ID'
@@ -254,7 +252,7 @@ return [
     // Error Pages
     'error' => 'Fehler',
     'permission_denied' => 'Zugriff verweigert',  // 'Permission Denied'
-    'permission_denied_instructions' => "Du hast keinen Zugriff, diese Seite anzuzeigen.",  // "You don't have permission to view this page."
+    'permission_denied_instructions' => 'Du hast keinen Zugriff, diese Seite anzuzeigen.',  // "You don't have permission to view this page."
     'page_not_found' => 'Seite nicht gefunden',  // 'Page not found'
     'page_not_found_instructions' => 'Die angeforderte Seite wurde nicht gefunden.',  // 'The page you requested does not exist.'
     'session_expired' => 'Deine Sitzung ist abgelaufen.',  // 'Your session has expired.'
@@ -265,6 +263,7 @@ return [
 
     // User Groups
     'usergroups' => 'Benutzergruppe|Benutzergruppen',  // 'User Group|User Groups'
+    'user_groups' => 'Benutzergruppen',
     'nav_user-groups' => 'Benutzergruppen',  // 'User Groups'
     'create_usergroup_button' => 'Benutzergruppe erstellen',  // 'Create Group'
     'creating_usergroup' => 'Erstelle Benutzergruppe',  // 'Creating User Group'
@@ -289,7 +288,7 @@ return [
     'settings_users' => 'Benutzer',  // 'Users'
     'settings_updated' => 'Einstellungen aktualisiert.',  // 'Settings updated.'
     'settings_updated_and_indexed' => 'Einstellungen gespeichert und Such-Indizes aktualisiert.', // 'Settings saved and search indexes updated.'
-    'settings_locales_instructions' => "Erstelle eine Sprache für jede Übersetzung. Du kannst dies auch zu einem späteren Zeitpunkt tun.",  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
+    'settings_locales_instructions' => 'Erstelle eine Sprache für jede Übersetzung. Du kannst dies auch zu einem späteren Zeitpunkt tun.',  // "Create a locale for each language translation. You can skip this for now and do it later if you'd prefer."
     'settings_locales_index_php_warning' => 'Du musst <code>\$locale</code> zu <code>:locale</code> in der Datei <code>index.php</code> ändern.', // "You will need to change the <code>\$locale</code> to <code>:locale</code> in your <code>index.php</code> file."
     'settings_debug_mode_instructions' => 'Bei aktiviertem Debug-Modus werden vollständige Fehlermeldungen angezeigt. Dies ist sehr hilfreich während der Entwicklung – vergiss aber nicht, diesen Modus wieder zu deaktivieren.',  // "Enabling Debug Mode will display all errors on screen. It's a great tool while a site is development, but remember to disable it in production."
 
@@ -300,8 +299,6 @@ return [
     'full_locale_instructions' => 'Wird für die PHP Datumslokalisierung benutzt.<br> Beispiel: `en_US`, `de_DE`', // 'Used for PHP date localization.<br>Example: `en_US`, `de_DE`.',
     'locale_name_instructions' => 'Wird zur Anzeige benutzt.<br> Beispiel: `Englisch`, `Deutsch`', // 'Used for display.<br> Example: `English`, `German`.',
     'locale_url_instructions' => 'Beispiel: `http://example.com/de/`', // 'Example: `http://example.com/de/`',
-
-
 
     // Addons
     'addons' => 'Erweiterung|Erweiterungen',  // 'Addon|Addons'
@@ -321,26 +318,26 @@ return [
     'fieldset_updated' => 'Eingabemaske aktualisiert',  // 'Fieldset updated'
     'fieldsets_empty' => 'Eingabemasken lassen dich wiederverwendbare Gruppen erstellen, die dich deine Inhalte einfacher verwalten lassen. Hier strukturiert man Inhalt.',  // 'Fieldsets let you create and manage reusable groups of fieldtypes that in turn mange your content. This is where content modeling happens.'
     'fieldset_title_instructions' => 'Anzeigename. Normalerweise ein Hauptwort in der Einzahl.',  // 'Display Name, usually a singular noun.'
-    'fieldset_handle_instructions' => "Wird in den Einstellungen/Layouts verwendet.",  // "Used in settings/templates.",
-    'fieldset_create_title_instructions' => "Optional, wird angezeigt, sobald neuer Inhalt erstellt wird.",  // "Optional, shown when creating new content"
-    'fieldset_hide_instructions' => "Im Auswahldialog verstecken?",  // "Hide from selection dialogs?"
+    'fieldset_handle_instructions' => 'Wird in den Einstellungen/Layouts verwendet.',  // "Used in settings/templates.",
+    'fieldset_create_title_instructions' => 'Optional, wird angezeigt, sobald neuer Inhalt erstellt wird.',  // "Optional, shown when creating new content"
+    'fieldset_hide_instructions' => 'Im Auswahldialog verstecken?',  // "Hide from selection dialogs?"
     'fieldset_fields_instructions' => 'Weise Eingabefelder dieser Eingabemaske zu und verändere diese.',  // 'Assign and customize the fields and fieldtypes in this fieldset.'
     'fieldset_taxonomies_instructions' => 'Zeige, verstecke, und konfiguriere Taxonomien, die bei dieser Eingabemaske angezeigt werden sollen.',  // 'Show, hide, and configure the taxonomies that should be displayed in this fieldset.'
     'create_title' => 'Titel erstellen',  // 'Create Title'
-    'display_name' => "Anzeige-Name",  // "Display Name"
-    'display_name_instructions' => "Der im Kontrollzentrum angezeigte Name",  // "The field's label shown in the Control Panel."
+    'display_name' => 'Anzeige-Name',  // "Display Name"
+    'display_name_instructions' => 'Der im Kontrollzentrum angezeigte Name',  // "The field's label shown in the Control Panel."
     'display_text' => 'Anzeige-Text',  // 'Display Text'
-    'display_text_instructions' => "Feld-Beschreibung",  // "The field's label"
+    'display_text_instructions' => 'Feld-Beschreibung',  // "The field's label"
     'field_name' => 'Feld Name',  // 'Field Name'
     'field_name_instructions' => 'Feld-Variable',  // 'The field variable'
     'field_required' => 'Pflicht',  // 'Required'
     'field_required_instructions' => 'Dies ist ein Pflichtfeld',  // 'This field is required'
-    'field_variable' => "Feld-Variable",  // "Field Variable"
+    'field_variable' => 'Feld-Variable',  // "Field Variable"
     'field_variable_instructions' => 'Die Vorlagen-Variable des Feldes.',  // "The field's template variable."
-    'field_instructions_instructions' => "Einfaches Markdown ist hier möglich.",  // "Basic Markdown is allowed. Encouraged, even."
+    'field_instructions_instructions' => 'Einfaches Markdown ist hier möglich.',  // "Basic Markdown is allowed. Encouraged, even."
     'field_width_instructions' => 'Die Feldgröße der Eingabemaske.',  // 'The size of the field in the fieldset layout.'
-    'validation_rules' => "Validierungsregeln",  // "Validation Rules"
-    'validation_instructions' => "Alle Laravel Validierungsregeln sind hier möglich",  // "Has access to all of Laravel's"
+    'validation_rules' => 'Validierungsregeln',  // "Validation Rules"
+    'validation_instructions' => 'Alle Laravel Validierungsregeln sind hier möglich',  // "Has access to all of Laravel's"
     'validation_instructions_link_text' => 'Validierungsregeln',  // 'validation rules'
     'validation_rules_instructions' => 'Gib eine mit senkrechten Strichen getrennte Liste von <a href=":url" target="_blank">Validationsregeln</a> an.',  // 'Enter a pipe delimited string of <a href=":url" target="_blank">validation rules</a>.'
     'default_value' => 'Standardwert',  // 'Default Value'
@@ -436,7 +433,7 @@ return [
 
     // Updater
     'nav_updater' => 'Aktualisierung',  // 'Updater'
-    'updates'     => 'Aktualisierungen',  // 'Updates'
+    'updates' => 'Aktualisierungen',  // 'Updates'
     'system_updates' => 'System Updates', // 'System Updates'
     'upgrade_to_latest' => 'Auf aktuelle Version aktualisieren',  // 'Upgrade to Latest'
     'upgrade_to_version' => 'Aktualisiere auf :version',  // 'Upgrade to :version'
@@ -467,7 +464,7 @@ return [
     'installation' => 'Installation',  // 'Installation'
     'installation_has_failed' => 'Installation fehlgeschlagen',  // 'Installation has failed'
     'preparing_installation' => 'Die Installation beginnt nach der Sicherung und nach dem Herunterladen.',  // 'Installation will begin once the backup and download have completed.'
-    'now_running' => "Du hast jetzt Statamic v:version",  // "You're now running Statamic v:version"
+    'now_running' => 'Du hast jetzt Statamic v:version',  // "You're now running Statamic v:version"
     'statamic_ready' => 'Statamic ist bereit und wartet auf Dich.',  // 'Statamic is ready and waiting for you.'
     'delete_installer' => 'Bitte lösche die <code>installer.php</code> Datei.',  // 'Please delete the <code>installer.php</code> file.'
     'installer_deleted' => 'Ich habe sie gelöscht, bring mich zum Kontrollzentrum &rarr;',  // 'I deleted it. Take me to the Control Panel &rarr;'
@@ -489,7 +486,7 @@ return [
 
     // Clean Up
     'cleaning_up' => 'Aufräumen...',  // 'Cleaning up...'
-    'cleaning_up_instructions' => "Die während des Aktualisierung erstellten temporären Dateien werden gelöscht.",  // "We're deleting the temporary files created during the update."
+    'cleaning_up_instructions' => 'Die während des Aktualisierung erstellten temporären Dateien werden gelöscht.',  // "We're deleting the temporary files created during the update."
 
     // Importers
     'nav_import' => 'Import',  // 'Import'
@@ -500,7 +497,7 @@ return [
     'import_summary' => 'Import-Zusammenfassung',  // 'Import Summary'
     'import_site_url_instructions' => 'Gib die URL der zu importierenden Seite ein.',  // 'Enter the URL of the existing website you will be importing.'
 
-    'duplicate_item_warning'  => "Ein Duplikat gefunden.|:count Duplikate gefunden.",
+    'duplicate_item_warning' => 'Ein Duplikat gefunden.|:count Duplikate gefunden.',
     'uncheck_duplicates' => 'Duplikate abwählen',
 
     'from_json' => 'Aus JSON',
@@ -678,7 +675,7 @@ return [
     'descriptions' => 'Beschreibung|Beschreibungen',  // 'Description|Descriptions'
     'name' => 'Name',  // 'Name'
     'username' => 'Benutzername',  // 'Username'
-    'email' =>'E-Mail',  // Email'
+    'email' => 'E-Mail',  // Email'
     'done' => 'Erledigt',  // 'Done'
     'close' => 'Schließen',  // 'Close'
     'templates' => 'Vorlage|Vorlagen',  // 'Template|Templates'
@@ -704,7 +701,7 @@ return [
     'bucket' => 'Bucket',  // 'Bucket'
     'region' => 'Region',  // 'Region'
     'metrics' => 'Metrik|Metriken',  // 'Metric|Metrics'
-    'whats_this' => "Was ist das?",  // "What's this?"
+    'whats_this' => 'Was ist das?',  // "What's this?"
     'first_name' => 'Vorname',  // 'First name'
     'last_name' => 'Nachname',  // 'Last name'
     'bio' => 'Bio',  // 'Bio'
@@ -714,9 +711,9 @@ return [
     'defined_in_environment' => 'Verwaltet durch externe Umgebung.',  // 'Managed externally by your environment.'
     'be_right_back' => 'Wir sind gleich wieder da.',  // 'Be right back.'
     'size' => 'Größe', // 'Size'
-    'read_only' => "Nur Lesen", // 'Read only'
+    'read_only' => 'Nur Lesen', // 'Read only'
     'read_only_mode' => 'Nur Lesen Modus', // 'Read only mode'
-    'next_step' => "Nächster Schritt", // "Next step"
+    'next_step' => 'Nächster Schritt', // "Next step"
     'invalid_creds' => 'These credentials are incorrect', // 'These credentials are incorrect'
 
     'nav_content' => 'Inhalt',  // 'Content'
@@ -740,31 +737,31 @@ return [
     'generate_new_id' => 'Generiere neue ID.', // 'Generate new ID.',
 
     // Path
-    'path_resolves_to'    => 'Der Pfad zeigt zu: :path', // 'Path resolves to: :path',
-    'path_exists'         => 'Pfad existiert.', // 'Path exists.',
+    'path_resolves_to' => 'Der Pfad zeigt zu: :path', // 'Path resolves to: :path',
+    'path_exists' => 'Pfad existiert.', // 'Path exists.',
     'path_does_not_exist' => 'Pfad exisitiert nicht.', // 'Path does not exist.',
 
     // Bard
-    'heading_1'          => 'Überschrift 1', // 'Heading 1',
-    'heading_2'          => 'Überschrift 2', // 'Heading 2'
-    'heading_3'          => 'Überschrift 3', // 'Heading 3'
-    'heading_4'          => 'Überschrift 4', // 'Heading 4'
-    'heading_5'          => 'Überschrift 5', // 'Heading 5'
-    'heading_6'          => 'Überschrift 6', // 'Heading 6'
-    'bold'               => 'Fett', // 'Bold'
-    'italic'             => 'Kursiv', // 'Italic'
-    'underline'          => 'Unterstrichen', // 'Underline'
-    'strikethrough'      => 'Durchgestrichen', // 'Strikethrough'
-    'remove_formatting'  => 'Formatierung entfernen', // 'Remove Formatting'
-    'unordered_list'     => 'Aufzählungszeichen', // 'Unordered List'
-    'ordered_list'       => 'Nummerierung', // 'Ordered List'
-    'blockquote'         => 'Zitat', // 'Blockquote'
-    'superscript'        => 'Hochgestellt', // 'Superscript'
-    'subscript'          => 'Tiefgestellt', // 'Subscript'
-    'add_link'           => 'Link hinzufügen', // 'Add Link'
-    'remove_link'        => 'Link entfernen', // 'Remove Link'
-    'link_to_asset'      => 'Medium verlinken', // 'Link to Asset'
-    'inline_code'        => 'Code', // 'Inline Code' --> bessere Übersetzung?
-    'edit_link'          => 'Link editieren', // 'Edit Link'
+    'heading_1' => 'Überschrift 1', // 'Heading 1',
+    'heading_2' => 'Überschrift 2', // 'Heading 2'
+    'heading_3' => 'Überschrift 3', // 'Heading 3'
+    'heading_4' => 'Überschrift 4', // 'Heading 4'
+    'heading_5' => 'Überschrift 5', // 'Heading 5'
+    'heading_6' => 'Überschrift 6', // 'Heading 6'
+    'bold' => 'Fett', // 'Bold'
+    'italic' => 'Kursiv', // 'Italic'
+    'underline' => 'Unterstrichen', // 'Underline'
+    'strikethrough' => 'Durchgestrichen', // 'Strikethrough'
+    'remove_formatting' => 'Formatierung entfernen', // 'Remove Formatting'
+    'unordered_list' => 'Aufzählungszeichen', // 'Unordered List'
+    'ordered_list' => 'Nummerierung', // 'Ordered List'
+    'blockquote' => 'Zitat', // 'Blockquote'
+    'superscript' => 'Hochgestellt', // 'Superscript'
+    'subscript' => 'Tiefgestellt', // 'Subscript'
+    'add_link' => 'Link hinzufügen', // 'Add Link'
+    'remove_link' => 'Link entfernen', // 'Remove Link'
+    'link_to_asset' => 'Medium verlinken', // 'Link to Asset'
+    'inline_code' => 'Code', // 'Inline Code' --> bessere Übersetzung?
+    'edit_link' => 'Link editieren', // 'Edit Link'
     'open_in_new_window' => 'In neuem Fenster öffnen', // 'Open in New Window'
 ];
