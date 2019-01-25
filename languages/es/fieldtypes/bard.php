@@ -2,6 +2,9 @@
 
 return [
 
+    'buttons' => 'Botones de la barra',
+    'buttons_instruct' => 'Configura los botones disponibles en la barra de herramientas',
+
     'sets' => 'Sets',
     'sets_instruct' => 'Los campos de Bard pueden tener múltiples "sets" de campos.<br> Un campo de Bard sin sets se tratará como un campo de texto estándar.',
 
@@ -14,24 +17,27 @@ return [
     'restrict_assets' => 'Restringir a carpeta',
     'restrict_assets_instruct' => 'Prevenir navegación a otras carpetas o contenedores de medios.',
 
-    'autoLink' => 'Autoenlazar',
-    'autoLink_instruct' => 'Automaticamente enlazar cualquier URL en tu texto.',
+    'style' => 'Estilo de fuente',
+    'style_instruct' => 'Elige tu estilo de tipografía.',
 
-    'spellcheck' => 'Corrección ortográfica',
-    'spellcheck_instruct' => 'Permite la revisión automática de contentEditable.',
+    'spellcheck' => 'Checar ortografía',
+    'spellcheck_instruct' => 'Activar el autocorrector ortográfico de tu navegador.',
 
-    'target_blank' => 'Nueva ventana',
-    'target_blank_instruct' => 'Añadir automáticamente `target="_blank"` a los enlaces.',
+    'target_blank' => 'Abrir en ventana nueva',
+    'target_blank_instruct' => 'Activar por defecto `target="_blank"` en los enlaces.',
+
+    'link_noopener' => 'Establecer noopener',
+    'link_noopener_instruct' => 'Establecer `rel="noopener"` en todos los enlaces creados.',
+
+    'link_noreferrer' => 'Establecer noreferer',
+    'link_noreferrer_instruct' => 'Establecer `rel="noreferrer"` en todos los enlaces creados.',
 
     'allow_source' => 'Permitir fuente',
-    'allow_source_instruct' => 'Poder ver y editar el código fuente HTML de tu contenido de texto.',
+    'allow_source_instruct' => 'Permitir ver y editar el código fuente HTML de tu contenido de texto.',
 
-    'link_validation' => 'Validación de enlaces',
-    'link_validation_instruct' => 'Buscar protocolos URL comunes en los enlaces.',
+    'semantic_elements' => 'Usar elementos semánticos',
+    'semantic_elements_instruct' => 'Reemplazar etiquetas `<b>` y `<i>` con `<strong>` y `<em>` para código semántico.',
 
-    'force_plain_text' => 'Forzar el pegado como texto plano',
-    'force_plain_text_instruct' => 'Forza a pegar en texto plano, quitando todo formato.',
-
-    'clean_pasted_html' => 'Limpiar HTML pegado',
-    'clean_pasted_html_instruct' => 'Limpia el código pegado de fuentes diferentes como Google Docs, etc.'
+    'allow_internal_links' => 'Permitir enlaces internos',
+    'allow_internal_links_instruct' => 'Permitir que se sugieran páginas y entradas mientras escribes en la barra de enlace.',
 ];
