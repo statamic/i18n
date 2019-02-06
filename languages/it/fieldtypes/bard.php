@@ -39,5 +39,5 @@ return [
     'semantic_elements_instruct' => 'Sostituisce i tag non semantici `<b>` e `<i>` con `<strong>` e `<em>`.',
 
     'allow_internal_links' => 'Consenti Link Interni',
-    'allow_internal_links_instruct' => 'Consente il suggeriento di pagine e entry durante la digitazione nella toolbar dei link.',
+    'allow_internal_links_instruct' => 'Consente il suggeriento di pagine e voci durante la digitazione nella toolbar dei link.',
 ];

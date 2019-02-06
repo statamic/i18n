@@ -7,8 +7,8 @@ return [
     'default_page_template' => 'Template predefinito per le pagine',
     'default_page_template_instruct' => 'Template utilizzato durante il rendering di una pagina.',
 
-    'default_entry_template' => 'Template predefinito per le entry',
-    'default_entry_template_instruct' => 'Template utilizzato durante il rendering di una entry.',
+    'default_entry_template' => 'Template predefinito per le voci',
+    'default_entry_template_instruct' => 'Template utilizzato durante il rendering di una voce.',
 
     'default_taxonomy_template' => 'Template predefinito per le tassonomie',
     'default_taxonomy_template_instruct' => 'Template utilizzato durante il rendering di una tassonomia.',
@@ -22,8 +22,8 @@ return [
     'default_page_fieldset' => 'Fieldset predefinito per le pagine',
     'default_page_fieldset_instruct' => 'Fieldset utilizzando durante la modifica di una pagina.',
 
-    'default_entry_fieldset' => 'Fieldset predefinito per le entry',
-    'default_entry_fieldset_instruct' => 'Fieldset utilizzando durante la modifica di una entry.',
+    'default_entry_fieldset' => 'Fieldset predefinito per le voci',
+    'default_entry_fieldset_instruct' => 'Fieldset utilizzando durante la modifica di una voce.',
 
     'default_term_fieldset' => 'Fieldset predefinito per i termini di una tassonomia',
     'default_term_fieldset_instruct' => 'Fieldset utilizzando durante la modifica di un termine di una tassonomia.',
