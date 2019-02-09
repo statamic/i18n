@@ -19,5 +19,6 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - German (de) - Latest: 2.11.9
 - Italian (it) - Latest: 2.11.9
 - Polish (pl) - Latest: 2.9.6
+- Portuguese (pt) - Latest: 2.9.11
 - Russian (ru) - Latest: 2.8.8
 - Spanish (es) - Latest: 2.11.3
