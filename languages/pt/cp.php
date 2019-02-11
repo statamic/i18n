@@ -98,7 +98,7 @@ return [
     'globals_empty' => 'Conjuntos globais são grupos de variáveis que representam conteúdo que não está vinculado a um URL, como nome da empresa, endereço, informações de contato ou até mesmo configurações no nível do modelo, como limites, compensações e mostrar / ocultar alternâncias.',
     'general_globals' => 'Geral',
     'globals_title_instructions' => "Nome próprio do seu conjunto global. Por exemplo: Conteúdo do Rodapé ou Configurações da Barra Lateral.",
-    'globals_slug_instructions' => "Variável usada em modelos. Por exemplo: <code>conteudo_rodape</code> ou <code>definicoes_barra_latera</code>.",
+    'globals_slug_instructions' => "Identificador usado em modelos. Por exemplo: <code>conteudo_rodape</code> ou <code>definicoes_barra_lateral</code>.",
     'globals_fieldset_instructions' => "Escolha que grupo de campos deseja usar para gerir este conjunto.",
 
     // Assets
@@ -644,8 +644,8 @@ return [
     'remember_me' => 'Lembrar-me',
     'title' => 'Título',
     'titles' => 'Título|Títulos',
-    'slug' => 'Slug',
-    'slugs' => 'Slug|Slugs',
+    'slug' => 'Identificador',
+    'slugs' => 'Identificador|Identificadores',
     'rows' => 'Linha|Linhas',
     'columns' => 'Coluna|Colunas',
     'folders' => 'Pasta|Pastas',

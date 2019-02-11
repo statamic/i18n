@@ -74,8 +74,8 @@ return [
     'timezone'             => 'O campo :attribute deverá ter um fuso horário válido.',
     'unique'               => 'O valor indicado para o campo :attribute já se encontra registado.',
     'url'                  => 'O formato do URL indicado para o campo :attribute é inválido.',
-    "entry_slug_exists"    => "Slug já existe.",
-    "page_uri_exists"      => "Slug já existe.",
+    "entry_slug_exists"    => "Identificador já existe.",
+    "page_uri_exists"      => "Identificador já existe.",
     "unique_asset_filename" => "Já existe um arquivo com esse nome.",
 
     // Extended validation rules
