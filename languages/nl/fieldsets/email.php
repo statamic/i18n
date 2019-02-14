@@ -7,10 +7,10 @@ return [
     'driver' => 'Driver',
     'driver_instruct' => 'De service die gebruikt zal worden voor het versturen van e-mails.',
 
-    'from_name' => 'Afzender naam',
-    'from_email' => 'Afzender e-mail adres',
+    'from_name' => 'Naam afzender',
+    'from_email' => 'E-mailadres afzender',
 
-    'section_smtp' => 'SMTP Instellingen',
+    'section_smtp' => 'SMTP-instellingen',
     'host' => 'Host',
     'port' => 'Poort',
     'encryption' => 'Encryptie',
@@ -18,10 +18,10 @@ return [
     'password' => 'Wachtwoord',
 
     'section_mandrill' => 'Mandrill Instellingen',
-    'mandrill_secret' => 'Secret',
+    'mandrill_secret' => 'Sleutel',
 
     'section_mailgun' => 'Mailgun Instellingen',
-    'mailgun_secret' => 'Secret',
-    'mailgun_domain' => 'Domain',
+    'mailgun_secret' => 'Sleutel',
+    'mailgun_domain' => 'Domein',
 
 ];

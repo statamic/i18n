@@ -2,36 +2,39 @@
 
 return [
 
-    'license_key' => 'Licensie',
-    'license_key_instruct' => 'Vul de licensie in voor het corresponderende domein van je [Statamic Account](https:/account.statamic.com/licenses).',
+    'license_key' => 'Licentie',
+    'license_key_instruct' => 'Vul de licentie in voor het bijbehorende domein van je [Statamic Account](https:/account.statamic.com/licenses).',
 
     'locales' => 'Locales',
     'locales_instruct' => 'De locales waarop je site kan worden bereikt.',
 
     'timezone' => 'Tijdzone',
-    'timezone_instruct' => 'De [tijdzone](http://php.net/manual/en/timezones.php) waaronder je site opereerd.',
+    'timezone_instruct' => 'De [tijdzone](http://php.net/manual/en/timezones.php) waaronder je site functioneert.',
 
-    'date_format' => 'Datum formaat',
-    'date_format_instruct' => 'Het PHP datum formaat dat gebruikt wordt wanneer ongeformatteerde datum variabelen worden getoond.',
+    'date_format' => 'Datumformaat',
+    'date_format_instruct' => 'Het PHP datumformaat dat gebruikt wordt wanneer ongeformatteerde datumvariabelen worden getoond.',
 
-    'default_extension' => 'Standaard extensie',
-    'default_extension_instruct' => 'De bestandsextensie voor inhoudsbestanden.',
+    'default_extension' => 'Standaard extentie',
+    'default_extension_instruct' => 'De bestandsextentie voor inhoudsbestanden.',
 
     'filesystems' => 'Bestandssystemen',
-    'filesystems_instruct' => 'Definiëer hoe en waar je verschillende bestanden bereikt kunnen worden.',
+    'filesystems_instruct' => 'Definiëer hoe en waar uw bestanden bereikt kunnen worden.',
 
-    'app_key' => 'Applicatie Key',
+    'app_key' => 'Applicatiesleutel',
     'app_key_instruct' => 'Deze sleutel wordt gebruikt om je applicatie te beveiligen. Het moet een sterke 32-karakter lange tekst zijn.',
 
-    'redactor' => 'Redactor Instellingen',
-    'redactor_instruct' => 'YAML representatie vab [Redactor instellingen
+    'redactor' => 'Redactorinstellingen',
+    'redactor_instruct' => 'YAML representatie van [Redactor instellingen
                             objecten](https://imperavi.com/assets/pdf/redactor-documentation-10.pdf).  
-                            Elk item zal beschikbaar zijn om te selecten wanneer een Redactor veld wordt aangemaakt.',
+                            Elk item zal selecteerbaar zijn wanneer een Redactorveld wordt aangemaakt.',
 
-    'protect' => 'Systeem beveiliging',
-    'protect_instruct' => 'Hier een beveiligingsschema invoeren zal ervoor zorgen dat dit wordt toegepast op je volledige site.',
+    'protect' => 'Systeembeveiliging',
+    'protect_instruct' => 'Het invoeren van een beveiligingsschema zal ervoor zorgen dat dit wordt toegepast op de gehele site.',
     
     'csrf_exclude' => 'CSRF Uitgezonderde URLs',
-    'csrf_exclude_instruct' => 'Een lijst van URLs die uitgezonderd worden van CSRF beveiliging',
+    'csrf_exclude_instruct' => 'Een lijst van URLs die uitgezonderd worden van CSRF beveiliging.',
 
+    'php_max_memory_limit' => 'PHP Maximale Geheugenlimiet',
+    'php_max_memory_limit_instruct' => 'Het maximale geheugen dat Statamic mag gebruiken tijdens het uitvoeren van geheugenintensieve bewerkingen, zoals het manipuleren van afbeeldingen.  
+                                        Laat dit veld leeg om zoveel mogelijk geheugen te gebruiken als er beschikbaar is. Je kunt bytes of <a href="http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes" target="_blank">PHP recognized shorthand values</a> invoeren.',
 ];
