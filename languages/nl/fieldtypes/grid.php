@@ -2,8 +2,8 @@
 
 return [
 
-    'mode' => 'Display Modus',
-    'mode_instruct' => 'Hoe moet dit Grid worden getoond?',
+    'mode' => 'Weergavemodus',
+    'mode_instruct' => 'Hoe moet dit Grid worden weergegeven?',
 
     'max_rows' => 'Maximum rijen',
     'max_rows_instruct' => 'Het maximum aantal toegestane rijen.',
@@ -11,10 +11,10 @@ return [
     'min_rows' => 'Minimum rijen',
     'min_rows_instruct' => 'Het minimum aantal toegstane rijen.',
 
-    'add_row' => 'Rij toevoegen knop tekst',
-    'add_row_instruct' => 'Optionele tekst voor de tekst in de "Rij toevoegen" knop.',
+    'add_row' => 'Knoptekst rij toevoegen',
+    'add_row_instruct' => 'Optionele tekst voor in de knop "Rij toevoegen".',
 
     'fields' => 'Velden',
-    'fields_instruct' => 'Grids kunnen een rij van herhaalde velden zijn.',
+    'fields_instruct' => 'Grids kunnen een rij van herhalende velden zijn.',
 
 ];
