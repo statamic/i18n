@@ -3,6 +3,6 @@
 return [
 
     'keys' => 'Sleutels',
-    'keys_instruct' => 'Als je de sleutels wilt definiëren, voeg ze dan hier in. Anders kunnen eender welke sleutels en waardes worden ingegeven.',
+    'keys_instruct' => 'Als u de sleutels vooraf wilt definiëren, voer ze dan hier in. Anders kunnen zowel sleutels en waardes worden ingevoerd.',
 
 ];
