@@ -14,7 +14,7 @@ return [
     'default_taxonomy_template_instruct' => 'Het standaard template dat gebruikt moet worden wanneer een taxonomie wordt weergegeven.',
 
     'error_template_folder' => 'Foutmeldingtemplatemap',
-    'error_template_folder_instruct' => 'Waar foutmeldingtemplates gevonden kunnen worden (bv. `404.html`). Stel hier `/` in als je deze in je root template map wilt plaatsen.',
+    'error_template_folder_instruct' => 'Waar foutmeldingtemplates gevonden kunnen worden (bv. `404.html`). Stel hier `/` in als u deze in uw root template map wilt plaatsen.',
 
     'default_fieldset' => 'Standaard fieldset',
     'default_fieldset_instruct' => 'De standaard fieldset die gebruikt moet worden bij het bewerken van inhoud, indien er geen andere fieldsets bestaan of zijn gespecificeerd.',

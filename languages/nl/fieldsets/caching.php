@@ -6,11 +6,11 @@ return [
     'stache_instruct' => 'Onze liefdevolle naam voor de interne cache van Statamic.',
 
     'stache_always_update' => 'De Stache updaten bij elke request?',
-    'stache_always_update_instruct' => 'Updaten bij elk request zal ervoor zorgen dat je aanpassingen aan de website driect ziet. Het gaat wel ten koste van de performance.
-                                       Als je het Controlepaneel gebruikt om inhoud te beheren kan je dit uitschakelen aangezien de Stache automatisch wordt vernieuwd als je inhoud publiceerd.',
+    'stache_always_update_instruct' => 'Updaten bij elk request zal ervoor zorgen dat u aanpassingen aan de website driect ziet. Het gaat wel ten koste van de performance.
+                                       Als u het Controlepaneel gebruikt om inhoud te beheren kan u dit uitschakelen aangezien de Stache automatisch wordt vernieuwd als u inhoud publiceerd.',
 
    'static_caching' => 'Statische paginacache',
-   'static_caching_instruct' => 'Statische pagina-cache zorgt voor enorme snelheidsvoordelen, omdat je pagina’s worden opgeslaan als platte HTML bestanden.',
+   'static_caching_instruct' => 'Statische pagina-cache zorgt voor enorme snelheidsvoordelen, omdat uw pagina’s worden opgeslaan als platte HTML bestanden.',
 
    'static_caching_enabled' => 'Inschakelen',
 
@@ -23,7 +23,7 @@ return [
                                       Anders zal de standaard cache gebruikt worden.',
 
     'static_caching_file_path' => 'Pad voor statische bestanden',
-    'static_caching_file_path_instruct' => 'De locatie waar bestanden worden opgeslagen als je bestandsgebaseerde caching gebruikt.',
+    'static_caching_file_path_instruct' => 'De locatie waar bestanden worden opgeslagen als u bestandsgebaseerde caching gebruikt.',
 
     'static_caching_ignore_query_strings' => 'Negeer query strings',
     'static_caching_ignore_query_strings_instruct' => 'Indien ingeschakeld zal een URL hetzelfde worden behandeld odanks eventuele query string parameters.',

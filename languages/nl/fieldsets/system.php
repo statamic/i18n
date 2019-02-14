@@ -3,13 +3,13 @@
 return [
 
     'license_key' => 'Licentie',
-    'license_key_instruct' => 'Vul de licentie in voor het bijbehorende domein van je [Statamic Account](https:/account.statamic.com/licenses).',
+    'license_key_instruct' => 'Vul de licentie in voor het bijbehorende domein van uw [Statamic Account](https:/account.statamic.com/licenses).',
 
     'locales' => 'Locales',
-    'locales_instruct' => 'De locales waarop je site kan worden bereikt.',
+    'locales_instruct' => 'De locales waarop uw site kan worden bereikt.',
 
     'timezone' => 'Tijdzone',
-    'timezone_instruct' => 'De [tijdzone](http://php.net/manual/en/timezones.php) waaronder je site functioneert.',
+    'timezone_instruct' => 'De [tijdzone](http://php.net/manual/en/timezones.php) waaronder uw site functioneert.',
 
     'date_format' => 'Datumformaat',
     'date_format_instruct' => 'Het PHP datumformaat dat gebruikt wordt wanneer ongeformatteerde datumvariabelen worden getoond.',
@@ -21,7 +21,7 @@ return [
     'filesystems_instruct' => 'Definiëer hoe en waar uw bestanden bereikt kunnen worden.',
 
     'app_key' => 'Applicatiesleutel',
-    'app_key_instruct' => 'Deze sleutel wordt gebruikt om je applicatie te beveiligen. Het moet een sterke 32-karakter lange tekst zijn.',
+    'app_key_instruct' => 'Deze sleutel wordt gebruikt om uw applicatie te beveiligen. Het moet een sterke 32-karakter lange tekst zijn.',
 
     'redactor' => 'Redactorinstellingen',
     'redactor_instruct' => 'YAML representatie van [Redactor instellingen
@@ -36,5 +36,5 @@ return [
 
     'php_max_memory_limit' => 'PHP Maximale Geheugenlimiet',
     'php_max_memory_limit_instruct' => 'Het maximale geheugen dat Statamic mag gebruiken tijdens het uitvoeren van geheugenintensieve bewerkingen, zoals het manipuleren van afbeeldingen.  
-                                        Laat dit veld leeg om zoveel mogelijk geheugen te gebruiken als er beschikbaar is. Je kunt bytes of <a href="http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes" target="_blank">PHP recognized shorthand values</a> invoeren.',
+                                        Laat dit veld leeg om zoveel mogelijk geheugen te gebruiken als er beschikbaar is. U kunt bytes of <a href="http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes" target="_blank">PHP recognized shorthand values</a> invoeren.',
 ];
