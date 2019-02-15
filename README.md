@@ -13,7 +13,7 @@ We're looking to the community to help with translation. Feel free to fork, edit
 ## Complete Translations
 
 - Arabic (ar) - Latest: 2.8.11
-- Dutch (nl) - Latest: 2.6.2
+- Dutch (nl) - Latest: 2.11.9
 - English (en) - Latest: 2.11.9
 - French (fr) - Latest: 2.11.9
 - German (de) - Latest: 2.11.9
