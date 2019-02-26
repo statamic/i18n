@@ -360,7 +360,7 @@ return [
 
     'display_conditions' => 'Weergavevoorwaarden',
     'display_conditions_instructions' => 'Configureer wanneer dit veld getoond moet worden.',
-    'always_show' => 'Altijd tonnen',
+    'always_show' => 'Altijd tonen',
     'show_when' => 'Toon als...',
     'hide_when' => 'Verberg als...',
     'standard' => 'Standaard',
