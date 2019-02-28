@@ -360,7 +360,7 @@ return [
 
     'display_conditions' => 'Weergavevoorwaarden',
     'display_conditions_instructions' => 'Configureer wanneer dit veld getoond moet worden.',
-    'always_show' => 'Altijd tonnen',
+    'always_show' => 'Altijd tonen',
     'show_when' => 'Toon als...',
     'hide_when' => 'Verberg als...',
     'standard' => 'Standaard',
@@ -388,7 +388,7 @@ return [
     'form' => 'Formulier',
     'forms' => 'Formulier|Formulieren',
     'nav_forms' => 'Formulieren',
-    'forms_empty' => 'Formulieren verzamelen, tonen en het rapporteren van inzendingen door gebruikers.',
+    'forms_empty' => 'Formulieren verzamelen, tonen en rapporteren inzendingen van gebruikers.',
     'create_form' => 'Formulier toevoegen',
     'form_updated' => 'Formulier aangepast',
     'form_created' => 'Formulier toegevoegd',
