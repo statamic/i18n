@@ -26,7 +26,7 @@ return [
     'static_caching_file_path_instruct' => 'De locatie waar bestanden worden opgeslagen als u bestandsgebaseerde caching gebruikt.',
 
     'static_caching_ignore_query_strings' => 'Negeer query strings',
-    'static_caching_ignore_query_strings_instruct' => 'Indien ingeschakeld zal een URL hetzelfde worden behandeld odanks eventuele query string parameters.',
+    'static_caching_ignore_query_strings_instruct' => 'Indien ingeschakeld zal een URL hetzelfde worden behandeld ondanks eventuele query string parameters.',
 
     'static_caching_exclude' => 'Uitgesloten URLs',
     'static_caching_exclude_instruct' => 'A lijst met URLs die niet gecachet mogen worden.',
