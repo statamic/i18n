@@ -547,7 +547,7 @@ return [
     'license_valid' => 'U heeft een geldige licentiesleutel.',
     'license_invalid' => 'Deze sleutel is ongeldig.',
     'license_wrong_domain' => 'Gelicenseerd voor :domain',
-    'license_no_domain' => 'De licentie is niet gekoppeld aan deen domein.',
+    'license_no_domain' => 'De licentie is niet gekoppeld aan een domein.',
     'license_key_instructions' => 'Voer alstublieft uw licentiesleutel in. U kunt deze vinden in uw <a href=":licenses">Statamic Account</a> of u kan <a href=":buy_license">een nieuwe licentie kopen</a> als u deze nog niet heeft.',
     'buy_now' => 'Koop nu',
     'license_statamic_link' => 'Koop licenties en beheer domeinen op statamic.com',
