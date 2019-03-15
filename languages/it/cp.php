@@ -238,7 +238,7 @@ return [
     'create_role_button' => 'Crea Ruolo',
     'creating_role' => 'Crea un Ruolo',
     'role_created' => 'Ruolo Creato',
-    'editing_role' => 'Modicia Ruolo',
+    'editing_role' => 'Modifica Ruolo',
     'role_updated' => 'Ruolo Aggiornato',
     'roles_empty_heading' => 'Ruoli',
     'roles_empty' => 'I Ruoli ti consentono di raggruppare i permessi. Ad esempio, editor, publisher e admin',
