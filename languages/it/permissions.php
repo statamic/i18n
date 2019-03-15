@@ -5,7 +5,7 @@ return [
     'super' => 'Super Utente',
 
     'group_general' => 'Generali',
-    'cp:access' => 'Accedere la Pannello di Controllo',
+    'cp:access' => 'Accedere al Pannello di Controllo',
     'content:view_drafts_on_frontend' => 'Visualizzare le bozze da front-end',
     'resolve_duplicates' => 'Risolvere ID duplicati',
 

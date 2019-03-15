@@ -73,7 +73,7 @@ return [
     ],
     "timezone"             => ":attribute deve essere una zona valida.",
     "unique"               => ":attribute è stato già utilizzato.",
-    "url"                  => ":attribute è stato già utilizzato.",
+    "url"                  => "Il formato del campo :attribute non è valido.",
     "entry_slug_exists"    => "Lo Slug esiste già.",
     "page_uri_exists"      => "Lo Slug esiste già.",
     "unique_asset_filename" => "Un file con questo nome esiste già.",
