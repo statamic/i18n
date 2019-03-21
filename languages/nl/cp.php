@@ -51,7 +51,7 @@ return [
     'entries' => 'Inhoud|Inhoud',
     'nav_entries' => 'Inhoud',
     'create_entry_button' => 'Inhoud toevoegen',
-    'create_entry' => 'Nieuwe :noun',
+    'create_entry' => 'Nieuw(e) :noun',
     'entry_created' => 'Inhoud toegevoegd',
     'editing_entry' => 'Inhoud bewerken',
     'entry_updated' => 'Inhoud aangepast',
@@ -234,7 +234,7 @@ return [
 
     // Roles
     'roles' => 'Rol|Rollen',
-    'nav_user-roles' => 'Gebruiker rollen',
+    'nav_user-roles' => 'Gebruikersrollen',
     'create_role_button' => 'Rol aanmaken',
     'creating_role' => 'Maak een rol aan',
     'role_created' => 'Rol aangemaakt',
@@ -376,7 +376,7 @@ return [
     'fieldtype_category_media' => 'Media',
     'fieldtype_category_pickable' => 'Kiezen',
     'fieldtype_category_structured' => 'Gestructureerd',
-    'fieldtype_category_relationship' => 'Rerlationeel',
+    'fieldtype_category_relationship' => 'Relationeel',
     'fieldtype_category_special' => 'Speciaal',
     'fieldtype_category_system' => 'Systeem',
 
