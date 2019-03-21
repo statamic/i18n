@@ -234,7 +234,7 @@ return [
 
     // Roles
     'roles' => 'Rol|Rollen',
-    'nav_user-roles' => 'Gebruiker rollen',
+    'nav_user-roles' => 'Gebruikersrollen',
     'create_role_button' => 'Rol aanmaken',
     'creating_role' => 'Maak een rol aan',
     'role_created' => 'Rol aangemaakt',
