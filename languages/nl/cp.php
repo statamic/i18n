@@ -51,7 +51,7 @@ return [
     'entries' => 'Inhoud|Inhoud',
     'nav_entries' => 'Inhoud',
     'create_entry_button' => 'Inhoud toevoegen',
-    'create_entry' => 'Nieuwe :noun',
+    'create_entry' => 'Nieuw(e) :noun',
     'entry_created' => 'Inhoud toegevoegd',
     'editing_entry' => 'Inhoud bewerken',
     'entry_updated' => 'Inhoud aangepast',
