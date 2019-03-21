@@ -376,7 +376,7 @@ return [
     'fieldtype_category_media' => 'Media',
     'fieldtype_category_pickable' => 'Kiezen',
     'fieldtype_category_structured' => 'Gestructureerd',
-    'fieldtype_category_relationship' => 'Rerlationeel',
+    'fieldtype_category_relationship' => 'Relationeel',
     'fieldtype_category_special' => 'Speciaal',
     'fieldtype_category_system' => 'Systeem',
 
