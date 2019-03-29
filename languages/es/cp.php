@@ -2,7 +2,7 @@
 
 return [
 
-    // General CP
+    // General del Panel de control
     'dashboard' => 'Escritorio',
     'nav_dashboard' => 'Escritorio',
     'sneak_peek' => 'Vista previa',
@@ -11,7 +11,7 @@ return [
     'visit_url' => 'Visitar URL',
     'search_for_anything' => 'Busca lo que quieras',
 
-    // Pages
+    // Páginas
     'page' => 'Página',
     'pages' => 'Página|Páginas',
     'nav_pages' => 'Páginas',
@@ -28,7 +28,7 @@ return [
     'parent_page' => 'Página superior',
     'pages_reordered' => 'Páginas reordenadas exitosamente.',
 
-    // Collections
+    // Colecciones
     'collections' => 'Colección|Colecciones',
     'nav_collections' => 'Colecciones',
     'manage_collections' => 'Administrar colecciones',
@@ -46,7 +46,7 @@ return [
     'collection_route_instructions' => "La ruta controla el patrón de URL que seguirán todas las entradas en la colección.",
     'collection_does_not_exist' => 'La colección :collection no existe.',
 
-    // Entries
+    // Entradas
     'entry' => 'Entrada',
     'entries' => 'Entrada|Entradas',
     'nav_entries' => 'Entradas',
@@ -58,7 +58,7 @@ return [
     'entries_empty_heading' => 'Entradas de :type',
     'entries_empty' => 'Las entradas son porciones de contenido que tienen su propio URL, y normalmente se muestran en listas como Entradas de blog, Comunicados de prensa o Eventos.',
 
-    // Taxonomies
+    // Taxonomías
     'taxonomy' => 'Taxonomía',
     'taxonomies' => 'Taxonomía|Taxonomías',
     'nav_taxonomies' => 'Taxonomías',
@@ -82,7 +82,7 @@ return [
     'taxonomy_terms_empty_heading' => 'Términos en :term',
     'taxonomy_terms_empty' => 'Cuando una taxonomía es un agrupamiento, el término es la etiqueta que se le aplica a una pieza de contenido. Por ejemplo, "Rojo" sería un término en la taxonomía "Colores".',
 
-    // Globals
+    // Globales
     'global' => 'Global',
     'globals' => 'Global|Globales',
     'nav_globals' => 'Globales',
@@ -101,7 +101,7 @@ return [
     'globals_slug_instructions' => "Esta es la variable usada en tus templates. Por ejemplo: <code>footer_content</code> o <code>sidebar_settings</code>.",
     'globals_fieldset_instructions' => "Elige qué grupo de campos quieres usar para manejar este fieldset.",
 
-    // Assets
+    // Medios
     'assets' => 'Medio|Medios',
     'nav_assets' => 'Medios',
     'new_asset' => 'Nuevo medio',
@@ -140,11 +140,11 @@ return [
     'url_resolves_to' => 'El URL resuelve a: :path',
 
 
-    // Folder
+    // Carpeta
     'folder_title_instructions' => 'El nombre para mostrar de la carpeta',
     'folder_directory_instructions' => 'El nombre del directorio del sistema de archivos',
 
-    // Asset Containers
+    // Contenedores de medios
     'asset_containers' => 'Contenedor de medios|Contenedores de medios',
     'manage_asset_containers' => 'Administrar contenedores de medios',
     'new_asset_container' => 'Nuevo contenedor de medios',
@@ -156,7 +156,7 @@ return [
     'asset_containers_empty' => 'Cada contenedor de medios puede ser una ubicación en tu sistema de archivos, que puede ser pública o protegida contra ojos chismosos.',
     'select_asset_container' => 'Selecciona un contenedor de medios.',
 
-    // Asset Folders
+    // Carpetas de medios
     'create_folder' => 'Crear carpeta',
     'edit_folder' => 'Editar carpeta',
     'asset_name_instructions' => 'El nombre a mostrar del contenedor.',
@@ -167,7 +167,7 @@ return [
     'asset_url_instructions' => 'URL de la carpeta.',
     'asset_folder_basename' => 'Nombre de carpeta',
 
-    // Fields Builder
+    // Constructor de campos
     'add_field' => 'Añadir campo nuevo',
     'quick_add' => 'Añadir rápido',
     'toggle_fields' => 'Alternar campos',
@@ -175,7 +175,7 @@ return [
     'meta' => 'Meta',
     'all' => 'Todo',
 
-    // Set Builder
+    // Constructor de sets
     'add_set' => 'Añadir set',
     'edit_set' => 'Editar set',
     'delete_set' => 'Eliminar set',
@@ -186,7 +186,7 @@ return [
     'access_key_id' => 'ID de clave de acceso',
     'secret_access_key' => 'Clave de acceso secreto',
 
-    // Users
+    // Usuarios
     'user' => 'Usuario',
     'users' => 'Usuario|Usuario',
     'nav_users' => 'Usuarios',
@@ -198,6 +198,8 @@ return [
     'editing_user' => 'Editando usuario',
     'user_updated' => 'Usuario actualizado',
     'reset_password' => 'Restablece tu contraseña',
+    'choose_new_password' => 'Elige una nueva contraseña',
+    'new_password' => 'Contraseña nueva',
     'change_password' => 'Cambiar contraseña',
     'send_email' => 'Enviar email',
     'email_sent' => 'Email enviado',
@@ -227,7 +229,7 @@ return [
     'invalid_creds' => 'Credenciales inválidas',
     'go_back' => 'Regresar',
 
-    // Password Reset
+    // Restablecer contraseña
     'reset_code_missing' => 'No se especificó ningún código.',
     'reset_code_invalid' => 'Código inválido',
 
@@ -242,14 +244,14 @@ return [
     'roles_empty_heading' => 'Roles de usuario',
     'roles_empty' => 'Los Roles de usuario te permiten agrupar a un número de permisos bajo una sola etiqueta; por ejemplo: editor, autor, admin.',
 
-    // Permissions
+    // Permisos
     'permissions' => 'Permiso|Permisos',
     'access' => 'Acceso',
     'checking_folder_permissions' => 'Checando permisos de carpeta, espera por favor...',
     'folders_permission_valid' => '¡Los permisos de archivos y carpetas se ven bien!',
     'folders_unwritable' => 'Se necesita poder escribir en los siguientes directorios:',
 
-    // Error Pages
+    // Páginas de error
     'error' => 'Error',
     'permission_denied' => 'Permiso denegado',
     'permission_denied_instructions' => "No tienes permiso para ver esta página.",
@@ -261,7 +263,7 @@ return [
     'publish_error' => 'Hubo un error al guardar tus datos, puedes encontrar más detalles en tus logs.',
     'error_fetching_data' => 'Hubo un error al buscar tus datos, puedes encontrar más detalles en tus logs.',
 
-    // User Groups
+    // Grupos de usuarios
     'usergroups' => 'Grupo de usuarios|Grupos de usuarios',
     'nav_user-groups' => 'Grupo de usuarios',
     'create_usergroup_button' => 'Crear grupo',
@@ -272,7 +274,7 @@ return [
     'usergroups_empty_heading' => 'Grupos de usuarios',
     'usergroups_empty' => 'Los grupos de usuarios te permiten combinar y mezclar diferentes roles dentro de un solo grupo.',
 
-    // Settings
+    // Ajustes
     'settings' => 'Ajuste|Ajustes',
     'nav_settings' => 'Ajustes',
     'settings_cp' => 'Panel de control',
@@ -308,7 +310,7 @@ return [
     'addons_empty_heading' => 'No hay addons',
     'addons_empty' => 'Los addons extienden la funcionalidad de Statamic.',
 
-    // Fieldsets & Fields
+    // Fieldsets & Campos
     'fieldset' => 'Fieldset',
     'fieldsets' => 'Fieldset|Fieldsets',
     'nav_fieldsets' => 'Fieldsets',
@@ -350,6 +352,8 @@ return [
     'set_added' => "Set añadido.",
     'append_taxonomies' => 'Adjuntar taxonomías en entradas',
     'append_taxonomies_instructions' => "Al usar este fieldset en una entrada, cualquier taxonomía no definida en el fieldset se añadirá automáticamente a la barra lateral.",
+    'type_url' => 'Escribe una URL',
+    'type_url_or_search' => 'Escribe una URL o busca un elemento',
 
     'sections' => 'Sección|Secciones',
     'section_label' => "Etiqueta de la sección",
@@ -360,7 +364,7 @@ return [
     'display_conditions' => 'Condiciones de visibilidad',
     'display_conditions_instructions' => 'Configura cuándo se mostrará este campo.',
     'always_show' => 'Mostrar siempre',
-    'show_when' => 'Mostar cuando...',
+    'show_when' => 'Mostrar cuando...',
     'hide_when' => 'Esconder cuando...',
     'standard' => 'Estándar',
     'custom' => 'Personalizado',
@@ -379,7 +383,7 @@ return [
     'fieldtype_category_special' => 'Especial',
     'fieldtype_category_system' => 'Sistema',
 
-    // Forms
+    // Formularios
     'form' => 'Formulario',
     'forms' => 'Formulario|Formularios',
     'nav_forms' => 'Formularios',
@@ -401,7 +405,7 @@ return [
     'export_csv' => 'Exportar a CSV',
     'export_json' => 'Exportar a JSON',
 
-    // Formset Builder
+    // Constructor de Formset
     'formset_title_instructions' => "El nombre propio del formset.",
     'formset_slug_instructions' => 'Cómo referenciarás el formset.',
     'formset_metrics_instructions' => 'Especifica las métricas que quieres mostrar.',
@@ -430,7 +434,7 @@ return [
     'formset_honeypot_link' => "¿Qué es un honeypot?",
     'formset_fields_instructions' => 'Elige y personaliza los campos de este formulario',
 
-    // Updater
+    // Actualizador
     'nav_updater' => 'Actualizador',
     'updates'     => 'Actualizacioens',
     'system_updates' => 'Actualizaciones del sistema',
@@ -452,14 +456,14 @@ return [
     'backup_reminder' => 'Este proceso es seguro, respaldamos todo en <code>local/temp</code> al correr la actualización para que siempre puedas volver a la versión que tenías antes en caso de que algo salga mal.',
     'couldnt_fetch_updates' => 'Hubo un problema al buscar actualizaciones',
 
-    // Download
+    // Descarga
     'downloading' => 'Descargando...',
     'downloaded' => 'Descargado.',
     'download_failed' => 'Falló la descarga',
     'downloading_latest' => 'Bajando la versión más nueva e increíble de Statamic para ti.',
     'downloading_version' => 'Obteniendo v:version',
 
-    // Installation
+    // Instalación
     'installation' => 'Instalación',
     'installation_has_failed' => 'La instalación ha fallado',
     'preparing_installation' => 'La instalación empezará en tanto el respaldo y la descarga hayan terminado.',
@@ -468,26 +472,26 @@ return [
     'delete_installer' => 'Por favor elimina el archivo <code>installer.php</code>.',
     'installer_deleted' => 'Ya lo eliminé, llévame al Panel de control &rarr;',
 
-    // Archive
+    // Archivo
     'unzipping_files' => 'Extrayendo archivos...',
     'unzipping_files_instructions' => 'Poniendo los archivos de zip de Statamic en una ubicación temporal.',
     'unzipped_files' => 'Archivos extraídos.',
 
-    // Dependencies
+    // Dependencias
     'installing_dependencies' => 'Instalando dependencias...',
     'installing_dependencies_instructions' => 'Cualquier addon con dependencias necesitará ser buscado nuevamente. Esto puede tomar un momento.',
     'dependencies_installed' => 'Dependencias instaladas.',
 
-    // Swap Release
+    // Cambio de versión
     'swapping_files' => 'Cambiando archivos...',
     'swapping_files_instructions' => 'Statamic está siendo inyectado con hormona de crecimiento para software (HCS) . Los resultados serán visibles en unos momentos.',
     'files_swapped' => 'Archivos cambiados.',
 
-    // Clean Up
+    // Limpieza
     'cleaning_up' => 'Limpiando...',
     'cleaning_up_instructions' => "Estamos eliminando los archivos temporales creados durante la actualización.",
 
-    // Importers
+    // Importadores
     'nav_import' => 'Importar',
     'site_url' => 'URL del sitio',
     'import_from_version' => 'Importar contenido de Statamic :version',
@@ -503,13 +507,13 @@ return [
     'json_file' => 'Archivo JSON',
     'upload_json_file' => 'Sube un archivo JSON',
 
-    // Export
+    // Exportar
     'export_failed' => 'Exportación fallida',
     'export_export_failed_with_error' => 'La exportación falló con el error:',
 
     'manage_widgets' => 'Administrar Widgets',
 
-    // Things
+    // Cosas
     'thing_created' => ':thing creado.',
     'thing_updated' => ':thing actualizado.',
     'thing_deleted' => ':thing eliminado.',
@@ -519,17 +523,17 @@ return [
 
     'saved_success' => 'Guardado',
 
-    // Statuses
-    'statuses' => 'Status|Statuses',
+    // Estados
+    'statuses' => 'Estado|Estados',
     'status_pending' => 'Pendiente',
     'status_active' => 'Activo',
     'published' => 'Publicado',
 
-    // Shortcuts
+    // Atajos
     'keyboard_shortcuts' => 'Atajos del teclado',
     'show_keyboard_shortcuts' => 'Mostrar atajos del teclado',
 
-    // License
+    // Licencia
     'license_keys' => 'Claves de licencia',
     'trial_mode' => 'Modo de prueba',
     'trial_mode_missing_license_keys' => 'Debes ingresar las claves de licencia antes de publicar.',
@@ -555,7 +559,7 @@ return [
     'invalid_statamic_license' => 'Tu licencia de Statamic no es válida.',
     'couldnt_connect_to_outpost' => 'Hubo un problema al comunicarnos con el Statamic Outpost.',
 
-    // Verbs and helpers
+    // Verbos y helpers
     'actions' => 'Acción|Acciones',
     'add' => 'Añadir',
     'edit' => 'Editar',
@@ -590,7 +594,7 @@ return [
     'save_order' => 'Guardar orden',
     'toggle_dropdown' => 'Alternar menú desplegable',
     'confirm_delete_items' => 'Este artículo se eliminará|Estos artículos se eliminarán',
-    'confirm_delete_page' => 'Esta página se eliminará junto con todos los descendientes que contenga',
+    'confirm_delete_page' => ' se eliminará junto con todos los descendientes que contenga',
     'confirm_delete_folder' => 'Se eliminará esta carpeta',
     'configure' => 'Configurar',
     'browse' => 'Explorar',
@@ -617,8 +621,16 @@ return [
     'add_another_item' => 'Añadir otro artículo',
     'show_drafts' => 'Mostrar borradores',
     'hide_drafts' => 'Esconder borradores',
+    'count' => 'Cuenta',
+    'reset' => 'Reset',
+    'installed' => 'Instalado',
+    'add_condition' => 'Añadir condición',
+    'open' => 'Abrir',
+    'download' => 'Descargar',
+    'locale' => 'Idioma',
+    'hidden' => 'Oculto',
 
-    // Nouns and whatnot
+    // Sustantivos y otras cosas
     'fields' => 'Campo|Campos',
     'locales' => 'Idioma|Idiomas',
     'keys' => 'Llave|Llaves',
@@ -719,25 +731,40 @@ return [
     'mount_collection' => 'Montar colección',
     'unmount_collection' => 'Desmontar colección',
 
-    // Validation
+    // Validación
     'handle_exists' => 'Ya existe un contenedor con este handle.',
 
-    // Duplicate ID Manager
+    // Administrador de ID duplicado
     'duplicate_id_title' => 'IDs duplicados',
     'no_duplicate_ids' => 'No se detectaron IDs duplicados.',
     'generate_new_id' => 'Generar nuevo ID.',
 
-    // Path
+    // Ruta
     'path_resolves_to'    => 'La ruta resuelve a: :path',
     'path_exists'         => 'La ruta existe.',
     'path_does_not_exist' => 'La ruta no existe.',
 
     // Bard
-    'link'               => 'Enlace',
-    'paste_or_type_link' => 'Pega o escribe un enlace',
+    'heading_1'          => 'Encabezado 1',
+    'heading_2'          => 'Encabezado 2',
+    'heading_3'          => 'Encabezado 3',
+    'heading_4'          => 'Encabezado 4',
+    'heading_5'          => 'Encabezado 5',
+    'heading_6'          => 'Encabezado 6',
     'bold'               => 'Negritas',
     'italic'             => 'Itálicas',
+    'underline'          => 'Subrayado',
+    'strikethrough'      => 'Tachado',
+    'remove_formatting'  => 'Quitar formato',
+    'unordered_list'     => 'Lista sin orden',
+    'ordered_list'       => 'Lista ordenada',
     'blockquote'         => 'Cita',
-    'h2'                 => 'Encabezado dos',
-    'h3'                 => 'Encabezado tres',
+    'superscript'        => 'Superíndice',
+    'subscript'          => 'Subíndice',
+    'add_link'           => 'Añadir enlace',
+    'remove_link'        => 'Quitar enlace',
+    'link_to_asset'      => 'Enlazar a medio',
+    'inline_code'        => 'Código en línea',
+    'edit_link'          => 'Editar enlace',
+    'open_in_new_window' => 'Abrir en una ventana nueva',
 ];
