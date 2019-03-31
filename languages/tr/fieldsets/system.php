@@ -1,0 +1,26 @@
+<?php 
+
+return [
+    'license_key' => 'Lisans anahtarı',
+    'license_key_instruct' => '<a href="https://statamic.com/account/licenses" target="_blank">Statamic Hesabınızdan</a> ilgili alan adı için anahtarı girin.',
+    'locales' => 'Yereller',
+    'locales_instruct' => 'Sitenizde erişilebilecek yerel ayarlar.',
+    'timezone' => 'Saat dilimi',
+    'timezone_instruct' => 'Sitenizin çalışmasını istediğiniz <a href="http://php.net/manual/en/timezones.php" target="_blank">saat dilimi</a> .',
+    'date_format' => 'Tarih formatı',
+    'date_format_instruct' => 'Biçimlendirilmemiş tarih değişkenleri çıktılarken kullanılan PHP tarih biçimi dizesi.',
+    'default_extension' => 'Varsayılan uzantı',
+    'default_extension_instruct' => 'İçerik dosyalarınız için dosya uzantısı.',
+    'filesystems' => 'Dosya sistemleri',
+    'filesystems_instruct' => 'Çeşitli dosyalarınıza nasıl ve nerede erişileceğini tanımlayın.',
+    'app_key' => 'Uygulama anahtarı',
+    'app_key_instruct' => 'Bu anahtar, başvurunuzu güvence altına almak için kullanılır. Güçlü, 32 karakterli bir dize olmalı.',
+    'redactor' => 'Redactor Ayarları',
+    'redactor_instruct' => '<a href="https://imperavi.com/assets/pdf/redactor-documentation-10.pdf" target="_blank">Redactor ayar nesnelerinin</a> YAML gösterimleri. Bir Redactor alanı oluştururken her bir öğe seçilebilir.',
+    'protect' => 'Sistem Genelinde Koruma',
+    'protect_instruct' => 'Buraya bir koruma şeması girmek, sitenizin tümünün ön tarafına uygulanacaktır.',
+    'csrf_exclude' => 'CSRF Dışlanan URL`ler',
+    'csrf_exclude_instruct' => 'CSRF korumasından hariç tutulacak bir URLS listesi',
+    'php_max_memory_limit' => 'PHP Max Bellek Sınırı',
+    'php_max_memory_limit_instruct' => 'Maksimum bellek miktarı Statamic, görüntü işleme gibi bellek yoğun işlemleri gerçekleştirirken kullanmaya çalışır. Mümkün olduğunca çok bellek kullanmak için boş bırakın. Bayt veya <a href="http://php.net/manual/en/faq.using.php#faq.using.shorthandbytes" target="_blank">PHP tarafından tanınan kısayol değerleri</a>ni belirtebilirsiniz.',
+];
