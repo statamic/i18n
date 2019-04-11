@@ -40,5 +40,4 @@ return [
 
     'allow_internal_links' => 'Permitir enlaces internos',
     'allow_internal_links_instruct' => 'Permitir que se sugieran páginas y entradas mientras escribes en la barra de enlace.',
-
 ];

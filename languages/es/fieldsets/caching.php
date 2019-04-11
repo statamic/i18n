@@ -39,4 +39,6 @@ return [
 
     'cache_tags_enabled' => 'Activado',
     'cache_tags_enabled_instruct' => 'Si las etiquetas realmente funcionarán. Desactivar esto aplica a todas las instancias de las etiquetas.',
+
+
 ];
