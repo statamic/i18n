@@ -26,14 +26,19 @@ return [
     'static_caching_file_path_instruct' => 'La ubicación donde se guardarán los archivos al usar el caché basado en archivos.',
 
     'static_caching_ignore_query_strings' => 'Ignorar cadenas de consulta (query strings)',
-    'static_caching_ignore_query_strings_instruct' => 'Al activarse, una página se tratará como el mismo URL sin importar cualquier parámetro de cadena de consulta (query string).  
-                                                       No se puede desactivar si se usa el caché estático basado en archivos.',
+    'static_caching_ignore_query_strings_instruct' => 'Al activarse, una página se tratará como el mismo URL sin importar cualquier parámetro de cadena de consulta (query string).',
 
     'static_caching_exclude' => 'URLs excluídos',
     'static_caching_exclude_instruct' => 'Una lista de URLs que se deberían excluir del caché.',
 
     'static_caching_invalidation' => 'Reglas de invalidación',
     'static_caching_invalidation_instruct' => 'Un arreglo de reglas de invalidación.',
+
+    'cache_tags' => 'Etiquetas de caché',
+    'cache_tags_instruct' => 'Las etiquetas de plantilla {{ cache }} te permiten guardar secciones de tus plantillas en el caché.',
+
+    'cache_tags_enabled' => 'Activado',
+    'cache_tags_enabled_instruct' => 'Si las etiquetas realmente funcionarán. Desactivar esto aplica a todas las instancias de las etiquetas.',
 
 
 ];

@@ -2,10 +2,10 @@
 
 return [
 
-    'debug' => 'Debug modus inschakelen',
-    'debug_instruct' => 'Debug modus zal gedetailleerde fouten tonen op het schem. Het is aangeraden dit uit te schakelen in productie',
+    'debug' => 'Debusmodus inschakelen',
+    'debug_instruct' => 'Debugmodus toont gedetailleerde fouten op het schem. Het is aan te raden om dit uit te schakelen op de productie-omgeving.',
 
-    'debug_bar' => 'Debug bar',
-    'debug_bar_instruct' => 'Schakel dit in om de debug bar te tonen onderaan elke pagina. Enkel zichtbaar in debug modus.',
+    'debug_bar' => 'Debugbalk',
+    'debug_bar_instruct' => 'Schakel dit in om onderaan elke pagina de debugbalk te tonen. Deze is alleen zichtbaar in debugmodus.',
 
 ];
