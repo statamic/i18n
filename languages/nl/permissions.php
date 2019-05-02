@@ -6,7 +6,7 @@ return [
 
     'group_general' => 'Algemeen',
     'cp:access' => 'Toegang tot het controlepaneel',
-    'content:view_drafts_on_frontend' => 'Bekijk concepten aand de voorkant',
+    'content:view_drafts_on_frontend' => 'Bekijk concepten aan de voorkant',
     'resolve_duplicates' => "Los dubbele ID's op",
 
     'group_pages' => 'Pagina’s',
