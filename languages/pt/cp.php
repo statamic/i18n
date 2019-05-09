@@ -718,7 +718,7 @@ return [
     'read_only' => "Leitura Apenas",
     'read_only_mode' => "Modo de Leitura Apenas",
     'next_step' => "Próximo Passo",
-    'invalid_creds' => 'Essas credenciais estão incorretas',
+    'invalid_creds' => 'As credenciais estão incorretas',
 
     'nav_content' => 'Conteúdo',
     'nav_tools' => 'Ferramentas',
