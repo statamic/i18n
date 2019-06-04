@@ -31,5 +31,10 @@ return [
     'static_caching_invalidation' => 'Правила недействительности',
     'static_caching_invalidation_instruct' => 'Массив правил недействительности.',
 
+    'cache_tags' => 'Cache Tags',
+    'cache_tags_instruct' => 'The {{ cache }} template tags allow you to cache sections of your templates.',
+
+    'cache_tags_enabled' => 'Enabled',
+    'cache_tags_enabled_instruct' => 'Whether the tags actually function. Disabling this setting applies to all tag instances.',
 
 ];
