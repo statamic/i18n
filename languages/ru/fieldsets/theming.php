@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'default_layout' => 'Макет по умолчанию',
 
     'default_page_template' => 'Шаблон страницы по умолчанию',
