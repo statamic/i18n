@@ -179,7 +179,7 @@ return [
     'add_set' => 'Добавить набор',
     'edit_set' => 'Редактировать набор',
     'delete_set' => 'Удалить набор',
-    'toggle_sets' => 'Toggle Sets',
+    'toggle_sets' => 'Переключить наборы',
     'set_fields_instructions' => "Выберите наборы полей",
 
     // Amazon S3
