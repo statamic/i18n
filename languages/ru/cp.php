@@ -80,7 +80,7 @@ return [
     'create_taxonomy_term' => 'Создать новый :term',
     'taxonomy_term_created' => 'Термин таксаномии создан',
     'taxonomy_terms_empty_heading' => 'Термины в :term',
-    'taxonomy_terms_empty' => 'Where a Taxonomy is the grouping, a Term is the actual label applied to a piece of content. For example, "Red" would be a term in "Colors".',
+    'taxonomy_terms_empty' => 'Где Таксономия - это группировка, термин - это фактическая метка, применимая к части содержимого. Например, "красный" будет термином "Цвета".',
 
     // Globals
     'global' => 'Общий',
@@ -98,7 +98,7 @@ return [
     'globals_empty' => 'Общие наборы - это группы переменных, которые представляют собой контент, который не привязан к URL-адресу, например название компании, адрес, контактная информация или даже параметры уровня шаблона, такие как ограничения, смещения и показ / скрытие переключателей.',
     'general_globals' => 'Главные',
     'globals_title_instructions' => "Собственное имя вашего общего набора. Например: Нижний колонтитул или Настройки боковой панели.",
-    'globals_slug_instructions' => "Это переменная, используемая в ваших шаблонах. Например:<code>footer_content</code> or <code>sidebar_settings</code>.",
+    'globals_slug_instructions' => "Это переменная, используемая в ваших шаблонах. Например:<code>footer_content</code> или <code>sidebar_settings</code>.",
     'globals_fieldset_instructions' => "Выберите, какую группу полей вы хотите использовать для управления этим набором полей.",
 
     // Assets
@@ -341,7 +341,7 @@ return [
     'field_instructions_instructions' => 'Базовая отметка разрешена.',
     'field_width_instructions' => 'Размер поля в макете группы полей.',
     'validation_rules' => "Правила валидации",
-    'validation_instructions' => 'Имеет доступ ко всем Laravel s',
+    'validation_instructions' => 'Имеет доступ ко всему от Laravel',
     'validation_instructions_link_text' => 'правила проверки',
     'validation_rules_instructions' => 'Введите строку с ограничениями в цепочке <a href=":url" target="_blank">правил проверки</a>.',
     'default_value' => 'Значение по умолчанию',
@@ -357,9 +357,9 @@ return [
     'type_url_or_search' => 'Введите URL или воспользуйтесь поиском',
 
     'sections' => 'Раздел|Разделы',
-    'section_label' => "Section Label",
-    'section_handle' => "Section Handle",
-    'section_handle_tip' => "Совет: вы можете назвать свой раздел «боковой панелью(sidebar)», чтобы превратить его в один.",
+    'section_label' => "Метка раздела",
+    'section_handle' => "Разделение",
+    'section_handle_tip' => "Совет: вы можете назвать свой раздел «боковой панелью(sidebar)», чтобы объеденить его.",
     'sections_and_fields' => "Секции и Поля",
 
     'display_conditions' => 'Условия отображения',
@@ -527,7 +527,7 @@ return [
     // Статусы
     'statuses' => 'Статус|Статусы',
     'status_pending' => 'Ожидание',
-    'status_active' => 'Active',
+    'status_active' => 'Активен',
     'опубликовано' => 'Опубликовано',
 
     // Ярлыки
@@ -719,15 +719,10 @@ return [
     'read_only' => "Read Only",
     'read_only_mode' => "Только для чтения",
     'next_step' => "Следующий шаг",
-    //'invalid_creds' => 'Недопустимые учетные данные',//Already defined above !
 
     'nav_content' => 'Контент',
     'nav_tools' => 'Инструменты',
     'nav_configure' => 'Настройка',
-    //'nav_addons' => 'Дополнения',//Already defined above !
-    //'nav_fieldsets' => 'Группы полей',//Already defined above !
-    //'nav_settings' => 'Настройки',//Already defined above !
-    //'nav_users' => 'Пользователи',//Already defined above !
     'nav_resolve_duplicate_ids' => 'Дублировать ID-ишки',
 
     'mount_collection' => 'Монтировать Коллекию',
@@ -753,8 +748,6 @@ return [
     'heading_4'          => 'Заголовок 4 уровня',
     'heading_5'          => 'Заголовок 5 уровня',
     'heading_6'          => 'Заголовок 6 уровня',
-//    'link'               => 'Ссылка',
-//    'paste_or_type_link' => 'Вставить или тип ссылки',
     'bold'               => 'Жирный',
     'italic'             => 'Курсив',
     'underline'          => 'Подчеркнутый',
@@ -763,8 +756,6 @@ return [
     'unordered_list'     => 'Неупорядоченный список',
     'ordered_list'       => 'Упорядоченный список',
     'blockquote'         => 'Цитата',
-//    'h2'                 => 'Заголовок второго уровня',
-//    'h3'                 => 'Заголовок третьего уровня',
     'superscript'        => 'Верхний индекс',
     'subscript'          => 'Нижний индекс',
     'add_link'           => 'Добавить ссылку',
