@@ -529,6 +529,7 @@ return [
     'status_pending' => 'In afwachting',
     'status_active' => 'Actief',
     'published' => 'Gepubliceerd',
+    'draft' => 'Concept',
 
     // Shortcuts
     'keyboard_shortcuts' => 'Toetsenbordsnelkoppelingen',
