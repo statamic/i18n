@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     'image_manipulation_route' => 'Маршрут папки изображения',
     'image_manipulation_route_instruct' => 'URL-адрес, в котором будут отображаться ваши изменяемые изображения. Если вы используете кешированные изображения напрямую, это должен быть URL-адрес кэшированного пути. ',
 
@@ -12,7 +13,7 @@ return [
 
     'image_manipulation_driver' => 'Драйвер для манипуляции изображением',
     'image_manipulation_driver_instruct' => 'В некоторых случаях ImageMagick может быть быстрее, но недоступен на всех серверах.',
-    
+
     'image_manipulation_cached' => 'Подавать кэшированные изображения напрямую',
     'image_manipulation_cached_instruct' => 'Должны ли изображения генерироваться до их запроса? <a href="https://docs.statamic.com/reference/tags/glide#serving-cached-images" target="_blank"> Подробнее </a>. ',
 
@@ -27,4 +28,6 @@ return [
 
     'thumbnail_max_height' => 'Максимальная высота изображения для эскизов',
     'thumbnail_max_height_instruct' => 'Изображения, превышающие это, не будут генерироваться эскизы.',
+
+
 ];

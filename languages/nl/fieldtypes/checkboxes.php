@@ -3,6 +3,6 @@
 return [
 
     'options' => 'Opties',
-    'options_instruct' => 'Voor elke optie, voer de waarde links in en het label rechts.',
+    'options_instruct' => 'Voer voor elke optie de waarde links in en het label rechts.',
 
 ];

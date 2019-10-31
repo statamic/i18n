@@ -3,6 +3,6 @@
 return [
 
     'sets' => 'Sets',
-    'sets_instruct' => 'Replicator velden kunnen verschillende "sets" van velden hebben.',
+    'sets_instruct' => 'Replicatorvelden kunnen verschillende "sets" met velden bevatten.',
 
 ];

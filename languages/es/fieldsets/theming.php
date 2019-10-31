@@ -32,7 +32,7 @@ return [
     'default_asset_fieldset_instruct' => 'El Fieldset usado al editar un medio.',
 
     'smartypants' => 'Smartypants',
-    'smartypants_instruct' => 'Permite convertir automáticamente elementos tipográficos (como citas y guiones).',
+    'smartypants_instruct' => 'Convierte automáticamente elementos tipográficos (como citas y guiones) cuando se usa Markdown.',
 
     'allow_php' => 'Permitir PHP en templates',
     'allow_php_instruct' => 'El código PHP está inhabilitado por defecto para mayor seguridad.',

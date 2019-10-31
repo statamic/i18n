@@ -2,7 +2,7 @@
 
 return [
 
-    'settings' => 'Settings',
+    'settings' => 'Настройки',
     'settings_instruct' => 'Выберите предопределенный объект настроек Redactor.',
         
     'container' => 'Папка ресурсов',
