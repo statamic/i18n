@@ -529,6 +529,7 @@ return [
     'status_pending' => 'En attente',
     'status_active' => 'Actif',
     'published' => 'Publié',
+    'draft'	=>	'Brouillon',
     
     // Shortcuts
     'keyboard_shortcuts' => 'Raccourcis clavier',
