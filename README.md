@@ -16,7 +16,7 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - Dutch (nl) - Latest: 2.11.13
 - English (en) - Latest: 2.11.13
 - French (fr) - Latest: 2.11.13
-- German (de) - Latest: 2.11.13
+- German (de) - Latest: 2.11.15
 - Italian (it) - Latest: 2.11.13
 - Polish (pl) - Latest: 2.9.6
 - Portuguese (pt) - Latest: 2.11.13
