@@ -1,6 +1,7 @@
 <?php
 
 return [
+
     // General CP
     'dashboard' => 'Kontrollzentrum',  // 'Dashboard'
     'nav_dashboard' => 'Kontrollzentrum',  // 'Dashboard'
@@ -137,6 +138,7 @@ return [
     'dimensions' => 'Abmessungen',  // 'Dimensions'
     'last_modified' => 'Änderungsdatum',  // 'Last Modified'
     'url_resolves_to' => 'URL zeigt auf :path', // 'URL resolves to: :path'
+
 
     // Folder
     'folder_title_instructions' => 'Der angezeigte Name des Ordners.',  // 'The display name of the folder.'
@@ -299,6 +301,8 @@ return [
     'full_locale_instructions' => 'Wird für die PHP Datumslokalisierung benutzt.<br> Beispiel: `en_US`, `de_DE`', // 'Used for PHP date localization.<br>Example: `en_US`, `de_DE`.',
     'locale_name_instructions' => 'Wird zur Anzeige benutzt.<br> Beispiel: `Englisch`, `Deutsch`', // 'Used for display.<br> Example: `English`, `German`.',
     'locale_url_instructions' => 'Beispiel: `http://example.com/de/`', // 'Example: `http://example.com/de/`',
+
+
 
     // Addons
     'addons' => 'Erweiterung|Erweiterungen',  // 'Addon|Addons'
@@ -525,6 +529,7 @@ return [
     'status_pending' => 'Ausstehend',  // 'Pending'
     'status_active' => 'Aktiv',  // 'Active'
     'published' => 'Publiziert',  // 'Published'
+    'draft' => 'Entwurf', // 'Draft'
 
     // Shortcuts
     'keyboard_shortcuts' => 'Kurzbefehle',  // 'Keyboard Shortcuts'
