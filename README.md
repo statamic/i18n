@@ -23,3 +23,4 @@ We're looking to the community to help with translation. Feel free to fork, edit
 - Russian (ru) - Latest: 2.11.13
 - Spanish (es) - Latest: 2.11.13
 - Turkish (tr) - Latest: 2.11.13
+- Swedish (sv) - Latest: 2.11.15 (Not 100% yet)
