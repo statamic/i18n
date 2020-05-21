@@ -252,7 +252,7 @@ return [
 
     // Error Pages
     'error' => 'Fout',
-    'permission_denied' => 'Permissie gewijgerd',
+    'permission_denied' => 'Permissie geweigerd',
     'permission_denied_instructions' => "Je hebt geen toegang om deze pagina te bekijken.",
     'page_not_found' => 'Pagina niet gevonden',
     'page_not_found_instructions' => 'De pagina die je probeert te bereiken bestaat niet.',
