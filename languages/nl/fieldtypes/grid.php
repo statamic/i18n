@@ -9,7 +9,7 @@ return [
     'max_rows_instruct' => 'Het maximum aantal toegestane rijen.',
 
     'min_rows' => 'Minimum rijen',
-    'min_rows_instruct' => 'Het minimum aantal toegestane rijen.',
+    'min_rows_instruct' => 'Het minimum aantal verplichte rijen.',
 
     'add_row' => 'Knoptekst rij toevoegen',
     'add_row_instruct' => 'Optionele tekst voor in de knop "Rij toevoegen".',

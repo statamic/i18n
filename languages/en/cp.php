@@ -529,6 +529,7 @@ return [
     'status_pending' => 'Pending',
     'status_active' => 'Active',
     'published' => 'Published',
+    'draft'	=>	'Draft',
 
     // Shortcuts
     'keyboard_shortcuts' => 'Keyboard Shortcuts',
