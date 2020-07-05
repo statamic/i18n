@@ -44,7 +44,7 @@ return [
     'collection_fieldset_instructions' => "De standaard fieldset, tenzij anders gedefinieerd.",
     'collection_template_instructions' => "Het standaardtemplate, tenzij anders gedefinieerd.",
     'collection_route_instructions' => "De route zorgt voor het URL patroon van alle inhoud in uw collectie.",
-    'collection_does_not_exist' => 'Colletie :collection bestaat niet.',
+    'collection_does_not_exist' => 'Collectie :collection bestaat niet.',
 
     // Entries
     'entry' => 'Inhoud',
@@ -720,7 +720,7 @@ return [
     'read_only' => "Alleen-lezen",
     'read_only_mode' => "Alleen-lezen modus",
     'next_step' => "Volgende stap",
-    'invalid_creds' => 'Deze inloggegevens are incorrect',
+    'invalid_creds' => 'Deze inloggegevens zijn incorrect',
 
     'nav_content' => 'Inhoud',
     'nav_tools' => 'Hulpmiddelen',
